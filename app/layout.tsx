@@ -4,15 +4,15 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'G. Mercadal-Orfila — Academic Profile',
-    template: '%s | G. Mercadal-Orfila',
+    default: 'Dr. Gabriel Mercadal-Orfila — Academic Profile',
+    template: '%s | Dr. G. Mercadal-Orfila',
   },
   description:
-    'Hospital pharmacist and researcher. Publications, mentions, and academic profile of G. Mercadal-Orfila.',
+    'Clinical pharmacist, researcher and educator. Publications, mentions, and academic profile of Dr. Gabriel Mercadal-Orfila.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    siteName: 'G. Mercadal-Orfila',
+    siteName: 'Dr. G. Mercadal-Orfila',
   },
 };
 
@@ -29,22 +29,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen flex flex-col">
         {/* ── Navigation ────────────────────────── */}
         <nav
-          className="border-b border-border bg-ivory/80 backdrop-blur-sm sticky top-0 z-50"
+          className="border-b border-border bg-cream/90 backdrop-blur-md sticky top-0 z-50"
           aria-label="Main navigation"
         >
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
             <Link
               href="/"
-              className="font-serif font-bold text-lg text-ink no-underline hover:text-accent transition-colors"
+              className="font-serif font-bold text-xl text-navy no-underline hover:text-gold transition-colors"
             >
-              G. Mercadal-Orfila
+              Dr. G. Mercadal-Orfila
             </Link>
-            <ul className="flex gap-6 list-none m-0 p-0">
+            <ul className="flex gap-8 list-none m-0 p-0">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm font-medium text-muted no-underline hover:text-ink transition-colors"
+                    className="text-sm font-medium text-slate no-underline hover:text-navy transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-gold after:transition-all hover:after:w-full"
                   >
                     {link.label}
                   </Link>
@@ -55,29 +55,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </nav>
 
         {/* ── Main ──────────────────────────────── */}
-        <main className="flex-1 max-w-4xl mx-auto w-full px-4 sm:px-6 py-10">
+        <main className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 py-12">
           {children}
         </main>
 
         {/* ── Footer ────────────────────────────── */}
-        <footer className="border-t border-border text-center text-sm text-muted py-6">
-          <div className="max-w-4xl mx-auto px-4">
-            © {new Date().getFullYear()} G. Mercadal-Orfila · Data auto-updated via{' '}
-            <a
-              href="https://orcid.org/0000-0001-7304-458X"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ORCID
-            </a>
-            ,{' '}
-            <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer">
-              PubMed
-            </a>{' '}
-            &amp;{' '}
-            <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener noreferrer">
-              GDELT
-            </a>
+        <footer className="border-t border-border bg-navy/[0.02] text-center text-sm text-slate py-8">
+          <div className="max-w-5xl mx-auto px-4">
+            <p className="mb-1">
+              &copy; {new Date().getFullYear()} Dr. Gabriel Mercadal-Orfila
+            </p>
+            <p className="text-xs text-slate/60">
+              Data auto-updated via{' '}
+              <a href="https://orcid.org/0000-0001-7304-458X" target="_blank" rel="noopener noreferrer" className="text-slate/60 hover:text-gold">ORCID</a>
+              {', '}
+              <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" className="text-slate/60 hover:text-gold">PubMed</a>
+              {' & '}
+              <a href="https://www.crossref.org/" target="_blank" rel="noopener noreferrer" className="text-slate/60 hover:text-gold">Crossref</a>
+            </p>
           </div>
         </footer>
       </body>

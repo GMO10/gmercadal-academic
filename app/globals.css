@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
 
 /* ── Base ─────────────────────────────────────────── */
 
@@ -11,20 +11,41 @@ html {
 }
 
 body {
-  @apply bg-ivory text-ink font-sans antialiased;
+  @apply bg-cream text-navy font-sans antialiased;
 }
 
 ::selection {
-  @apply bg-accent/20;
+  @apply bg-gold/20;
 }
 
 /* ── Links ────────────────────────────────────────── */
 
 a {
-  @apply text-accent underline decoration-accent/30 underline-offset-2 transition-colors;
+  @apply text-gold underline decoration-gold/30 underline-offset-2 transition-colors;
 }
 a:hover {
-  @apply text-accent-light decoration-accent-light/50;
+  @apply text-gold-dark decoration-gold-dark/50;
+}
+
+/* ── Profile Links ────────────────────────────────── */
+
+.profile-link {
+  @apply inline-flex items-center gap-2 px-4 py-2 rounded-full border border-navy/15 
+         no-underline text-sm font-medium text-navy/70 hover:text-navy hover:border-navy/30 
+         hover:bg-navy/5 transition-all;
+}
+
+.profile-link-accent {
+  @apply inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gold/40 
+         bg-gold/5 no-underline text-sm font-medium text-gold hover:bg-gold/15 
+         hover:border-gold/60 transition-all;
+}
+
+/* ── Publication Cards ────────────────────────────── */
+
+.pub-card {
+  @apply border border-transparent rounded-lg p-4 -mx-4 
+         hover:border-navy/10 hover:bg-navy/[0.02] transition-all;
 }
 
 /* ── Print ────────────────────────────────────────── */
@@ -57,8 +78,11 @@ a:hover {
   }
   h1 { font-size: 18pt; }
   h2 { font-size: 14pt; margin-top: 1em; }
-  .publication-card, .mention-card {
+  .publication-card, .mention-card, .pub-card {
     break-inside: avoid;
     page-break-inside: avoid;
+  }
+  .hero-section {
+    margin-bottom: 1em;
   }
 }

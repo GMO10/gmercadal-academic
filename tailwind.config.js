@@ -7,17 +7,18 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['"Libre Baskerville"', 'Georgia', 'serif'],
-        sans: ['"Source Sans 3"', 'system-ui', 'sans-serif'],
-        mono: ['"JetBrains Mono"', 'monospace'],
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+        sans: ['"Inter"', 'system-ui', 'sans-serif'],
       },
       colors: {
-        ivory: '#FAFAF7',
-        ink: '#1A1A2E',
-        accent: '#2D5A7B',
-        'accent-light': '#3A7CA5',
-        muted: '#6B7280',
-        border: '#E5E5E0',
+        cream: '#FAF9F6',
+        navy: '#1B2A4A',
+        'navy-light': '#2C4066',
+        gold: '#8B6914',
+        'gold-dark': '#6B5010',
+        'gold-light': '#B8941E',
+        slate: '#64748B',
+        border: '#E2E0DB',
         'score-high': '#16A34A',
         'score-mid': '#CA8A04',
         'score-low': '#DC2626',
