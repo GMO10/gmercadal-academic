@@ -12,6 +12,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Hero
     'hero.subtitle': 'Clinical Pharmacist \u00b7 Researcher \u00b7 Educator',
     'hero.downloadCV': 'Download CV',
+    'hero.bio': 'Hospital pharmacist, researcher and educator. My clinical work focuses on outpatient care at Hospital Mateu Orfila (Menorca), with research lines in value-based healthcare, telepharmacy linked to ePROMs/PREMs, and the application of artificial intelligence in the eHealth context. President of FARUPEIB. Chair of the Pharmacy/Pharmacology Section of the Acadèmia Mèdica Balear. Co-creator of the NAVETA initiative.',
 
     // Academic Background
     'bg.title': 'Academic Background',
@@ -76,6 +77,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Hero
     'hero.subtitle': 'Farmac\u00e9utico Cl\u00ednico \u00b7 Investigador \u00b7 Docente',
     'hero.downloadCV': 'Descargar CV',
+    'hero.bio': 'Farmacéutico de hospital, investigador y docente. Mi trabajo asistencial se centra en el área de pacientes externos del Hospital Mateu Orfila (Menorca), con líneas de investigación en asistencia sanitaria basada en valor, implementación de telemedicina asociada a ePROMs/PREMs y aplicación de inteligencia artificial en el contexto eHealth. Presidente de FARUPEIB. Presidente de la Sección de Farmacia/Farmacología de la Acadèmia Mèdica Balear. Cocreador de la iniciativa NAVETA.',
 
     // Academic Background
     'bg.title': 'Formaci\u00f3n Acad\u00e9mica',
@@ -140,6 +142,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Hero
     'hero.subtitle': 'Farmac\u00e8utic Cl\u00ednic \u00b7 Investigador \u00b7 Docent',
     'hero.downloadCV': 'Descarregar CV',
+    'hero.bio': 'Farmacèutic d\'hospital, investigador i docent. La meva feina assistencial se centra en l\'àrea de pacients externs de l\'Hospital Mateu Orfila (Menorca), amb línies de recerca en assistència sanitària basada en valor, implementació de telemedicina associada a ePROMs/PREMs i aplicació d\'intel·ligència artificial en el context eHealth. President de FARUPEIB. President de la Secció de Farmàcia/Farmacologia de l\'Acadèmia Mèdica Balear. Cocreador de la iniciativa NAVETA.'hospital, investigador i docent. La meva feina assistencial se centra en l'àrea de pacients externs de l'Hospital Mateu Orfila (Menorca), amb línies de recerca en assistència sanitària basada en valor, implementació de telemedicina associada a ePROMs/PREMs i aplicació d'intel·ligència artificial en el context eHealth. President de FARUPEIB. President de la Secció de Farmàcia/Farmacologia de l\'Acadèmia Mèdica Balear. Cocreador de la iniciativa NAVETA.',
 
     // Academic Background
     'bg.title': 'Formaci\u00f3 Acad\u00e8mica',
