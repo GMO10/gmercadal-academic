@@ -142,14 +142,14 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Hero
     'hero.subtitle': 'Farmac\u00e8utic Cl\u00ednic \u00b7 Investigador \u00b7 Docent',
     'hero.downloadCV': 'Descarregar CV',
-    'hero.bio': 'Farmacèutic d\'hospital, investigador i docent. La meva feina assistencial se centra en l\'àrea de pacients externs de l\'Hospital Mateu Orfila (Menorca), amb línies de recerca en assistència sanitària basada en valor, implementació de telemedicina associada a ePROMs/PREMs i aplicació d\'intel·ligència artificial en el context eHealth. President de FARUPEIB. President de la Secció de Farmàcia/Farmacologia de l\'Acadèmia Mèdica Balear. Cocreador de la iniciativa NAVETA.'hospital, investigador i docent. La meva feina assistencial se centra en l'àrea de pacients externs de l'Hospital Mateu Orfila (Menorca), amb línies de recerca en assistència sanitària basada en valor, implementació de telemedicina associada a ePROMs/PREMs i aplicació d'intel·ligència artificial en el context eHealth. President de FARUPEIB. President de la Secció de Farmàcia/Farmacologia de l\'Acadèmia Mèdica Balear. Cocreador de la iniciativa NAVETA.',
+    'hero.bio': 'Farmacèutic d’hospital, investigador i docent. La meva feina assistencial se centra en l’àrea de pacients externs de l’Hospital Mateu Orfila (Menorca), amb línies de recerca en assistència sanitària basada en valor, implementació de telemedicina associada a ePROMs/PREMs i aplicació d’intel·ligència artificial en el context eHealth. President de FARUPEIB. President de la Secció de Farmàcia/Farmacologia de l’Acadèmia Mèdica Balear. Cocreador de la iniciativa NAVETA.’hospital, investigador i docent. La meva feina assistencial se centra en l’àrea de pacients externs de l’Hospital Mateu Orfila (Menorca), amb línies de recerca en assistència sanitària basada en valor, implementació de telemedicina associada a ePROMs/PREMs i aplicació d’intel·ligència artificial en el context eHealth. President de FARUPEIB. President de la Secció de Farmàcia/Farmacologia de l’Acadèmia Mèdica Balear. Cocreador de la iniciativa NAVETA.',
 
     // Academic Background
     'bg.title': 'Formaci\u00f3 Acad\u00e8mica',
-    'bg.p1': 'Doctor en Farm\u00e0cia (Cum Laude) per la Universitat de Barcelona, amb tesi sobre l\'efectivitat de la glutamina en nutrici\u00f3 parenteral perioperat\u00f2ria. Especialista en Farm\u00e0cia Hospitalari format a l\'Hospital Universitari de Bellvitge.',
+    'bg.p1': 'Doctor en Farm\u00e0cia (Cum Laude) per la Universitat de Barcelona, amb tesi sobre l’efectivitat de la glutamina en nutrici\u00f3 parenteral perioperat\u00f2ria. Especialista en Farm\u00e0cia Hospitalari format a l’Hospital Universitari de Bellvitge.',
     'bg.p2': 'Diplomes de postgrau en Estad\u00edstica en Ci\u00e8ncies de la Salut (UAB) i Farmacoeconomia (UPF). M\u00e0ster en Direcci\u00f3 M\u00e8dica i Gesti\u00f3 Cl\u00ednica (UNED, 2023-2025). Actualment cursant el M\u00e0ster Avan\u00e7at en Intel\u00b7lig\u00e8ncia Artificial en Doc\u00e8ncia en Ci\u00e8ncies de la Salut (Universitat de Barcelona).',
-    'bg.p3': 'Professor associat de Bioqu\u00edmica i Nutrici\u00f3 a la Universitat de les Illes Balears. Coordinador Cient\u00edfic del diploma d\'Expert Universitari en Atenci\u00f3 Sanit\u00e0ria Basada en Valor en Malalties Dermatol\u00f2giques i Reum\u00e0tiques (Universidad de Alcal\u00e1, acreditat per la SEFH).',
-    'bg.p4': 'La seva investigaci\u00f3 actual se centra en l\'assist\u00e8ncia sanit\u00e0ria basada en valor, concretament en la implementaci\u00f3, an\u00e0lisi i validaci\u00f3 psicom\u00e8trica de PROMs i PREMs, aix\u00ed com en l\'aplicaci\u00f3 d\'intel\u00b7lig\u00e8ncia artificial i machine learning per construir models predictius de resultats reportats per pacients.',
+    'bg.p3': 'Professor associat de Bioqu\u00edmica i Nutrici\u00f3 a la Universitat de les Illes Balears. Coordinador Cient\u00edfic del diploma d’Expert Universitari en Atenci\u00f3 Sanit\u00e0ria Basada en Valor en Malalties Dermatol\u00f2giques i Reum\u00e0tiques (Universidad de Alcal\u00e1, acreditat per la SEFH).',
+    'bg.p4': 'La seva investigaci\u00f3 actual se centra en l’assist\u00e8ncia sanit\u00e0ria basada en valor, concretament en la implementaci\u00f3, an\u00e0lisi i validaci\u00f3 psicom\u00e8trica de PROMs i PREMs, aix\u00ed com en l’aplicaci\u00f3 d’intel\u00b7lig\u00e8ncia artificial i machine learning per construir models predictius de resultats reportats per pacients.',
 
     // Home sections
     'home.latestPubs': 'Darreres Publicacions',
@@ -170,12 +170,12 @@ export const translations: Record<Lang, Record<string, string>> = {
     'mentions.title': 'Media',
     'mentions.count': 'mencions',
     'mentions.score': 'puntuaci\u00f3',
-    'mentions.scoreInfo': 'Cada menci\u00f3 es puntua per rellev\u00e0ncia usant senyals d\'afiliaci\u00f3, coincid\u00e8ncia de nom i paraules clau tem\u00e0tiques. Ajusta el control de puntuaci\u00f3 m\u00ednima per veure m\u00e9s o menys resultats.',
+    'mentions.scoreInfo': 'Cada menci\u00f3 es puntua per rellev\u00e0ncia usant senyals d’afiliaci\u00f3, coincid\u00e8ncia de nom i paraules clau tem\u00e0tiques. Ajusta el control de puntuaci\u00f3 m\u00ednima per veure m\u00e9s o menys resultats.',
 
     // NAVETA page
     'naveta.featured': 'Projecte Destacat',
     'naveta.title': 'Projecte NAVETA',
-    'naveta.description': 'Una plataforma de telemedicina basada en valor que integra mesures de resultats reportats per pacients (PROMs) i mesures d\'experi\u00e8ncia reportades per pacients (PREMs) en l\'atenci\u00f3 farmac\u00e8utica hospitalari. NAVETA permet la monitoritzaci\u00f3 sistem\u00e0tica en temps real de la qualitat de vida relacionada amb la salut en malalties cr\u00f2niques.',
+    'naveta.description': 'Una plataforma de telemedicina basada en valor que integra mesures de resultats reportats per pacients (PROMs) i mesures d’experi\u00e8ncia reportades per pacients (PREMs) en l’atenci\u00f3 farmac\u00e8utica hospitalari. NAVETA permet la monitoritzaci\u00f3 sistem\u00e0tica en temps real de la qualitat de vida relacionada amb la salut en malalties cr\u00f2niques.',
     'naveta.visit': 'Visitar NAVETA a FARUPEIB',
     'naveta.objectives': 'Objectius',
     'naveta.obj1': 'Implementar recollida sistem\u00e0tica de PROMs/PREMs via telefarm\u00e0cia',
