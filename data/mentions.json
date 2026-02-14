@@ -1,6 +1,183 @@
 {
-  "lastUpdated": "2025-01-01T00:00:00Z",
-  "count": 0,
+  "lastUpdated": "2026-02-14T17:00:00Z",
   "scoreThreshold": 6,
-  "mentions": []
+  "count": 11,
+  "mentions": [
+    {
+      "id": "menorca-info-2026-01-vih",
+      "title": "El Mateu Orfila forma parte de un proyecto para mejorar la vida con la IA a enfermos de VIH",
+      "url": "https://www.menorca.info/menorca/local/2026/01/26/2556625/mateu-orfila-forma-parte-proyecto-logra-55000.html",
+      "source": "Menorca.info",
+      "domain": "menorca.info",
+      "date": "2026-01-26",
+      "language": "es",
+      "score": 12,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+3 Mahon + health",
+        "+1 keywords: IA, VIH"
+      ]
+    },
+    {
+      "id": "menorca-info-2025-10-zafiro",
+      "title": "Un proyecto impulsado en el hospital Mateu Orfila, premiado a nivel nacional",
+      "url": "https://www.menorca.info/menorca/local/2025/10/12/2489083/proyecto-impulsado-hospital-mateu-orfila-premiado-nivel-nacional.html",
+      "source": "Menorca.info",
+      "domain": "menorca.info",
+      "date": "2025-10-12",
+      "language": "es",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH",
+        "+3 Mahon + health"
+      ]
+    },
+    {
+      "id": "menorca-info-2025-10-zafiro-recoge",
+      "title": "El doctor en farmacia Biel Mercadal recoge en Malaga el galardon Zafiro",
+      "url": "https://www.menorca.info/menorca/local/2025/10/22/2496041/doctor-farmacia-biel-mercadal-recoge-malaga-galardon-zafiro.html",
+      "source": "Menorca.info",
+      "domain": "menorca.info",
+      "date": "2025-10-22",
+      "language": "es",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH congress Malaga",
+        "+3 Zafiro + NAVETA"
+      ]
+    },
+    {
+      "id": "menorcaaldia-2025-10-zafiro",
+      "title": "El Proyecto Zafiro de Gabriel Mercadal, premiado en Malaga",
+      "url": "https://menorcaaldia.com/2025/10/18/el-proyecto-zafiro-de-gabriel-mercadal-premiado-en-malaga/",
+      "source": "Menorca al dia",
+      "domain": "menorcaaldia.com",
+      "date": "2025-10-18",
+      "language": "es",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH congress",
+        "+3 machine learning + PROMs"
+      ]
+    },
+    {
+      "id": "elglobal-2025-mapex-proms",
+      "title": "La SEFH consolida el uso estrategico de los PROMs y PREMs en consulta externa con una nueva Guia MAPEX",
+      "url": "https://elglobalfarma.com/farmacia/sefh-proms-prems-farmacia-hospitalaria/",
+      "source": "El Global",
+      "domain": "elglobalfarma.com",
+      "date": "2025-04-22",
+      "language": "es",
+      "score": 12,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+3 SEFH + PROMs",
+        "+1 MAPEX"
+      ]
+    },
+    {
+      "id": "elglobal-2025-foro-innovacion",
+      "title": "La SEFH lanza la 6a Edicion del Foro de Innovacion - Gabriel Mercadal miembro del comite asesor",
+      "url": "https://elglobalfarma.com/farmacia/sefh-foro-innovacion-farmacia-hospitalaria/",
+      "source": "El Global",
+      "domain": "elglobalfarma.com",
+      "date": "2025-06-05",
+      "language": "es",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH Foro Innovacion",
+        "+3 NAVETA + value-based care"
+      ]
+    },
+    {
+      "id": "diariofarma-2022-vih",
+      "title": "En busca del traje a medida en el abordaje del VIH",
+      "url": "https://diariofarma.com/2022/07/05/en-busca-del-traje-a-medida-en-el-abordaje-del-vih",
+      "source": "Diario Farma",
+      "domain": "diariofarma.com",
+      "date": "2022-07-05",
+      "language": "es",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 PROMs + PREMs + VIH",
+        "+3 Mahon + NAVETA"
+      ]
+    },
+    {
+      "id": "sefh-naveta-2021",
+      "title": "El proyecto Naveta de telefarmacia asociada a los PROMS, ganador del Foro de Innovacion SEFH",
+      "url": "https://www.sefh.es/sefh-sala-prensa/noticia/1601",
+      "source": "SEFH",
+      "domain": "sefh.es",
+      "date": "2021-10-25",
+      "language": "es",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH official",
+        "+3 NAVETA + PROMs"
+      ]
+    },
+    {
+      "id": "menorcaaldia-admirable-2022",
+      "title": "El menorquin Gabriel Mercadal opta al premio Admirable 2022",
+      "url": "https://menorcaaldia.com/2022/02/13/el-menorquin-gabriel-mercadal-opta-al-premio-admirable-2022/",
+      "source": "Menorca al dia",
+      "domain": "menorcaaldia.com",
+      "date": "2022-02-13",
+      "language": "es",
+      "score": 12,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+3 Mahon + pharmacy",
+        "+1 Diario Medico"
+      ]
+    },
+    {
+      "id": "menorcaaldia-naveta-2021",
+      "title": "El proyecto Naveta gana el primer premio del Foro de Innovacion farmaceutica",
+      "url": "https://menorcaaldia.com/2021/10/29/el-proyecto-naveta-gana-el-primer-premio-del-foro-de-innovacion-farmaceutica/",
+      "source": "Menorca al dia",
+      "domain": "menorcaaldia.com",
+      "date": "2021-10-29",
+      "language": "es",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH + FARUPEIB",
+        "+3 NAVETA + PROMs"
+      ]
+    },
+    {
+      "id": "costaisa-naveta-primary-care",
+      "title": "Naveta is selected as an outstanding initiative at the Primary Care Innovation Conference in Madrid",
+      "url": "https://www.costaisa.com/en/-/naveta-es-seleccionada-como-iniciativa-destacada-en-la-jornada-de-innovacion-de-atencion-primaria-de-madrid",
+      "source": "Costaisa",
+      "domain": "costaisa.com",
+      "date": "2023-06-15",
+      "language": "en",
+      "score": 12,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+3 NAVETA + PROMs",
+        "+1 FARUPEIB"
+      ]
+    }
+  ]
 }
