@@ -84,6 +84,27 @@ export default function HomePage() {
           <div className="flex-1 h-px bg-gradient-to-r from-transparent via-navy/20 to-transparent"></div>
         </div>
       </section>
+{/* ── Academic Background ─────────────────── */}
+      <section aria-labelledby="background" className="mb-16">
+        <h2 id="background" className="font-serif text-2xl font-bold text-navy mb-4">
+          Academic Background
+        </h2>
+        <div className="border-l-4 border-gold/40 pl-6 space-y-3 text-slate leading-relaxed">
+          <p>
+            <span className="font-semibold text-navy">PhD in Pharmacy</span> (Cum Laude) from the Universitat de Barcelona, with a thesis on the effectiveness of glutamine in perioperative parenteral nutrition.
+            <span className="font-semibold text-navy"> Specialist in Hospital Pharmacy</span> trained at Hospital Universitari de Bellvitge.
+          </p>
+          <p>
+            Postgraduate diplomas in <span className="font-semibold text-navy">Health Sciences Statistics</span> (Universitat Autonoma de Barcelona) and <span className="font-semibold text-navy">Pharmacoeconomics</span> (Universitat Pompeu Fabra). Currently completing a <span className="font-semibold text-navy">Master in Medical Direction and Clinical Management</span> (UNED, 2023-2025).
+          </p>
+          <p>
+            Associate Professor of Biochemistry and Nutrition at the Universitat de les Illes Balears. Scientific Coordinator of the postgraduate diploma in Value-Based Healthcare for Dermatological and Rheumatic Diseases (Universidad de Alcala, accredited by SEFH).
+          </p>
+          <p>
+            His current research focuses on <span className="font-semibold text-navy">value-based healthcare</span>, specifically the implementation, analysis, and psychometric validation of PROMs and PREMs, as well as the application of <span className="font-semibold text-navy">artificial intelligence and machine learning</span> to build predictive models for patient-reported outcomes.
+          </p>
+        </div>
+      </section>
 
       {/* ── Latest Publications ─────────────────── */}
       <section aria-labelledby="latest-pubs" className="mb-16">
