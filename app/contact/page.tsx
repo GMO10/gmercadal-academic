@@ -20,7 +20,7 @@ export default function ContactPage() {
 
           {links.orcid && (
             <p>
-              <span className="text-muted text-sm block">ORCID</span>
+              <span className="text-slate text-sm block">ORCID</span>
               <a href={links.orcid} target="_blank" rel="noopener noreferrer">
                 {identity.person.orcid}
               </a>
@@ -29,7 +29,7 @@ export default function ContactPage() {
 
           {links.scholar && (
             <p>
-              <span className="text-muted text-sm block">Google Scholar</span>
+              <span className="text-slate text-sm block">Google Scholar</span>
               <a href={links.scholar} target="_blank" rel="noopener noreferrer">
                 View profile
               </a>
@@ -38,28 +38,29 @@ export default function ContactPage() {
 
           {links.linkedin && (
             <p>
-              <span className="text-muted text-sm block">LinkedIn</span>
+              <span className="text-slate text-sm block">LinkedIn</span>
               <a href={links.linkedin} target="_blank" rel="noopener noreferrer">
                 View profile
               </a>
             </p>
-<p>
-            <span className="text-muted text-sm block">Phone</span>
-            <a href="tel:+34971487351">+34 971 48 73 51</a>
-          </p>
           )}
 
           {links.email && (
             <p>
-              <span className="text-muted text-sm block">Email</span>
+              <span className="text-slate text-sm block">Email</span>
               <a href={'mailto:' + links.email}>{links.email}</a>
             </p>
           )}
+
+          <p>
+            <span className="text-slate text-sm block">Phone</span>
+            <a href="tel:+34971487351">+34 971 48 73 51</a>
+          </p>
         </div>
 
         <div className="border border-border rounded-lg p-6">
           <h2 className="font-serif text-xl font-bold mb-3">Affiliations</h2>
-          <ul className="space-y-2 text-sm text-muted list-none p-0">
+          <ul className="space-y-2 text-sm text-slate list-none p-0">
             {identity.affiliations.map((aff: string, i: number) => (
               <li key={i} className="pl-0">{aff}</li>
             ))}
