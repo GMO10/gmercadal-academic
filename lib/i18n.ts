@@ -5,7 +5,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Nav
     'nav.home': 'Home',
     'nav.publications': 'Publications',
-    'nav.mentions': 'Mentions',
+    'nav.mentions': 'Media',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contact',
 
@@ -36,7 +36,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'pubs.search': 'Search by title, author, journal...',
 
     // Mentions page
-    'mentions.title': 'Mentions and News',
+    'mentions.title': 'Media',
     'mentions.count': 'mentions',
     'mentions.score': 'score',
     'mentions.scoreInfo': 'Each mention is scored for relevance using affiliation signals, name matching, and thematic keywords. Adjust the minimum score slider to see more or fewer results.',
@@ -69,7 +69,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Nav
     'nav.home': 'Inicio',
     'nav.publications': 'Publicaciones',
-    'nav.mentions': 'Menciones',
+    'nav.mentions': 'Media',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacto',
 
@@ -100,7 +100,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'pubs.search': 'Buscar por t\u00edtulo, autor, revista...',
 
     // Mentions page
-    'mentions.title': 'Menciones y Noticias',
+    'mentions.title': 'Media',
     'mentions.count': 'menciones',
     'mentions.score': 'puntuaci\u00f3n',
     'mentions.scoreInfo': 'Cada menci\u00f3n se puntua por relevancia usando se\u00f1ales de afiliaci\u00f3n, coincidencia de nombre y palabras clave tem\u00e1ticas. Ajusta el control de puntuaci\u00f3n m\u00ednima para ver m\u00e1s o menos resultados.',
@@ -133,7 +133,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Nav
     'nav.home': 'Inici',
     'nav.publications': 'Publicacions',
-    'nav.mentions': 'Mencions',
+    'nav.mentions': 'Media',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacte',
 
@@ -164,7 +164,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'pubs.search': 'Cercar per t\u00edtol, autor, revista...',
 
     // Mentions page
-    'mentions.title': 'Mencions i Not\u00edcies',
+    'mentions.title': 'Media',
     'mentions.count': 'mencions',
     'mentions.score': 'puntuaci\u00f3',
     'mentions.scoreInfo': 'Cada menci\u00f3 es puntua per rellev\u00e0ncia usant senyals d\'afiliaci\u00f3, coincid\u00e8ncia de nom i paraules clau tem\u00e0tiques. Ajusta el control de puntuaci\u00f3 m\u00ednima per veure m\u00e9s o menys resultats.',
