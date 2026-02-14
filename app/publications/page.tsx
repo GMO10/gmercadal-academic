@@ -9,9 +9,8 @@ const data: any = pubsData;
 export default function PublicationsPage() {
   const { t } = useLang();
 
-  const years = Array.from(new Set(data.publications.map((p: any) => p.year).filter(Boolean))).sort((a: any, b: any) => b - a);
-  const types = Array.from(new Set(data.publications.map((p: any) => p.type).filter(Boolean))).sort();
-
+ const years: any[] = Array.from(new Set(data.publications.map((p: any) => p.year).filter(Boolean))).sort((a: any, b: any) => b - a);
+  const types: any[] = Array.from(new Set(data.publications.map((p: any) => p.type).filter(Boolean))).sort();
   return (
     <>
       <div className="mb-8">
