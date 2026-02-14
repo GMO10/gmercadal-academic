@@ -1,0 +1,24 @@
+{
+  "lastUpdated": "2025-01-01T00:00:00Z",
+  "count": 1,
+  "publications": [
+    {
+      "id": "doi:10.1234/example",
+      "title": "Sample publication — will be replaced by fetch script",
+      "authors": ["Mercadal-Orfila G"],
+      "year": 2024,
+      "date": "2024-01-01",
+      "journal": "Example Journal",
+      "type": "journal-article",
+      "doi": "10.1234/example",
+      "pmid": null,
+      "orcidPutCode": null,
+      "abstract": null,
+      "url": "https://doi.org/10.1234/example",
+      "sources": ["orcid"]
+    }
+  ],
+  "yearIndex": {
+    "2024": [0]
+  }
+}

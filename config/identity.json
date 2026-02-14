@@ -1,0 +1,105 @@
+{
+  "person": {
+    "fullName": "Gabriel Mercadal-Orfila",
+    "shortName": "G. Mercadal-Orfila",
+    "nameVariants": [
+      "Mercadal-Orfila G",
+      "Mercadal-Orfila, G.",
+      "Mercadal-Orfila, Gabriel",
+      "Mercadal Orfila G",
+      "G Mercadal-Orfila",
+      "Gabriel Mercadal Orfila",
+      "Gabriel Mercadal-Orfila"
+    ],
+    "orcid": "0000-0001-7304-458X",
+    "bio": "Doctor in Pharmacy (Cum Laude), specialist in Hospital Pharmacy (FIR) and associate professor at Universitat de les Illes Balears. Head pharmacist at Hospital Mateu Orfila (Menorca) and Director of Pharmacy at Grupo Juaneda Menorca. Research focused on patient-reported outcomes (PROMs/PREMs), telepharmacy, value-based healthcare, pharmacoeconomics, clinical nutrition, and machine learning applied to health outcomes. Creator of the NAVETA telemedicine platform. President of FARUPEIB.",
+    "links": {
+      "orcid": "https://orcid.org/0000-0001-7304-458X",
+      "linkedin": "https://www.linkedin.com/in/gabriel-mercadal-orfila-0b233541",
+      "scholar": "https://scholar.google.com/citations?user=EpQXo4EAAAAJ",
+      "email": "gabriel.mercadal@hgmo.es"
+    }
+  },
+  "affiliations": [
+    "Pharmacy Department, Hospital Mateu Orfila, Mahon, Spain",
+    "Department of Biochemistry and Molecular Biology, Universitat de les Illes Balears, Mallorca, Spain",
+    "Grupo Juaneda Menorca, Spain"
+  ],
+  "pubmed": {
+    "authorQuery": "\"Mercadal-Orfila G\"[Author]",
+    "affiliationQuery": "(\"Hospital Mateu Orfila\"[Affiliation] OR \"Universitat de les Illes Balears\"[Affiliation] OR Mahon[Affiliation] OR Mallorca[Affiliation] OR Menorca[Affiliation] OR \"Balearic Islands\"[Affiliation])"
+  },
+  "keywords": [
+    "hospital pharmacy",
+    "clinical pharmacy",
+    "patient-reported outcomes",
+    "PROMs",
+    "PREMs",
+    "telepharmacy",
+    "value-based healthcare",
+    "pharmacoeconomics",
+    "clinical nutrition",
+    "parenteral nutrition",
+    "glutamine",
+    "psoriasis",
+    "biologic therapy",
+    "HIV pharmaceutical care",
+    "machine learning",
+    "medication safety",
+    "drug utilization",
+    "inflammatory bowel disease",
+    "atopic dermatitis",
+    "NAVETA"
+  ],
+  "mentions": {
+    "scoreThreshold": 6,
+    "signals": {
+      "affiliationHospital": {
+        "pattern": "Hospital Mateu Orfila",
+        "weight": 4
+      },
+      "affiliationUniversity": {
+        "pattern": "Universitat de les Illes Balears",
+        "weight": 4
+      },
+      "fullNameWithInitial": {
+        "pattern": "Mercadal-Orfila.*\\bG\\b|\\bG\\b.*Mercadal-Orfila",
+        "weight": 4
+      },
+      "locationScientific": {
+        "patterns": ["Mahon", "Mahón", "Menorca", "Mallorca", "Maó", "Balearic"],
+        "contextPatterns": ["pharma", "hospital", "clinic", "research", "health", "medic", "drug", "patient", "treatment", "university", "study", "SEFH", "NAVETA", "PROMs"],
+        "weight": 3
+      },
+      "coauthors": {
+        "names": [
+          "Blasco-Mascaró",
+          "Lluch-Taltavull",
+          "Herrera-Pérez",
+          "Maestre-Fullana",
+          "Ventayol-Bosch",
+          "Serrano López de las Hazas",
+          "Fernández-Cortés",
+          "Liñana-Granell",
+          "Romero del Barco",
+          "Morillo-Verdugo",
+          "Piqué",
+          "Mateu-Amengual",
+          "Llop-Talaverón",
+          "Rocamora Durán",
+          "Bello Crespo",
+          "Escrivá Sancho",
+          "Cuatrecasas"
+        ],
+        "weight": 2
+      },
+      "thematicKeywords": {
+        "weight": 1
+      },
+      "surnameOnlyPenalty": {
+        "weight": -5
+      }
+    }
+  },
+  "_instructions": "Add LinkedIn and Google Scholar URLs to person.links when available."
+}

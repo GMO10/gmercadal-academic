@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ── Base ─────────────────────────────────────────── */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ivory text-ink font-sans antialiased;
+}
+
+::selection {
+  @apply bg-accent/20;
+}
+
+/* ── Links ────────────────────────────────────────── */
+
+a {
+  @apply text-accent underline decoration-accent/30 underline-offset-2 transition-colors;
+}
+a:hover {
+  @apply text-accent-light decoration-accent-light/50;
+}
+
+/* ── Print ────────────────────────────────────────── */
+
+@media print {
+  nav, footer, .no-print, button {
+    display: none !important;
+  }
+  body {
+    font-size: 11pt;
+    color: #000;
+    background: #fff;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+  nav a[href]::after,
+  .no-print-url a[href]::after {
+    content: none;
+  }
+  main {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  h1 { font-size: 18pt; }
+  h2 { font-size: 14pt; margin-top: 1em; }
+  .publication-card, .mention-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
