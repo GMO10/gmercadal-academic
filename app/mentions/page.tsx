@@ -9,8 +9,8 @@ const data: any = mentionsData;
 export default function MentionsPage() {
   const { t } = useLang();
 
-  const langSet = Array.from(new Set(data.mentions.map((m: any) => m.language).filter(Boolean)));
-  const sourceSet = Array.from(new Set(data.mentions.map((m: any) => m.domain).filter(Boolean)));
+const langSet: string[] = Array.from(new Set(data.mentions.map((m: any) => m.language).filter(Boolean))) as string[];
+  const sourceSet: string[] = Array.from(new Set(data.mentions.map((m: any) => m.domain).filter(Boolean))) as string[];
 
   return (
     <>
