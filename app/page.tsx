@@ -5,11 +5,14 @@ import { BadgeScore } from '@/components/BadgeScore';
 import pubsData from '@/data/publications.json';
 import mentionsData from '@/data/mentions.json';
 import identityData from '@/config/identity.json';
+const pubsTyped: any = pubsData;
+const mentionsTyped: any = mentionsData;
+const identityTyped: any = identityData;
 
 export default function HomePage() {
-  const identity = identityData;
-  const pubs = pubsData;
-  const mentions = mentionsData;
+const identity = identityTyped;
+  const pubs = pubsTyped;
+  const mentions = mentionsTyped;
 
   const latestPubs = pubs.publications.slice(0, 5);
   const latestMentions = mentions.mentions.slice(0, 3);
