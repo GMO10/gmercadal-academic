@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getIdentity } from '@/lib/data';
+import identityData from '@/config/identity.json';
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-  const identity = getIdentity();
+  const identity: any = identityData;
   const links = identity.person.links;
 
   return (
@@ -48,7 +48,7 @@ export default function ContactPage() {
           {links.email && (
             <p>
               <span className="text-muted text-sm block">Email</span>
-              <a href={`mailto:${links.email}`}>{links.email}</a>
+              <a href={'mailto:' + links.email}>{links.email}</a>
             </p>
           )}
         </div>
@@ -56,24 +56,10 @@ export default function ContactPage() {
         <div className="border border-border rounded-lg p-6">
           <h2 className="font-serif text-xl font-bold mb-3">Affiliations</h2>
           <ul className="space-y-2 text-sm text-muted list-none p-0">
-            {identity.affiliations.map((aff, i) => (
+            {identity.affiliations.map((aff: string, i: number) => (
               <li key={i} className="pl-0">{aff}</li>
             ))}
           </ul>
-        </div>
-
-        <div className="border border-border rounded-lg p-6">
-          <h2 className="font-serif text-xl font-bold mb-3">CV</h2>
-          <p className="text-sm text-muted mb-3">
-            Download the full curriculum vitae in Word format.
-          </p>
-          <a
-            href="/cv.docx"
-            download
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg border border-accent/30 bg-accent/5 no-underline text-accent hover:bg-accent/10 transition-all text-sm"
-          >
-            ↓ Download CV (.docx)
-          </a>
         </div>
       </div>
     </>
