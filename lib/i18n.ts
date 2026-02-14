@@ -16,7 +16,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Academic Background
     'bg.title': 'Academic Background',
     'bg.p1': 'PhD in Pharmacy (Cum Laude) from the Universitat de Barcelona, with a thesis on the effectiveness of glutamine in perioperative parenteral nutrition. Specialist in Hospital Pharmacy trained at Hospital Universitari de Bellvitge.',
-    'bg.p2': 'Postgraduate diplomas in Health Sciences Statistics (UAB) and Pharmacoeconomics (UPF). Currently completing a Master in Medical Direction and Clinical Management (UNED, 2023\u20132025).',
+    'bg.p2': 'Postgraduate diplomas in Health Sciences Statistics (UAB) and Pharmacoeconomics (UPF). Master in Medical Direction and Clinical Management (UNED, 2023-2025). Currently pursuing the Advanced Master in Artificial Intelligence in Health Sciences Education (Universitat de Barcelona).',
     'bg.p3': 'Associate Professor of Biochemistry and Nutrition at the Universitat de les Illes Balears. Scientific Coordinator of the postgraduate diploma in Value-Based Healthcare for Dermatological and Rheumatic Diseases (Universidad de Alcal\u00e1, accredited by SEFH).',
     'bg.p4': 'Current research focuses on value-based healthcare, specifically the implementation, analysis, and psychometric validation of PROMs and PREMs, as well as the application of artificial intelligence and machine learning to build predictive models for patient-reported outcomes.',
 
@@ -80,7 +80,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Academic Background
     'bg.title': 'Formaci\u00f3n Acad\u00e9mica',
     'bg.p1': 'Doctor en Farmacia (Cum Laude) por la Universitat de Barcelona, con tesis sobre la efectividad de la glutamina en nutrici\u00f3n parenteral perioperatoria. Especialista en Farmacia Hospitalaria formado en el Hospital Universitari de Bellvitge.',
-    'bg.p2': 'Diplomas de posgrado en Estad\u00edstica en Ciencias de la Salud (UAB) y Farmacoeconom\u00eda (UPF). Actualmente cursando el M\u00e1ster en Direcci\u00f3n M\u00e9dica y Gesti\u00f3n Cl\u00ednica (UNED, 2023\u20132025).',
+    'bg.p2': 'Diplomas de posgrado en Estad\u00edstica en Ciencias de la Salud (UAB) y Farmacoeconom\u00eda (UPF). M\u00e1ster en Direcci\u00f3n M\u00e9dica y Gesti\u00f3n Cl\u00ednica (UNED, 2023-2025). Actualmente cursando el M\u00e1ster Avanzado en Inteligencia Artificial en Docencia en Ciencias de la Salud (Universitat de Barcelona).',
     'bg.p3': 'Profesor asociado de Bioqu\u00edmica y Nutrici\u00f3n en la Universitat de les Illes Balears. Coordinador Cient\u00edfico del diploma de Experto Universitario en Atenci\u00f3n Sanitaria Basada en Valor en Enfermedades Dermatol\u00f3gicas y Reum\u00e1ticas (Universidad de Alcal\u00e1, acreditado por la SEFH).',
     'bg.p4': 'Su investigaci\u00f3n actual se centra en la asistencia sanitaria basada en valor, concretamente en la implementaci\u00f3n, an\u00e1lisis y validaci\u00f3n psicom\u00e9trica de PROMs y PREMs, as\u00ed como en la aplicaci\u00f3n de inteligencia artificial y machine learning para construir modelos predictivos de resultados reportados por pacientes.',
 
@@ -144,7 +144,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Academic Background
     'bg.title': 'Formaci\u00f3 Acad\u00e8mica',
     'bg.p1': 'Doctor en Farm\u00e0cia (Cum Laude) per la Universitat de Barcelona, amb tesi sobre l\'efectivitat de la glutamina en nutrici\u00f3 parenteral perioperat\u00f2ria. Especialista en Farm\u00e0cia Hospitalari format a l\'Hospital Universitari de Bellvitge.',
-    'bg.p2': 'Diplomes de postgrau en Estad\u00edstica en Ci\u00e8ncies de la Salut (UAB) i Farmacoeconomia (UPF). Actualment cursant el M\u00e0ster en Direcci\u00f3 M\u00e8dica i Gesti\u00f3 Cl\u00ednica (UNED, 2023\u20132025).',
+    'bg.p2': 'Diplomes de postgrau en Estad\u00edstica en Ci\u00e8ncies de la Salut (UAB) i Farmacoeconomia (UPF). M\u00e0ster en Direcci\u00f3 M\u00e8dica i Gesti\u00f3 Cl\u00ednica (UNED, 2023-2025). Actualment cursant el M\u00e0ster Avan\u00e7at en Intel\u00b7lig\u00e8ncia Artificial en Doc\u00e8ncia en Ci\u00e8ncies de la Salut (Universitat de Barcelona).',
     'bg.p3': 'Professor associat de Bioqu\u00edmica i Nutrici\u00f3 a la Universitat de les Illes Balears. Coordinador Cient\u00edfic del diploma d\'Expert Universitari en Atenci\u00f3 Sanit\u00e0ria Basada en Valor en Malalties Dermatol\u00f2giques i Reum\u00e0tiques (Universidad de Alcal\u00e1, acreditat per la SEFH).',
     'bg.p4': 'La seva investigaci\u00f3 actual se centra en l\'assist\u00e8ncia sanit\u00e0ria basada en valor, concretament en la implementaci\u00f3, an\u00e0lisi i validaci\u00f3 psicom\u00e8trica de PROMs i PREMs, aix\u00ed com en l\'aplicaci\u00f3 d\'intel\u00b7lig\u00e8ncia artificial i machine learning per construir models predictius de resultats reportats per pacients.',
 
