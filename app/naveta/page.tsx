@@ -21,13 +21,13 @@ export default function NavetaPage() {
           pharmacy care. NAVETA enables systematic, real-time monitoring of health-related
           quality of life across chronic conditions.
         </p>
-        
+        <a
           href="https://www.farupeib.com/es/proyecto-naveta"
           target="_blank"
           rel="noopener noreferrer"
           className="profile-link-accent"
         >
-          Visit NAVETA at FARUPEIB &rarr;
+          {`Visit NAVETA at FARUPEIB \u2192`}
         </a>
       </div>
 
@@ -61,11 +61,11 @@ export default function NavetaPage() {
       <div className="border border-border rounded-lg p-6 mb-12">
         <h2 className="font-serif text-xl font-bold text-navy mb-3">Awards</h2>
         <div className="space-y-3 text-sm text-slate">
-          <p><span className="font-semibold text-navy">SEFH Innovation Award 2021</span> &mdash; Best telepharmacy innovation project</p>
-          <p><span className="font-semibold text-navy">AMPHOS Pharmacy Award 2022</span> &mdash; Best hospital pharmacy management experience</p>
-          <p><span className="font-semibold text-navy">SEFH/CSL Vifor 1st Prize 2025</span> &mdash; Quality of Pharmacy Services (ZAFIRO, derived from NAVETA)</p>
-          <p><span className="font-semibold text-navy">Creasphere Spain by Roche 2024</span> &mdash; Digital health startup programme grant</p>
-          <p><span className="font-semibold text-navy">Visionarium Innovation by Gilead 2025</span> &mdash; IA-PROM-VIH, AI-based PROMs analysis for HIV</p>
+          <p><span className="font-semibold text-navy">SEFH Innovation Award 2021</span> - Best telepharmacy innovation project</p>
+          <p><span className="font-semibold text-navy">AMPHOS Pharmacy Award 2022</span> - Best hospital pharmacy management experience</p>
+          <p><span className="font-semibold text-navy">SEFH/CSL Vifor 1st Prize 2025</span> - Quality of Pharmacy Services (ZAFIRO, derived from NAVETA)</p>
+          <p><span className="font-semibold text-navy">Creasphere Spain by Roche 2024</span> - Digital health startup programme grant</p>
+          <p><span className="font-semibold text-navy">Visionarium Innovation by Gilead 2025</span> - IA-PROM-VIH, AI-based PROMs analysis for HIV</p>
         </div>
       </div>
 
