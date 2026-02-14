@@ -43,6 +43,10 @@ export default function ContactPage() {
                 View profile
               </a>
             </p>
+<p>
+            <span className="text-muted text-sm block">Phone</span>
+            <a href="tel:+34971487351">+34 971 48 73 51</a>
+          </p>
           )}
 
           {links.email && (
