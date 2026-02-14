@@ -30,7 +30,7 @@ export default function HomePage() {
           <div className="flex-1 text-center md:text-left">
             <p className="text-sm font-medium tracking-widest uppercase text-gold mb-2">{t('hero.subtitle')}</p>
             <h1 className="font-serif text-4xl sm:text-5xl font-bold text-navy mb-4 leading-tight">{identity.person.fullName}</h1>
-            <p className="text-lg text-slate leading-relaxed max-w-2xl mb-6">{identity.person.bio}</p>
+            <p className="text-lg text-slate leading-relaxed max-w-2xl mb-6">{t('hero.bio')}</p>
             <div className="flex flex-wrap gap-3 justify-center md:justify-start">
               {identity.person.links.orcid && (
                 <a href={identity.person.links.orcid} target="_blank" rel="noopener noreferrer" className="profile-link">ORCID</a>
