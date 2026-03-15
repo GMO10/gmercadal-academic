@@ -14,6 +14,7 @@ function NavBar() {
     { href: '/', label: t('nav.home') },
     { href: '/publications', label: t('nav.publications') },
     { href: '/conferences', label: t('nav.conferences') },
+    { href: '/teaching', label: t('nav.teaching') },
     { href: '/awards', label: t('nav.awards') },
     { href: '/naveta', label: t('nav.naveta') },
     { href: '/mentions', label: t('nav.mentions') },

@@ -7,6 +7,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.publications': 'Indexed Publications',
     'nav.mentions': 'Media',
     'nav.conferences': 'Posters / Oral Comms',
+    'nav.teaching': 'Teaching',
     'nav.awards': 'Awards',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contact',
@@ -59,6 +60,10 @@ export const translations: Record<Lang, Record<string, string>> = {
     'naveta.awards': 'Awards',
     'naveta.keyPubs': 'Key Publications',
 
+    // Teaching page
+    'teaching.title': 'Teaching',
+    'teaching.subtitle': 'Academic teaching activity at universities, combining clinical pharmacy practice with education in health sciences and value-based healthcare.',
+
     // Contact page
     'contact.title': 'Contact',
     'contact.profiles': 'Academic Profiles',
@@ -74,6 +79,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.publications': 'Publicaciones indexadas',
     'nav.mentions': 'Medios comunicación',
     'nav.conferences': 'Comunicaciones pósters/orales',
+    'nav.teaching': 'Docencia',
     'nav.awards': 'Premios',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacto',
@@ -126,14 +132,18 @@ export const translations: Record<Lang, Record<string, string>> = {
     'naveta.awards': 'Premios',
     'naveta.keyPubs': 'Publicaciones Clave',
 
+    // Teaching page
+    'teaching.title': 'Docencia',
+    'teaching.subtitle': 'Actividad docente universitaria, combinando la práctica clínica en farmacia hospitalaria con la formación en ciencias de la salud y atención sanitaria basada en valor.',
+
     // Contact page
     'contact.title': 'Contacto',
-    'contact.profiles': 'Perfiles Acad\u00e9micos',
-    'contact.phone': 'Tel\u00e9fono',
+    'contact.profiles': 'Perfiles Académicos',
+    'contact.phone': 'Teléfono',
     'contact.affiliations': 'Afiliaciones',
 
     // Footer
-    'footer.dataUpdated': 'Datos actualizados autom\u00e1ticamente v\u00eda',
+    'footer.dataUpdated': 'Datos actualizados automáticamente vía',
   },
   ca: {
     // Nav
@@ -141,6 +151,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.publications': 'Publicacions indexades',
     'nav.mentions': 'Mitjans comunicació',
     'nav.conferences': 'Comunicacions pòsters/orals',
+    'nav.teaching': 'Docència',
     'nav.awards': 'Premis',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacte',
@@ -193,14 +204,18 @@ export const translations: Record<Lang, Record<string, string>> = {
     'naveta.awards': 'Premis',
     'naveta.keyPubs': 'Publicacions Clau',
 
+    // Teaching page
+    'teaching.title': 'Docència',
+    'teaching.subtitle': 'Activitat docent universitària, combinant la pràctica clínica en farmàcia hospitalària amb la formació en ciències de la salut i atenció sanitària basada en valor.',
+
     // Contact page
     'contact.title': 'Contacte',
-    'contact.profiles': 'Perfils Acad\u00e8mics',
-    'contact.phone': 'Tel\u00e8fon',
+    'contact.profiles': 'Perfils Acadèmics',
+    'contact.phone': 'Telèfon',
     'contact.affiliations': 'Afiliacions',
 
     // Footer
-    'footer.dataUpdated': 'Dades actualitzades autom\u00e0ticament via',
+    'footer.dataUpdated': 'Dades actualitzades automàticament via',
   },
 };
 
