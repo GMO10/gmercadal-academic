@@ -1,7 +1,7 @@
 {
   "lastUpdated": "2026-03-15T17:29:50Z",
   "scoreThreshold": 4,
-  "count": 35,
+  "count": 37,
   "sources": {
     "gdelt": 0,
     "googleNews": 85
@@ -323,8 +323,8 @@
     },
     {
       "id": "youtube-pros-vih-2025",
-      "title": "Que son los PROs y por que son clave en la atencion al VIH - Gabriel Mercadal",
-      "url": "https://www.youtube.com/watch?v=pros-vih-2025",
+      "title": "Los Resultados Reportados por los Pacientes (PROs) para mejorar la calidad de atención farmacéutica",
+      "url": "https://www.youtube.com/watch?v=WoxEk3Nb0bo",
       "source": "YouTube",
       "domain": "youtube.com",
       "date": "2025-01-01",
@@ -356,8 +356,8 @@
     },
     {
       "id": "youtube-podcast-humanizacion-2024",
-      "title": "PODCAST - Humanizacion de la farmacia hospitalaria - Gabriel Mercadal",
-      "url": "https://www.youtube.com/watch?v=podcast-humanizacion-2024",
+      "title": "PODCAST / Humanización de la farmacia hospitalaria",
+      "url": "https://www.youtube.com/watch?v=O3Ch0-xZnpk",
       "source": "YouTube",
       "domain": "youtube.com",
       "date": "2024-01-01",
@@ -366,6 +366,37 @@
       "score": 12,
       "signals": [
         "+5 Gabriel Mercadal",
+        "+1 farmacia hospitalaria"
+      ]
+    },
+    {
+      "id": "yt-experiencia-paciente-2024",
+      "title": "La experiencia del paciente y debate",
+      "url": "https://www.youtube.com/watch?v=zDN0U8nW928",
+      "source": "YouTube",
+      "domain": "youtube.com",
+      "date": "2024-01-01",
+      "language": "es",
+      "type": "video",
+      "score": 12,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+2 PROMs/PREMs"
+      ]
+    },
+    {
+      "id": "yt-psoriasis-fh-2024",
+      "title": "Preguntas prácticas sobre psoriasis para Farmacia Hospitalaria / Capítulo 4",
+      "url": "https://www.youtube.com/watch?v=V4UEmAG1UUs",
+      "source": "YouTube",
+      "domain": "youtube.com",
+      "date": "2024-01-01",
+      "language": "es",
+      "type": "video",
+      "score": 12,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+1 dermatology",
         "+1 farmacia hospitalaria"
       ]
     },
