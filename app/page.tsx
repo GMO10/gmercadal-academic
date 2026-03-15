@@ -6,11 +6,15 @@ import { useLang } from '@/lib/LangProvider';
 import { BadgeScore } from '@/components/BadgeScore';
 import pubsData from '@/data/publications.json';
 import mentionsData from '@/data/mentions.json';
+import confsData from '@/data/conferences.json';
+import awardsData from '@/data/awards.json';
 import identityData from '@/config/identity.json';
 
 const identity: any = identityData;
 const pubs: any = pubsData;
 const mentions: any = mentionsData;
+const confs: any = confsData;
+const awards: any = awardsData;
 
 export default function HomePage() {
   const { t, lang } = useLang();
@@ -19,10 +23,10 @@ export default function HomePage() {
 
   // Stats
   const pubCount = pubs.count || pubs.publications.length;
-  const mentionCount = mentions.count || mentions.mentions.length;
+  const awardsCount = awards.awards?.length || 0;
+  const confsCount = confs.count || confs.conferences?.length || 0;
   const years = pubs.publications.map((p: any) => p.year).filter(Boolean);
   const firstYear = years.length ? Math.min(...years) : 2003;
-  const uniqueJournals = new Set(pubs.publications.map((p: any) => p.journal).filter(Boolean)).size;
 
   return (
     <>
@@ -94,16 +98,16 @@ export default function HomePage() {
             <div className="text-sm text-slate mt-1">{t('pubs.count')}</div>
           </div>
           <div className="stat-card text-center">
-            <div className="text-3xl font-bold text-navy font-serif">{mentionCount}</div>
-            <div className="text-sm text-slate mt-1">Media</div>
+            <div className="text-3xl font-bold text-navy font-serif">{awardsCount}</div>
+            <div className="text-sm text-slate mt-1">{lang === 'ca' ? 'Premis i beques' : lang === 'es' ? 'Premios y becas' : 'Awards & Grants'}</div>
           </div>
           <div className="stat-card text-center">
-            <div className="text-3xl font-bold text-navy font-serif">{uniqueJournals}</div>
-            <div className="text-sm text-slate mt-1">{lang === 'ca' ? 'Revistes' : lang === 'es' ? 'Revistas' : 'Journals'}</div>
+            <div className="text-3xl font-bold text-navy font-serif">{confsCount}</div>
+            <div className="text-sm text-slate mt-1">{lang === 'ca' ? 'Comunicacions' : lang === 'es' ? 'Comunicaciones' : 'Conference Papers'}</div>
           </div>
           <div className="stat-card text-center">
             <div className="text-3xl font-bold text-navy font-serif">{new Date().getFullYear() - firstYear}+</div>
-            <div className="text-sm text-slate mt-1">{lang === 'ca' ? 'Anys' : lang === 'es' ? 'Años' : 'Years'}</div>
+            <div className="text-sm text-slate mt-1">{lang === 'ca' ? 'Anys d\'experiència' : lang === 'es' ? 'Años de experiencia' : 'Years of Experience'}</div>
           </div>
         </div>
       </section>
