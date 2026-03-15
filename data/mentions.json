@@ -1,7 +1,7 @@
 {
   "lastUpdated": "2026-03-15T18:49:07.086Z",
   "scoreThreshold": 4,
-  "count": 44,
+  "count": 43,
   "sources": {
     "gdelt": 0,
     "googleNews": 83
@@ -136,21 +136,6 @@
       "signals": [
         "+4 Hospital Mateu Orfila",
         "+2 PROMs/PREMs"
-      ],
-      "autoFetched": true
-    },
-    {
-      "id": "auto-41b1ca5c2c73",
-      "title": "El Hospital Mateu Orfila incorpora un nuevo especialista al Servicio de Aparato Digestivo - caib.es",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVVpreFoxSExYYTZMREhjb0hqLWRCYUFTNjNGblNLNnhrSFJNcXd6bjhSYV9zcXV1TVVKT01FVVpLenA4Z1BuaC12b3BkMGs0eXkwbjNZZ0dxWVJJYjFVZ1NSX3hXY0NqcmgwdTRGTkVCZE1MWHFBVE40MGsyaGstaEJqa2FqZ2ZNb1NuME5IS1hUZTFXelBmOWV6Mk9Xc1ktZ1Uzc0dPMUNrNi1FeTBCVEFSLUxhMlZlY2g3cTloN1R3dXNxazZ2emN2ZWtibUJoNGFPRjVRQ2s0T3pnQVhaQw?oc=5",
-      "source": "caib.es",
-      "domain": "news.google.com",
-      "date": "2025-09-01",
-      "language": "es",
-      "type": "news",
-      "score": 4,
-      "signals": [
-        "+4 Hospital Mateu Orfila"
       ],
       "autoFetched": true
     },
