@@ -1,10 +1,10 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import type { Publication } from '@/lib/types';
+
 
 interface Props {
-  publications: Publication[];
+  publications: any[];
   years: string[];
   types: string[];
 }
