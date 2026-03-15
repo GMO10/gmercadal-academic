@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-03-15T18:48:03.649Z",
-  "count": 35,
+  "count": 36,
   "yearIndex": {
     "2003": [
       "pub-0fcf1f1b7403",
@@ -75,6 +75,26 @@
     ]
   },
   "publications": [
+    {
+      "id": "prep-eproms-2026",
+      "title": "Digital Monitoring of PrEP Users Through ePROMs and ePREMs: A Multicenter Prospective Study on Feasibility, Safety, and Predictive Modeling of Digital Engagement",
+      "year": 2026,
+      "type": "Preprint (Accepted)",
+      "doi": "10.2196/87592",
+      "pmid": null,
+      "journal": "JMIR (Accepted)",
+      "authors": [
+        "Mercadal-Orfila, Gabriel",
+        "et al."
+      ],
+      "abstract": "Multicenter prospective study on the feasibility, safety, and predictive modeling of digital engagement in PrEP users through electronic patient-reported outcome and experience measures (ePROMs/ePREMs).",
+      "url": "https://preprints.jmir.org/preprint/87592/accepted",
+      "impactFactor": 5.0,
+      "quartile": "Q1",
+      "sources": [
+        "JMIR Preprints"
+      ]
+    },
     {
       "id": "doi-10-2196-preprints-92890",
       "title": "Mobile App for Multidimensional Monitoring of Immune-Mediated Inflammatory Diseases: A Multicenter Prospective Study (Preprint)",
