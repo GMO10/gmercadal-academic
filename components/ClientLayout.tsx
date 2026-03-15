@@ -1,12 +1,14 @@
 'use client';
 
 import Link from 'next/link';
+import { useState } from 'react';
 import { LangProvider, useLang } from '@/lib/LangProvider';
 import { LangSwitcher } from '@/components/LangSwitcher';
 import { ReactNode } from 'react';
 
 function NavBar() {
   const { t } = useLang();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
     { href: '/', label: t('nav.home') },
@@ -17,25 +19,57 @@ function NavBar() {
   ];
 
   return (
-    <nav className="border-b border-border bg-cream/90 backdrop-blur-md sticky top-0 z-50" aria-label="Main navigation">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-serif font-bold text-xl text-navy no-underline hover:text-gold transition-colors">
+    <nav className="nav-main" aria-label="Main navigation">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+        <Link href="/" className="font-serif font-bold text-lg text-navy no-underline hover:text-gold transition-colors">
           Dr. G. Mercadal-Orfila
         </Link>
-        <div className="flex items-center gap-6">
-          <ul className="flex gap-6 list-none m-0 p-0">
+
+        {/* Desktop nav */}
+        <div className="hidden md:flex items-center gap-6">
+          <ul className="flex gap-5 list-none m-0 p-0">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <Link href={link.href}
-                  className="text-sm font-medium text-slate no-underline hover:text-navy transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-gold after:transition-all hover:after:w-full">
-                  {link.label}
-                </Link>
+                <Link href={link.href} className="nav-link">{link.label}</Link>
               </li>
             ))}
           </ul>
           <LangSwitcher />
         </div>
+
+        {/* Mobile hamburger */}
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="md:hidden flex flex-col gap-1.5 p-2 bg-transparent border-none cursor-pointer"
+          aria-label="Toggle menu"
+        >
+          <span className={`block w-5 h-0.5 bg-navy transition-all ${menuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+          <span className={`block w-5 h-0.5 bg-navy transition-all ${menuOpen ? 'opacity-0' : ''}`}></span>
+          <span className={`block w-5 h-0.5 bg-navy transition-all ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+        </button>
       </div>
+
+      {/* Mobile menu */}
+      {menuOpen && (
+        <div className="md:hidden border-t border-border-light bg-white px-4 pb-4">
+          <ul className="list-none m-0 p-0 space-y-3 pt-3">
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <Link
+                  href={link.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="block text-base font-medium text-navy no-underline py-1"
+                >
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="pt-3 border-t border-border-light mt-3">
+            <LangSwitcher />
+          </div>
+        </div>
+      )}
     </nav>
   );
 }
@@ -43,16 +77,16 @@ function NavBar() {
 function Footer() {
   const { t } = useLang();
   return (
-    <footer className="border-t border-border bg-navy/[0.02] text-center text-sm text-slate py-8">
-      <div className="max-w-5xl mx-auto px-4">
-        <p className="mb-1">&copy; {new Date().getFullYear()} Dr. Gabriel Mercadal-Orfila</p>
-        <p className="text-xs text-slate/60">
+    <footer className="bg-navy text-white/60 text-center text-sm py-10">
+      <div className="max-w-6xl mx-auto px-4">
+        <p className="mb-1 text-white/80">&copy; {new Date().getFullYear()} Dr. Gabriel Mercadal-Orfila</p>
+        <p className="text-xs">
           {t('footer.dataUpdated')}{' '}
-          <a href="https://orcid.org/0000-0001-7304-458X" target="_blank" rel="noopener noreferrer" className="text-slate/60 hover:text-gold">ORCID</a>
+          <a href="https://orcid.org/0000-0001-7304-458X" target="_blank" rel="noopener noreferrer" className="text-gold/60 hover:text-gold no-underline">ORCID</a>
           {', '}
-          <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" className="text-slate/60 hover:text-gold">PubMed</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" className="text-gold/60 hover:text-gold no-underline">PubMed</a>
           {' & '}
-          <a href="https://www.crossref.org/" target="_blank" rel="noopener noreferrer" className="text-slate/60 hover:text-gold">Crossref</a>
+          <a href="https://www.crossref.org/" target="_blank" rel="noopener noreferrer" className="text-gold/60 hover:text-gold no-underline">Crossref</a>
         </p>
       </div>
     </footer>
@@ -63,9 +97,9 @@ export function ClientLayout({ children }: { children: ReactNode }) {
   return (
     <LangProvider>
       <NavBar />
-      <main className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 py-12">
+      <div className="flex-1">
         {children}
-      </main>
+      </div>
       <Footer />
     </LangProvider>
   );
