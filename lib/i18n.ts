@@ -4,7 +4,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   en: {
     // Nav
     'nav.home': 'Home',
-    'nav.experience': 'Experience',
+    'nav.experience': 'Work Experience',
     'nav.publications': 'Indexed Publications',
     'nav.mentions': 'Media',
     'nav.conferences': 'Posters / Oral Comms',
@@ -62,7 +62,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'naveta.keyPubs': 'Key Publications',
 
     // Experience page
-    'experience.title': 'Professional Experience',
+    'experience.title': 'Work Experience',
     'experience.subtitle': 'Over 20 years of hospital pharmacy practice across leading healthcare institutions in Catalonia and the Balearic Islands.',
     'experience.roles': 'Institutional Roles',
 
@@ -82,7 +82,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   es: {
     // Nav
     'nav.home': 'Inicio',
-    'nav.experience': 'Experiencia',
+    'nav.experience': 'Experiencia Laboral',
     'nav.publications': 'Publicaciones indexadas',
     'nav.mentions': 'Medios comunicación',
     'nav.conferences': 'Comunicaciones pósters/orales',
@@ -140,7 +140,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'naveta.keyPubs': 'Publicaciones Clave',
 
     // Experience page
-    'experience.title': 'Experiencia Profesional',
+    'experience.title': 'Experiencia Laboral',
     'experience.subtitle': 'Más de 20 años de práctica en farmacia hospitalaria en instituciones sanitarias de referencia en Cataluña y las Islas Baleares.',
     'experience.roles': 'Cargos Institucionales',
 
@@ -160,7 +160,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   ca: {
     // Nav
     'nav.home': 'Inici',
-    'nav.experience': 'Experiència',
+    'nav.experience': 'Experiència Laboral',
     'nav.publications': 'Publicacions indexades',
     'nav.mentions': 'Mitjans comunicació',
     'nav.conferences': 'Comunicacions pòsters/orals',
@@ -218,7 +218,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'naveta.keyPubs': 'Publicacions Clau',
 
     // Experience page
-    'experience.title': 'Experiència Professional',
+    'experience.title': 'Experiència Laboral',
     'experience.subtitle': 'Més de 20 anys de pràctica en farmàcia hospitalària en institucions sanitàries de referència a Catalunya i les Illes Balears.',
     'experience.roles': 'Càrrecs Institucionals',
 
