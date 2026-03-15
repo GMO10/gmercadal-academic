@@ -21,14 +21,14 @@ function NavBar() {
 
   return (
     <nav className="nav-main" aria-label="Main navigation">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
-        <Link href="/" className="font-serif font-bold text-lg text-white no-underline hover:text-gold transition-colors">
-          Dr. G. Mercadal-Orfila
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+        <Link href="/" className="font-serif font-bold text-xl text-white no-underline hover:text-gold transition-all group">
+          <span className="text-gold">Dr.</span> G. Mercadal-Orfila
         </Link>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-6">
-          <ul className="flex gap-5 list-none m-0 p-0">
+        <div className="hidden md:flex items-center gap-8">
+          <ul className="flex gap-7 list-none m-0 p-0">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link href={link.href} className="nav-link">{link.label}</Link>
