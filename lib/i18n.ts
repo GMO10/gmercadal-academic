@@ -4,9 +4,9 @@ export const translations: Record<Lang, Record<string, string>> = {
   en: {
     // Nav
     'nav.home': 'Home',
-    'nav.publications': 'Publications',
+    'nav.publications': 'Indexed Publications',
     'nav.mentions': 'Media',
-    'nav.conferences': 'Conferences',
+    'nav.conferences': 'Posters / Oral Comms',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contact',
 
@@ -70,9 +70,9 @@ export const translations: Record<Lang, Record<string, string>> = {
   es: {
     // Nav
     'nav.home': 'Inicio',
-    'nav.publications': 'Publicaciones',
+    'nav.publications': 'Publicaciones indexadas',
     'nav.mentions': 'Medios comunicación',
-    'nav.conferences': 'Congresos',
+    'nav.conferences': 'Comunicaciones pósters/orales',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacto',
 
@@ -136,9 +136,9 @@ export const translations: Record<Lang, Record<string, string>> = {
   ca: {
     // Nav
     'nav.home': 'Inici',
-    'nav.publications': 'Publicacions',
+    'nav.publications': 'Publicacions indexades',
     'nav.mentions': 'Mitjans comunicació',
-    'nav.conferences': 'Congressos',
+    'nav.conferences': 'Comunicacions pòsters/orals',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacte',
 

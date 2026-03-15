@@ -115,6 +115,21 @@ export function PublicationsList({ publications, years, types }: Props) {
               {pub.journal && pub.year && ' · '}
               {pub.year}
               {pub.type && <span className="ml-2 text-xs bg-accent/5 text-accent px-1.5 py-0.5 rounded">{pub.type}</span>}
+              {pub.impactFactor && (
+                <span className="ml-2 text-xs font-semibold bg-amber-100 text-amber-800 px-1.5 py-0.5 rounded">
+                  IF {pub.impactFactor}
+                </span>
+              )}
+              {pub.quartile && (
+                <span className={`ml-1 text-xs font-bold px-1.5 py-0.5 rounded ${
+                  pub.quartile === 'Q1' ? 'bg-emerald-100 text-emerald-800' :
+                  pub.quartile === 'Q2' ? 'bg-blue-100 text-blue-800' :
+                  pub.quartile === 'Q3' ? 'bg-orange-100 text-orange-800' :
+                  'bg-gray-100 text-gray-700'
+                }`}>
+                  {pub.quartile}
+                </span>
+              )}
             </p>
 
             {(pub.authors||[]).length > 0 && (

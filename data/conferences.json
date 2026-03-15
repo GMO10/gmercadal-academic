@@ -11,7 +11,8 @@
       "date": "18–20 marzo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2026-02"
+      "id": "c2026-02",
+      "posterFile": "/posters/c2026-02.pdf"
     },
     {
       "year": 2026,
@@ -22,7 +23,8 @@
       "date": "Granada, España",
       "type": "poster",
       "area": "VIH/Infecciosas",
-      "id": "c2026-01"
+      "id": "c2026-01",
+      "posterFile": "/posters/c2026-01.pdf"
     },
     {
       "year": 2026,
@@ -33,7 +35,8 @@
       "date": "18–20 marzo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2026-05"
+      "id": "c2026-05",
+      "posterFile": "/posters/c2026-05.pdf"
     },
     {
       "year": 2026,
@@ -44,7 +47,8 @@
       "date": "18–20 marzo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2026-06"
+      "id": "c2026-06",
+      "posterFile": "/posters/c2026-06.pdf"
     },
     {
       "year": 2026,
@@ -55,7 +59,8 @@
       "date": "18–20 marzo",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2026-04"
+      "id": "c2026-04",
+      "posterFile": "/posters/c2026-04.pdf"
     },
     {
       "year": 2026,
@@ -66,7 +71,8 @@
       "date": "18–20 marzo",
       "type": "poster",
       "area": "Migraña",
-      "id": "c2026-07"
+      "id": "c2026-07",
+      "posterFile": "/posters/c2026-07.pdf"
     },
     {
       "year": 2026,
@@ -77,7 +83,8 @@
       "date": "18–20 marzo",
       "type": "poster",
       "area": "Migraña",
-      "id": "c2026-03"
+      "id": "c2026-03",
+      "posterFile": "/posters/c2026-03.pdf"
     },
     {
       "year": 2026,
@@ -88,7 +95,8 @@
       "date": "20–23 mayo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2026-08"
+      "id": "c2026-08",
+      "posterFile": "/posters/c2026-08.pdf"
     },
     {
       "year": 2026,
@@ -99,7 +107,8 @@
       "date": "20–23 mayo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2026-09"
+      "id": "c2026-09",
+      "posterFile": "/posters/c2026-09.pdf"
     },
     {
       "year": 2025,
@@ -110,7 +119,8 @@
       "date": "6 octubre",
       "type": "oral",
       "area": "Telefarmacia/PROMs",
-      "id": "c2025-16"
+      "id": "c2025-16",
+      "posterFile": "/posters/c2025-16.pdf"
     },
     {
       "year": 2025,
@@ -121,7 +131,8 @@
       "date": "28–30 mayo",
       "type": "oral",
       "area": "Telefarmacia/PROMs",
-      "id": "c2025-15"
+      "id": "c2025-15",
+      "posterFile": "/posters/c2025-15.pdf"
     },
     {
       "year": 2025,
@@ -132,7 +143,8 @@
       "date": "11–14 noviembre",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2025-10"
+      "id": "c2025-10",
+      "posterFile": "/posters/c2025-10.pdf"
     },
     {
       "year": 2025,
@@ -143,7 +155,8 @@
       "date": "15–17 octubre",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2025-11"
+      "id": "c2025-11",
+      "posterFile": "/posters/c2025-11.jpg"
     },
     {
       "year": 2025,
@@ -154,7 +167,8 @@
       "date": "14–16 noviembre",
       "type": "poster",
       "area": "Oncología",
-      "id": "c2025-09"
+      "id": "c2025-09",
+      "posterFile": "/posters/c2025-09.pdf"
     },
     {
       "year": 2025,
@@ -165,7 +179,8 @@
       "date": "24–27 noviembre 2024",
       "type": "poster",
       "area": "VIH/Infecciosas",
-      "id": "c2025-01"
+      "id": "c2025-01",
+      "posterFile": "/posters/c2025-01.pdf"
     },
     {
       "year": 2025,
@@ -176,7 +191,8 @@
       "date": "7–10 mayo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2025-04"
+      "id": "c2025-04",
+      "posterFile": "/posters/c2025-04.pdf"
     },
     {
       "year": 2025,
@@ -187,7 +203,8 @@
       "date": "7–10 mayo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2025-05"
+      "id": "c2025-05",
+      "posterFile": "/posters/c2025-05.pdf"
     },
     {
       "year": 2025,
@@ -198,7 +215,8 @@
       "date": "7–10 mayo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2025-03"
+      "id": "c2025-03",
+      "posterFile": "/posters/c2025-03.pdf"
     },
     {
       "year": 2025,
@@ -209,7 +227,8 @@
       "date": "17–18 enero",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2025-02"
+      "id": "c2025-02",
+      "posterFile": "/posters/c2025-02.pdf"
     },
     {
       "year": 2025,
@@ -220,7 +239,8 @@
       "date": "15–17 octubre",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2025-13"
+      "id": "c2025-13",
+      "posterFile": "/posters/c2025-13.pdf"
     },
     {
       "year": 2025,
@@ -231,7 +251,8 @@
       "date": "17–20 septiembre",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2025-08"
+      "id": "c2025-08",
+      "posterFile": "/posters/c2025-08.pdf"
     },
     {
       "year": 2025,
@@ -242,7 +263,8 @@
       "date": "7–10 mayo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2025-06"
+      "id": "c2025-06",
+      "posterFile": "/posters/c2025-06.pdf"
     },
     {
       "year": 2025,
@@ -253,7 +275,8 @@
       "date": "17–20 septiembre",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2025-07"
+      "id": "c2025-07",
+      "posterFile": "/posters/c2025-07.pdf"
     },
     {
       "year": 2025,
@@ -264,7 +287,8 @@
       "date": "15–17 octubre",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2025-12"
+      "id": "c2025-12",
+      "posterFile": "/posters/c2025-12.jpg"
     },
     {
       "year": 2025,
@@ -275,7 +299,8 @@
       "date": "15–17 octubre",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2025-14"
+      "id": "c2025-14",
+      "posterFile": "/posters/c2025-14.pdf"
     },
     {
       "year": 2025,
@@ -286,7 +311,8 @@
       "date": "15–17 octubre",
       "type": "poster",
       "area": "Oftalmología",
-      "id": "c2025-15"
+      "id": "c2025-15",
+      "posterFile": "/posters/c2025-15.pdf"
     },
     {
       "year": 2025,
@@ -297,7 +323,8 @@
       "date": "2025",
       "type": "poster",
       "area": "Endocrinología/Obesidad",
-      "id": "c2025-16"
+      "id": "c2025-16",
+      "posterFile": "/posters/c2025-16.pdf"
     },
     {
       "year": 2024,
@@ -308,7 +335,8 @@
       "date": "21–22 noviembre",
       "type": "oral",
       "area": "Telefarmacia/PROMs",
-      "id": "c2024-11"
+      "id": "c2024-11",
+      "posterFile": "/posters/c2024-11.pdf"
     },
     {
       "year": 2024,
@@ -319,7 +347,8 @@
       "date": "17–19 octubre",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2024-06"
+      "id": "c2024-06",
+      "posterFile": "/posters/c2024-06.jpg"
     },
     {
       "year": 2024,
@@ -330,7 +359,8 @@
       "date": "17–19 octubre",
       "type": "poster",
       "area": "Reumatología",
-      "id": "c2024-07"
+      "id": "c2024-07",
+      "posterFile": "/posters/c2024-07.jpg"
     },
     {
       "year": 2024,
@@ -341,7 +371,8 @@
       "date": "20–22 marzo",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2024-02"
+      "id": "c2024-02",
+      "posterFile": "/posters/c2024-02.pdf"
     },
     {
       "year": 2024,
@@ -352,7 +383,8 @@
       "date": "22–25 mayo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2024-05"
+      "id": "c2024-05",
+      "posterFile": "/posters/c2024-05.pdf"
     },
     {
       "year": 2024,
@@ -363,7 +395,8 @@
       "date": "17–19 octubre",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2024-08"
+      "id": "c2024-08",
+      "posterFile": "/posters/c2024-08.jpg"
     },
     {
       "year": 2024,
@@ -374,7 +407,8 @@
       "date": "",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2024-10"
+      "id": "c2024-10",
+      "posterFile": "/posters/c2024-10.pdf"
     },
     {
       "year": 2024,
@@ -385,7 +419,8 @@
       "date": "20–22 marzo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2024-03"
+      "id": "c2024-03",
+      "posterFile": "/posters/c2024-03.pdf"
     },
     {
       "year": 2024,
@@ -396,7 +431,8 @@
       "date": "19–21 septiembre",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2024-09"
+      "id": "c2024-09",
+      "posterFile": "/posters/c2024-09.pdf"
     },
     {
       "year": 2024,
@@ -407,7 +443,8 @@
       "date": "5–7 octubre 2023",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2024-01"
+      "id": "c2024-01",
+      "posterFile": "/posters/c2024-01.jpg"
     },
     {
       "year": 2024,
@@ -418,7 +455,8 @@
       "date": "20–22 marzo",
       "type": "poster",
       "area": "Oftalmología",
-      "id": "c2024-04"
+      "id": "c2024-04",
+      "posterFile": "/posters/c2024-04.pdf"
     },
     {
       "year": 2023,
@@ -429,7 +467,8 @@
       "date": "5–7 octubre",
       "type": "oral",
       "area": "Farmacia Hospitalaria",
-      "id": "c2023-07"
+      "id": "c2023-07",
+      "posterFile": "/posters/c2023-07.pdf"
     },
     {
       "year": 2023,
@@ -440,7 +479,8 @@
       "date": "24–26 mayo",
       "type": "oral",
       "area": "Nutrición",
-      "id": "c2023-06"
+      "id": "c2023-06",
+      "posterFile": "/posters/c2023-06.pdf"
     },
     {
       "year": 2023,
@@ -451,7 +491,8 @@
       "date": "17 noviembre",
       "type": "oral",
       "area": "Dermatología",
-      "id": "c2023-08"
+      "id": "c2023-08",
+      "posterFile": "/posters/c2023-08.pdf"
     },
     {
       "year": 2023,
@@ -462,7 +503,8 @@
       "date": "1–3 junio",
       "type": "poster",
       "area": "VIH/Infecciosas",
-      "id": "c2023-02"
+      "id": "c2023-02",
+      "posterFile": "/posters/c2023-02.pdf"
     },
     {
       "year": 2023,
@@ -473,7 +515,8 @@
       "date": "24–26 noviembre 2022",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2023-01"
+      "id": "c2023-01",
+      "posterFile": "/posters/c2023-01.pdf"
     },
     {
       "year": 2023,
@@ -484,7 +527,8 @@
       "date": "5–7 octubre",
       "type": "poster",
       "area": "EII",
-      "id": "c2023-04"
+      "id": "c2023-04",
+      "posterFile": "/posters/c2023-04.pdf"
     },
     {
       "year": 2023,
@@ -495,7 +539,8 @@
       "date": "5–7 octubre",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2023-03"
+      "id": "c2023-03",
+      "posterFile": "/posters/c2023-03.pdf"
     },
     {
       "year": 2023,
@@ -506,7 +551,8 @@
       "date": "5–7 octubre",
       "type": "poster",
       "area": "Reumatología",
-      "id": "c2023-05"
+      "id": "c2023-05",
+      "posterFile": "/posters/c2023-05.pdf"
     },
     {
       "year": 2022,
@@ -517,7 +563,8 @@
       "date": "17 mayo",
       "type": "oral",
       "area": "Telefarmacia/PROMs",
-      "id": "c2022-05"
+      "id": "c2022-05",
+      "posterFile": "/posters/c2022-05.pdf"
     },
     {
       "year": 2022,
@@ -528,7 +575,8 @@
       "date": "18–21 octubre 2021",
       "type": "poster",
       "area": "VIH/Infecciosas",
-      "id": "c2022-01"
+      "id": "c2022-01",
+      "posterFile": "/posters/c2022-01.pdf"
     },
     {
       "year": 2022,
@@ -539,7 +587,8 @@
       "date": "24–26 noviembre",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2022-03"
+      "id": "c2022-03",
+      "posterFile": "/posters/c2022-03.pdf"
     },
     {
       "year": 2022,
@@ -550,7 +599,8 @@
       "date": "24–26 noviembre",
       "type": "poster",
       "area": "VIH/Infecciosas",
-      "id": "c2022-04"
+      "id": "c2022-04",
+      "posterFile": "/posters/c2022-04.pdf"
     },
     {
       "year": 2022,
@@ -561,7 +611,8 @@
       "date": "10–13 mayo",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2022-02"
+      "id": "c2022-02",
+      "posterFile": "/posters/c2022-02.pdf"
     },
     {
       "year": 2021,
@@ -572,7 +623,8 @@
       "date": "18–21 octubre",
       "type": "oral",
       "area": "Telefarmacia/PROMs",
-      "id": "c2021-04"
+      "id": "c2021-04",
+      "posterFile": "/posters/c2021-04.pdf"
     },
     {
       "year": 2021,
@@ -583,7 +635,8 @@
       "date": "20–22 octubre 2020",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2021-01"
+      "id": "c2021-01",
+      "posterFile": "/posters/c2021-01.pdf"
     },
     {
       "year": 2021,
@@ -594,7 +647,8 @@
       "date": "18–21 octubre",
       "type": "poster",
       "area": "Nutrición",
-      "id": "c2021-03"
+      "id": "c2021-03",
+      "posterFile": "/posters/c2021-03.pdf"
     },
     {
       "year": 2021,
@@ -616,7 +670,8 @@
       "date": "20–22 octubre",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2020-05"
+      "id": "c2020-05",
+      "posterFile": "/posters/c2020-05.pdf"
     },
     {
       "year": 2020,
@@ -627,7 +682,8 @@
       "date": "17–19 octubre 2019",
       "type": "poster",
       "area": "Reumatología",
-      "id": "c2020-01"
+      "id": "c2020-01",
+      "posterFile": "/posters/c2020-01.pdf"
     },
     {
       "year": 2020,
@@ -638,7 +694,8 @@
       "date": "20–22 octubre",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2020-08"
+      "id": "c2020-08",
+      "posterFile": "/posters/c2020-08.pdf"
     },
     {
       "year": 2020,
@@ -649,7 +706,8 @@
       "date": "20–22 octubre",
       "type": "poster",
       "area": "VIH/Infecciosas",
-      "id": "c2020-03"
+      "id": "c2020-03",
+      "posterFile": "/posters/c2020-03.pdf"
     },
     {
       "year": 2020,
@@ -660,7 +718,8 @@
       "date": "20–22 octubre",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2020-06"
+      "id": "c2020-06",
+      "posterFile": "/posters/c2020-06.pdf"
     },
     {
       "year": 2020,
@@ -671,7 +730,8 @@
       "date": "20–22 octubre",
       "type": "poster",
       "area": "VIH/Infecciosas",
-      "id": "c2020-02"
+      "id": "c2020-02",
+      "posterFile": "/posters/c2020-02.pdf"
     },
     {
       "year": 2020,
@@ -682,7 +742,8 @@
       "date": "20–22 octubre",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2020-09"
+      "id": "c2020-09",
+      "posterFile": "/posters/c2020-09.pdf"
     },
     {
       "year": 2020,
@@ -693,7 +754,8 @@
       "date": "20–22 octubre",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2020-04"
+      "id": "c2020-04",
+      "posterFile": "/posters/c2020-04.pdf"
     },
     {
       "year": 2020,
@@ -704,7 +766,8 @@
       "date": "20–22 octubre",
       "type": "poster",
       "area": "Esclerosis Múltiple",
-      "id": "c2020-10"
+      "id": "c2020-10",
+      "posterFile": "/posters/c2020-10.pdf"
     },
     {
       "year": 2020,
@@ -715,7 +778,8 @@
       "date": "20–22 octubre",
       "type": "poster",
       "area": "Telefarmacia/PROMs",
-      "id": "c2020-07"
+      "id": "c2020-07",
+      "posterFile": "/posters/c2020-07.pdf"
     },
     {
       "year": 2019,
@@ -726,7 +790,8 @@
       "date": "6–9 noviembre 2018",
       "type": "poster",
       "area": "VIH/Infecciosas",
-      "id": "c2019-01"
+      "id": "c2019-01",
+      "posterFile": "/posters/c2019-01.pdf"
     },
     {
       "year": 2018,
@@ -737,7 +802,8 @@
       "date": "8–10 noviembre",
       "type": "poster",
       "area": "Reumatología",
-      "id": "c2018-02"
+      "id": "c2018-02",
+      "posterFile": "/posters/c2018-02.pdf"
     },
     {
       "year": 2018,
@@ -748,7 +814,8 @@
       "date": "18–21 octubre 2017",
       "type": "poster",
       "area": "VIH/Infecciosas",
-      "id": "c2018-01"
+      "id": "c2018-01",
+      "posterFile": "/posters/c2018-01.pdf"
     },
     {
       "year": 2018,
@@ -759,7 +826,8 @@
       "date": "8–10 noviembre",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2018-03"
+      "id": "c2018-03",
+      "posterFile": "/posters/c2018-03.pdf"
     },
     {
       "year": 2017,
@@ -770,7 +838,8 @@
       "date": "18–21 octubre",
       "type": "poster",
       "area": "Reumatología",
-      "id": "c2017-04"
+      "id": "c2017-04",
+      "posterFile": "/posters/c2017-04.pdf"
     },
     {
       "year": 2017,
@@ -781,7 +850,8 @@
       "date": "18–21 octubre",
       "type": "poster",
       "area": "Reumatología",
-      "id": "c2017-03"
+      "id": "c2017-03",
+      "posterFile": "/posters/c2017-03.pdf"
     },
     {
       "year": 2017,
@@ -792,7 +862,8 @@
       "date": "18–21 octubre",
       "type": "poster",
       "area": "Reumatología",
-      "id": "c2017-02"
+      "id": "c2017-02",
+      "posterFile": "/posters/c2017-02.pdf"
     },
     {
       "year": 2017,
@@ -803,7 +874,8 @@
       "date": "10–13 noviembre 2015",
       "type": "poster",
       "area": "Nutrición",
-      "id": "c2017-01"
+      "id": "c2017-01",
+      "posterFile": "/posters/c2017-01.pdf"
     },
     {
       "year": 2015,
@@ -814,7 +886,8 @@
       "date": "25–27 marzo",
       "type": "poster",
       "area": "Oftalmología",
-      "id": "c2015-03"
+      "id": "c2015-03",
+      "posterFile": "/posters/c2015-03.pdf"
     },
     {
       "year": 2015,
@@ -825,7 +898,8 @@
       "date": "8–12 noviembre 2014",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2015-01"
+      "id": "c2015-01",
+      "posterFile": "/posters/c2015-01.pdf"
     },
     {
       "year": 2015,
@@ -836,7 +910,8 @@
       "date": "25–27 marzo",
       "type": "poster",
       "area": "VIH/Infecciosas",
-      "id": "c2015-02"
+      "id": "c2015-02",
+      "posterFile": "/posters/c2015-02.pdf"
     },
     {
       "year": 2015,
@@ -847,7 +922,8 @@
       "date": "10–13 noviembre",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2015-04"
+      "id": "c2015-04",
+      "posterFile": "/posters/c2015-04.pdf"
     },
     {
       "year": 2015,
@@ -858,7 +934,8 @@
       "date": "10–13 noviembre",
       "type": "poster",
       "area": "Esclerosis Múltiple",
-      "id": "c2015-05"
+      "id": "c2015-05",
+      "posterFile": "/posters/c2015-05.pdf"
     },
     {
       "year": 2014,
@@ -891,7 +968,8 @@
       "date": "2–5 octubre 2012",
       "type": "poster",
       "area": "Oncología",
-      "id": "c2013-01"
+      "id": "c2013-01",
+      "posterFile": "/posters/c2013-01.pdf"
     },
     {
       "year": 2012,
@@ -902,7 +980,8 @@
       "date": "8–11 mayo",
       "type": "poster",
       "area": "Nutrición",
-      "id": "c2012-02"
+      "id": "c2012-02",
+      "posterFile": "/posters/c2012-02.pdf"
     },
     {
       "year": 2012,
@@ -913,7 +992,8 @@
       "date": "3–6 septiembre 2011",
       "type": "poster",
       "area": "Nutrición",
-      "id": "c2012-01"
+      "id": "c2012-01",
+      "posterFile": "/posters/c2012-01.pdf"
     },
     {
       "year": 2011,
@@ -935,7 +1015,8 @@
       "date": "2010",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2011-01"
+      "id": "c2011-01",
+      "posterFile": "/posters/c2011-01.pdf"
     },
     {
       "year": 2011,
@@ -968,7 +1049,8 @@
       "date": "",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2010-03"
+      "id": "c2010-03",
+      "posterFile": "/posters/c2010-03.pdf"
     },
     {
       "year": 2010,
@@ -979,7 +1061,8 @@
       "date": "",
       "type": "poster",
       "area": "Nutrición",
-      "id": "c2010-02"
+      "id": "c2010-02",
+      "posterFile": "/posters/c2010-02.pdf"
     },
     {
       "year": 2010,
@@ -990,7 +1073,8 @@
       "date": "6–10 diciembre 2009",
       "type": "poster",
       "area": "Miscelánea",
-      "id": "c2010-01"
+      "id": "c2010-01",
+      "posterFile": "/posters/c2010-01.pdf"
     },
     {
       "year": 2009,
@@ -1001,7 +1085,8 @@
       "date": "",
       "type": "oral",
       "area": "Nutrición",
-      "id": "c2009-06"
+      "id": "c2009-06",
+      "posterFile": "/posters/c2009-06.pdf"
     },
     {
       "year": 2009,
@@ -1012,7 +1097,8 @@
       "date": "21–24 octubre 2008",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2009-01"
+      "id": "c2009-01",
+      "posterFile": "/posters/c2009-01.pdf"
     },
     {
       "year": 2009,
@@ -1034,7 +1120,8 @@
       "date": "",
       "type": "poster",
       "area": "Nutrición",
-      "id": "c2009-05"
+      "id": "c2009-05",
+      "posterFile": "/posters/c2009-05.pdf"
     },
     {
       "year": 2009,
@@ -1045,7 +1132,8 @@
       "date": "",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2009-04"
+      "id": "c2009-04",
+      "posterFile": "/posters/c2009-04.pdf"
     },
     {
       "year": 2009,
@@ -1078,7 +1166,8 @@
       "date": "21–24 octubre",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2008-04"
+      "id": "c2008-04",
+      "posterFile": "/posters/c2008-04.pdf"
     },
     {
       "year": 2008,
@@ -1089,7 +1178,8 @@
       "date": "26–29 septiembre 2006",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2008-01"
+      "id": "c2008-01",
+      "posterFile": "/posters/c2008-01.pdf"
     },
     {
       "year": 2008,
@@ -1111,7 +1201,8 @@
       "date": "21–24 octubre",
       "type": "poster",
       "area": "Nutrición",
-      "id": "c2008-05"
+      "id": "c2008-05",
+      "posterFile": "/posters/c2008-05.pdf"
     },
     {
       "year": 2008,
@@ -1122,7 +1213,8 @@
       "date": "21–24 octubre",
       "type": "poster",
       "area": "Nutrición",
-      "id": "c2008-03"
+      "id": "c2008-03",
+      "posterFile": "/posters/c2008-03.pdf"
     },
     {
       "year": 2007,
@@ -1166,7 +1258,8 @@
       "date": "26–29 septiembre",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2006-04"
+      "id": "c2006-04",
+      "posterFile": "/posters/c2006-04.pdf"
     },
     {
       "year": 2006,
@@ -1177,7 +1270,8 @@
       "date": "26–29 septiembre",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2006-05"
+      "id": "c2006-05",
+      "posterFile": "/posters/c2006-05.pdf"
     },
     {
       "year": 2006,
@@ -1188,7 +1282,8 @@
       "date": "27–30 septiembre 2005",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2006-01"
+      "id": "c2006-01",
+      "posterFile": "/posters/c2006-01.pdf"
     },
     {
       "year": 2006,
@@ -1276,7 +1371,8 @@
       "date": "27–30 septiembre",
       "type": "poster",
       "area": "Dermatología",
-      "id": "c2005-05"
+      "id": "c2005-05",
+      "posterFile": "/posters/c2005-05.pdf"
     },
     {
       "year": 2004,
@@ -1331,7 +1427,8 @@
       "date": "5–8 octubre",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2004-03"
+      "id": "c2004-03",
+      "posterFile": "/posters/c2004-03.pdf"
     },
     {
       "year": 2004,
@@ -1342,7 +1439,8 @@
       "date": "5–8 octubre",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2004-02"
+      "id": "c2004-02",
+      "posterFile": "/posters/c2004-02.pdf"
     },
     {
       "year": 2004,
@@ -1364,7 +1462,8 @@
       "date": "5–8 octubre",
       "type": "poster",
       "area": "Farmacia Hospitalaria",
-      "id": "c2004-05"
+      "id": "c2004-05",
+      "posterFile": "/posters/c2004-05.pdf"
     },
     {
       "year": 2003,

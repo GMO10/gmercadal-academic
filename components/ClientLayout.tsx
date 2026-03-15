@@ -21,14 +21,14 @@ function NavBar() {
 
   return (
     <nav className="nav-main" aria-label="Main navigation">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-serif font-bold text-xl text-white no-underline hover:text-gold transition-all group">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex items-center justify-between">
+        <Link href="/" className="font-serif font-bold text-2xl text-white no-underline hover:text-gold transition-all group">
           <span className="text-gold">Dr.</span> G. Mercadal-Orfila
         </Link>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-8">
-          <ul className="flex gap-7 list-none m-0 p-0">
+        <div className="hidden lg:flex items-center gap-6">
+          <ul className="flex gap-5 list-none m-0 p-0">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link href={link.href} className="nav-link">{link.label}</Link>
@@ -38,28 +38,39 @@ function NavBar() {
           <LangSwitcher />
         </div>
 
+        {/* Tablet hamburger (visible md-lg) */}
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="lg:hidden hidden md:flex flex-col gap-1.5 p-2 bg-transparent border-none cursor-pointer"
+          aria-label="Toggle menu"
+        >
+          <span className={`block w-6 h-0.5 bg-white transition-all ${menuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+          <span className={`block w-6 h-0.5 bg-white transition-all ${menuOpen ? 'opacity-0' : ''}`}></span>
+          <span className={`block w-6 h-0.5 bg-white transition-all ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+        </button>
+
         {/* Mobile hamburger */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden flex flex-col gap-1.5 p-2 bg-transparent border-none cursor-pointer"
           aria-label="Toggle menu"
         >
-          <span className={`block w-5 h-0.5 bg-white transition-all ${menuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-          <span className={`block w-5 h-0.5 bg-white transition-all ${menuOpen ? 'opacity-0' : ''}`}></span>
-          <span className={`block w-5 h-0.5 bg-white transition-all ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+          <span className={`block w-6 h-0.5 bg-white transition-all ${menuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+          <span className={`block w-6 h-0.5 bg-white transition-all ${menuOpen ? 'opacity-0' : ''}`}></span>
+          <span className={`block w-6 h-0.5 bg-white transition-all ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
         </button>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile/Tablet menu */}
       {menuOpen && (
-        <div className="md:hidden border-t border-white/10 bg-navy-mid px-4 pb-4">
+        <div className="lg:hidden border-t border-white/10 bg-navy-mid px-4 pb-4">
           <ul className="list-none m-0 p-0 space-y-3 pt-3">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="block text-base font-medium text-white/80 no-underline py-1 hover:text-gold transition-colors"
+                  className="block text-lg font-semibold text-white/85 no-underline py-1.5 hover:text-gold transition-colors uppercase tracking-wide"
                 >
                   {link.label}
                 </Link>
