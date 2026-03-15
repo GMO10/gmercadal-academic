@@ -1,205 +1,240 @@
 {
-  "lastUpdated": "2026-03-15T12:49:02.552Z",
-  "count": 34,
+  "lastUpdated": "2026-03-15T16:35:22.346Z",
+  "count": 35,
+  "yearIndex": {
+    "2003": [
+      "pub-0fcf1f1b7403",
+      "pub-48f4353891e1"
+    ],
+    "2004": [
+      "doi-10-4321-s0212-71992004000600009",
+      "pub-e1ddf3d6c580"
+    ],
+    "2005": [
+      "doi-10-1093-ajhp-62-1-36",
+      "pub-7370bc099323",
+      "pub-5750a60e0587"
+    ],
+    "2006": [
+      "pub-a22b8bf86b11",
+      "pub-ee5cc309d57d"
+    ],
+    "2007": [
+      "pub-325098284d80",
+      "pub-1bc68658fd3b",
+      "pub-4f903e44f027"
+    ],
+    "2008": [
+      "doi-10-1007-s11096-008-9265-9"
+    ],
+    "2010": [
+      "doi-10-1016-j-farma-2009-10-007"
+    ],
+    "2011": [
+      "doi-10-1590-s0212-16112011000600017",
+      "doi-10-1016-j-farma-2010-10-008",
+      "doi-10-3305-nh-2011-26-6-5253"
+    ],
+    "2012": [
+      "doi-10-3305-nh-2012-27-4-5791"
+    ],
+    "2014": [
+      "doi-10-3305-nh-2014-30-3-7204"
+    ],
+    "2015": [
+      "doi-10-1007-978-1-4939-1932-1-23"
+    ],
+    "2016": [
+      "pub-e9ce847145eb"
+    ],
+    "2018": [
+      "doi-10-20960-nh-1426",
+      "pub-ceb462962d5d"
+    ],
+    "2022": [
+      "pmid-36520573",
+      "pmid-36520562",
+      "pub-98d3dde4abf1"
+    ],
+    "2023": [
+      "doi-10-1080-09540121-2022-2067518"
+    ],
+    "2024": [
+      "doi-10-2196-56196",
+      "doi-10-2196-preprints-56196",
+      "doi-10-1177-11786329241258856",
+      "doi-10-3389-fmed-2024-1465725"
+    ],
+    "2025": [
+      "doi-10-2147-IPRP-S492422",
+      "doi-10-3389-fendo-2025-1731194",
+      "doi-10-1016-j-farma-2024-08-004"
+    ],
+    "2026": [
+      "doi-10-2196-preprints-92890"
+    ]
+  },
   "publications": [
     {
-      "id": "doi:10.2196/preprints.92890",
+      "id": "doi-10-2196-preprints-92890",
       "title": "Mobile App for Multidimensional Monitoring of Immune-Mediated Inflammatory Diseases: A Multicenter Prospective Study (Preprint)",
-      "authors": [
-        "Escudero-Vilaplana V",
-        "Lobato-Matilla E",
-        "Revilla-Cuesta N",
-        "Herrero Fernández M",
-        "Matilla García E",
-        "Gónzalez-Ponce C",
-        "Mercadal-Orfila G",
-        "López-Sánchez P",
-        "Ramirez-Herraiz E",
-        "Romero-Jimenez R",
-        "Arnaiz-Diez S",
-        "De-Caceres-Velasco C",
-        "Fernández Cebrecos I",
-        "Ferris-Villanueva M",
-        "Marcos-Rodríguez J",
-        "Chamorro-de-Vega E"
-      ],
       "year": 2026,
-      "date": "2026-2-4",
-      "type": "posted-content",
+      "type": "preprint",
       "doi": "10.2196/preprints.92890",
       "pmid": null,
-      "orcidPutCode": "204738960",
-      "abstract": "BACKGROUND\n                  Immune-mediated inflammatory diseases (IMIDs) require long-term treatment with biologic therapies or targeted small molecules. Although these therapies have improved outcomes, routine care still faces important challenges, including medication adherence, early recognition and management of adverse events (AEs), and systematic collection of patient-reported outcome measures (PROMs). Mobile health (mHealth) tools may facilitate multidimensional follow-up between scheduled visits.\n                \n                \n                  OBJECTIVE\n                  To assess the feasibility and real-world use of the eMidCare mobile app among IMID outpatients initiating a new biologic or targeted small-molecule therapy, focusing on medication adherence monitoring, AE reporting, health-related quality of life and mental health PROMs, patient-health care professional communication, app usability, and patient satisfaction.\n                \n                \n             …",
-      "url": "https://doi.org/10.2196/preprints.92890",
-      "sources": [
-        "orcid",
-        "crossref"
-      ]
-    },
-    {
-      "id": "doi:10.1016/j.farma.2024.08.004",
-      "title": "[Translated article] Patient-reported outcome measures for assessing atopic dermatitis in clinical practice",
+      "journal": null,
       "authors": [
-        "Mercadal-Orfila G",
-        "Seguí-Solanes C",
-        "Rudi-Sola N",
-        "Escriva-Sancho M",
-        "Taberner-Ferrer R"
+        "Escudero-Vilaplana, Vicente",
+        "Lobato-Matilla, Elena",
+        "Revilla-Cuesta, Natalia",
+        "Herrero Fernández, Marta",
+        "Matilla García, Elena",
+        "Gónzalez-Ponce, Celia M",
+        "Mercadal-Orfila, Gabriel",
+        "López-Sánchez, Piedad",
+        "Ramirez-Herraiz, Esther",
+        "Romero-Jimenez, Rosa",
+        "Arnaiz-Diez, Sara",
+        "De-Caceres-Velasco, Carmen",
+        "Fernández Cebrecos, Inés",
+        "Ferris-Villanueva, María",
+        "Marcos-Rodríguez, Jose Antonio",
+        "Chamorro-de-Vega, Esther"
       ],
-      "year": 2025,
-      "date": "2025 Jan-Feb",
-      "journal": "Farmacia Hospitalaria",
-      "type": "journal-article",
-      "doi": "10.1016/j.farma.2024.08.004",
-      "pmid": "39299870",
-      "orcidPutCode": null,
-      "abstract": null,
-      "url": "https://doi.org/10.1016/j.farma.2024.08.004",
-      "sources": [
-        "pubmed",
-        "crossref"
-      ]
+      "abstract": "\n                  BACKGROUND\n                  Immune-mediated inflammatory diseases (IMIDs) require long-term treatment with biologic therapies or targeted small molecules. Although these therapies have improved outcomes, routine care still faces important challenges, including medication adherence, early recognition and management of adverse events (AEs), and systematic collection of patient-reported outcome measures (PROMs). Mobile health (mHealth) tools may facilitate multidimensional follow-up between scheduled visits.\n                \n                \n                  OBJECTIVE\n                  To assess the feasibility and real-world use of the eMidCare mobile app among IMID outpatients initiating a new biologic or targeted small-molecule therapy, focusing on medication adherence monitoring, AE reporting, health-related quality of life and mental health PROMs, patient-health care professional communication, app usability, and patient satisfaction.\n                \n                \n                  METHODS\n                  We conducted a prospective, multicenter observational study across 10 Spanish hospitals. Adult IMID outpatients who initiated a new biologic or targeted small-molecule therapy between May and October 2025 installed eMidCare during pharmacist-led onboarding. Outcomes were derived from routinely captured in-app data: medication recording and Morisky-Green questionnaire (adherence), AE self-reporting (safety), EQ-5D-5L and Hospital Anxiety and Depression (HAD) scale (PROMs), and in-app messaging (communication). Usability was assessed using Google Analytics for Firebase and backend logs. Group comparisons across specialties used appropriate nonparametric and categorical tests, with significance set at P&lt;.05.\n                \n                \n                  RESULTS\n                  A total of 192 patients were enrolled; 27 (14.1%) did not use the app after installation. The final impact analysis included 165 patients (73 rheumatology, 49 gastroenterology, and 43 dermatology). Adalimumab was the most frequently prescribed therapy (41.8%), and most treatments were subcutaneous (82.4%). Overall, 110/165 (66.7%) patients recorded 1,233 administrations; based on administration logs, 91.7% were classified as adherent. A total of 67 unique patients completed the Morisky-Green questionnaire 174 times; 84.5% were classified as adherent, with no differences across specialties (P=.793). A total of 178 AEs were recorded, and 39/165 (23.6%) patients reported ≥1 AE, with no differences across specialties (P=.340). Median time to first AE was 39.6 days. EQ-5D-5L was completed by 96/165 (58.2%) patients (190 questionnaires); the median index was 0.805 (0.620, 0.922) and EQ VAS was 75 (50, 85), with rheumatology scoring lower than gastroenterology. Communication included 303 messages across 132 conversation threads (87.9% patient-initiated); 62/165 (37.8%) patients sent ≥1 message, with higher use in dermatology (P=.043). Nearly half of patient messages (49.4%) were sent outside working hours, with no specialty differences (P=.818). Median interactions were 15.0 per patient-week, retention declined gradually with weekly retention remaining &gt;65% at later follow-up points, and backend logs showed no recorded errors with all Application Programming Interface (API) calls (N=67,237) successfully completed. Median overall satisfaction was 9 (9, 10).\n                \n                \n                  CONCLUSIONS\n                  In real-world, multicenter practice, eMidCare was feasible and well accepted for longitudinal follow-up of IMID outpatients initiating a new biologic or targeted small-molecule therapy. The app supported adherence monitoring and AE reporting, enabled PROM collection, and facilitated patient-initiated messaging (including out-of-hours contact) with high user satisfaction.\n                ",
+      "url": "https://doi.org/10.2196/preprints.92890"
     },
     {
-      "id": "doi:10.2147/iprp.s492422",
+      "id": "doi-10-2147-IPRP-S492422",
       "title": "Developing a Prototype Machine Learning Model to Predict Quality of Life Measures in People Living With HIV",
-      "authors": [
-        "Mercadal-Orfila G",
-        "Serrano López de las Hazas J",
-        "Riera-Jaume M",
-        "Herrera-Perez S"
-      ],
       "year": 2025,
-      "date": "2025-1",
-      "journal": "Integrated Pharmacy Research and Practice",
       "type": "journal-article",
-      "doi": "10.2147/iprp.s492422",
+      "doi": "10.2147/IPRP.S492422",
       "pmid": "39872224",
-      "orcidPutCode": "176302071",
+      "journal": "Integrated Pharmacy Research and Practice",
+      "authors": [
+        "Mercadal-Orfila, Gabriel",
+        "Serrano López de las Hazas, Joaquin",
+        "Riera-Jaume, Melchor",
+        "Herrera-Perez, Salvador"
+      ],
       "abstract": null,
-      "url": "https://doi.org/10.2147/iprp.s492422",
-      "sources": [
-        "orcid",
-        "crossref",
-        "pubmed"
-      ]
+      "url": "https://doi.org/10.2147/IPRP.S492422"
     },
     {
-      "id": "doi:10.3389/fendo.2025.1731194",
-      "title": "The NAVETA obesity consensus tool: a multidimensional framework for clinical and patient-reported outcome assessment",
+      "id": "doi-10-3389-fendo-2025-1731194",
+      "title": "The NAVETA obesity consensus tool: a multidimensional framework for clinical and patient-reported outcome assessment.",
+      "year": 2025,
+      "type": "journal-article",
+      "doi": "10.3389/fendo.2025.1731194",
+      "pmid": "41585787",
+      "journal": "Frontiers in endocrinology",
       "authors": [
         "Mercadal-Orfila G",
         "Lluch-Taltavull J",
         "Cuatrecasas G",
-        "García J",
-        "Maestre-Fullana M",
+        "García JM",
+        "Maestre-Fullana MA",
         "Herrera-Pérez S"
       ],
-      "year": 2025,
-      "date": "2025",
-      "journal": "Frontiers in Endocrinology",
-      "type": "journal-article",
-      "doi": "10.3389/fendo.2025.1731194",
-      "pmid": "41585787",
-      "orcidPutCode": null,
-      "abstract": "Background\n                    Obesity is a chronic, multifactorial, and relapsing disease that profoundly impairs physical, psychological, and social functioning, leading to substantial deterioration in health-related quality of life (HRQoL). Despite growing evidence on the clinical and organizational value of patient-reported outcome measures (PROMs) and patient-reported experience measures (PREMs), their systematic integration into obesity care—particularly within the Spanish healthcare system—remains limited.\n                  \n                  \n                    Objective\n                    To develop the NAVETA Obesity Consensus Tool, a multidisciplinary, consensus-based framework that standardizes the multidimensional assessment of individuals living with obesity by integrating validated PROMs, PREMs, and clinical indicators within a digital, value-based healthcare (VBHC) model.\n                  \n                  \n                    Methods\n                    Between Oct…",
-      "url": "https://doi.org/10.3389/fendo.2025.1731194",
-      "sources": [
-        "pubmed",
-        "crossref"
-      ]
+      "abstract": null,
+      "url": "https://doi.org/10.3389/fendo.2025.1731194"
     },
     {
-      "id": "doi:10.2196/56196",
-      "title": "Implementing Systematic Patient-Reported Measures for Chronic Conditions Through the Naveta Value-Based Telemedicine Initiative: Observational Retrospective Multicenter Study",
+      "id": "doi-10-1016-j-farma-2024-08-004",
+      "title": "[Translated article] Patient-reported outcome measures for assessing atopic dermatitis in clinical practice.",
+      "year": 2025,
+      "type": "journal-article",
+      "doi": "10.1016/j.farma.2024.08.004",
+      "pmid": "39299870",
+      "journal": "Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria",
       "authors": [
         "Mercadal-Orfila G",
-        "Herrera-Pérez S",
-        "Piqué N",
-        "Mateu-Amengual F",
-        "Ventayol-Bosch P",
-        "Maestre-Fullana M",
-        "Serrano-López de las Hazas J",
-        "Fernández-Cortés F",
-        "Barceló-Sansó F",
-        "Rios S"
+        "Seguí-Solanes C",
+        "Rudi-Sola N",
+        "Escriva-Sancho ME",
+        "Taberner-Ferrer R"
       ],
+      "abstract": null,
+      "url": "https://doi.org/10.1016/j.farma.2024.08.004"
+    },
+    {
+      "id": "doi-10-2196-56196",
+      "title": "Implementing Systematic Patient-Reported Measures for Chronic Conditions Through the Naveta Value-Based Telemedicine Initiative: Observational Retrospective Multicenter Study",
       "year": 2024,
-      "date": "2024-6-28",
-      "journal": "JMIR mHealth and uHealth",
       "type": "journal-article",
       "doi": "10.2196/56196",
       "pmid": "38545697",
-      "orcidPutCode": "156416781",
-      "abstract": "Background\n                    Patient-reported outcome and experience measures can play a critical role in providing patient-centered and value-based health care to a growing population of patients who are chronically ill. Value-based telemedicine platforms such as the Naveta initiative may facilitate the effective integration of these tools into health care systems.\n                  \n                  \n                    Objective\n                    This study aims to evaluate the response rate to electronic patient-reported outcome measures (ePROMs) and electronic patient-reported experience measures (ePREMs) among patients participating in the Naveta telemedicine initiative and its correlations with sociodemographic and clinical characteristics, as well as the evolution of the response rates over time.\n                  \n                  \n                    Methods\n                    Between January 1, 2021, and June 30, 2023, a total of 53,364 ePREMs and ePROMs for 20 chroni…",
-      "url": "https://doi.org/10.2196/56196",
-      "sources": [
-        "orcid",
-        "crossref",
-        "pubmed"
-      ]
+      "journal": "JMIR mHealth and uHealth",
+      "authors": [
+        "Mercadal-Orfila, Gabriel",
+        "Herrera-Pérez, Salvador",
+        "Piqué, Núria",
+        "Mateu-Amengual, Francesc",
+        "Ventayol-Bosch, Pedro",
+        "Maestre-Fullana, María Antonia",
+        "Serrano-López de las Hazas, Joaquín Ignacio",
+        "Fernández-Cortés, Francisco",
+        "Barceló-Sansó, Francesc",
+        "Rios, Santiago"
+      ],
+      "abstract": "\n                    Background\n                    Patient-reported outcome and experience measures can play a critical role in providing patient-centered and value-based health care to a growing population of patients who are chronically ill. Value-based telemedicine platforms such as the Naveta initiative may facilitate the effective integration of these tools into health care systems.\n                  \n                  \n                    Objective\n                    This study aims to evaluate the response rate to electronic patient-reported outcome measures (ePROMs) and electronic patient-reported experience measures (ePREMs) among patients participating in the Naveta telemedicine initiative and its correlations with sociodemographic and clinical characteristics, as well as the evolution of the response rates over time.\n                  \n                  \n                    Methods\n                    Between January 1, 2021, and June 30, 2023, a total of 53,364 ePREMs and ePROMs for 20 chronic conditions were administered through the Naveta-Phemium platform. Descriptive statistics were used to summarize continuous and categorical variables. Differences in response rates within each sociodemographic variable were analyzed using logistic regression models, with significance assessed via chi-square and post hoc Tukey tests. Two-way ANOVA was used to examine the interaction between time interval and disease type on response rate evolution.\n                  \n                  \n                    Results\n                    A total of 3372 patients with severe chronic diseases from 64 public hospitals in Spain participated in the Naveta health questionnaire project. The overall response rate to ePROMs and ePREMs during the first 2.5 years of the Naveta initiative was 46.12% (24,704/53,364), with a baseline rate of 53.33% (7198/13,496). Several sociodemographic factors correlated with lower response rates, including male gender, older age, lower education level, frequent alcohol use, being a student, and not being physically active. There were also significant variations in response rates among different types of chronic conditions (P&lt;.001), with the highest rates being for respiratory (433/606, 71.5%), oncologic (200/319, 62.7%), digestive (2247/3601, 62.4%), and rheumatic diseases (7506/12,982, 57.82%) and the lowest being for HIV infection (7473/22,695, 32.93%). During the first 6 months of follow-up, the response rates decreased in all disease types, except in the case of the group of patients with oncologic disease, among whom the response rate increased up to 100% (6/6). Subsequently, the overall response rate approached baseline levels.\n                  \n                  \n                    Conclusions\n                    Recognizing the influence of sociodemographic factors on response rates is critical to identifying barriers to participation in telemonitoring programs and ensuring inclusiveness in patient-centered health care practices. The observed decline in response rates at follow-up may be due to survey fatigue, highlighting the need for strategies to mitigate this effect. In addition, the variation in response rates across chronic conditions emphasizes the importance of tailoring telemonitoring approaches to specific patient populations.\n                  ",
+      "url": "https://doi.org/10.2196/56196"
     },
     {
-      "id": "doi:10.2196/preprints.56196",
+      "id": "doi-10-2196-preprints-56196",
       "title": "Implementing Systematic Patient-Reported Measures for Chronic Conditions Through the Naveta Value-Based Telemedicine Initiative: Observational Retrospective Multicenter Study (Preprint)",
-      "authors": [
-        "Mercadal-Orfila G",
-        "Herrera-Pérez S",
-        "Piqué N",
-        "Mateu-Amengual F",
-        "Ventayol-Bosch P",
-        "Maestre-Fullana M",
-        "Serrano-López de las Hazas J",
-        "Fernández-Cortés F",
-        "Barceló-Sansó F",
-        "Rios S"
-      ],
       "year": 2024,
-      "date": "2024-1-9",
-      "type": "posted-content",
+      "type": "preprint",
       "doi": "10.2196/preprints.56196",
       "pmid": null,
-      "orcidPutCode": "162562546",
-      "abstract": "BACKGROUND\n                        Patient-reported outcome and experience measures can play a critical role in providing patient-centered and value-based health care to a growing population of patients who are chronically ill. Value-based telemedicine platforms such as the Naveta initiative may facilitate the effective integration of these tools into health care systems.\n                \n                                \n                    OBJECTIVE\n                        This study aims to evaluate the response rate to electronic patient-reported outcome measures (ePROMs) and electronic patient-reported experience measures (ePREMs) among patients participating in the Naveta telemedicine initiative and its correlations with sociodemographic and clinical characteristics, as well as the evolution of the response rates over time.\n                \n                                \n                    METHODS\n                        Between January 1, 2021, and June 30, 2023, a total of 53…",
-      "url": "https://doi.org/10.2196/preprints.56196",
-      "sources": [
-        "orcid",
-        "crossref"
-      ]
+      "journal": null,
+      "authors": [
+        "Mercadal-Orfila, Gabriel",
+        "Herrera-Pérez, Salvador",
+        "Piqué, Núria",
+        "Mateu-Amengual, Francesc",
+        "Ventayol-Bosch, Pedro",
+        "Maestre-Fullana, María Antonia",
+        "Serrano-López de las Hazas, Joaquín Ignacio",
+        "Fernández-Cortés, Francisco",
+        "Barceló-Sansó, Francesc",
+        "Rios, Santiago"
+      ],
+      "abstract": "\n                    BACKGROUND\n                        Patient-reported outcome and experience measures can play a critical role in providing patient-centered and value-based health care to a growing population of patients who are chronically ill. Value-based telemedicine platforms such as the Naveta initiative may facilitate the effective integration of these tools into health care systems.\n                \n                                \n                    OBJECTIVE\n                        This study aims to evaluate the response rate to electronic patient-reported outcome measures (ePROMs) and electronic patient-reported experience measures (ePREMs) among patients participating in the Naveta telemedicine initiative and its correlations with sociodemographic and clinical characteristics, as well as the evolution of the response rates over time.\n                \n                                \n                    METHODS\n                        Between January 1, 2021, and June 30, 2023, a total of 53,364 ePREMs and ePROMs for 20 chronic conditions were administered through the Naveta-Phemium platform. Descriptive statistics were used to summarize continuous and categorical variables. Differences in response rates within each sociodemographic variable were analyzed using logistic regression models, with significance assessed via chi-square and post hoc Tukey tests. Two-way ANOVA was used to examine the interaction between time interval and disease type on response rate evolution.\n                \n                                \n                    RESULTS\n                        A total of 3372 patients with severe chronic diseases from 64 public hospitals in Spain participated in the Naveta health questionnaire project. The overall response rate to ePROMs and ePREMs during the first 2.5 years of the Naveta initiative was 46.12% (24,704/53,364), with a baseline rate of 53.33% (7198/13,496). Several sociodemographic factors correlated with lower response rates, including male gender, older age, lower education level, frequent alcohol use, being a student, and not being physically active. There were also significant variations in response rates among different types of chronic conditions (&lt;i&gt;P&lt;/i&gt;&amp;lt;.001), with the highest rates being for respiratory (433/606, 71.5%), oncologic (200/319, 62.7%), digestive (2247/3601, 62.4%), and rheumatic diseases (7506/12,982, 57.82%) and the lowest being for HIV infection (7473/22,695, 32.93%). During the first 6 months of follow-up, the response rates decreased in all disease types, except in the case of the group of patients with oncologic disease, among whom the response rate increased up to 100% (6/6). Subsequently, the overall response rate approached baseline levels.\n                \n                                \n                    CONCLUSIONS\n                        Recognizing the influence of sociodemographic factors on response rates is critical to identifying barriers to participation in telemonitoring programs and ensuring inclusiveness in patient-centered health care practices. The observed decline in response rates at follow-up may be due to survey fatigue, highlighting the need for strategies to mitigate this effect. In addition, the variation in response rates across chronic conditions emphasizes the importance of tailoring telemonitoring approaches to specific patient populations.\n                ",
+      "url": "https://doi.org/10.2196/preprints.56196"
     },
     {
-      "id": "doi:10.1177/11786329241258856",
+      "id": "doi-10-1177-11786329241258856",
       "title": "Person-Centered Coordinated Care Experience of People With Long-Term Conditions in the Balearic Islands Measured by the P3CEQ",
-      "authors": [
-        "Mercadal-Orfila G",
-        "Herrera-Pérez S",
-        "Piqué N",
-        "Mateu-Amengual F",
-        "Ventayol-Bosch P",
-        "Maestre-Fullana M",
-        "Serrano-López de las Hazas J",
-        "Fernández-Cortés F",
-        "Barceló- Sansó F",
-        "Rios S"
-      ],
       "year": 2024,
-      "date": "2024-1",
-      "journal": "Health Services Insights",
       "type": "journal-article",
       "doi": "10.1177/11786329241258856",
       "pmid": "38883804",
-      "orcidPutCode": "161524077",
-      "abstract": "Objective: This study aimed to use the Person-Centered Coordinated Care Experience Questionnaire (P3CEQ) to assess the experience of person-centered coordinated care among people with long-term conditions in the Balearic Islands, Spain. Methods: Over 1300 participants receiving treatment for chronic conditions or HIV pre-exposure prophylaxis were invited to complete the P3CEQ and a socio-demographic questionnaire, both administered electronically via the Naveta app. The P3CEQ assesses the key domains of the P3C through an 11-item questionnaire. Items 1, 2, 3, 4, 5, 8, 9 and 10 assess specifically person-centredness (PC subscale), while items 5, 6, 7, 8 and 9 measure care coordination (CC subscale; question 7 includes 4 sub-questions to specifically assess care plans). Descriptive statistics were used to summarize patient characteristics and P3CEQ items scores. Data analysis included chi-squared test of independence, Student’s t-test and analysis of variance test. Pairwise comparisons w…",
-      "url": "https://doi.org/10.1177/11786329241258856",
-      "sources": [
-        "orcid",
-        "crossref",
-        "pubmed"
-      ]
+      "journal": "Health Services Insights",
+      "authors": [
+        "Mercadal-Orfila, Gabriel",
+        "Herrera-Pérez, Salvador",
+        "Piqué, Núria",
+        "Mateu-Amengual, Francesc",
+        "Ventayol-Bosch, Pedro",
+        "Maestre-Fullana, Maria Antonia",
+        "Serrano-López de las Hazas, Joaquin Ignacio",
+        "Fernández-Cortés, Francisco",
+        "Barceló- Sansó, Francesc",
+        "Rios, Santiago"
+      ],
+      "abstract": "Objective: This study aimed to use the Person-Centered Coordinated Care Experience Questionnaire (P3CEQ) to assess the experience of person-centered coordinated care among people with long-term conditions in the Balearic Islands, Spain. Methods: Over 1300 participants receiving treatment for chronic conditions or HIV pre-exposure prophylaxis were invited to complete the P3CEQ and a socio-demographic questionnaire, both administered electronically via the Naveta app. The P3CEQ assesses the key domains of the P3C through an 11-item questionnaire. Items 1, 2, 3, 4, 5, 8, 9 and 10 assess specifically person-centredness (PC subscale), while items 5, 6, 7, 8 and 9 measure care coordination (CC subscale; question 7 includes 4 sub-questions to specifically assess care plans). Descriptive statistics were used to summarize patient characteristics and P3CEQ items scores. Data analysis included chi-squared test of independence, Student’s t-test and analysis of variance test. Pairwise comparisons were adjusted by Bonferroni correction. Results: The P3CEQ and a socio-demographic questionnaire were sent to 1313 individuals (651 men, 657 women, 5 ‘other gender’). A response rate of 35.34% was achieved, with 464 P3CEQ responders (223 men and 241 women). Significant differences in response rates were observed by age, smoking status, alcohol consumption, membership of patient organizations, and use of alternative medicine. Care planning was rated significantly lower than other measured domains. Women experienced less person-centered care than men (16.64 vs 17.91) and rated care coordination worse than their male counterparts (9.18 vs 10.23). There were also differences in scores between medical condition types, with cancer and inflammatory bowel disease patients rating highest for both person-centered care (21.20 and 19.13, respectively) and care coordination (10.70 vs 10.88, respectively). Patients with skin and rheumatic diseases rated lowest their experience of person-centered care. People with higher education and those employed or studying experienced better person-centeredness. Conclusion: Using the P3CEQ, we detected significant differences in the care experiences of people with chronic conditions, suggesting the need to address potential gender biases, social inequalities, and the poorer ratings observed for certain conditions in the study population. ",
+      "url": "https://doi.org/10.1177/11786329241258856"
     },
     {
-      "id": "doi:10.3389/fmed.2024.1465725",
-      "title": "TELEPROM Psoriasis: Enhancing patient-centered care and health-related quality of life (HRQoL) in moderate-to-severe plaque psoriasis",
+      "id": "doi-10-3389-fmed-2024-1465725",
+      "title": "TELEPROM Psoriasis: Enhancing patient-centered care and health-related quality of life (HRQoL) in moderate-to-severe plaque psoriasis.",
+      "year": 2024,
+      "type": "journal-article",
+      "doi": "10.3389/fmed.2024.1465725",
+      "pmid": "39720651",
+      "journal": "Frontiers in medicine",
       "authors": [
         "Mercadal-Orfila G",
         "López Sánchez P",
@@ -210,90 +245,55 @@
         "Padullés Zamora N",
         "Sanmartin-Fenollera P",
         "Capilla Montes C",
-        "Bernabéu Martínez M",
+        "Bernabéu Martínez MÁ",
         "Herrera-Pérez S"
       ],
-      "year": 2024,
-      "date": "2024",
-      "journal": "Frontiers in Medicine",
-      "type": "journal-article",
-      "doi": "10.3389/fmed.2024.1465725",
-      "pmid": "39720651",
-      "orcidPutCode": null,
-      "abstract": "Background and purposePsoriasis is a chronic, immune-mediated inflammatory skin disease that significantly impacts patients’ quality of life. The integration of telepharmacy has the potential to enhance patient care by providing flexible and personalized pharmaceutical follow-up. This study (TELEPROM Psoriasis) evaluates a telepharmacy model for evaluating electronic Patient-Reported outcomes (ePROMs) for individuals with moderate to severe plaque psoriasis in Spain with biological treatment.Experimental approachThis multicenter prospective quasi-experimental study included 258 adult patients initiating or switching biological/immunomodulatory therapy for moderate to severe plaque psoriasis. Patients were recruited from public hospitals in Spain and monitored through the NAVETA telepharmacy platform over a six-month period. PROMs assessed were the Psoriasis Symptoms and Signs Diary and the Dermatology Life Quality Index at baseline, 1 month, 3 months, and 6 months. Data were analyzed u…",
-      "url": "https://doi.org/10.3389/fmed.2024.1465725",
-      "sources": [
-        "pubmed",
-        "crossref"
-      ]
+      "abstract": null,
+      "url": "https://doi.org/10.3389/fmed.2024.1465725"
     },
     {
-      "id": "doi:10.1080/09540121.2022.2067518",
+      "id": "doi-10-1080-09540121-2022-2067518",
       "title": "HIV-positive women have higher prevalence of comorbidities and anticholinergic burden: assessment of the HIV-positive population from Menorca (Balearic Islands)",
-      "authors": [
-        "Mercadal-Orfila G",
-        "Font J",
-        "Pons M",
-        "Blasco Mascaró I",
-        "Piqué N"
-      ],
-      "year": 2022,
-      "date": "2022-4-27",
-      "journal": "AIDS Care",
+      "year": 2023,
       "type": "journal-article",
       "doi": "10.1080/09540121.2022.2067518",
       "pmid": "35473442",
-      "orcidPutCode": "112126871",
+      "journal": "AIDS Care",
+      "authors": [
+        "Mercadal-Orfila, Gabriel",
+        "Font, Julia",
+        "Pons, Marta",
+        "Blasco Mascaró, Ignacio",
+        "Piqué, Núria"
+      ],
       "abstract": null,
-      "url": "https://doi.org/10.1080/09540121.2022.2067518",
-      "sources": [
-        "orcid",
-        "crossref",
-        "pubmed"
-      ]
+      "url": "https://doi.org/10.1080/09540121.2022.2067518"
     },
     {
-      "id": "pmid:36520573",
+      "id": "pmid-36520573",
       "title": "Humanization Guide of the Spanish Society of Hospital Pharmacy for patients with inflammatory immune-mediated diseases.",
+      "year": 2022,
+      "type": "journal-article",
+      "doi": null,
+      "pmid": "36520573",
+      "journal": "Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria",
       "authors": [
         "Álvarez-Díaz AM",
         "Mercadal-Orfila G",
         "Ramírez-Herráiz E",
         "Borrás-Blasco J"
       ],
-      "year": 2022,
-      "date": "2022 Nov 13",
-      "journal": "Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria",
-      "type": "journal-article",
-      "doi": null,
-      "pmid": "36520573",
-      "orcidPutCode": null,
       "abstract": null,
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36520573/",
-      "sources": [
-        "pubmed"
-      ]
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36520573/"
     },
     {
-      "id": "hash:9j75sy",
-      "title": "Humanization Guide of the Spanish Society of Hospital Pharmacy for patients with inflammatory immune-mediated diseases.",
-      "authors": [],
-      "year": 2022,
-      "date": null,
-      "journal": null,
-      "type": "journal-article",
-      "doi": null,
-      "pmid": null,
-      "orcidPutCode": "125374197",
-      "abstract": null,
-      "url": null,
-      "sources": [
-        "orcid"
-      ]
-    },
-    {
-      "id": "pmid:36520562",
+      "id": "pmid-36520562",
       "title": "Outpatient pharmaceutical care satisfaction survey through Telepharmacy during COVID-19 pandemic in Spain.",
+      "year": 2022,
+      "type": "journal-article",
+      "doi": null,
+      "pmid": "36520562",
+      "journal": "Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria",
       "authors": [
         "Mercadal-Orfila G",
         "Lizeaga G",
@@ -303,517 +303,331 @@
         "Morillo-Verdugo R",
         "Negro-Vega E"
       ],
+      "abstract": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36520562/"
+    },
+    {
+      "id": "pub-98d3dde4abf1",
+      "title": "Humanization Guide of the Spanish Society of Hospital Pharmacy for patients with inflammatory immune-mediated diseases.",
       "year": 2022,
-      "date": "2022 Oct 30",
-      "journal": "Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria",
-      "type": "journal-article",
-      "doi": null,
-      "pmid": "36520562",
-      "orcidPutCode": null,
-      "abstract": null,
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36520562/",
-      "sources": [
-        "pubmed"
-      ]
-    },
-    {
-      "id": "doi:10.2147/jmdh.s343528",
-      "title": "Outpatients’ Opinion And Experience Regarding Telepharmacy During The COVID-19 Pandemic: The Enopex Project",
-      "authors": [
-        "Margusino-Framiñán L",
-        "Fernández-Llamazares C",
-        "Negro-Vega E",
-        "Begoña Tortajada-Goitia B",
-        "Lizeaga G",
-        "Mercadal-Orfila G",
-        "Almeida-González C",
-        "Morillo-Verdugo R"
-      ],
-      "year": 2021,
-      "date": "2021",
-      "journal": "Journal of Multidisciplinary Healthcare",
-      "type": "journal-article",
-      "doi": "10.2147/jmdh.s343528",
-      "pmid": "35002251",
-      "orcidPutCode": null,
-      "abstract": null,
-      "url": "https://doi.org/10.2147/jmdh.s343528",
-      "sources": [
-        "pubmed",
-        "crossref"
-      ]
-    },
-    {
-      "id": "hash:p4hz36",
-      "title": "Improvement of the nutritional status and quality of life of cancer patients through a protocol of evaluation and nutritional intervention,Mejora de la situación nutricional y la calidad de vida de los pacientes oncológicos mediante protocolo de evaluación y de intervención nutricional",
-      "authors": [],
-      "year": 2018,
-      "date": null,
-      "journal": null,
       "type": "journal-article",
       "doi": null,
       "pmid": null,
-      "orcidPutCode": "90285288",
+      "journal": null,
+      "authors": [],
       "abstract": null,
-      "url": null,
-      "sources": [
-        "orcid"
-      ]
+      "url": "http://europepmc.org/abstract/med/36520573"
     },
     {
-      "id": "doi:10.20960/nh.1426",
-      "title": "Mejora de la situación nutricional y la calidad de vida de los pacientes oncológicos mediante protocolo de evaluación y de intervención nutricional.",
-      "authors": [
-        "Lluch Taltavull J"
-      ],
+      "id": "doi-10-20960-nh-1426",
+      "title": "[Improvement of the nutritional status and quality of life of cancer patients through a protocol of evaluation and nutritional intervention].",
       "year": 2018,
-      "date": "2018-5-10",
-      "journal": "Nutrición Hospitalaria",
       "type": "journal-article",
       "doi": "10.20960/nh.1426",
       "pmid": null,
-      "orcidPutCode": "90284735",
-      "abstract": "ResumenObjetivo: Aplicar un protocolo que facilite la detección de malnutrición en los pacientes oncológicos durante su tratamiento de radioterapia o quimioterapia, seleccionando los que se podrían beneficiar de una intervención nutricional específica.Metodología: Se determinó la presencia de riesgo de desnutrición con el método de cribado Malnutrition Screening Tool (MST). A los sujetos con riesgo se les realizó una Valoración Global Subjetiva-Generada por el Paciente (VGS-GP) y a un subgrupo de la muestra estudiada también se midió la calidad de vida (CV) mediante el cuestionario EORTC QLQ-C30.Resultados: De un total de 222 pacientes se observó riesgo de desnutrición en 126 (56,7%). La VGS-GP muestra una prevalencia inicial de desnutrición del 69,2% (61,7% desnutrición moderada y 7,5% desnutrición severa) y una media de pérdida de peso de -10,27 kg. En la última valoración (+12 meses), el porcentaje de desnutrición o en riesgo se redujo de forma significativa a un 23,5% y la media de…",
-      "url": "https://doi.org/10.20960/nh.1426",
-      "sources": [
-        "orcid",
-        "crossref"
-      ]
+      "journal": "Nutrición Hospitalaria",
+      "authors": [
+        "Lluch Taltavull, Josep Ignasi"
+      ],
+      "abstract": "ResumenObjetivo: Aplicar un protocolo que facilite la detección de malnutrición en los pacientes oncológicos durante su tratamiento de radioterapia o quimioterapia, seleccionando los que se podrían beneficiar de una intervención nutricional específica.Metodología: Se determinó la presencia de riesgo de desnutrición con el método de cribado Malnutrition Screening Tool (MST). A los sujetos con riesgo se les realizó una Valoración Global Subjetiva-Generada por el Paciente (VGS-GP) y a un subgrupo de la muestra estudiada también se midió la calidad de vida (CV) mediante el cuestionario EORTC QLQ-C30.Resultados: De un total de 222 pacientes se observó riesgo de desnutrición en 126 (56,7%). La VGS-GP muestra una prevalencia inicial de desnutrición del 69,2% (61,7% desnutrición moderada y 7,5% desnutrición severa) y una media de pérdida de peso de -10,27 kg. En la última valoración (+12 meses), el porcentaje de desnutrición o en riesgo se redujo de forma significativa a un 23,5% y la media de pérdida de peso disminuyó a -7,1kg.  Durante el seguimiento mejoraron las puntuaciones del cuestionario EORTC QLQ-C30, en especial a los 3 meses la escala diarrea (p = 0,037), a los 6 meses la escala dolor (p = 0,009), y a los 12 meses las escalas dolor (p = 0,026), náusea y vómito (p = 0,002), disnea (p = 0,016), pérdida de apetito (p = 0,002) y estreñimiento (p = 0,0).Conclusión: El protocolo ha resultado eficaz mejorando la situación nutricional y la calidad de vida de los pacientes oncológicos con recuperación parcial del peso perdido.",
+      "url": "https://doi.org/10.20960/nh.1426"
     },
     {
-      "id": "hash:7zqmha",
-      "title": "Persistence and cost of biologic agents for psoriasis: Retrospective study in the Balearic Islands",
-      "authors": [],
-      "year": 2016,
-      "date": null,
-      "journal": null,
+      "id": "pub-ceb462962d5d",
+      "title": "Improvement of the nutritional status and quality of life of cancer patients through a protocol of evaluation and nutritional intervention,Mejora de la situación nutricional y la calidad de vida de los pacientes oncológicos mediante protocolo de evaluación y de intervención nutricional",
+      "year": 2018,
       "type": "journal-article",
       "doi": null,
       "pmid": null,
-      "orcidPutCode": "90285289",
-      "abstract": null,
-      "url": null,
-      "sources": [
-        "orcid"
-      ]
-    },
-    {
-      "id": "doi:10.3305/nh.2014.30.3.7204",
-      "title": "[Pre-operative nutrition support in patients waiting for digestive surgery at Hospital Mateu Orfila (Maó-Menorca)].",
-      "authors": [],
-      "year": 2014,
-      "date": null,
       "journal": null,
-      "type": "journal-article",
-      "doi": "10.3305/nh.2014.30.3.7204",
-      "pmid": null,
-      "orcidPutCode": "90284678",
+      "authors": [],
       "abstract": null,
-      "url": "https://www.ncbi.nlm.nih.gov/pubmed/25238844",
-      "sources": [
-        "orcid"
-      ]
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85050310493&partnerID=MN8TOARS"
     },
     {
-      "id": "doi:10.1007/978-1-4939-1932-1_23",
-      "title": "Use of Perioperative Glutamine Dipeptide in Parenteral Nutrition in Surgical Hospital Patients with Malnutrition",
-      "authors": [
-        "Mercadal-Orfila G",
-        "Talaverón J",
-        "Rajendram R"
-      ],
-      "year": 2014,
-      "date": "2014-11-25",
-      "journal": "Glutamine in Clinical Nutrition",
+      "id": "pub-e9ce847145eb",
+      "title": "Persistence and cost of biologic agents for psoriasis: Retrospective study in the Balearic Islands",
+      "year": 2016,
+      "type": "journal-article",
+      "doi": null,
+      "pmid": null,
+      "journal": null,
+      "authors": [],
+      "abstract": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84981299161&partnerID=MN8TOARS"
+    },
+    {
+      "id": "doi-10-1007-978-1-4939-1932-1-23",
+      "title": "Use of perioperative glutamine dipeptide in parenteral nutrition in surgical hospital patients with malnutrition",
+      "year": 2015,
       "type": "book-chapter",
       "doi": "10.1007/978-1-4939-1932-1_23",
       "pmid": null,
-      "orcidPutCode": "90285290",
+      "journal": "Glutamine in Clinical Nutrition",
+      "authors": [
+        "Mercadal-Orfila, Gabriel",
+        "Talaverón, Josep Manel Llop",
+        "Rajendram, Rajkumar"
+      ],
       "abstract": null,
-      "url": "https://doi.org/10.1007/978-1-4939-1932-1_23",
-      "sources": [
-        "orcid",
-        "crossref"
-      ]
+      "url": "https://doi.org/10.1007/978-1-4939-1932-1_23"
     },
     {
-      "id": "doi:10.3305/nh.2012.27.4.5791",
+      "id": "doi-10-3305-nh-2014-30-3-7204",
+      "title": "[Pre-operative nutrition support in patients waiting for digestive surgery at Hospital Mateu Orfila (Maó-Menorca)].",
+      "year": 2014,
+      "type": "journal-article",
+      "doi": "10.3305/nh.2014.30.3.7204",
+      "pmid": null,
+      "journal": null,
+      "authors": [],
+      "abstract": null,
+      "url": "https://doi.org/10.3305/nh.2014.30.3.7204"
+    },
+    {
+      "id": "doi-10-3305-nh-2012-27-4-5791",
       "title": "Association between nutritional risk based on the NRS-2002 test and hospital morbidity and mortality.",
+      "year": 2012,
+      "type": "journal-article",
+      "doi": "10.3305/nh.2012.27.4.5791",
+      "pmid": "23165569",
+      "journal": "Nutricion hospitalaria",
       "authors": [
         "Mercadal-Orfila G",
         "Lluch-Taltavull J",
         "Campillo-Artero C",
         "Torrent-Quetglas M"
       ],
-      "year": 2012,
-      "date": null,
-      "journal": "Nutricion hospitalaria",
-      "type": "journal-article",
-      "doi": "10.3305/nh.2012.27.4.5791",
-      "pmid": "23165569",
-      "orcidPutCode": "90284625",
       "abstract": null,
-      "url": "https://www.ncbi.nlm.nih.gov/pubmed/23165569",
-      "sources": [
-        "orcid",
-        "pubmed"
-      ]
+      "url": "https://doi.org/10.3305/nh.2012.27.4.5791"
     },
     {
-      "id": "doi:10.1016/j.farma.2010.10.008",
-      "title": "Evaluación retrospectiva de la efectividad y seguridad de cinacalcet para el tratamiento de hiperparatiroidismo secundario dependiendo del valor basal de paratohormona intacta",
-      "authors": [
-        "Mercadal Orfila G",
-        "Blasco Mascaró I"
-      ],
-      "year": 2012,
-      "date": "2012-1",
-      "journal": "Farmacia Hospitalaria",
-      "type": "journal-article",
-      "doi": "10.1016/j.farma.2010.10.008",
-      "pmid": "21514862",
-      "orcidPutCode": "90284930",
-      "abstract": null,
-      "url": "https://doi.org/10.1016/j.farma.2010.10.008",
-      "sources": [
-        "orcid",
-        "crossref",
-        "pubmed"
-      ]
-    },
-    {
-      "id": "doi:10.3305/nh.2011.26.6.5253",
-      "title": "Effectiveness of perioperative glutamine in parenteral nutrition in patients at risk of moderate to severe malnutrition,Efectividad de la utilización perioperatoria de glutamina en nutrición parenteral en pacientes con riesgo de desnutrición moderadasevera",
-      "authors": [],
-      "year": 2011,
-      "date": null,
-      "journal": null,
-      "type": "journal-article",
-      "doi": "10.3305/nh.2011.26.6.5253",
-      "pmid": null,
-      "orcidPutCode": "90285300",
-      "abstract": null,
-      "url": "https://doi.org/10.3305/nh.2011.26.6.5253",
-      "sources": [
-        "orcid"
-      ]
-    },
-    {
-      "id": "doi:10.1590/s0212-16112011000600017",
+      "id": "doi-10-1590-s0212-16112011000600017",
       "title": "Effectiveness of perioperative glutamine in parenteral nutrition in patients at risk of moderate to severe malnutrition.",
+      "year": 2011,
+      "type": "journal-article",
+      "doi": "10.1590/s0212-16112011000600017",
+      "pmid": "22411376",
+      "journal": "Nutricion hospitalaria",
       "authors": [
         "Mercadal Orfila G",
         "Llop Talaverón JM"
       ],
-      "year": 2011,
-      "date": null,
-      "journal": "Nutricion hospitalaria",
-      "type": "journal-article",
-      "doi": "10.1590/s0212-16112011000600017",
-      "pmid": "22411376",
-      "orcidPutCode": "90284818",
       "abstract": null,
-      "url": "https://www.ncbi.nlm.nih.gov/pubmed/22411376",
-      "sources": [
-        "orcid",
-        "pubmed"
-      ]
+      "url": "https://doi.org/10.1590/s0212-16112011000600017"
     },
     {
-      "id": "doi:10.1016/j.farma.2009.10.007",
-      "title": "Gollop-Wolfgang complex en un recién nacido de madre epiléptica tratada con valproico durante el embarazo",
-      "authors": [
-        "Mercadal Orfila G",
-        "Blasco Mascaró I"
-      ],
-      "year": 2010,
-      "date": "2010-5",
+      "id": "doi-10-1016-j-farma-2010-10-008",
+      "title": "[Retrospective assessment of effective and safety of cinacalcet for the treatment of secondary hyperparathyroidism depending on basal iPTH level].",
+      "year": 2011,
+      "type": "journal-article",
+      "doi": "10.1016/j.farma.2010.10.008",
+      "pmid": "21514862",
       "journal": "Farmacia Hospitalaria",
+      "authors": [
+        "Mercadal Orfila, G.",
+        "Blasco Mascaró, I."
+      ],
+      "abstract": null,
+      "url": "https://doi.org/10.1016/j.farma.2010.10.008"
+    },
+    {
+      "id": "doi-10-3305-nh-2011-26-6-5253",
+      "title": "Effectiveness of perioperative glutamine in parenteral nutrition in patients at risk of moderate to severe malnutrition,Efectividad de la utilización perioperatoria de glutamina en nutrición parenteral en pacientes con riesgo de desnutrición moderadasevera",
+      "year": 2011,
+      "type": "journal-article",
+      "doi": "10.3305/nh.2011.26.6.5253",
+      "pmid": null,
+      "journal": null,
+      "authors": [],
+      "abstract": null,
+      "url": "https://doi.org/10.3305/nh.2011.26.6.5253"
+    },
+    {
+      "id": "doi-10-1016-j-farma-2009-10-007",
+      "title": "[Gollop-Wolfgang Complex in a baby born to an epileptic mother treated with valproic acid during pregnancy].",
+      "year": 2010,
       "type": "journal-article",
       "doi": "10.1016/j.farma.2009.10.007",
       "pmid": null,
-      "orcidPutCode": "90284897",
+      "journal": "Farmacia Hospitalaria",
+      "authors": [
+        "Mercadal Orfila, G.",
+        "Blasco Mascaró, I."
+      ],
       "abstract": null,
-      "url": "https://doi.org/10.1016/j.farma.2009.10.007",
-      "sources": [
-        "orcid",
-        "crossref"
-      ]
+      "url": "https://doi.org/10.1016/j.farma.2009.10.007"
     },
     {
-      "id": "doi:10.1007/s11096-008-9265-9",
-      "title": "Retrospective assessment of potential interaction between levofloxacin and warfarin",
-      "authors": [
-        "Mercadal Orfila G",
-        "Gracia García B",
-        "Leiva Badosa E",
-        "Perayre Badía M",
-        "Reynaldo Martínez C",
-        "Jodar Masanés R"
-      ],
+      "id": "doi-10-1007-s11096-008-9265-9",
+      "title": "Retrospective assessment of potential interaction between levofloxacin and warfarin.",
       "year": 2008,
-      "date": "2008-12-6",
-      "journal": "Pharmacy World &amp; Science",
       "type": "journal-article",
       "doi": "10.1007/s11096-008-9265-9",
       "pmid": null,
-      "orcidPutCode": "90284802",
-      "abstract": null,
-      "url": "https://doi.org/10.1007/s11096-008-9265-9",
-      "sources": [
-        "orcid",
-        "crossref"
-      ]
-    },
-    {
-      "id": "hash:ffvw4k",
-      "title": "Acute poisoning in the emergency department of a level III universitary hospital: Changes produced in the last 10 years,Intoxicaciones agudas en el servicio de urgencias de un hospital universitario de nivel III: Cambios producidos en los últimos 10 años",
-      "authors": [],
-      "year": 2007,
-      "date": null,
-      "journal": null,
-      "type": "journal-article",
-      "doi": null,
-      "pmid": null,
-      "orcidPutCode": "90285292",
-      "abstract": null,
-      "url": null,
-      "sources": [
-        "orcid"
-      ]
-    },
-    {
-      "id": "hash:u81h7z",
-      "title": "Glutamine use for parenteral nutrition in the critically ill patient: Effects on morbimortality,Utilización de glutamina en nutrición parenteral en paciente crítico: Efectos sobre la morbi-mortalidad",
-      "authors": [],
-      "year": 2007,
-      "date": null,
-      "journal": null,
-      "type": "journal-article",
-      "doi": null,
-      "pmid": null,
-      "orcidPutCode": "90285293",
-      "abstract": null,
-      "url": null,
-      "sources": [
-        "orcid"
-      ]
-    },
-    {
-      "id": "hash:e0c4pl",
-      "title": "[Automation of parenteral nutrition elaboration: adaptation to in force legislation].",
-      "authors": [],
-      "year": 2006,
-      "date": null,
-      "journal": null,
-      "type": "journal-article",
-      "doi": null,
-      "pmid": null,
-      "orcidPutCode": "90284860",
-      "abstract": null,
-      "url": "https://www.ncbi.nlm.nih.gov/pubmed/16734071",
-      "sources": [
-        "orcid"
-      ]
-    },
-    {
-      "id": "hash:z45nbz",
-      "title": "Automation of parenteral nutrition elaboration: Adaptation to in force legislation,Automatización de la elaboración de nutrición parenteral: Adecuación a la legislación actual",
-      "authors": [],
-      "year": 2006,
-      "date": null,
-      "journal": null,
-      "type": "journal-article",
-      "doi": null,
-      "pmid": null,
-      "orcidPutCode": "90285294",
-      "abstract": null,
-      "url": null,
-      "sources": [
-        "orcid"
-      ]
-    },
-    {
-      "id": "hash:47f26r",
-      "title": "Admissions due to intoxication to the emergency unit of a third-level hospital: Epidemiology and use of antidotes,Ingresos en urgencias por intoxicación en un hospital de tercer nivel: Epidemiología y utilización de antídotos",
-      "authors": [],
-      "year": 2005,
-      "date": null,
-      "journal": null,
-      "type": "journal-article",
-      "doi": null,
-      "pmid": null,
-      "orcidPutCode": "90285296",
-      "abstract": null,
-      "url": null,
-      "sources": [
-        "orcid"
-      ]
-    },
-    {
-      "id": "doi:10.1093/ajhp/62.1.36",
-      "title": "Medications during the perioperative period",
+      "journal": "Pharmacy World &amp; Science",
       "authors": [
-        "Juvany R",
-        "Mercadal G",
-        "Jódar R"
+        "Mercadal Orfila, Gabriel",
+        "Gracia García, Berta",
+        "Leiva Badosa, Elisabet",
+        "Perayre Badía, María",
+        "Reynaldo Martínez, Concepción",
+        "Jodar Masanés, Ramón"
       ],
+      "abstract": null,
+      "url": "https://doi.org/10.1007/s11096-008-9265-9"
+    },
+    {
+      "id": "pub-325098284d80",
+      "title": "[Glutamine use for parenteral nutrition in the critically ill patient: effects on morbimortality].",
+      "year": 2007,
+      "type": "journal-article",
+      "doi": null,
+      "pmid": null,
+      "journal": null,
+      "authors": [],
+      "abstract": null,
+      "url": null
+    },
+    {
+      "id": "pub-1bc68658fd3b",
+      "title": "Acute poisoning in the emergency department of a level III universitary hospital: Changes produced in the last 10 years,Intoxicaciones agudas en el servicio de urgencias de un hospital universitario de nivel III: Cambios producidos en los últimos 10 años",
+      "year": 2007,
+      "type": "journal-article",
+      "doi": null,
+      "pmid": null,
+      "journal": null,
+      "authors": [],
+      "abstract": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-34548652245&partnerID=MN8TOARS"
+    },
+    {
+      "id": "pub-4f903e44f027",
+      "title": "Glutamine use for parenteral nutrition in the critically ill patient: Effects on morbimortality,Utilización de glutamina en nutrición parenteral en paciente crítico: Efectos sobre la morbi-mortalidad",
+      "year": 2007,
+      "type": "journal-article",
+      "doi": null,
+      "pmid": null,
+      "journal": null,
+      "authors": [],
+      "abstract": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-33847372465&partnerID=MN8TOARS"
+    },
+    {
+      "id": "pub-a22b8bf86b11",
+      "title": "[Automation of parenteral nutrition elaboration: adaptation to in force legislation].",
+      "year": 2006,
+      "type": "journal-article",
+      "doi": null,
+      "pmid": null,
+      "journal": null,
+      "authors": [],
+      "abstract": null,
+      "url": null
+    },
+    {
+      "id": "pub-ee5cc309d57d",
+      "title": "Automation of parenteral nutrition elaboration: Adaptation to in force legislation,Automatización de la elaboración de nutrición parenteral: Adecuación a la legislación actual",
+      "year": 2006,
+      "type": "journal-article",
+      "doi": null,
+      "pmid": null,
+      "journal": null,
+      "authors": [],
+      "abstract": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-33645973266&partnerID=MN8TOARS"
+    },
+    {
+      "id": "doi-10-1093-ajhp-62-1-36",
+      "title": "Medications during the perioperative period.",
       "year": 2005,
-      "date": "2005-1-1",
-      "journal": "American Journal of Health-System Pharmacy",
       "type": "journal-article",
       "doi": "10.1093/ajhp/62.1.36",
       "pmid": null,
-      "orcidPutCode": "90285143",
+      "journal": "American Journal of Health-System Pharmacy",
+      "authors": [
+        "Juvany, Roser",
+        "Mercadal, Gabriel",
+        "Jódar, Ramón"
+      ],
       "abstract": null,
-      "url": "https://doi.org/10.1093/ajhp/62.1.36",
-      "sources": [
-        "orcid",
-        "crossref"
-      ]
+      "url": "https://doi.org/10.1093/ajhp/62.1.36"
     },
     {
-      "id": "hash:58qlr1",
-      "title": "Therapeutic interchange of sulfonylureas in a third care level hospital: Application and clinical evaluation of the protocol,Intercambio terapéutico de sulfonilureas en un hospital de tercer nivel: Aplicación y evaluación clínica del protocolo",
-      "authors": [],
+      "id": "pub-7370bc099323",
+      "title": "Admissions due to intoxication to the emergency unit of a third-level hospital: Epidemiology and use of antidotes,Ingresos en urgencias por intoxicación en un hospital de tercer nivel: Epidemiología y utilización de antídotos",
       "year": 2005,
-      "date": null,
-      "journal": null,
       "type": "journal-article",
       "doi": null,
       "pmid": null,
-      "orcidPutCode": "90285291",
+      "journal": null,
+      "authors": [],
       "abstract": null,
-      "url": null,
-      "sources": [
-        "orcid"
-      ]
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-28444437441&partnerID=MN8TOARS"
     },
     {
-      "id": "doi:10.4321/s0212-71992004000600009",
-      "title": "Manejo perioperatorio de la medicación crónica no relacionada con la cirugía",
-      "authors": [
-        "Juvany Roig R",
-        "Mercadal Orfila G",
-        "Jódar Masanés R"
-      ],
+      "id": "pub-5750a60e0587",
+      "title": "Therapeutic interchange of sulfonylureas in a third care level hospital: Application and clinical evaluation of the protocol,Intercambio terapéutico de sulfonilureas en un hospital de tercer nivel: Aplicación y evaluación clínica del protocolo",
+      "year": 2005,
+      "type": "journal-article",
+      "doi": null,
+      "pmid": null,
+      "journal": null,
+      "authors": [],
+      "abstract": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-55449112690&partnerID=MN8TOARS"
+    },
+    {
+      "id": "doi-10-4321-s0212-71992004000600009",
+      "title": "[Perioperative management of chronic medications not related with surgical procedures].",
       "year": 2004,
-      "date": "2004-6",
-      "journal": "Anales de Medicina Interna",
       "type": "journal-article",
       "doi": "10.4321/s0212-71992004000600009",
       "pmid": null,
-      "orcidPutCode": "90284719",
+      "journal": "Anales de Medicina Interna",
+      "authors": [
+        "Juvany Roig, R.",
+        "Mercadal Orfila, G.",
+        "Jódar Masanés, R."
+      ],
       "abstract": null,
-      "url": "https://doi.org/10.4321/s0212-71992004000600009",
-      "sources": [
-        "orcid",
-        "crossref"
-      ]
+      "url": "https://doi.org/10.4321/s0212-71992004000600009"
     },
     {
-      "id": "hash:tfmuv4",
+      "id": "pub-e1ddf3d6c580",
       "title": "Perioperative management of chronic medications not related with surgical procedures,Manejo perioperatorio de la medicación crónica no relacionada con la cirugía",
-      "authors": [],
       "year": 2004,
-      "date": null,
-      "journal": null,
       "type": "journal-article",
       "doi": null,
       "pmid": null,
-      "orcidPutCode": "90285295",
+      "journal": null,
+      "authors": [],
       "abstract": null,
-      "url": null,
-      "sources": [
-        "orcid"
-      ]
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-3242739195&partnerID=MN8TOARS"
     },
     {
-      "id": "hash:9cndnk",
-      "title": "Profhylaxis and treatment of hereditary and acquired angioedema at HUB; use of the C1-esterase inhibitor,Profilaxis y tratamiento del angioedema hereditario y adquirido en el HUB; utilización del inhibidor de la C1-esterasa",
-      "authors": [],
+      "id": "pub-0fcf1f1b7403",
+      "title": "[Profhylaxis and treatment of hereditary and acquired angioedema at HUB; use of the C1-esterase inhibitor].",
       "year": 2003,
-      "date": null,
-      "journal": null,
       "type": "journal-article",
       "doi": null,
       "pmid": null,
-      "orcidPutCode": "90285297",
+      "journal": null,
+      "authors": [],
       "abstract": null,
-      "url": null,
-      "sources": [
-        "orcid"
-      ]
+      "url": null
+    },
+    {
+      "id": "pub-48f4353891e1",
+      "title": "Profhylaxis and treatment of hereditary and acquired angioedema at HUB; use of the C1-esterase inhibitor,Profilaxis y tratamiento del angioedema hereditario y adquirido en el HUB; utilización del inhibidor de la C1-esterasa",
+      "year": 2003,
+      "type": "journal-article",
+      "doi": null,
+      "pmid": null,
+      "journal": null,
+      "authors": [],
+      "abstract": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-0346500881&partnerID=MN8TOARS"
     }
-  ],
-  "yearIndex": {
-    "2003": [
-      33
-    ],
-    "2004": [
-      31,
-      32
-    ],
-    "2005": [
-      28,
-      29,
-      30
-    ],
-    "2006": [
-      26,
-      27
-    ],
-    "2007": [
-      24,
-      25
-    ],
-    "2008": [
-      23
-    ],
-    "2010": [
-      22
-    ],
-    "2011": [
-      20,
-      21
-    ],
-    "2012": [
-      18,
-      19
-    ],
-    "2014": [
-      16,
-      17
-    ],
-    "2016": [
-      15
-    ],
-    "2018": [
-      13,
-      14
-    ],
-    "2021": [
-      12
-    ],
-    "2022": [
-      8,
-      9,
-      10,
-      11
-    ],
-    "2024": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "2025": [
-      1,
-      2,
-      3
-    ],
-    "2026": [
-      0
-    ]
-  }
+  ]
 }

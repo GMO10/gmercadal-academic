@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-14T18:00:00Z",
+  "lastUpdated": "2026-03-15T16:35:51.891Z",
   "scoreThreshold": 6,
   "count": 17,
   "mentions": [
@@ -13,7 +13,12 @@
       "language": "es",
       "type": "news",
       "score": 12,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+3 Mahon + health", "+1 keywords: IA, VIH"]
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+3 Mahon + health",
+        "+1 keywords: IA, VIH"
+      ]
     },
     {
       "id": "cesida-twitter-2026-01",
@@ -25,7 +30,12 @@
       "language": "es",
       "type": "social",
       "score": 15,
-      "signals": ["+4 Mercadal-Orfila + G", "+4 PROs + VIH", "+4 CESIDA official", "+3 healthcare context"]
+      "signals": [
+        "+4 Mercadal-Orfila + G",
+        "+4 PROs + VIH",
+        "+4 CESIDA official",
+        "+3 healthcare context"
+      ]
     },
     {
       "id": "menorca-info-2025-10-zafiro-recoge",
@@ -37,7 +47,12 @@
       "language": "es",
       "type": "news",
       "score": 15,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+4 SEFH congress Malaga", "+3 Zafiro + NAVETA"]
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH congress Malaga",
+        "+3 Zafiro + NAVETA"
+      ]
     },
     {
       "id": "menorcaaldia-2025-10-zafiro",
@@ -49,7 +64,12 @@
       "language": "es",
       "type": "news",
       "score": 15,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+4 SEFH congress", "+3 machine learning + PROMs"]
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH congress",
+        "+3 machine learning + PROMs"
+      ]
     },
     {
       "id": "menorca-info-2025-10-zafiro",
@@ -61,7 +81,12 @@
       "language": "es",
       "type": "news",
       "score": 15,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+4 SEFH", "+3 Mahon + health"]
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH",
+        "+3 Mahon + health"
+      ]
     },
     {
       "id": "elglobal-2025-foro-innovacion",
@@ -73,7 +98,12 @@
       "language": "es",
       "type": "news",
       "score": 15,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+4 SEFH Foro Innovacion", "+3 NAVETA + value-based care"]
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH Foro Innovacion",
+        "+3 NAVETA + value-based care"
+      ]
     },
     {
       "id": "elglobal-2025-mapex-proms",
@@ -85,67 +115,12 @@
       "language": "es",
       "type": "news",
       "score": 12,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+3 SEFH + PROMs", "+1 MAPEX"]
-    },
-    {
-      "id": "costaisa-naveta-primary-care",
-      "title": "Naveta is selected as an outstanding initiative at the Primary Care Innovation Conference in Madrid",
-      "url": "https://www.costaisa.com/en/-/naveta-es-seleccionada-como-iniciativa-destacada-en-la-jornada-de-innovacion-de-atencion-primaria-de-madrid",
-      "source": "Costaisa",
-      "domain": "costaisa.com",
-      "date": "2023-06-15",
-      "language": "en",
-      "type": "news",
-      "score": 12,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+3 NAVETA + PROMs", "+1 FARUPEIB"]
-    },
-    {
-      "id": "diariofarma-2022-vih",
-      "title": "En busca del traje a medida en el abordaje del VIH",
-      "url": "https://diariofarma.com/2022/07/05/en-busca-del-traje-a-medida-en-el-abordaje-del-vih",
-      "source": "Diario Farma",
-      "domain": "diariofarma.com",
-      "date": "2022-07-05",
-      "language": "es",
-      "type": "news",
-      "score": 15,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+4 PROMs + PREMs + VIH", "+3 Mahon + NAVETA"]
-    },
-    {
-      "id": "menorcaaldia-admirable-2022",
-      "title": "El menorquin Gabriel Mercadal opta al premio Admirable 2022",
-      "url": "https://menorcaaldia.com/2022/02/13/el-menorquin-gabriel-mercadal-opta-al-premio-admirable-2022/",
-      "source": "Menorca al dia",
-      "domain": "menorcaaldia.com",
-      "date": "2022-02-13",
-      "language": "es",
-      "type": "news",
-      "score": 12,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+3 Mahon + pharmacy", "+1 Diario Medico"]
-    },
-    {
-      "id": "menorcaaldia-naveta-2021",
-      "title": "El proyecto Naveta gana el primer premio del Foro de Innovacion farmaceutica",
-      "url": "https://menorcaaldia.com/2021/10/29/el-proyecto-naveta-gana-el-primer-premio-del-foro-de-innovacion-farmaceutica/",
-      "source": "Menorca al dia",
-      "domain": "menorcaaldia.com",
-      "date": "2021-10-29",
-      "language": "es",
-      "type": "news",
-      "score": 15,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+4 SEFH + FARUPEIB", "+3 NAVETA + PROMs"]
-    },
-    {
-      "id": "sefh-naveta-2021",
-      "title": "El proyecto Naveta de telefarmacia asociada a los PROMS, ganador del Foro de Innovacion SEFH",
-      "url": "https://www.sefh.es/sefh-sala-prensa/noticia/1601",
-      "source": "SEFH",
-      "domain": "sefh.es",
-      "date": "2021-10-25",
-      "language": "es",
-      "type": "news",
-      "score": 15,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+4 SEFH official", "+3 NAVETA + PROMs"]
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+3 SEFH + PROMs",
+        "+1 MAPEX"
+      ]
     },
     {
       "id": "yt-pros-vih",
@@ -157,7 +132,12 @@
       "language": "es",
       "type": "video",
       "score": 15,
-      "signals": ["+4 Mercadal-Orfila + G", "+4 PROs + VIH", "+4 healthcare context", "+3 PROMs"]
+      "signals": [
+        "+4 Mercadal-Orfila + G",
+        "+4 PROs + VIH",
+        "+4 healthcare context",
+        "+3 PROMs"
+      ]
     },
     {
       "id": "yt-experiencia-pros",
@@ -169,7 +149,12 @@
       "language": "es",
       "type": "video",
       "score": 15,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+4 PROs", "+3 healthcare"]
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 PROs",
+        "+3 healthcare"
+      ]
     },
     {
       "id": "yt-podcast-humanizacion",
@@ -181,7 +166,29 @@
       "language": "es",
       "type": "video",
       "score": 12,
-      "signals": ["+4 Mercadal-Orfila + G", "+4 farmacia hospitalaria", "+3 humanizacion", "+1 podcast"]
+      "signals": [
+        "+4 Mercadal-Orfila + G",
+        "+4 farmacia hospitalaria",
+        "+3 humanizacion",
+        "+1 podcast"
+      ]
+    },
+    {
+      "id": "costaisa-naveta-primary-care",
+      "title": "Naveta is selected as an outstanding initiative at the Primary Care Innovation Conference in Madrid",
+      "url": "https://www.costaisa.com/en/-/naveta-es-seleccionada-como-iniciativa-destacada-en-la-jornada-de-innovacion-de-atencion-primaria-de-madrid",
+      "source": "Costaisa",
+      "domain": "costaisa.com",
+      "date": "2023-06-15",
+      "language": "en",
+      "type": "news",
+      "score": 12,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+3 NAVETA + PROMs",
+        "+1 FARUPEIB"
+      ]
     },
     {
       "id": "yt-entrevista-ibsalut",
@@ -193,7 +200,12 @@
       "language": "es",
       "type": "video",
       "score": 15,
-      "signals": ["+4 Hospital Mateu Orfila", "+4 Mercadal-Orfila + G", "+4 IbSalut", "+3 farmacia hospitalaria"]
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 IbSalut",
+        "+3 farmacia hospitalaria"
+      ]
     },
     {
       "id": "yt-eficiencia-salud-naveta",
@@ -205,7 +217,80 @@
       "language": "es",
       "type": "video",
       "score": 15,
-      "signals": ["+4 Mercadal-Orfila + G", "+4 NAVETA + PROMs + PREMs", "+4 Telefarmacia", "+3 healthcare"]
+      "signals": [
+        "+4 Mercadal-Orfila + G",
+        "+4 NAVETA + PROMs + PREMs",
+        "+4 Telefarmacia",
+        "+3 healthcare"
+      ]
+    },
+    {
+      "id": "diariofarma-2022-vih",
+      "title": "En busca del traje a medida en el abordaje del VIH",
+      "url": "https://diariofarma.com/2022/07/05/en-busca-del-traje-a-medida-en-el-abordaje-del-vih",
+      "source": "Diario Farma",
+      "domain": "diariofarma.com",
+      "date": "2022-07-05",
+      "language": "es",
+      "type": "news",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 PROMs + PREMs + VIH",
+        "+3 Mahon + NAVETA"
+      ]
+    },
+    {
+      "id": "menorcaaldia-admirable-2022",
+      "title": "El menorquin Gabriel Mercadal opta al premio Admirable 2022",
+      "url": "https://menorcaaldia.com/2022/02/13/el-menorquin-gabriel-mercadal-opta-al-premio-admirable-2022/",
+      "source": "Menorca al dia",
+      "domain": "menorcaaldia.com",
+      "date": "2022-02-13",
+      "language": "es",
+      "type": "news",
+      "score": 12,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+3 Mahon + pharmacy",
+        "+1 Diario Medico"
+      ]
+    },
+    {
+      "id": "menorcaaldia-naveta-2021",
+      "title": "El proyecto Naveta gana el primer premio del Foro de Innovacion farmaceutica",
+      "url": "https://menorcaaldia.com/2021/10/29/el-proyecto-naveta-gana-el-primer-premio-del-foro-de-innovacion-farmaceutica/",
+      "source": "Menorca al dia",
+      "domain": "menorcaaldia.com",
+      "date": "2021-10-29",
+      "language": "es",
+      "type": "news",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH + FARUPEIB",
+        "+3 NAVETA + PROMs"
+      ]
+    },
+    {
+      "id": "sefh-naveta-2021",
+      "title": "El proyecto Naveta de telefarmacia asociada a los PROMS, ganador del Foro de Innovacion SEFH",
+      "url": "https://www.sefh.es/sefh-sala-prensa/noticia/1601",
+      "source": "SEFH",
+      "domain": "sefh.es",
+      "date": "2021-10-25",
+      "language": "es",
+      "type": "news",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Mercadal-Orfila + G",
+        "+4 SEFH official",
+        "+3 NAVETA + PROMs"
+      ]
     }
   ]
 }
