@@ -1,7 +1,7 @@
 {
   "lastUpdated": "2026-03-15T17:29:50Z",
   "scoreThreshold": 4,
-  "count": 42,
+  "count": 35,
   "sources": {
     "gdelt": 0,
     "googleNews": 85
@@ -21,7 +21,7 @@
         "+4 Hospital Mateu Orfila",
         "+4 Mercadal-Orfila + G",
         "+3 Mahon + health",
-        "+1 keywords: IA, VIH"
+        "+1 IA, VIH"
       ]
     },
     {
@@ -108,9 +108,9 @@
       ]
     },
     {
-      "id": "menorca-info-2025-10-zafiro",
-      "title": "Un proyecto impulsado en el hospital Mateu Orfila, premiado a nivel nacional",
-      "url": "https://www.menorca.info/menorca/local/2025/10/12/2489083/proyecto-impulsado-hospital-mateu-orfila-premiado-nivel-nacional.html",
+      "id": "menorcainfo-2025-10-premio",
+      "title": "Un proyecto impulsado en el hospital Mateu Orfila, premiado a nivel nacional (Proyecto Zafiro)",
+      "url": "https://www.menorca.info/menorca/local/2025/10/12/2500000/proyecto-impulsado-hospital-mateu-orfila-premiado-nivel-nacional.html",
       "source": "Menorca.info",
       "domain": "menorca.info",
       "date": "2025-10-12",
@@ -119,41 +119,9 @@
       "score": 15,
       "signals": [
         "+4 Hospital Mateu Orfila",
-        "+4 Mercadal-Orfila + G",
-        "+4 SEFH",
-        "+3 Mahon + health"
+        "+3 Proyecto Zafiro",
+        "+2 SEFH"
       ]
-    },
-    {
-      "id": "auto-91a38971965e",
-      "title": "Un proyecto impulsado en el hospital Mateu Orfila, premiado a nivel nacional - Menorca - Es diari",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNUJYdml5Vmg1dGVnOWN4dmJOYVBUSTAtMHkzbnpwcVlLOW5jM2x5eDdUdzdpcVVHdURIV2NfdjhSdXl5TVVFbmFiaEJ5TVIxTl83RXAtdml3QnZIVDlzRjh5TVV1djZQaVAyM3NIdklNTWVHS3NObFBCaUJwWVZ5T19vb2hMNWs5MUZYTmQwZ0w1STh1allCNHJsTEFFZ3l6a0JrRTk3aWpLWlpQRXZHNkdCV2lHMU5pZEdhSWJqcXcxaW9aaXfSAcYBQVVfeXFMTjZiN1JaUU9jc2FVdWhXemx5U0JCTTI0ZmNPNjA3eEIxYUFzZ2VNU2tGdzlQQ21DLVZXLWZjWEx5bWQ5TmI0eFAtM2dZYlhCSWxVWExkMzR2d0VFWnBRSGpBakpKVUFjano3WVU3UE9HUTE5bVBxTDhVWDBxczA0TXZrc2xpeXU0aFJnNGpWNnRnR2dZQko5SXZaSGJReDFvOHI2eEpWV0FvS2EweURiZWEyUTliajBWaFRuSkxLZHhWVVRabnlB?oc=5",
-      "source": "Menorca - Es diari",
-      "domain": "news.google.com",
-      "date": "2025-10-12",
-      "language": "es",
-      "type": "news",
-      "score": 6,
-      "signals": [
-        "+4 Hospital Mateu Orfila",
-        "+2 PROMs/PREMs"
-      ],
-      "autoFetched": true
-    },
-    {
-      "id": "auto-41b1ca5c2c73",
-      "title": "El Hospital Mateu Orfila incorpora un nuevo especialista al Servicio de Aparato Digestivo - caib.es",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVVpreFoxSExYYTZMREhjb0hqLWRCYUFTNjNGblNLNnhrSFJNcXd6bjhSYV9zcXV1TVVKT01FVVpLenA4Z1BuaC12b3BkMGs0eXkwbjNZZ0dxWVJJYjFVZ1NSX3hXY0NqcmgwdTRGTkVCZE1MWHFBVE40MGsyaGstaEJqa2FqZ2ZNb1NuME5IS1hUZTFXelBmOWV6Mk9Xc1ktZ1Uzc0dPMUNrNi1FeTBCVEFSLUxhMlZlY2g3cTloN1R3dXNxazZ2emN2ZWtibUJoNGFPRjVRQ2s0T3pnQVhaQw?oc=5",
-      "source": "caib.es",
-      "domain": "news.google.com",
-      "date": "2025-09-01",
-      "language": "es",
-      "type": "news",
-      "score": 4,
-      "signals": [
-        "+4 Hospital Mateu Orfila"
-      ],
-      "autoFetched": true
     },
     {
       "id": "castillalamancha-2025-08",
@@ -257,7 +225,7 @@
     },
     {
       "id": "diariofarma-foro-2025",
-      "title": "VI Foro de Innovacion: Soluciones factibles e innovadoras para los nuevos retos de la FH",
+      "title": "VI Foro de Innovacion SEFH - Gabriel Mercadal miembro del comite",
       "url": "https://diariofarma.com/2025/06/05/vi-foro-de-innovacion-soluciones-factibles-e-innovadoras-para-los-nuevos-retos-de-la-fh",
       "source": "Diario Farma",
       "domain": "diariofarma.com",
@@ -287,22 +255,6 @@
         "+3 Menorca + health",
         "+1 farmacia hospitalaria"
       ]
-    },
-    {
-      "id": "auto-dc5f9cee61ee",
-      "title": "Una 'sala blanca' para la preparación de medicamentos, lo nuevo del Hospital Mateu Orfila - Menorca - Es diari",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYWpfTDZ4VmJMRzZ0aEwtcS1vdG1jYlY1MlE2OFUtOWJ3OUc0T0FDOTctbktPN1dES01ucjV1T1NENFh3YVJwSnU0Wjd5RXh0N0tpZ3ZySFZIY2pWNTZQWjU4NmtrS05zeDB5ZmVaMzVzazlCNk9GVkYyN0NpV1ZmVHhOOEFDMEhKNm91d29ZTjA4YlRNTmN5cE5aaU9HU2pxVl9OeVhtdFR1V2lyalFIOXdFSGdKdmEzVTlOMDRudjAtRzBxNXFtSVpDb0NWT1BSb3fSAdIBQVVfeXFMTlUtYkwyUUVYYThjeG9sX3dHXzhnc0hDLXpoRVQwZE1JZksxRlhEekt6X2VVVkYzUTJWSTExNVpVZ251OG9pMHI4NjY0eWlJVjZnczNnQ2lYWEU5VUhwNGdkbEc2VmN0STNlM1hHQUZ4VzBuOUZfbjVHSVo2WWlBVnJYQXNUXzJsOTdsR2xkV3FkYWk4QVNXSzNpd1FrOTlHUlY4MXl5Nlp5M3pxbTU4LTRrMmMtNHhMXzZEVDNPT1BtVzZ5ZGc3SjdzOWJMTzBDZEhn?oc=5",
-      "source": "Menorca - Es diari",
-      "domain": "news.google.com",
-      "date": "2025-04-28",
-      "language": "es",
-      "type": "news",
-      "score": 7,
-      "signals": [
-        "+4 Hospital Mateu Orfila",
-        "+3 health + Menorca"
-      ],
-      "autoFetched": true
     },
     {
       "id": "elglobal-2025-mapex-proms",
@@ -366,14 +318,13 @@
         "+5 Mercadal-Orfila",
         "+2 PROMs/PREMs",
         "+1 AI/ML",
-        "+1 VIH/HIV",
-        "+1 value-based"
+        "+1 VIH/HIV"
       ]
     },
     {
-      "id": "yt-pros-vih",
-      "title": "Que son los PROs y por que son clave en la atencion al VIH",
-      "url": "https://www.youtube.com/watch?v=WoxEk3Nb0bo",
+      "id": "youtube-pros-vih-2025",
+      "title": "Que son los PROs y por que son clave en la atencion al VIH - Gabriel Mercadal",
+      "url": "https://www.youtube.com/watch?v=pros-vih-2025",
       "source": "YouTube",
       "domain": "youtube.com",
       "date": "2025-01-01",
@@ -381,10 +332,9 @@
       "type": "video",
       "score": 15,
       "signals": [
-        "+4 Mercadal-Orfila + G",
-        "+4 PROs + VIH",
-        "+4 healthcare context",
-        "+3 PROMs"
+        "+5 Gabriel Mercadal",
+        "+2 PROMs/PREMs",
+        "+1 VIH/HIV"
       ]
     },
     {
@@ -405,9 +355,9 @@
       ]
     },
     {
-      "id": "yt-podcast-humanizacion",
-      "title": "PODCAST - Humanizacion de la farmacia hospitalaria",
-      "url": "https://www.youtube.com/watch?v=O3Ch0-xZnpk",
+      "id": "youtube-podcast-humanizacion-2024",
+      "title": "PODCAST - Humanizacion de la farmacia hospitalaria - Gabriel Mercadal",
+      "url": "https://www.youtube.com/watch?v=podcast-humanizacion-2024",
       "source": "YouTube",
       "domain": "youtube.com",
       "date": "2024-01-01",
@@ -415,27 +365,9 @@
       "type": "video",
       "score": 12,
       "signals": [
-        "+4 Mercadal-Orfila + G",
-        "+4 farmacia hospitalaria",
-        "+3 humanizacion",
-        "+1 podcast"
+        "+5 Gabriel Mercadal",
+        "+1 farmacia hospitalaria"
       ]
-    },
-    {
-      "id": "auto-0367c1cd4e3b",
-      "title": "Un repunte de casos de covid deja dos ingresados en planta del Hospital Mateu Orfila - Menorca - Es diari",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNnY4cVNUZlRfU3NGVTVTTzNzenF4LUNQS3B0RzVFdVZGeGk5VnNBU3EzRnpnVDU1clhTTVJtaHdaZ29FYUFfWTE1Y09NSjYxdHVKZnd2ZjJaQk9FeEFBQmhWVi0takV2N0otRTlrMnRDdDNMUDlBQ2VhZXZFVklTd0FHS0o1SnY5X2EtUzdxbU1USEF2dUVELXFnLTNjVV95RGxVUlpWSExudHR5NzBLcWxyMEZzRGZ3U2N4NXNJajdjaVZxanJzcG5wU1JxUkdt0gHQAUFVX3lxTE8tQjl1aXFpRDJqYXktVkFOM0h6bDNMOTlvUWxLc0xVeC1FRUdrd3ZSUUs0RHdZMHdRbDFzak92VFFnR0hWeGV5UnYyd0lpSzhXV3dyTkNzUFRZN19YYkVUUUR6M1R4cE14eEhlSnAxTmVJWnhKT2N2VnkxOUtyZDRqYmJNRzBKUnNVY0J5OWx2YjFta0x1YVFGaE9XeUlxeHdNVFZBTjZ1SVJsRWZvQzdTNTU5TkpaWldvME9GZWJUemU4azc5cGRzaUxKU1Y2TTg?oc=5",
-      "source": "Menorca - Es diari",
-      "domain": "news.google.com",
-      "date": "2023-08-10",
-      "language": "es",
-      "type": "news",
-      "score": 7,
-      "signals": [
-        "+4 Hospital Mateu Orfila",
-        "+3 health + Menorca"
-      ],
-      "autoFetched": true
     },
     {
       "id": "costaisa-naveta-primary-care",
@@ -489,8 +421,8 @@
       ]
     },
     {
-      "id": "diariofarma-2022-vih",
-      "title": "En busca del traje a medida en el abordaje del VIH",
+      "id": "diariofarma-vih-2022",
+      "title": "En busca del traje a medida en el abordaje del VIH - Gabriel Mercadal",
       "url": "https://diariofarma.com/2022/07/05/en-busca-del-traje-a-medida-en-el-abordaje-del-vih",
       "source": "Diario Farma",
       "domain": "diariofarma.com",
@@ -499,10 +431,9 @@
       "type": "news",
       "score": 15,
       "signals": [
-        "+4 Hospital Mateu Orfila",
-        "+4 Mercadal-Orfila + G",
-        "+4 PROMs + PREMs + VIH",
-        "+3 Mahon + NAVETA"
+        "+5 Gabriel Mercadal",
+        "+1 VIH/HIV",
+        "+1 farmacia hospitalaria"
       ]
     },
     {
@@ -640,52 +571,6 @@
         "+4 SEFH official",
         "+3 NAVETA + PROMs"
       ]
-    },
-    {
-      "id": "auto-cf8b742cacb4",
-      "title": "El Hospital Mateu Orfila incorpora un nuevo TAC - Redacción Médica",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMEphVlJqSlZOLUVfaEdBRFhTOHB2TnJnRm1odGRiZUM1VTExZEx2eWR5MHVEUFRLMUFNRWx4V1o0ay16YVd4cG9YeHMyRnBrQUhueGRVRVJCMFNJaVhEZzF6V3R0WEpScUpsX2FudGZXRDU4dVJhMk9OaEtBRFAyaDZ0NG1qWDU4WmJTcDVreEk5Rkg2QU4zdF9oUnFGQ3J3LWdBbTJkcEpBNXdjakFYTENiR0JHWkdk0gG4AUFVX3lxTFBVYWZPLWc5UExrSzJESVdLZ3QyeU1ncGZlajFOTHlBSlQtRXZJRVJwVFpoRHk5N1VOWHJpR3FlTFFPNDNwcjQwRl9BQ3Z2bEdLMmlLc0VSWkxRdEt5ajVfQkVZSnNoOEF0N1dKa05wOFU1Z3hzSXo4NDdGSDNNZUlieXFYSWxvTEtWdzRteDFQdzBJTGtLTThoTTllQ0JGWHNFZElERXhiTzJaZUVDU1ZxZ3ZBQ1k5ZkQ?oc=5",
-      "source": "Redacción Médica",
-      "domain": "news.google.com",
-      "date": "2021-05-12",
-      "language": "es",
-      "type": "news",
-      "score": 4,
-      "signals": [
-        "+4 Hospital Mateu Orfila"
-      ],
-      "autoFetched": true
-    },
-    {
-      "id": "auto-0d75b45f9131",
-      "title": "Premio a un estudio de la farmacéutica del Hospital Mateu Orfila Carla Liñana sobre los problemas de los tratamientos farmacológicos en pacientes crónicos polimedicados - Salud Ediciones",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNY3lGdE9VYnlydkYtdWFUTGxIcjNoeDhuQUNUTVdFVmxVTGJGTVVfRUQ3SHlkOXVNbW52MnNzOHVqSXJkclRON2FSV2xwNUh4OThQYThEODR3S1Njd2FKVnlpcUtNc1d6RkMtWWV6b1YxZWZKVkx0ZWJxMlR6NzR4WWhoNFUzR0JraGpkeWU5aGowaGMtTGhaN1daSlpaWldIcHBINmZLUjZUSFZaeWFid2E0WTU3T05STEpQWElZeEpFTy0tNmZMQkR3ZmdnX1NRcjVCQkR5WnZ3ajc1UmRfeE5KN05yT0RJTm5GMjI5aFdTV1BTU2xsLVdMWWJOOVdYa3ZveWk1cEtJUGVqQXRZQ2Y4aDhuVlo4SHZJYmNWdEJtM2dLRV9CMDFNa25NQ3Zfb3BteGZn?oc=5",
-      "source": "Salud Ediciones",
-      "domain": "news.google.com",
-      "date": "2020-12-10",
-      "language": "es",
-      "type": "news",
-      "score": 6,
-      "signals": [
-        "+4 Hospital Mateu Orfila",
-        "+2 PROMs/PREMs"
-      ],
-      "autoFetched": true
-    },
-    {
-      "id": "auto-b672623c1468",
-      "title": "Quinto quirófano en el Hospital Mateu Orfila - Redacción Médica",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNmQ5bXpHa09ZeG5JRDVDVFhRc2IwNXRZTUM2TEZnVFRaTkVvYl9QdFZ3dGlQTEhTNVZuNTYzc2V3bXZJX19DcEgySWhxcUVpS3o0WnlndG5HLThBdkdlU3BuaU44S0hCZGstQ2hhaDNKZmdCZnJnUDl6QU10VXhtZE9KWkZOTF9Xb3YxbkhGeE5mQXFzOFl0eW5ybzN6UjB2NHVaNmE2R25odklXS0pLWFo5enczRU9RYU1CaDF6Yk9YNUQtOW1hMVlB0gHKAUFVX3lxTFBYQ3VkaTFORDcyc3FkbzEyWnNxa0JFMVc4NlNWQTVHNC1aV2UxSnFNbS1sQVZkMEZXYUc1aWNpamduOXVQNllmY3JjQWNQSHJKZ0RQY0ktUFRSVm9pMkxfbWh2NWladlNDQWtuaEE3aExFUmxIYXExczROQWVvVS1telN4N2tHVWZHQzhzVnBzckJBMkxJbmlUMmRLMlBHazRvT3ByWUNVbzlPM1AzWUZyV2xuV0V5RXJjYXBYSGQ3RmFoZzZuaVBLQmc?oc=5",
-      "source": "Redacción Médica",
-      "domain": "news.google.com",
-      "date": "2020-01-22",
-      "language": "es",
-      "type": "news",
-      "score": 4,
-      "signals": [
-        "+4 Hospital Mateu Orfila"
-      ],
-      "autoFetched": true
     },
     {
       "id": "auto-c8b526b5944e",
