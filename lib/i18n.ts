@@ -4,6 +4,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   en: {
     // Nav
     'nav.home': 'Home',
+    'nav.experience': 'Experience',
     'nav.publications': 'Indexed Publications',
     'nav.mentions': 'Media',
     'nav.conferences': 'Posters / Oral Comms',
@@ -60,6 +61,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     'naveta.awards': 'Awards',
     'naveta.keyPubs': 'Key Publications',
 
+    // Experience page
+    'experience.title': 'Professional Experience',
+    'experience.subtitle': 'Over 20 years of hospital pharmacy practice across leading healthcare institutions in Catalonia and the Balearic Islands.',
+    'experience.roles': 'Institutional Roles',
+
     // Teaching page
     'teaching.title': 'Teaching',
     'teaching.subtitle': 'Academic teaching activity at universities, combining clinical pharmacy practice with education in health sciences and value-based healthcare.',
@@ -76,6 +82,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   es: {
     // Nav
     'nav.home': 'Inicio',
+    'nav.experience': 'Experiencia',
     'nav.publications': 'Publicaciones indexadas',
     'nav.mentions': 'Medios comunicación',
     'nav.conferences': 'Comunicaciones pósters/orales',
@@ -132,6 +139,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     'naveta.awards': 'Premios',
     'naveta.keyPubs': 'Publicaciones Clave',
 
+    // Experience page
+    'experience.title': 'Experiencia Profesional',
+    'experience.subtitle': 'Más de 20 años de práctica en farmacia hospitalaria en instituciones sanitarias de referencia en Cataluña y las Islas Baleares.',
+    'experience.roles': 'Cargos Institucionales',
+
     // Teaching page
     'teaching.title': 'Docencia',
     'teaching.subtitle': 'Actividad docente universitaria, combinando la práctica clínica en farmacia hospitalaria con la formación en ciencias de la salud y atención sanitaria basada en valor.',
@@ -148,6 +160,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   ca: {
     // Nav
     'nav.home': 'Inici',
+    'nav.experience': 'Experiència',
     'nav.publications': 'Publicacions indexades',
     'nav.mentions': 'Mitjans comunicació',
     'nav.conferences': 'Comunicacions pòsters/orals',
@@ -203,6 +216,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     'naveta.areas': '\u00c0rees Terap\u00e8utiques',
     'naveta.awards': 'Premis',
     'naveta.keyPubs': 'Publicacions Clau',
+
+    // Experience page
+    'experience.title': 'Experiència Professional',
+    'experience.subtitle': 'Més de 20 anys de pràctica en farmàcia hospitalària en institucions sanitàries de referència a Catalunya i les Illes Balears.',
+    'experience.roles': 'Càrrecs Institucionals',
 
     // Teaching page
     'teaching.title': 'Docència',

@@ -12,6 +12,7 @@ function NavBar() {
 
   const navLinks = [
     { href: '/', label: t('nav.home') },
+    { href: '/experience', label: t('nav.experience') },
     { href: '/publications', label: t('nav.publications') },
     { href: '/conferences', label: t('nav.conferences') },
     { href: '/teaching', label: t('nav.teaching') },
