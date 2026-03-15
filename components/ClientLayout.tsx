@@ -21,7 +21,7 @@ function NavBar() {
   return (
     <nav className="nav-main" aria-label="Main navigation">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
-        <Link href="/" className="font-serif font-bold text-lg text-navy no-underline hover:text-gold transition-colors">
+        <Link href="/" className="font-serif font-bold text-lg text-white no-underline hover:text-gold transition-colors">
           Dr. G. Mercadal-Orfila
         </Link>
 
@@ -43,29 +43,29 @@ function NavBar() {
           className="md:hidden flex flex-col gap-1.5 p-2 bg-transparent border-none cursor-pointer"
           aria-label="Toggle menu"
         >
-          <span className={`block w-5 h-0.5 bg-navy transition-all ${menuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-          <span className={`block w-5 h-0.5 bg-navy transition-all ${menuOpen ? 'opacity-0' : ''}`}></span>
-          <span className={`block w-5 h-0.5 bg-navy transition-all ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+          <span className={`block w-5 h-0.5 bg-white transition-all ${menuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+          <span className={`block w-5 h-0.5 bg-white transition-all ${menuOpen ? 'opacity-0' : ''}`}></span>
+          <span className={`block w-5 h-0.5 bg-white transition-all ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
         </button>
       </div>
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden border-t border-border-light bg-white px-4 pb-4">
+        <div className="md:hidden border-t border-white/10 bg-navy-mid px-4 pb-4">
           <ul className="list-none m-0 p-0 space-y-3 pt-3">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="block text-base font-medium text-navy no-underline py-1"
+                  className="block text-base font-medium text-white/80 no-underline py-1 hover:text-gold transition-colors"
                 >
                   {link.label}
                 </Link>
               </li>
             ))}
           </ul>
-          <div className="pt-3 border-t border-border-light mt-3">
+          <div className="pt-3 border-t border-white/10 mt-3">
             <LangSwitcher />
           </div>
         </div>

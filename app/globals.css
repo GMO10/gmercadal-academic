@@ -61,21 +61,25 @@ body {
 /* ── Nav ──────────────────────────────────────────── */
 
 .nav-main {
-  @apply bg-white/95 backdrop-blur-lg border-b sticky top-0 z-50;
-  border-color: var(--border-light);
+  @apply backdrop-blur-lg border-b sticky top-0 z-50;
+  background: var(--navy);
+  border-color: rgba(255,255,255,0.08);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
 }
 
 .nav-link {
-  @apply text-sm font-medium text-slate no-underline relative pb-1 transition-colors;
+  @apply text-sm font-medium no-underline relative pb-1 transition-colors;
+  color: rgba(255,255,255,0.7);
 }
 
 .nav-link:hover {
-  @apply text-navy;
+  color: var(--gold);
 }
 
 .nav-link::after {
   content: '';
-  @apply absolute bottom-0 left-0 w-0 h-[2px] bg-gold transition-all;
+  @apply absolute bottom-0 left-0 w-0 h-[2px] transition-all;
+  background: var(--gold);
 }
 
 .nav-link:hover::after {
@@ -190,37 +194,164 @@ a:hover {
 .animate-delay-3 { animation-delay: 0.3s; opacity: 0; }
 .animate-delay-4 { animation-delay: 0.4s; opacity: 0; }
 
-/* ── Print ────────────────────────────────────────── */
+/* ── Print – CV resumido ─────────────────────────── */
 
 @media print {
-  nav, footer, .no-print, button {
+  /* Ocultar elementos no impresos */
+  nav, footer, .no-print, button, .badge-score,
+  .section-link, .profile-link, .profile-link-accent {
     display: none !important;
   }
-  .hero-section {
+
+  /* Reset general */
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  html, body {
+    font-size: 10pt;
+    color: #1a1a1a !important;
     background: #fff !important;
-    color: #000 !important;
-    padding: 1em 0 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    margin: 0;
+    padding: 0;
   }
-  .hero-section * {
-    color: #000 !important;
+
+  a {
+    color: #1a1a1a !important;
+    text-decoration: none !important;
   }
-  body {
-    font-size: 11pt;
-    color: #000;
-    background: #fff;
+
+  /* Hero → cabecera compacta tipo CV */
+  .hero-section {
+    background: #f8f7f4 !important;
+    padding: 20pt 0 12pt !important;
+    border-bottom: 2px solid #C9A84C !important;
+    margin-bottom: 8pt !important;
   }
-  a { color: #000; text-decoration: none; }
-  main {
+
+  .hero-section .flex-col {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 16pt !important;
+  }
+
+  .hero-section .w-40,
+  .hero-section .md\:w-52 {
+    width: 80pt !important;
+    height: 80pt !important;
+  }
+
+  .hero-section .rounded-2xl {
+    border-radius: 6pt !important;
+    border: 1px solid #ddd !important;
+    transform: none !important;
+  }
+
+  .hero-section h1 {
+    font-size: 18pt !important;
+    color: #0F1D35 !important;
+    margin-bottom: 4pt !important;
+    line-height: 1.2 !important;
+  }
+
+  .hero-section p {
+    color: #444 !important;
+    font-size: 9pt !important;
+    line-height: 1.4 !important;
+    margin-bottom: 2pt !important;
+  }
+
+  .hero-section .text-gold {
+    color: #A8892E !important;
+    font-size: 8pt !important;
+    letter-spacing: 1pt !important;
+  }
+
+  /* Layout principal */
+  main, .flex-1 {
     max-width: 100% !important;
-    padding: 0 !important;
+    padding: 0 12pt !important;
   }
-  h1 { font-size: 18pt; }
-  h2 { font-size: 14pt; margin-top: 1em; }
-  .pub-card, .mention-card, .stat-card {
+
+  /* Stat cards → fila compacta */
+  .stat-card {
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 4pt !important;
+    padding: 8pt 6pt !important;
+    background: #fafafa !important;
     break-inside: avoid;
     page-break-inside: avoid;
-    box-shadow: none !important;
-    border: 1px solid #ddd !important;
+  }
+
+  .stat-card:hover {
+    transform: none !important;
+  }
+
+  /* Section headers */
+  .section-header {
+    border-bottom: 1px solid #C9A84C !important;
+    margin-bottom: 6pt !important;
+    padding-bottom: 3pt !important;
+  }
+
+  .section-title {
+    font-size: 13pt !important;
+    color: #0F1D35 !important;
+  }
+
+  /* Publication cards */
+  .pub-card {
+    border: none !important;
+    border-bottom: 1px solid #eee !important;
+    border-radius: 0 !important;
+    padding: 6pt 0 !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .pub-card h3 {
+    font-size: 9pt !important;
+    line-height: 1.3 !important;
+  }
+
+  .pub-card .text-sm,
+  .pub-card .text-xs {
+    font-size: 8pt !important;
+  }
+
+  /* Mention cards */
+  .mention-card {
+    border: none !important;
+    border-bottom: 1px solid #eee !important;
+    border-radius: 0 !important;
+    padding: 5pt 0 !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Ocultar iconos de tipo en menciones (emoji) */
+  .mention-card .w-10,
+  .pub-card .w-12 {
+    display: none !important;
+  }
+
+  /* Secciones compactas */
+  section {
+    margin-bottom: 10pt !important;
+  }
+
+  /* Grid de background cards */
+  .grid.md\:grid-cols-2 {
+    gap: 6pt !important;
+  }
+
+  /* Márgenes de página */
+  @page {
+    margin: 15mm 12mm;
+    size: A4;
   }
 }
 
@@ -228,13 +359,105 @@ a:hover {
 
 @media (max-width: 768px) {
   .hero-section {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 2.5rem 1rem !important;
   }
+
+  .hero-section h1 {
+    font-size: 2rem !important;
+    line-height: 1.15 !important;
+  }
+
+  .hero-section .text-lg {
+    font-size: 0.95rem !important;
+  }
+
   .stat-card {
     @apply p-4;
   }
+
+  .stat-card .text-3xl {
+    font-size: 1.5rem;
+  }
+
+  .pub-card {
+    @apply p-3;
+  }
+
+  .pub-card .flex {
+    gap: 0.5rem;
+  }
+
+  .pub-card .w-12 {
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: 0.65rem;
+  }
+
+  .mention-card {
+    @apply p-3;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .section-title {
+    font-size: 1.35rem;
+  }
+
   .nav-links-desktop {
     display: none;
   }
+
+  /* Fix overflow en mobile */
+  .line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+/* ── Small mobile (< 400px) ──────────────────────── */
+
+@media (max-width: 400px) {
+  .hero-section h1 {
+    font-size: 1.65rem !important;
+  }
+
+  .profile-link, .profile-link-accent {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.75rem;
+  }
+
+  .grid-cols-2 {
+    gap: 0.5rem;
+  }
+
+  .stat-card {
+    padding: 0.75rem;
+  }
+
+  .stat-card .text-3xl {
+    font-size: 1.25rem;
+  }
+}
+
+/* ── Focus & accessibility ───────────────────────── */
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Smooth transitions on cards ─────────────────── */
+
+.stat-card,
+.pub-card,
+.mention-card {
+  transition: all 0.2s ease;
 }

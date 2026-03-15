@@ -13,7 +13,7 @@ const pubs: any = pubsData;
 const mentions: any = mentionsData;
 
 export default function HomePage() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const latestPubs = pubs.publications.slice(0, 5);
   const latestMentions = mentions.mentions.slice(0, 4);
 
@@ -99,11 +99,11 @@ export default function HomePage() {
           </div>
           <div className="stat-card text-center">
             <div className="text-3xl font-bold text-navy font-serif">{uniqueJournals}</div>
-            <div className="text-sm text-slate mt-1">{{ en: 'Journals', es: 'Revistas', ca: 'Revistes' }['es']}</div>
+            <div className="text-sm text-slate mt-1">{lang === 'ca' ? 'Revistes' : lang === 'es' ? 'Revistas' : 'Journals'}</div>
           </div>
           <div className="stat-card text-center">
             <div className="text-3xl font-bold text-navy font-serif">{new Date().getFullYear() - firstYear}+</div>
-            <div className="text-sm text-slate mt-1">{{ en: 'Years', es: 'Años', ca: 'Anys' }['es']}</div>
+            <div className="text-sm text-slate mt-1">{lang === 'ca' ? 'Anys' : lang === 'es' ? 'Años' : 'Years'}</div>
           </div>
         </div>
       </section>
