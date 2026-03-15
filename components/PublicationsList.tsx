@@ -22,7 +22,7 @@ export function PublicationsList({ publications, years, types }: Props) {
       if (doiOnly && !p.doi) return false;
       if (search) {
         const q = search.toLowerCase();
-        const haystack = `${p.title} ${p.authors.join(' ')} ${p.journal ?? ''} ${p.abstract ?? ''}`.toLowerCase();
+        const haystack = `${p.title} ${(p.authors||[]).join(' ')} ${p.journal ?? ''} ${p.abstract ?? ''}`.toLowerCase();
         if (!haystack.includes(q)) return false;
       }
       return true;
@@ -117,9 +117,9 @@ export function PublicationsList({ publications, years, types }: Props) {
               {pub.type && <span className="ml-2 text-xs bg-accent/5 text-accent px-1.5 py-0.5 rounded">{pub.type}</span>}
             </p>
 
-            {pub.authors.length > 0 && (
+            {(pub.authors||[]).length > 0 && (
               <p className="text-xs text-muted line-clamp-1">
-                {pub.authors.join(', ')}
+                {(pub.authors||[]).join(', ')}
               </p>
             )}
 
@@ -155,9 +155,9 @@ export function PublicationsList({ publications, years, types }: Props) {
                   PubMed
                 </a>
               )}
-              {pub.sources.length > 0 && (
+              {(pub.sources||[]).length > 0 && (
                 <span className="text-muted/50 ml-auto">
-                  via {pub.sources.join(', ')}
+                  via {(pub.sources||[]).join(', ')}
                 </span>
               )}
             </div>
