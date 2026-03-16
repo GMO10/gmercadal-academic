@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-15T18:48:03.649Z",
-  "count": 36,
+  "lastUpdated": "2026-03-16T07:26:18.375Z",
+  "count": 35,
   "yearIndex": {
     "2003": [
       "pub-0fcf1f1b7403",
@@ -76,26 +76,6 @@
   },
   "publications": [
     {
-      "id": "prep-eproms-2026",
-      "title": "Digital Monitoring of PrEP Users Through ePROMs and ePREMs: A Multicenter Prospective Study on Feasibility, Safety, and Predictive Modeling of Digital Engagement",
-      "year": 2026,
-      "type": "Preprint (Accepted)",
-      "doi": "10.2196/87592",
-      "pmid": null,
-      "journal": "JMIR (Accepted)",
-      "authors": [
-        "Mercadal-Orfila, Gabriel",
-        "et al."
-      ],
-      "abstract": "Multicenter prospective study on the feasibility, safety, and predictive modeling of digital engagement in PrEP users through electronic patient-reported outcome and experience measures (ePROMs/ePREMs).",
-      "url": "https://preprints.jmir.org/preprint/87592/accepted",
-      "impactFactor": 5.0,
-      "quartile": "Q1",
-      "sources": [
-        "JMIR Preprints"
-      ]
-    },
-    {
       "id": "doi-10-2196-preprints-92890",
       "title": "Mobile App for Multidimensional Monitoring of Immune-Mediated Inflammatory Diseases: A Multicenter Prospective Study (Preprint)",
       "year": 2026,
@@ -122,9 +102,7 @@
         "Chamorro-de-Vega, Esther"
       ],
       "abstract": "\n                  BACKGROUND\n                  Immune-mediated inflammatory diseases (IMIDs) require long-term treatment with biologic therapies or targeted small molecules. Although these therapies have improved outcomes, routine care still faces important challenges, including medication adherence, early recognition and management of adverse events (AEs), and systematic collection of patient-reported outcome measures (PROMs). Mobile health (mHealth) tools may facilitate multidimensional follow-up between scheduled visits.\n                \n                \n                  OBJECTIVE\n                  To assess the feasibility and real-world use of the eMidCare mobile app among IMID outpatients initiating a new biologic or targeted small-molecule therapy, focusing on medication adherence monitoring, AE reporting, health-related quality of life and mental health PROMs, patient-health care professional communication, app usability, and patient satisfaction.\n                \n                \n                  METHODS\n                  We conducted a prospective, multicenter observational study across 10 Spanish hospitals. Adult IMID outpatients who initiated a new biologic or targeted small-molecule therapy between May and October 2025 installed eMidCare during pharmacist-led onboarding. Outcomes were derived from routinely captured in-app data: medication recording and Morisky-Green questionnaire (adherence), AE self-reporting (safety), EQ-5D-5L and Hospital Anxiety and Depression (HAD) scale (PROMs), and in-app messaging (communication). Usability was assessed using Google Analytics for Firebase and backend logs. Group comparisons across specialties used appropriate nonparametric and categorical tests, with significance set at P&lt;.05.\n                \n                \n                  RESULTS\n                  A total of 192 patients were enrolled; 27 (14.1%) did not use the app after installation. The final impact analysis included 165 patients (73 rheumatology, 49 gastroenterology, and 43 dermatology). Adalimumab was the most frequently prescribed therapy (41.8%), and most treatments were subcutaneous (82.4%). Overall, 110/165 (66.7%) patients recorded 1,233 administrations; based on administration logs, 91.7% were classified as adherent. A total of 67 unique patients completed the Morisky-Green questionnaire 174 times; 84.5% were classified as adherent, with no differences across specialties (P=.793). A total of 178 AEs were recorded, and 39/165 (23.6%) patients reported ≥1 AE, with no differences across specialties (P=.340). Median time to first AE was 39.6 days. EQ-5D-5L was completed by 96/165 (58.2%) patients (190 questionnaires); the median index was 0.805 (0.620, 0.922) and EQ VAS was 75 (50, 85), with rheumatology scoring lower than gastroenterology. Communication included 303 messages across 132 conversation threads (87.9% patient-initiated); 62/165 (37.8%) patients sent ≥1 message, with higher use in dermatology (P=.043). Nearly half of patient messages (49.4%) were sent outside working hours, with no specialty differences (P=.818). Median interactions were 15.0 per patient-week, retention declined gradually with weekly retention remaining &gt;65% at later follow-up points, and backend logs showed no recorded errors with all Application Programming Interface (API) calls (N=67,237) successfully completed. Median overall satisfaction was 9 (9, 10).\n                \n                \n                  CONCLUSIONS\n                  In real-world, multicenter practice, eMidCare was feasible and well accepted for longitudinal follow-up of IMID outpatients initiating a new biologic or targeted small-molecule therapy. The app supported adherence monitoring and AE reporting, enabled PROM collection, and facilitated patient-initiated messaging (including out-of-hours contact) with high user satisfaction.\n                ",
-      "url": "https://doi.org/10.2196/preprints.92890",
-      "impactFactor": null,
-      "quartile": null
+      "url": "https://doi.org/10.2196/preprints.92890"
     },
     {
       "id": "doi-10-2147-IPRP-S492422",
@@ -141,9 +119,7 @@
         "Herrera-Perez, Salvador"
       ],
       "abstract": null,
-      "url": "https://doi.org/10.2147/IPRP.S492422",
-      "impactFactor": 1.5,
-      "quartile": "Q4"
+      "url": "https://doi.org/10.2147/IPRP.S492422"
     },
     {
       "id": "doi-10-3389-fendo-2025-1731194",
@@ -162,9 +138,7 @@
         "Herrera-Pérez S"
       ],
       "abstract": null,
-      "url": "https://doi.org/10.3389/fendo.2025.1731194",
-      "impactFactor": 3.9,
-      "quartile": "Q2"
+      "url": "https://doi.org/10.3389/fendo.2025.1731194"
     },
     {
       "id": "doi-10-1016-j-farma-2024-08-004",
@@ -182,9 +156,7 @@
         "Taberner-Ferrer R"
       ],
       "abstract": null,
-      "url": "https://doi.org/10.1016/j.farma.2024.08.004",
-      "impactFactor": 1.5,
-      "quartile": "Q3"
+      "url": "https://doi.org/10.1016/j.farma.2024.08.004"
     },
     {
       "id": "doi-10-2196-56196",
@@ -207,9 +179,7 @@
         "Rios, Santiago"
       ],
       "abstract": "\n                    Background\n                    Patient-reported outcome and experience measures can play a critical role in providing patient-centered and value-based health care to a growing population of patients who are chronically ill. Value-based telemedicine platforms such as the Naveta initiative may facilitate the effective integration of these tools into health care systems.\n                  \n                  \n                    Objective\n                    This study aims to evaluate the response rate to electronic patient-reported outcome measures (ePROMs) and electronic patient-reported experience measures (ePREMs) among patients participating in the Naveta telemedicine initiative and its correlations with sociodemographic and clinical characteristics, as well as the evolution of the response rates over time.\n                  \n                  \n                    Methods\n                    Between January 1, 2021, and June 30, 2023, a total of 53,364 ePREMs and ePROMs for 20 chronic conditions were administered through the Naveta-Phemium platform. Descriptive statistics were used to summarize continuous and categorical variables. Differences in response rates within each sociodemographic variable were analyzed using logistic regression models, with significance assessed via chi-square and post hoc Tukey tests. Two-way ANOVA was used to examine the interaction between time interval and disease type on response rate evolution.\n                  \n                  \n                    Results\n                    A total of 3372 patients with severe chronic diseases from 64 public hospitals in Spain participated in the Naveta health questionnaire project. The overall response rate to ePROMs and ePREMs during the first 2.5 years of the Naveta initiative was 46.12% (24,704/53,364), with a baseline rate of 53.33% (7198/13,496). Several sociodemographic factors correlated with lower response rates, including male gender, older age, lower education level, frequent alcohol use, being a student, and not being physically active. There were also significant variations in response rates among different types of chronic conditions (P&lt;.001), with the highest rates being for respiratory (433/606, 71.5%), oncologic (200/319, 62.7%), digestive (2247/3601, 62.4%), and rheumatic diseases (7506/12,982, 57.82%) and the lowest being for HIV infection (7473/22,695, 32.93%). During the first 6 months of follow-up, the response rates decreased in all disease types, except in the case of the group of patients with oncologic disease, among whom the response rate increased up to 100% (6/6). Subsequently, the overall response rate approached baseline levels.\n                  \n                  \n                    Conclusions\n                    Recognizing the influence of sociodemographic factors on response rates is critical to identifying barriers to participation in telemonitoring programs and ensuring inclusiveness in patient-centered health care practices. The observed decline in response rates at follow-up may be due to survey fatigue, highlighting the need for strategies to mitigate this effect. In addition, the variation in response rates across chronic conditions emphasizes the importance of tailoring telemonitoring approaches to specific patient populations.\n                  ",
-      "url": "https://doi.org/10.2196/56196",
-      "impactFactor": 5.0,
-      "quartile": "Q1"
+      "url": "https://doi.org/10.2196/56196"
     },
     {
       "id": "doi-10-2196-preprints-56196",
@@ -232,9 +202,7 @@
         "Rios, Santiago"
       ],
       "abstract": "\n                    BACKGROUND\n                        Patient-reported outcome and experience measures can play a critical role in providing patient-centered and value-based health care to a growing population of patients who are chronically ill. Value-based telemedicine platforms such as the Naveta initiative may facilitate the effective integration of these tools into health care systems.\n                \n                                \n                    OBJECTIVE\n                        This study aims to evaluate the response rate to electronic patient-reported outcome measures (ePROMs) and electronic patient-reported experience measures (ePREMs) among patients participating in the Naveta telemedicine initiative and its correlations with sociodemographic and clinical characteristics, as well as the evolution of the response rates over time.\n                \n                                \n                    METHODS\n                        Between January 1, 2021, and June 30, 2023, a total of 53,364 ePREMs and ePROMs for 20 chronic conditions were administered through the Naveta-Phemium platform. Descriptive statistics were used to summarize continuous and categorical variables. Differences in response rates within each sociodemographic variable were analyzed using logistic regression models, with significance assessed via chi-square and post hoc Tukey tests. Two-way ANOVA was used to examine the interaction between time interval and disease type on response rate evolution.\n                \n                                \n                    RESULTS\n                        A total of 3372 patients with severe chronic diseases from 64 public hospitals in Spain participated in the Naveta health questionnaire project. The overall response rate to ePROMs and ePREMs during the first 2.5 years of the Naveta initiative was 46.12% (24,704/53,364), with a baseline rate of 53.33% (7198/13,496). Several sociodemographic factors correlated with lower response rates, including male gender, older age, lower education level, frequent alcohol use, being a student, and not being physically active. There were also significant variations in response rates among different types of chronic conditions (&lt;i&gt;P&lt;/i&gt;&amp;lt;.001), with the highest rates being for respiratory (433/606, 71.5%), oncologic (200/319, 62.7%), digestive (2247/3601, 62.4%), and rheumatic diseases (7506/12,982, 57.82%) and the lowest being for HIV infection (7473/22,695, 32.93%). During the first 6 months of follow-up, the response rates decreased in all disease types, except in the case of the group of patients with oncologic disease, among whom the response rate increased up to 100% (6/6). Subsequently, the overall response rate approached baseline levels.\n                \n                                \n                    CONCLUSIONS\n                        Recognizing the influence of sociodemographic factors on response rates is critical to identifying barriers to participation in telemonitoring programs and ensuring inclusiveness in patient-centered health care practices. The observed decline in response rates at follow-up may be due to survey fatigue, highlighting the need for strategies to mitigate this effect. In addition, the variation in response rates across chronic conditions emphasizes the importance of tailoring telemonitoring approaches to specific patient populations.\n                ",
-      "url": "https://doi.org/10.2196/preprints.56196",
-      "impactFactor": null,
-      "quartile": null
+      "url": "https://doi.org/10.2196/preprints.56196"
     },
     {
       "id": "doi-10-1177-11786329241258856",
@@ -257,9 +225,7 @@
         "Rios, Santiago"
       ],
       "abstract": "Objective: This study aimed to use the Person-Centered Coordinated Care Experience Questionnaire (P3CEQ) to assess the experience of person-centered coordinated care among people with long-term conditions in the Balearic Islands, Spain. Methods: Over 1300 participants receiving treatment for chronic conditions or HIV pre-exposure prophylaxis were invited to complete the P3CEQ and a socio-demographic questionnaire, both administered electronically via the Naveta app. The P3CEQ assesses the key domains of the P3C through an 11-item questionnaire. Items 1, 2, 3, 4, 5, 8, 9 and 10 assess specifically person-centredness (PC subscale), while items 5, 6, 7, 8 and 9 measure care coordination (CC subscale; question 7 includes 4 sub-questions to specifically assess care plans). Descriptive statistics were used to summarize patient characteristics and P3CEQ items scores. Data analysis included chi-squared test of independence, Student’s t-test and analysis of variance test. Pairwise comparisons were adjusted by Bonferroni correction. Results: The P3CEQ and a socio-demographic questionnaire were sent to 1313 individuals (651 men, 657 women, 5 ‘other gender’). A response rate of 35.34% was achieved, with 464 P3CEQ responders (223 men and 241 women). Significant differences in response rates were observed by age, smoking status, alcohol consumption, membership of patient organizations, and use of alternative medicine. Care planning was rated significantly lower than other measured domains. Women experienced less person-centered care than men (16.64 vs 17.91) and rated care coordination worse than their male counterparts (9.18 vs 10.23). There were also differences in scores between medical condition types, with cancer and inflammatory bowel disease patients rating highest for both person-centered care (21.20 and 19.13, respectively) and care coordination (10.70 vs 10.88, respectively). Patients with skin and rheumatic diseases rated lowest their experience of person-centered care. People with higher education and those employed or studying experienced better person-centeredness. Conclusion: Using the P3CEQ, we detected significant differences in the care experiences of people with chronic conditions, suggesting the need to address potential gender biases, social inequalities, and the poorer ratings observed for certain conditions in the study population. ",
-      "url": "https://doi.org/10.1177/11786329241258856",
-      "impactFactor": 1.7,
-      "quartile": "Q3"
+      "url": "https://doi.org/10.1177/11786329241258856"
     },
     {
       "id": "doi-10-3389-fmed-2024-1465725",
@@ -283,9 +249,7 @@
         "Herrera-Pérez S"
       ],
       "abstract": null,
-      "url": "https://doi.org/10.3389/fmed.2024.1465725",
-      "impactFactor": 3.1,
-      "quartile": "Q2"
+      "url": "https://doi.org/10.3389/fmed.2024.1465725"
     },
     {
       "id": "doi-10-1080-09540121-2022-2067518",
@@ -303,9 +267,7 @@
         "Piqué, Núria"
       ],
       "abstract": null,
-      "url": "https://doi.org/10.1080/09540121.2022.2067518",
-      "impactFactor": 2.9,
-      "quartile": "Q2"
+      "url": "https://doi.org/10.1080/09540121.2022.2067518"
     },
     {
       "id": "pmid-36520573",
@@ -322,9 +284,7 @@
         "Borrás-Blasco J"
       ],
       "abstract": null,
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36520573/",
-      "impactFactor": 1.5,
-      "quartile": "Q3"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36520573/"
     },
     {
       "id": "pmid-36520562",
@@ -344,9 +304,7 @@
         "Negro-Vega E"
       ],
       "abstract": null,
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36520562/",
-      "impactFactor": 1.5,
-      "quartile": "Q3"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36520562/"
     },
     {
       "id": "pub-98d3dde4abf1",
@@ -358,9 +316,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "http://europepmc.org/abstract/med/36520573",
-      "impactFactor": null,
-      "quartile": null
+      "url": "http://europepmc.org/abstract/med/36520573"
     },
     {
       "id": "doi-10-20960-nh-1426",
@@ -374,9 +330,7 @@
         "Lluch Taltavull, Josep Ignasi"
       ],
       "abstract": "ResumenObjetivo: Aplicar un protocolo que facilite la detección de malnutrición en los pacientes oncológicos durante su tratamiento de radioterapia o quimioterapia, seleccionando los que se podrían beneficiar de una intervención nutricional específica.Metodología: Se determinó la presencia de riesgo de desnutrición con el método de cribado Malnutrition Screening Tool (MST). A los sujetos con riesgo se les realizó una Valoración Global Subjetiva-Generada por el Paciente (VGS-GP) y a un subgrupo de la muestra estudiada también se midió la calidad de vida (CV) mediante el cuestionario EORTC QLQ-C30.Resultados: De un total de 222 pacientes se observó riesgo de desnutrición en 126 (56,7%). La VGS-GP muestra una prevalencia inicial de desnutrición del 69,2% (61,7% desnutrición moderada y 7,5% desnutrición severa) y una media de pérdida de peso de -10,27 kg. En la última valoración (+12 meses), el porcentaje de desnutrición o en riesgo se redujo de forma significativa a un 23,5% y la media de pérdida de peso disminuyó a -7,1kg.  Durante el seguimiento mejoraron las puntuaciones del cuestionario EORTC QLQ-C30, en especial a los 3 meses la escala diarrea (p = 0,037), a los 6 meses la escala dolor (p = 0,009), y a los 12 meses las escalas dolor (p = 0,026), náusea y vómito (p = 0,002), disnea (p = 0,016), pérdida de apetito (p = 0,002) y estreñimiento (p = 0,0).Conclusión: El protocolo ha resultado eficaz mejorando la situación nutricional y la calidad de vida de los pacientes oncológicos con recuperación parcial del peso perdido.",
-      "url": "https://doi.org/10.20960/nh.1426",
-      "impactFactor": 1.6,
-      "quartile": "Q3"
+      "url": "https://doi.org/10.20960/nh.1426"
     },
     {
       "id": "pub-ceb462962d5d",
@@ -388,9 +342,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85050310493&partnerID=MN8TOARS",
-      "impactFactor": null,
-      "quartile": null
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85050310493&partnerID=MN8TOARS"
     },
     {
       "id": "pub-e9ce847145eb",
@@ -402,9 +354,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84981299161&partnerID=MN8TOARS",
-      "impactFactor": null,
-      "quartile": null
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84981299161&partnerID=MN8TOARS"
     },
     {
       "id": "doi-10-1007-978-1-4939-1932-1-23",
@@ -420,9 +370,7 @@
         "Rajendram, Rajkumar"
       ],
       "abstract": null,
-      "url": "https://doi.org/10.1007/978-1-4939-1932-1_23",
-      "impactFactor": null,
-      "quartile": null
+      "url": "https://doi.org/10.1007/978-1-4939-1932-1_23"
     },
     {
       "id": "doi-10-3305-nh-2014-30-3-7204",
@@ -434,9 +382,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "https://doi.org/10.3305/nh.2014.30.3.7204",
-      "impactFactor": null,
-      "quartile": null
+      "url": "https://doi.org/10.3305/nh.2014.30.3.7204"
     },
     {
       "id": "doi-10-3305-nh-2012-27-4-5791",
@@ -453,9 +399,7 @@
         "Torrent-Quetglas M"
       ],
       "abstract": null,
-      "url": "https://doi.org/10.3305/nh.2012.27.4.5791",
-      "impactFactor": 1.6,
-      "quartile": "Q3"
+      "url": "https://doi.org/10.3305/nh.2012.27.4.5791"
     },
     {
       "id": "doi-10-1590-s0212-16112011000600017",
@@ -470,9 +414,7 @@
         "Llop Talaverón JM"
       ],
       "abstract": null,
-      "url": "https://doi.org/10.1590/s0212-16112011000600017",
-      "impactFactor": 1.6,
-      "quartile": "Q3"
+      "url": "https://doi.org/10.1590/s0212-16112011000600017"
     },
     {
       "id": "doi-10-1016-j-farma-2010-10-008",
@@ -487,9 +429,7 @@
         "Blasco Mascaró, I."
       ],
       "abstract": null,
-      "url": "https://doi.org/10.1016/j.farma.2010.10.008",
-      "impactFactor": 1.5,
-      "quartile": "Q3"
+      "url": "https://doi.org/10.1016/j.farma.2010.10.008"
     },
     {
       "id": "doi-10-3305-nh-2011-26-6-5253",
@@ -501,9 +441,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "https://doi.org/10.3305/nh.2011.26.6.5253",
-      "impactFactor": null,
-      "quartile": null
+      "url": "https://doi.org/10.3305/nh.2011.26.6.5253"
     },
     {
       "id": "doi-10-1016-j-farma-2009-10-007",
@@ -518,9 +456,7 @@
         "Blasco Mascaró, I."
       ],
       "abstract": null,
-      "url": "https://doi.org/10.1016/j.farma.2009.10.007",
-      "impactFactor": 1.5,
-      "quartile": "Q3"
+      "url": "https://doi.org/10.1016/j.farma.2009.10.007"
     },
     {
       "id": "doi-10-1007-s11096-008-9265-9",
@@ -539,9 +475,7 @@
         "Jodar Masanés, Ramón"
       ],
       "abstract": null,
-      "url": "https://doi.org/10.1007/s11096-008-9265-9",
-      "impactFactor": 2.6,
-      "quartile": "Q2"
+      "url": "https://doi.org/10.1007/s11096-008-9265-9"
     },
     {
       "id": "pub-325098284d80",
@@ -553,9 +487,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": null,
-      "impactFactor": null,
-      "quartile": null
+      "url": null
     },
     {
       "id": "pub-1bc68658fd3b",
@@ -567,9 +499,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-34548652245&partnerID=MN8TOARS",
-      "impactFactor": null,
-      "quartile": null
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-34548652245&partnerID=MN8TOARS"
     },
     {
       "id": "pub-4f903e44f027",
@@ -581,9 +511,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-33847372465&partnerID=MN8TOARS",
-      "impactFactor": null,
-      "quartile": null
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-33847372465&partnerID=MN8TOARS"
     },
     {
       "id": "pub-a22b8bf86b11",
@@ -595,9 +523,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": null,
-      "impactFactor": null,
-      "quartile": null
+      "url": null
     },
     {
       "id": "pub-ee5cc309d57d",
@@ -609,9 +535,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-33645973266&partnerID=MN8TOARS",
-      "impactFactor": null,
-      "quartile": null
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-33645973266&partnerID=MN8TOARS"
     },
     {
       "id": "doi-10-1093-ajhp-62-1-36",
@@ -627,9 +551,7 @@
         "Jódar, Ramón"
       ],
       "abstract": null,
-      "url": "https://doi.org/10.1093/ajhp/62.1.36",
-      "impactFactor": 3.0,
-      "quartile": "Q2"
+      "url": "https://doi.org/10.1093/ajhp/62.1.36"
     },
     {
       "id": "pub-7370bc099323",
@@ -641,9 +563,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-28444437441&partnerID=MN8TOARS",
-      "impactFactor": null,
-      "quartile": null
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-28444437441&partnerID=MN8TOARS"
     },
     {
       "id": "pub-5750a60e0587",
@@ -655,9 +575,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-55449112690&partnerID=MN8TOARS",
-      "impactFactor": null,
-      "quartile": null
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-55449112690&partnerID=MN8TOARS"
     },
     {
       "id": "doi-10-4321-s0212-71992004000600009",
@@ -673,9 +591,7 @@
         "Jódar Masanés, R."
       ],
       "abstract": null,
-      "url": "https://doi.org/10.4321/s0212-71992004000600009",
-      "impactFactor": null,
-      "quartile": null
+      "url": "https://doi.org/10.4321/s0212-71992004000600009"
     },
     {
       "id": "pub-e1ddf3d6c580",
@@ -687,9 +603,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-3242739195&partnerID=MN8TOARS",
-      "impactFactor": null,
-      "quartile": null
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-3242739195&partnerID=MN8TOARS"
     },
     {
       "id": "pub-0fcf1f1b7403",
@@ -701,9 +615,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": null,
-      "impactFactor": null,
-      "quartile": null
+      "url": null
     },
     {
       "id": "pub-48f4353891e1",
@@ -715,9 +627,7 @@
       "journal": null,
       "authors": [],
       "abstract": null,
-      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-0346500881&partnerID=MN8TOARS",
-      "impactFactor": null,
-      "quartile": null
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-0346500881&partnerID=MN8TOARS"
     }
   ]
 }
