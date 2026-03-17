@@ -153,6 +153,14 @@ const institutionalRoles = [
     },
     institution: 'Acadèmia Mèdica Balear',
   },
+  {
+    role: {
+      en: 'Member, Scientific Committee',
+      es: 'Vocal del Comité Científico',
+      ca: 'Vocal del Comitè Científic',
+    },
+    institution: 'Theorema4H',
+  },
 ];
 
 export default function ExperiencePage() {
@@ -240,7 +248,7 @@ export default function ExperiencePage() {
         <h2 className="font-serif text-2xl font-bold text-navy mb-6">
           {t('experience.roles')}
         </h2>
-        <div className="grid sm:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {institutionalRoles.map((item, i) => (
             <div key={i} className="bg-white rounded-xl border border-border-light p-5 text-center hover:shadow-lg transition-shadow">
               <p className="font-semibold text-navy text-sm mb-1">{item.role[lang]}</p>
