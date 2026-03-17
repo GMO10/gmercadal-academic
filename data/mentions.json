@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-16T19:13:03.076Z",
+  "lastUpdated": "2026-03-17T07:14:03.602Z",
   "scoreThreshold": 4,
   "count": 44,
   "sources": {
     "gdelt": 0,
-    "googleNews": 86
+    "googleNews": 85
   },
   "mentions": [
     {
@@ -667,21 +667,6 @@
       ]
     },
     {
-      "id": "auto-cf8b742cacb4",
-      "title": "El Hospital Mateu Orfila incorpora un nuevo TAC - Redacción Médica",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMEphVlJqSlZOLUVfaEdBRFhTOHB2TnJnRm1odGRiZUM1VTExZEx2eWR5MHVEUFRLMUFNRWx4V1o0ay16YVd4cG9YeHMyRnBrQUhueGRVRVJCMFNJaVhEZzF6V3R0WEpScUpsX2FudGZXRDU4dVJhMk9OaEtBRFAyaDZ0NG1qWDU4WmJTcDVreEk5Rkg2QU4zdF9oUnFGQ3J3LWdBbTJkcEpBNXdjakFYTENiR0JHWkdk0gG4AUFVX3lxTFBVYWZPLWc5UExrSzJESVdLZ3QyeU1ncGZlajFOTHlBSlQtRXZJRVJwVFpoRHk5N1VOWHJpR3FlTFFPNDNwcjQwRl9BQ3Z2bEdLMmlLc0VSWkxRdEt5ajVfQkVZSnNoOEF0N1dKa05wOFU1Z3hzSXo4NDdGSDNNZUlieXFYSWxvTEtWdzRteDFQdzBJTGtLTThoTTllQ0JGWHNFZElERXhiTzJaZUVDU1ZxZ3ZBQ1k5ZkQ?oc=5",
-      "source": "Redacción Médica",
-      "domain": "news.google.com",
-      "date": "2021-05-12",
-      "language": "es",
-      "type": "news",
-      "score": 4,
-      "signals": [
-        "+4 Hospital Mateu Orfila"
-      ],
-      "autoFetched": true
-    },
-    {
       "id": "auto-0d75b45f9131",
       "title": "Premio a un estudio de la farmacéutica del Hospital Mateu Orfila Carla Liñana sobre los problemas de los tratamientos farmacológicos en pacientes crónicos polimedicados - Salud Ediciones",
       "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNY3lGdE9VYnlydkYtdWFUTGxIcjNoeDhuQUNUTVdFVmxVTGJGTVVfRUQ3SHlkOXVNbW52MnNzOHVqSXJkclRON2FSV2xwNUh4OThQYThEODR3S1Njd2FKVnlpcUtNc1d6RkMtWWV6b1YxZWZKVkx0ZWJxMlR6NzR4WWhoNFUzR0JraGpkeWU5aGowaGMtTGhaN1daSlpaWldIcHBINmZLUjZUSFZaeWFid2E0WTU3T05STEpQWElZeEpFTy0tNmZMQkR3ZmdnX1NRcjVCQkR5WnZ3ajc1UmRfeE5KN05yT0RJTm5GMjI5aFdTV1BTU2xsLVdMWWJOOVdYa3ZveWk1cEtJUGVqQXRZQ2Y4aDhuVlo4SHZJYmNWdEJtM2dLRV9CMDFNa25NQ3Zfb3BteGZn?oc=5",
@@ -694,6 +679,21 @@
       "signals": [
         "+4 Hospital Mateu Orfila",
         "+2 PROMs/PREMs"
+      ],
+      "autoFetched": true
+    },
+    {
+      "id": "auto-0d39522d2096",
+      "title": "El Hospital Mateu Orfila cuenta con un nuevo servicio de cirugía bariátrica y metabólica - Salud Ediciones",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcUxOZ3JZRFNrVEU2WmhUVUdVQ2hlcC1OVWM0OHJPZktMMnQ1eG1kWUh5S1lmWDR5RksxYUVVN2wtQ1lmanBuVUNKVlNUOTZlLS05ZVoyUVdWVU9VMDZSaEdOcExLTHpmay1UaTY3NFRud3JnQVUtcGxpM2dxS0Fja0pPWlpjaFVUVzEyenpOT3FoNzFVTng3Y0FnQ3VVRW1fYVJ2V3VGRHhFZURKdm1xeHJuMzFHenNrMUpaZkxCaThWTHphSmFQMjFPbw?oc=5",
+      "source": "Salud Ediciones",
+      "domain": "news.google.com",
+      "date": "2020-06-23",
+      "language": "es",
+      "type": "news",
+      "score": 4,
+      "signals": [
+        "+4 Hospital Mateu Orfila"
       ],
       "autoFetched": true
     },
