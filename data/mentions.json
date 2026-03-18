@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-18T07:10:03.141Z",
+  "lastUpdated": "2026-03-18T19:09:49.500Z",
   "scoreThreshold": 4,
-  "count": 43,
+  "count": 42,
   "sources": {
     "gdelt": 0,
-    "googleNews": 82
+    "googleNews": 81
   },
   "mentions": [
     {
@@ -446,22 +446,6 @@
         "+1 dermatology",
         "+1 farmacia hospitalaria"
       ]
-    },
-    {
-      "id": "auto-0367c1cd4e3b",
-      "title": "Un repunte de casos de covid deja dos ingresados en planta del Hospital Mateu Orfila - Menorca - Es diari",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNnY4cVNUZlRfU3NGVTVTTzNzenF4LUNQS3B0RzVFdVZGeGk5VnNBU3EzRnpnVDU1clhTTVJtaHdaZ29FYUFfWTE1Y09NSjYxdHVKZnd2ZjJaQk9FeEFBQmhWVi0takV2N0otRTlrMnRDdDNMUDlBQ2VhZXZFVklTd0FHS0o1SnY5X2EtUzdxbU1USEF2dUVELXFnLTNjVV95RGxVUlpWSExudHR5NzBLcWxyMEZzRGZ3U2N4NXNJajdjaVZxanJzcG5wU1JxUkdt0gHQAUFVX3lxTE8tQjl1aXFpRDJqYXktVkFOM0h6bDNMOTlvUWxLc0xVeC1FRUdrd3ZSUUs0RHdZMHdRbDFzak92VFFnR0hWeGV5UnYyd0lpSzhXV3dyTkNzUFRZN19YYkVUUUR6M1R4cE14eEhlSnAxTmVJWnhKT2N2VnkxOUtyZDRqYmJNRzBKUnNVY0J5OWx2YjFta0x1YVFGaE9XeUlxeHdNVFZBTjZ1SVJsRWZvQzdTNTU5TkpaWldvME9GZWJUemU4azc5cGRzaUxKU1Y2TTg?oc=5",
-      "source": "Menorca - Es diari",
-      "domain": "news.google.com",
-      "date": "2023-08-10",
-      "language": "es",
-      "type": "news",
-      "score": 7,
-      "signals": [
-        "+4 Hospital Mateu Orfila",
-        "+3 health + Menorca"
-      ],
-      "autoFetched": true
     },
     {
       "id": "costaisa-naveta-primary-care",
