@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-17T19:11:31.239Z",
+  "lastUpdated": "2026-03-18T07:10:03.141Z",
   "scoreThreshold": 4,
-  "count": 44,
+  "count": 43,
   "sources": {
     "gdelt": 0,
-    "googleNews": 84
+    "googleNews": 82
   },
   "mentions": [
     {
@@ -679,21 +679,6 @@
       "signals": [
         "+4 Hospital Mateu Orfila",
         "+2 PROMs/PREMs"
-      ],
-      "autoFetched": true
-    },
-    {
-      "id": "auto-0d39522d2096",
-      "title": "El Hospital Mateu Orfila cuenta con un nuevo servicio de cirugía bariátrica y metabólica - Salud Ediciones",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcUxOZ3JZRFNrVEU2WmhUVUdVQ2hlcC1OVWM0OHJPZktMMnQ1eG1kWUh5S1lmWDR5RksxYUVVN2wtQ1lmanBuVUNKVlNUOTZlLS05ZVoyUVdWVU9VMDZSaEdOcExLTHpmay1UaTY3NFRud3JnQVUtcGxpM2dxS0Fja0pPWlpjaFVUVzEyenpOT3FoNzFVTng3Y0FnQ3VVRW1fYVJ2V3VGRHhFZURKdm1xeHJuMzFHenNrMUpaZkxCaThWTHphSmFQMjFPbw?oc=5",
-      "source": "Salud Ediciones",
-      "domain": "news.google.com",
-      "date": "2020-06-23",
-      "language": "es",
-      "type": "news",
-      "score": 4,
-      "signals": [
-        "+4 Hospital Mateu Orfila"
       ],
       "autoFetched": true
     },
