@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-19T07:06:02.914Z",
+  "lastUpdated": "2026-03-19T19:07:12.962Z",
   "scoreThreshold": 4,
-  "count": 44,
+  "count": 38,
   "sources": {
     "gdelt": 0,
-    "googleNews": 81
+    "googleNews": 54
   },
   "mentions": [
     {
@@ -174,21 +174,6 @@
       "autoFetched": true
     },
     {
-      "id": "auto-41b1ca5c2c73",
-      "title": "El Hospital Mateu Orfila incorpora un nuevo especialista al Servicio de Aparato Digestivo - caib.es",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVVpreFoxSExYYTZMREhjb0hqLWRCYUFTNjNGblNLNnhrSFJNcXd6bjhSYV9zcXV1TVVKT01FVVpLenA4Z1BuaC12b3BkMGs0eXkwbjNZZ0dxWVJJYjFVZ1NSX3hXY0NqcmgwdTRGTkVCZE1MWHFBVE40MGsyaGstaEJqa2FqZ2ZNb1NuME5IS1hUZTFXelBmOWV6Mk9Xc1ktZ1Uzc0dPMUNrNi1FeTBCVEFSLUxhMlZlY2g3cTloN1R3dXNxazZ2emN2ZWtibUJoNGFPRjVRQ2s0T3pnQVhaQw?oc=5",
-      "source": "caib.es",
-      "domain": "news.google.com",
-      "date": "2025-09-01",
-      "language": "es",
-      "type": "news",
-      "score": 4,
-      "signals": [
-        "+4 Hospital Mateu Orfila"
-      ],
-      "autoFetched": true
-    },
-    {
       "id": "castillalamancha-2025-08",
       "title": "La Gerencia de Tomelloso se suma al estudio nacional Teleprom-Naveta para integrar la experiencia de los pacientes",
       "url": "https://www.castillalamancha.es/actualidad/notasdeprensa/la-gerencia-de-tomelloso-se-suma-al-estudio-nacional-teleprom-naveta-para-integrar-la-experiencia-de",
@@ -239,21 +224,6 @@
         "+2 telefarmacia",
         "+2 PROMs/PREMs"
       ]
-    },
-    {
-      "id": "auto-b997283dd71e",
-      "title": "Farupeib y Mendel Brain colaboran para la innovación y la humanización en FH - Diariofarma",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2dJcHUzOVVBeU5kaEpaWUR6ZWtDQVc2WV9PTVh5R21yYWhMRGpIcGdGRzJyNkl5eHowNnNBVXlna3JxU2FkYW9FRG90UG1CaUVOZmt4cHBKLWZhZmdrRXBzZWJrMEE3Ymp1MkctV1Z3VFJkUDNJUzlsUkoyR0tsTl9Yclc2SUFCenRPaEJvTlZiUW0wTTJKemtNRnhpSnZnNnNleVJYdEZMR3VTclZ5WWtETHhJU09fWjAwSHVOOA?oc=5",
-      "source": "Diariofarma",
-      "domain": "news.google.com",
-      "date": "2025-07-31",
-      "language": "es",
-      "type": "news",
-      "score": 4,
-      "signals": [
-        "+4 FARUPEIB"
-      ],
-      "autoFetched": true
     },
     {
       "id": "radar-healthtech-2025-06",
@@ -320,22 +290,6 @@
         "+3 Menorca + health",
         "+1 farmacia hospitalaria"
       ]
-    },
-    {
-      "id": "auto-dc5f9cee61ee",
-      "title": "Una 'sala blanca' para la preparación de medicamentos, lo nuevo del Hospital Mateu Orfila - Menorca - Es diari",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYWpfTDZ4VmJMRzZ0aEwtcS1vdG1jYlY1MlE2OFUtOWJ3OUc0T0FDOTctbktPN1dES01ucjV1T1NENFh3YVJwSnU0Wjd5RXh0N0tpZ3ZySFZIY2pWNTZQWjU4NmtrS05zeDB5ZmVaMzVzazlCNk9GVkYyN0NpV1ZmVHhOOEFDMEhKNm91d29ZTjA4YlRNTmN5cE5aaU9HU2pxVl9OeVhtdFR1V2lyalFIOXdFSGdKdmEzVTlOMDRudjAtRzBxNXFtSVpDb0NWT1BSb3fSAdIBQVVfeXFMTlUtYkwyUUVYYThjeG9sX3dHXzhnc0hDLXpoRVQwZE1JZksxRlhEekt6X2VVVkYzUTJWSTExNVpVZ251OG9pMHI4NjY0eWlJVjZnczNnQ2lYWEU5VUhwNGdkbEc2VmN0STNlM1hHQUZ4VzBuOUZfbjVHSVo2WWlBVnJYQXNUXzJsOTdsR2xkV3FkYWk4QVNXSzNpd1FrOTlHUlY4MXl5Nlp5M3pxbTU4LTRrMmMtNHhMXzZEVDNPT1BtVzZ5ZGc3SjdzOWJMTzBDZEhn?oc=5",
-      "source": "Menorca - Es diari",
-      "domain": "news.google.com",
-      "date": "2025-04-28",
-      "language": "es",
-      "type": "news",
-      "score": 7,
-      "signals": [
-        "+4 Hospital Mateu Orfila",
-        "+3 health + Menorca"
-      ],
-      "autoFetched": true
     },
     {
       "id": "elglobal-2025-mapex-proms",
@@ -669,37 +623,6 @@
       ]
     },
     {
-      "id": "auto-0d75b45f9131",
-      "title": "Premio a un estudio de la farmacéutica del Hospital Mateu Orfila Carla Liñana sobre los problemas de los tratamientos farmacológicos en pacientes crónicos polimedicados - Salud Ediciones",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNY3lGdE9VYnlydkYtdWFUTGxIcjNoeDhuQUNUTVdFVmxVTGJGTVVfRUQ3SHlkOXVNbW52MnNzOHVqSXJkclRON2FSV2xwNUh4OThQYThEODR3S1Njd2FKVnlpcUtNc1d6RkMtWWV6b1YxZWZKVkx0ZWJxMlR6NzR4WWhoNFUzR0JraGpkeWU5aGowaGMtTGhaN1daSlpaWldIcHBINmZLUjZUSFZaeWFid2E0WTU3T05STEpQWElZeEpFTy0tNmZMQkR3ZmdnX1NRcjVCQkR5WnZ3ajc1UmRfeE5KN05yT0RJTm5GMjI5aFdTV1BTU2xsLVdMWWJOOVdYa3ZveWk1cEtJUGVqQXRZQ2Y4aDhuVlo4SHZJYmNWdEJtM2dLRV9CMDFNa25NQ3Zfb3BteGZn?oc=5",
-      "source": "Salud Ediciones",
-      "domain": "news.google.com",
-      "date": "2020-12-10",
-      "language": "es",
-      "type": "news",
-      "score": 6,
-      "signals": [
-        "+4 Hospital Mateu Orfila",
-        "+2 PROMs/PREMs"
-      ],
-      "autoFetched": true
-    },
-    {
-      "id": "auto-b672623c1468",
-      "title": "Quinto quirófano en el Hospital Mateu Orfila - Redacción Médica",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNmQ5bXpHa09ZeG5JRDVDVFhRc2IwNXRZTUM2TEZnVFRaTkVvYl9QdFZ3dGlQTEhTNVZuNTYzc2V3bXZJX19DcEgySWhxcUVpS3o0WnlndG5HLThBdkdlU3BuaU44S0hCZGstQ2hhaDNKZmdCZnJnUDl6QU10VXhtZE9KWkZOTF9Xb3YxbkhGeE5mQXFzOFl0eW5ybzN6UjB2NHVaNmE2R25odklXS0pLWFo5enczRU9RYU1CaDF6Yk9YNUQtOW1hMVlB0gHKAUFVX3lxTFBYQ3VkaTFORDcyc3FkbzEyWnNxa0JFMVc4NlNWQTVHNC1aV2UxSnFNbS1sQVZkMEZXYUc1aWNpamduOXVQNllmY3JjQWNQSHJKZ0RQY0ktUFRSVm9pMkxfbWh2NWladlNDQWtuaEE3aExFUmxIYXExczROQWVvVS1telN4N2tHVWZHQzhzVnBzckJBMkxJbmlUMmRLMlBHazRvT3ByWUNVbzlPM1AzWUZyV2xuV0V5RXJjYXBYSGQ3RmFoZzZuaVBLQmc?oc=5",
-      "source": "Redacción Médica",
-      "domain": "news.google.com",
-      "date": "2020-01-22",
-      "language": "es",
-      "type": "news",
-      "score": 4,
-      "signals": [
-        "+4 Hospital Mateu Orfila"
-      ],
-      "autoFetched": true
-    },
-    {
       "id": "auto-c8b526b5944e",
       "title": "El Dr. Gabriel Mercadal, del Área de Salud de Menorca, participa en el 63º Congreso de la Sociedad Española de Farmacia Hospitalaria - Salud Ediciones",
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxORS1vODdGVGdodGtHWDFWSGRyOWN2dFp2TWNCVUFPTnljSUxzcnlBRmE5aWVxTjlUTFNWMHo0SG5ITWJDLTI5MXRBQnpMdFFwWDI1R3ZRTU9yYWRSdEV0Q0hlTFJrYjRLOHFfTlNFOWNNS1BxYmxWbFpZRzNCTVpLSThBR29NOHo0amFNSkJGNUI3bFFfS2pRNTNnbnBaN1ZYNXJPQzhidktRMHRtY1JnWmZSWFFlUGlxTXZ1TXlWdkhWSE9MN29uTU5sVVdHT21TNlRmdG9ldzQ1VG91WDdfUkxXZG1GTTA1d1JtMFB5YnRXYkdrSFpMYTlNNXZkWEU5b1E?oc=5",
@@ -712,22 +635,6 @@
       "signals": [
         "+5 Gabriel Mercadal",
         "+3 health + Menorca",
-        "+1 farmacia hospitalaria"
-      ],
-      "autoFetched": true
-    },
-    {
-      "id": "auto-5d2934f4978d",
-      "title": "La consulta de Farmacia Hospitalaria del Hospital Mateu Orfila incorpora una enfermera para el seguimiento y el control de los pacientes - Salud Ediciones",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOYXcwVl9wNXFteXJJSmFXbTZfNUlMbU5KR0F1ZW9weTAyNXY1Q0U4d1h3dEMyMTJKajB6cndpMjVnanNqb1h4anA2X3JQTVdyOWloT2lfUWRtTmdWMnFLTWMzNVpHSE5yMTMyOU1iaU1BTTBaRTFtWmNsT3Rtb29Bck5HN1FKUEprZVFZV2dVZ3hFYzJOZW5GYXk0ZUc5cXZGcTJxT2RGNHk5RlJROFFlU0xCY2ZGX0E2UWZNR2tMTERPN2psaXV2NUY1UDFjRXBjb2E4NFhLVHZrMmF5dmdTTngzYnJOc2NuRkRzOXBUSmYxSUhaOFdzaUZVak9maFhDODFIZnBuTzc1Vms?oc=5",
-      "source": "Salud Ediciones",
-      "domain": "news.google.com",
-      "date": "2016-11-14",
-      "language": "es",
-      "type": "news",
-      "score": 5,
-      "signals": [
-        "+4 Hospital Mateu Orfila",
         "+1 farmacia hospitalaria"
       ],
       "autoFetched": true
