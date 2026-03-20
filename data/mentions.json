@@ -1,16 +1,33 @@
 {
-  "lastUpdated": "2026-03-20T07:07:17.006Z",
+  "lastUpdated": "2026-03-20T18:58:44.713Z",
   "scoreThreshold": 4,
-  "count": 41,
+  "count": 42,
   "sources": {
     "gdelt": 0,
-    "googleNews": 80
+    "googleNews": 78
   },
   "mentions": [
     {
       "id": "auto-7ad8f7279460",
       "title": "Nuevos hospitales se suman al proyecto de telefarmacia ‘Naveta’ del doctor menorquín Gabriel Mercadal - Menorca - Es diari",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQmpmNUhXdVRSZV90U0hUSWxLV3NSUzNOMWdhWVVFWTZrc19tazJtdW5jc295Ml8yWXpCeFZqSERQZ0UwalE4b0hEU0s5eVZwWGZWdC1Oa1BTdlFTUUpzZC1FMnotUzFZOUtDdVJjWkRmY1JMcmVZdXFnSW9TcE1lMTdfbjFtcFRXeVRKRXVMVERzb1FGYzViMFJTeS1SMDhFTl9UZm5YUlJlNXEtSWxXb0ZnYi1GdFNsUGhGcFQ3NzZqVlF6endoNERzRUY3eEJrN0FqTWlVeklwTkIycWRIbVVLTGt1VE9s0gHoAUFVX3lxTE9CamY1SFd1VFJlX3RTSFRJbEtXc1JTM04xZ2FZVUVZNmtzX21rMm11bmNzb3kyXzJZekJ4VmpIRFBnRTBqUThvSERTSzl5VnBYZlZ0LU5rUFN2UVNRSnNkLUUyei1TMVk5S0N1UmNaRGZjUkxyZVl1cWdJb1NwTWUxN19uMW1wVFd5VEpFdUxURHNvUUZjNWIwUlN5LVIwOEVOX1RmblhSUmU1cS1JbFdvRmdiLUZ0U2xQaEZwVDc3NmpWUXp6d2g0RHNFRjd4Qms3QWpNaVV6SXBOQjJxZEhtVUtMa3VUT2w?oc=5",
+      "source": "Menorca - Es diari",
+      "domain": "news.google.com",
+      "date": "2026-03-19",
+      "language": "es",
+      "type": "news",
+      "score": 10,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+3 NAVETA",
+        "+2 telefarmacia"
+      ],
+      "autoFetched": true
+    },
+    {
+      "id": "auto-748d5641b8cf",
+      "title": "Nuevos hospitales se suman al proyecto de telefarmacia ‘Naveta’ del doctor menorquín Gabriel Mercadal - Menorca - Es diari",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPR2ZOeS1KZkVCeXB1Q2pHQmd3WWFENHd0cGstS0w1eTJxQ3VZZGJOYTdkdUs5dlVzaXB3ZmxoeWxDM0xjMkZIN3lYUXJua2pDcWJWVTRHWHJVWU9MWi1KTzNUZmVUeExtWDdvOXVHeEJvMVFGcExDTEVST2ZfREFMdUNKMWM0d1oyTXBzV3FaMEdTLUppYXRReWlHZGk3bWJHX29UQWhJNXZHeTJHcXkwZVhRSlB2STFTNkpQQkVoQ1VwOG9hQ0hsMmdjeHo4YkpmMWtxSmRlVXEyVm1VY2xHaWhMV29McDY10gHoAUFVX3lxTE9CamY1SFd1VFJlX3RTSFRJbEtXc1JTM04xZ2FZVUVZNmtzX21rMm11bmNzb3kyXzJZekJ4VmpIRFBnRTBqUThvSERTSzl5VnBYZlZ0LU5rUFN2UVNRSnNkLUUyei1TMVk5S0N1UmNaRGZjUkxyZVl1cWdJb1NwTWUxN19uMW1wVFd5VEpFdUxURHNvUUZjNWIwUlN5LVIwOEVOX1RmblhSUmU1cS1JbFdvRmdiLUZ0U2xQaEZwVDc3NmpWUXp6d2g0RHNFRjd4Qms3QWpNaVV6SXBOQjJxZEhtVUtMa3VUT2w?oc=5",
       "source": "Menorca - Es diari",
       "domain": "news.google.com",
       "date": "2026-03-19",
