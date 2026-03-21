@@ -1,12 +1,63 @@
 {
-  "lastUpdated": "2026-03-21T06:54:38.403Z",
+  "lastUpdated": "2026-03-21T08:48:11.000Z",
   "scoreThreshold": 4,
-  "count": 41,
+  "count": 44,
   "sources": {
     "gdelt": 0,
     "googleNews": 78
   },
   "mentions": [
+    {
+      "id": "diariofarma-eahp-2026-03",
+      "title": "El 30 congreso de la EAHP arranca en Barcelona con un marcado protagonismo de la SEFH",
+      "url": "https://diariofarma.com/2026/03/19/el-30-congreso-de-la-eahp-arranca-en-barcelona-con-un-marcado-protagonismo-de-la-sefh",
+      "source": "Diario Farma",
+      "domain": "diariofarma.com",
+      "date": "2026-03-19",
+      "language": "es",
+      "type": "news",
+      "score": 10,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+2 telefarmacia + asma grave",
+        "+2 EAHP/SEFH",
+        "+1 farmacia hospitalaria"
+      ]
+    },
+    {
+      "id": "elglobal-eahp-2026-03",
+      "title": "La farmacia hospitalaria española protagonista en el 30 Congreso de la EAHP",
+      "url": "https://elglobalfarma.com/farmacia/farmacia-hospitalaria-congreso-eahp/",
+      "source": "El Global",
+      "domain": "elglobalfarma.com",
+      "date": "2026-03-19",
+      "language": "es",
+      "type": "news",
+      "score": 10,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+2 EAHP",
+        "+2 SEFH",
+        "+1 farmacia hospitalaria"
+      ]
+    },
+    {
+      "id": "diariomedico-eahp-2026-03",
+      "title": "Farmacia hospitalaria española asiste al 30.º Congreso de la EAHP",
+      "url": "https://www.diariomedico.com/farmacia/hospitalaria/farmacia-hospitalaria-espanola-asiste-30o-congreso-eahp.html",
+      "source": "Diario Médico",
+      "domain": "diariomedico.com",
+      "date": "2026-03-19",
+      "language": "es",
+      "type": "news",
+      "score": 10,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+2 EAHP",
+        "+2 SEFH",
+        "+1 farmacia hospitalaria"
+      ]
+    },
     {
       "id": "auto-748d5641b8cf",
       "title": "Nuevos hospitales se suman al proyecto de telefarmacia ‘Naveta’ del doctor menorquín Gabriel Mercadal - Menorca - Es diari",
