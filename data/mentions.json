@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-21T08:48:11.000Z",
+  "lastUpdated": "2026-03-21T18:44:30.519Z",
   "scoreThreshold": 4,
   "count": 44,
   "sources": {
     "gdelt": 0,
-    "googleNews": 78
+    "googleNews": 77
   },
   "mentions": [
     {
