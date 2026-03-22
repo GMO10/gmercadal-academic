@@ -1,7 +1,7 @@
 {
   "lastUpdated": "2026-03-22T06:59:26.605Z",
   "scoreThreshold": 4,
-  "count": 44,
+  "count": 45,
   "sources": {
     "gdelt": 0,
     "googleNews": 77
@@ -338,6 +338,23 @@
         "+4 FARUPEIB",
         "+3 Menorca + health",
         "+1 farmacia hospitalaria"
+      ]
+    },
+    {
+      "id": "diariofarma-oncohematologia-imids-2025-05",
+      "title": "Farmacia Hospitalaria aborda las últimas novedades en Oncohematología e IMIDs",
+      "url": "https://diariofarma.com/2025/05/05/farmacia-hospitalaria-aborda-las-ultimas-novedades-en-oncohematologia-e-imids",
+      "source": "Diario Farma",
+      "domain": "diariofarma.com",
+      "date": "2025-05-05",
+      "language": "es",
+      "type": "news",
+      "score": 10,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+2 SEFH Cataluña-Baleares",
+        "+2 farmacia hospitalaria",
+        "+1 IMIDs"
       ]
     },
     {
