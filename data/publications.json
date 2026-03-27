@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-27T07:16:16.496Z",
-  "count": 35,
+  "lastUpdated": "2026-03-27T07:25:42.525Z",
+  "count": 36,
   "yearIndex": {
     "2003": [
       "pub-0fcf1f1b7403",
@@ -71,10 +71,30 @@
       "doi-10-1016-j-farma-2024-08-004"
     ],
     "2026": [
+      "doi-10-2196-preprints-87592",
       "doi-10-2196-preprints-92890"
     ]
   },
   "publications": [
+    {
+      "id": "doi-10-2196-preprints-87592",
+      "title": "Digital Monitoring of PrEP Users Through ePROMs and ePREMs: A Multicenter Prospective Study on Feasibility, Safety, and Predictive Modeling of Digital Engagement",
+      "year": 2026,
+      "type": "preprint",
+      "doi": "10.2196/87592",
+      "pmid": null,
+      "journal": null,
+      "authors": [
+        "Mercadal-Orfila, Gabriel",
+        "Serrano, Joaquín Ignacio",
+        "Mijares, Tilman",
+        "Vidal, Lluís",
+        "Curran, Adrian",
+        "Herrera-Pérez, Salvador"
+      ],
+      "abstract": "Background: The integration of digital tools and patient-reported outcomes (ePROMs/ePREMs) enables longitudinal assessment of health-related quality of life (HRQoL) and treatment satisfaction among pre-exposure prophylaxis (PrEP) users. However, determinants of digital engagement remain poorly understood. Objectives: The primary objective was to assess the usefulness of the Naveta-Phemium digital platform in monitoring the effectiveness, safety, HRQoL, and treatment satisfaction of PrEP among HIV-negative adults at high risk of infection. The secondary objective was to develop and validate a participant classification system to evaluate and predict engagement with the digital tool. Methods: A 24-month prospective study was conducted using the Naveta digital follow-up platform. HIV-negative adults at high risk of infection received a fixed-dose combination of tenofovir disoproxil fumarate (TDF, 245 mg) and emtricitabine (FTC, 200 mg). Clinical safety, HRQoL, and treatment satisfaction were evaluated through laboratory biomarkers and ePROMs/ePREMs (HADS, PROMIS-29, TSQM, P3CEQ). Sociodemographic and behavioral determinants of digital engagement were analyzed using ALGOPROMIA-Classification, a machine learning-based framework for predictive modeling. Results: Eighty-one participants were included (mean PrEP duration 689 days). PrEP was well tolerated, and no participant reported moderate or severe adverse effects. Renal function remained stable and HRQoL and psychological well-being remained stable. Treatment satisfaction was consistently high (TSQM ≈85-87). Ensemble machine learning models achieved strong discrimination in predicting engagement (AUC ≈0.87). Conclusions: The Naveta digital platform demonstrated the feasibility and safety of long-term PrEP monitoring, with preserved HRQoL, high treatment satisfaction, and stable renal function.",
+      "url": "https://preprints.jmir.org/preprint/87592/accepted"
+    },
     {
       "id": "doi-10-2196-preprints-92890",
       "title": "Mobile App for Multidimensional Monitoring of Immune-Mediated Inflammatory Diseases: A Multicenter Prospective Study (Preprint)",
@@ -87,21 +107,21 @@
         "Escudero-Vilaplana, Vicente",
         "Lobato-Matilla, Elena",
         "Revilla-Cuesta, Natalia",
-        "Herrero Fernández, Marta",
-        "Matilla García, Elena",
-        "Gónzalez-Ponce, Celia M",
+        "Herrero FernÃ¡ndez, Marta",
+        "Matilla GarcÃ­a, Elena",
+        "GÃ³nzalez-Ponce, Celia M",
         "Mercadal-Orfila, Gabriel",
-        "López-Sánchez, Piedad",
+        "LÃ³pez-SÃ¡nchez, Piedad",
         "Ramirez-Herraiz, Esther",
         "Romero-Jimenez, Rosa",
         "Arnaiz-Diez, Sara",
         "De-Caceres-Velasco, Carmen",
-        "Fernández Cebrecos, Inés",
-        "Ferris-Villanueva, María",
-        "Marcos-Rodríguez, Jose Antonio",
+        "FernÃ¡ndez Cebrecos, InÃ©s",
+        "Ferris-Villanueva, MarÃ­a",
+        "Marcos-RodrÃ­guez, Jose Antonio",
         "Chamorro-de-Vega, Esther"
       ],
-      "abstract": "\n                  BACKGROUND\n                  Immune-mediated inflammatory diseases (IMIDs) require long-term treatment with biologic therapies or targeted small molecules. Although these therapies have improved outcomes, routine care still faces important challenges, including medication adherence, early recognition and management of adverse events (AEs), and systematic collection of patient-reported outcome measures (PROMs). Mobile health (mHealth) tools may facilitate multidimensional follow-up between scheduled visits.\n                \n                \n                  OBJECTIVE\n                  To assess the feasibility and real-world use of the eMidCare mobile app among IMID outpatients initiating a new biologic or targeted small-molecule therapy, focusing on medication adherence monitoring, AE reporting, health-related quality of life and mental health PROMs, patient-health care professional communication, app usability, and patient satisfaction.\n                \n                \n                  METHODS\n                  We conducted a prospective, multicenter observational study across 10 Spanish hospitals. Adult IMID outpatients who initiated a new biologic or targeted small-molecule therapy between May and October 2025 installed eMidCare during pharmacist-led onboarding. Outcomes were derived from routinely captured in-app data: medication recording and Morisky-Green questionnaire (adherence), AE self-reporting (safety), EQ-5D-5L and Hospital Anxiety and Depression (HAD) scale (PROMs), and in-app messaging (communication). Usability was assessed using Google Analytics for Firebase and backend logs. Group comparisons across specialties used appropriate nonparametric and categorical tests, with significance set at P&lt;.05.\n                \n                \n                  RESULTS\n                  A total of 192 patients were enrolled; 27 (14.1%) did not use the app after installation. The final impact analysis included 165 patients (73 rheumatology, 49 gastroenterology, and 43 dermatology). Adalimumab was the most frequently prescribed therapy (41.8%), and most treatments were subcutaneous (82.4%). Overall, 110/165 (66.7%) patients recorded 1,233 administrations; based on administration logs, 91.7% were classified as adherent. A total of 67 unique patients completed the Morisky-Green questionnaire 174 times; 84.5% were classified as adherent, with no differences across specialties (P=.793). A total of 178 AEs were recorded, and 39/165 (23.6%) patients reported ≥1 AE, with no differences across specialties (P=.340). Median time to first AE was 39.6 days. EQ-5D-5L was completed by 96/165 (58.2%) patients (190 questionnaires); the median index was 0.805 (0.620, 0.922) and EQ VAS was 75 (50, 85), with rheumatology scoring lower than gastroenterology. Communication included 303 messages across 132 conversation threads (87.9% patient-initiated); 62/165 (37.8%) patients sent ≥1 message, with higher use in dermatology (P=.043). Nearly half of patient messages (49.4%) were sent outside working hours, with no specialty differences (P=.818). Median interactions were 15.0 per patient-week, retention declined gradually with weekly retention remaining &gt;65% at later follow-up points, and backend logs showed no recorded errors with all Application Programming Interface (API) calls (N=67,237) successfully completed. Median overall satisfaction was 9 (9, 10).\n                \n                \n                  CONCLUSIONS\n                  In real-world, multicenter practice, eMidCare was feasible and well accepted for longitudinal follow-up of IMID outpatients initiating a new biologic or targeted small-molecule therapy. The app supported adherence monitoring and AE reporting, enabled PROM collection, and facilitated patient-initiated messaging (including out-of-hours contact) with high user satisfaction.\n                ",
+      "abstract": "\n                  BACKGROUND\n                  Immune-mediated inflammatory diseases (IMIDs) require long-term treatment with biologic therapies or targeted small molecules. Although these therapies have improved outcomes, routine care still faces important challenges, including medication adherence, early recognition and management of adverse events (AEs), and systematic collection of patient-reported outcome measures (PROMs). Mobile health (mHealth) tools may facilitate multidimensional follow-up between scheduled visits.\n                \n                \n                  OBJECTIVE\n                  To assess the feasibility and real-world use of the eMidCare mobile app among IMID outpatients initiating a new biologic or targeted small-molecule therapy, focusing on medication adherence monitoring, AE reporting, health-related quality of life and mental health PROMs, patient-health care professional communication, app usability, and patient satisfaction.\n                \n                \n                  METHODS\n                  We conducted a prospective, multicenter observational study across 10 Spanish hospitals. Adult IMID outpatients who initiated a new biologic or targeted small-molecule therapy between May and October 2025 installed eMidCare during pharmacist-led onboarding. Outcomes were derived from routinely captured in-app data: medication recording and Morisky-Green questionnaire (adherence), AE self-reporting (safety), EQ-5D-5L and Hospital Anxiety and Depression (HAD) scale (PROMs), and in-app messaging (communication). Usability was assessed using Google Analytics for Firebase and backend logs. Group comparisons across specialties used appropriate nonparametric and categorical tests, with significance set at P&lt;.05.\n                \n                \n                  RESULTS\n                  A total of 192 patients were enrolled; 27 (14.1%) did not use the app after installation. The final impact analysis included 165 patients (73 rheumatology, 49 gastroenterology, and 43 dermatology). Adalimumab was the most frequently prescribed therapy (41.8%), and most treatments were subcutaneous (82.4%). Overall, 110/165 (66.7%) patients recorded 1,233 administrations; based on administration logs, 91.7% were classified as adherent. A total of 67 unique patients completed the Morisky-Green questionnaire 174 times; 84.5% were classified as adherent, with no differences across specialties (P=.793). A total of 178 AEs were recorded, and 39/165 (23.6%) patients reported â¥1 AE, with no differences across specialties (P=.340). Median time to first AE was 39.6 days. EQ-5D-5L was completed by 96/165 (58.2%) patients (190 questionnaires); the median index was 0.805 (0.620, 0.922) and EQ VAS was 75 (50, 85), with rheumatology scoring lower than gastroenterology. Communication included 303 messages across 132 conversation threads (87.9% patient-initiated); 62/165 (37.8%) patients sent â¥1 message, with higher use in dermatology (P=.043). Nearly half of patient messages (49.4%) were sent outside working hours, with no specialty differences (P=.818). Median interactions were 15.0 per patient-week, retention declined gradually with weekly retention remaining &gt;65% at later follow-up points, and backend logs showed no recorded errors with all Application Programming Interface (API) calls (N=67,237) successfully completed. Median overall satisfaction was 9 (9, 10).\n                \n                \n                  CONCLUSIONS\n                  In real-world, multicenter practice, eMidCare was feasible and well accepted for longitudinal follow-up of IMID outpatients initiating a new biologic or targeted small-molecule therapy. The app supported adherence monitoring and AE reporting, enabled PROM collection, and facilitated patient-initiated messaging (including out-of-hours contact) with high user satisfaction.\n                ",
       "url": "https://doi.org/10.2196/preprints.92890"
     },
     {
@@ -114,7 +134,7 @@
       "journal": "Integrated Pharmacy Research and Practice",
       "authors": [
         "Mercadal-Orfila, Gabriel",
-        "Serrano López de las Hazas, Joaquin",
+        "Serrano LÃ³pez de las Hazas, Joaquin",
         "Riera-Jaume, Melchor",
         "Herrera-Perez, Salvador"
       ],
@@ -133,9 +153,9 @@
         "Mercadal-Orfila G",
         "Lluch-Taltavull J",
         "Cuatrecasas G",
-        "García JM",
+        "GarcÃ­a JM",
         "Maestre-Fullana MA",
-        "Herrera-Pérez S"
+        "Herrera-PÃ©rez S"
       ],
       "abstract": null,
       "url": "https://doi.org/10.3389/fendo.2025.1731194"
@@ -150,7 +170,7 @@
       "journal": "Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria",
       "authors": [
         "Mercadal-Orfila G",
-        "Seguí-Solanes C",
+        "SeguÃ­-Solanes C",
         "Rudi-Sola N",
         "Escriva-Sancho ME",
         "Taberner-Ferrer R"
@@ -168,14 +188,14 @@
       "journal": "JMIR mHealth and uHealth",
       "authors": [
         "Mercadal-Orfila, Gabriel",
-        "Herrera-Pérez, Salvador",
-        "Piqué, Núria",
+        "Herrera-PÃ©rez, Salvador",
+        "PiquÃ©, NÃºria",
         "Mateu-Amengual, Francesc",
         "Ventayol-Bosch, Pedro",
-        "Maestre-Fullana, María Antonia",
-        "Serrano-López de las Hazas, Joaquín Ignacio",
-        "Fernández-Cortés, Francisco",
-        "Barceló-Sansó, Francesc",
+        "Maestre-Fullana, MarÃ­a Antonia",
+        "Serrano-LÃ³pez de las Hazas, JoaquÃ­n Ignacio",
+        "FernÃ¡ndez-CortÃ©s, Francisco",
+        "BarcelÃ³-SansÃ³, Francesc",
         "Rios, Santiago"
       ],
       "abstract": "\n                    Background\n                    Patient-reported outcome and experience measures can play a critical role in providing patient-centered and value-based health care to a growing population of patients who are chronically ill. Value-based telemedicine platforms such as the Naveta initiative may facilitate the effective integration of these tools into health care systems.\n                  \n                  \n                    Objective\n                    This study aims to evaluate the response rate to electronic patient-reported outcome measures (ePROMs) and electronic patient-reported experience measures (ePREMs) among patients participating in the Naveta telemedicine initiative and its correlations with sociodemographic and clinical characteristics, as well as the evolution of the response rates over time.\n                  \n                  \n                    Methods\n                    Between January 1, 2021, and June 30, 2023, a total of 53,364 ePREMs and ePROMs for 20 chronic conditions were administered through the Naveta-Phemium platform. Descriptive statistics were used to summarize continuous and categorical variables. Differences in response rates within each sociodemographic variable were analyzed using logistic regression models, with significance assessed via chi-square and post hoc Tukey tests. Two-way ANOVA was used to examine the interaction between time interval and disease type on response rate evolution.\n                  \n                  \n                    Results\n                    A total of 3372 patients with severe chronic diseases from 64 public hospitals in Spain participated in the Naveta health questionnaire project. The overall response rate to ePROMs and ePREMs during the first 2.5 years of the Naveta initiative was 46.12% (24,704/53,364), with a baseline rate of 53.33% (7198/13,496). Several sociodemographic factors correlated with lower response rates, including male gender, older age, lower education level, frequent alcohol use, being a student, and not being physically active. There were also significant variations in response rates among different types of chronic conditions (P&lt;.001), with the highest rates being for respiratory (433/606, 71.5%), oncologic (200/319, 62.7%), digestive (2247/3601, 62.4%), and rheumatic diseases (7506/12,982, 57.82%) and the lowest being for HIV infection (7473/22,695, 32.93%). During the first 6 months of follow-up, the response rates decreased in all disease types, except in the case of the group of patients with oncologic disease, among whom the response rate increased up to 100% (6/6). Subsequently, the overall response rate approached baseline levels.\n                  \n                  \n                    Conclusions\n                    Recognizing the influence of sociodemographic factors on response rates is critical to identifying barriers to participation in telemonitoring programs and ensuring inclusiveness in patient-centered health care practices. The observed decline in response rates at follow-up may be due to survey fatigue, highlighting the need for strategies to mitigate this effect. In addition, the variation in response rates across chronic conditions emphasizes the importance of tailoring telemonitoring approaches to specific patient populations.\n                  ",
@@ -191,14 +211,14 @@
       "journal": null,
       "authors": [
         "Mercadal-Orfila, Gabriel",
-        "Herrera-Pérez, Salvador",
-        "Piqué, Núria",
+        "Herrera-PÃ©rez, Salvador",
+        "PiquÃ©, NÃºria",
         "Mateu-Amengual, Francesc",
         "Ventayol-Bosch, Pedro",
-        "Maestre-Fullana, María Antonia",
-        "Serrano-López de las Hazas, Joaquín Ignacio",
-        "Fernández-Cortés, Francisco",
-        "Barceló-Sansó, Francesc",
+        "Maestre-Fullana, MarÃ­a Antonia",
+        "Serrano-LÃ³pez de las Hazas, JoaquÃ­n Ignacio",
+        "FernÃ¡ndez-CortÃ©s, Francisco",
+        "BarcelÃ³-SansÃ³, Francesc",
         "Rios, Santiago"
       ],
       "abstract": "\n                    BACKGROUND\n                        Patient-reported outcome and experience measures can play a critical role in providing patient-centered and value-based health care to a growing population of patients who are chronically ill. Value-based telemedicine platforms such as the Naveta initiative may facilitate the effective integration of these tools into health care systems.\n                \n                                \n                    OBJECTIVE\n                        This study aims to evaluate the response rate to electronic patient-reported outcome measures (ePROMs) and electronic patient-reported experience measures (ePREMs) among patients participating in the Naveta telemedicine initiative and its correlations with sociodemographic and clinical characteristics, as well as the evolution of the response rates over time.\n                \n                                \n                    METHODS\n                        Between January 1, 2021, and June 30, 2023, a total of 53,364 ePREMs and ePROMs for 20 chronic conditions were administered through the Naveta-Phemium platform. Descriptive statistics were used to summarize continuous and categorical variables. Differences in response rates within each sociodemographic variable were analyzed using logistic regression models, with significance assessed via chi-square and post hoc Tukey tests. Two-way ANOVA was used to examine the interaction between time interval and disease type on response rate evolution.\n                \n                                \n                    RESULTS\n                        A total of 3372 patients with severe chronic diseases from 64 public hospitals in Spain participated in the Naveta health questionnaire project. The overall response rate to ePROMs and ePREMs during the first 2.5 years of the Naveta initiative was 46.12% (24,704/53,364), with a baseline rate of 53.33% (7198/13,496). Several sociodemographic factors correlated with lower response rates, including male gender, older age, lower education level, frequent alcohol use, being a student, and not being physically active. There were also significant variations in response rates among different types of chronic conditions (&lt;i&gt;P&lt;/i&gt;&amp;lt;.001), with the highest rates being for respiratory (433/606, 71.5%), oncologic (200/319, 62.7%), digestive (2247/3601, 62.4%), and rheumatic diseases (7506/12,982, 57.82%) and the lowest being for HIV infection (7473/22,695, 32.93%). During the first 6 months of follow-up, the response rates decreased in all disease types, except in the case of the group of patients with oncologic disease, among whom the response rate increased up to 100% (6/6). Subsequently, the overall response rate approached baseline levels.\n                \n                                \n                    CONCLUSIONS\n                        Recognizing the influence of sociodemographic factors on response rates is critical to identifying barriers to participation in telemonitoring programs and ensuring inclusiveness in patient-centered health care practices. The observed decline in response rates at follow-up may be due to survey fatigue, highlighting the need for strategies to mitigate this effect. In addition, the variation in response rates across chronic conditions emphasizes the importance of tailoring telemonitoring approaches to specific patient populations.\n                ",
@@ -214,17 +234,17 @@
       "journal": "Health Services Insights",
       "authors": [
         "Mercadal-Orfila, Gabriel",
-        "Herrera-Pérez, Salvador",
-        "Piqué, Núria",
+        "Herrera-PÃ©rez, Salvador",
+        "PiquÃ©, NÃºria",
         "Mateu-Amengual, Francesc",
         "Ventayol-Bosch, Pedro",
         "Maestre-Fullana, Maria Antonia",
-        "Serrano-López de las Hazas, Joaquin Ignacio",
-        "Fernández-Cortés, Francisco",
-        "Barceló- Sansó, Francesc",
+        "Serrano-LÃ³pez de las Hazas, Joaquin Ignacio",
+        "FernÃ¡ndez-CortÃ©s, Francisco",
+        "BarcelÃ³- SansÃ³, Francesc",
         "Rios, Santiago"
       ],
-      "abstract": "Objective: This study aimed to use the Person-Centered Coordinated Care Experience Questionnaire (P3CEQ) to assess the experience of person-centered coordinated care among people with long-term conditions in the Balearic Islands, Spain. Methods: Over 1300 participants receiving treatment for chronic conditions or HIV pre-exposure prophylaxis were invited to complete the P3CEQ and a socio-demographic questionnaire, both administered electronically via the Naveta app. The P3CEQ assesses the key domains of the P3C through an 11-item questionnaire. Items 1, 2, 3, 4, 5, 8, 9 and 10 assess specifically person-centredness (PC subscale), while items 5, 6, 7, 8 and 9 measure care coordination (CC subscale; question 7 includes 4 sub-questions to specifically assess care plans). Descriptive statistics were used to summarize patient characteristics and P3CEQ items scores. Data analysis included chi-squared test of independence, Student’s t-test and analysis of variance test. Pairwise comparisons were adjusted by Bonferroni correction. Results: The P3CEQ and a socio-demographic questionnaire were sent to 1313 individuals (651 men, 657 women, 5 ‘other gender’). A response rate of 35.34% was achieved, with 464 P3CEQ responders (223 men and 241 women). Significant differences in response rates were observed by age, smoking status, alcohol consumption, membership of patient organizations, and use of alternative medicine. Care planning was rated significantly lower than other measured domains. Women experienced less person-centered care than men (16.64 vs 17.91) and rated care coordination worse than their male counterparts (9.18 vs 10.23). There were also differences in scores between medical condition types, with cancer and inflammatory bowel disease patients rating highest for both person-centered care (21.20 and 19.13, respectively) and care coordination (10.70 vs 10.88, respectively). Patients with skin and rheumatic diseases rated lowest their experience of person-centered care. People with higher education and those employed or studying experienced better person-centeredness. Conclusion: Using the P3CEQ, we detected significant differences in the care experiences of people with chronic conditions, suggesting the need to address potential gender biases, social inequalities, and the poorer ratings observed for certain conditions in the study population. ",
+      "abstract": "Objective: This study aimed to use the Person-Centered Coordinated Care Experience Questionnaire (P3CEQ) to assess the experience of person-centered coordinated care among people with long-term conditions in the Balearic Islands, Spain. Methods: Over 1300 participants receiving treatment for chronic conditions or HIV pre-exposure prophylaxis were invited to complete the P3CEQ and a socio-demographic questionnaire, both administered electronically via the Naveta app. The P3CEQ assesses the key domains of the P3C through an 11-item questionnaire. Items 1, 2, 3, 4, 5, 8, 9 and 10 assess specifically person-centredness (PC subscale), while items 5, 6, 7, 8 and 9 measure care coordination (CC subscale; question 7 includes 4 sub-questions to specifically assess care plans). Descriptive statistics were used to summarize patient characteristics and P3CEQ items scores. Data analysis included chi-squared test of independence, Studentâs t-test and analysis of variance test. Pairwise comparisons were adjusted by Bonferroni correction. Results: The P3CEQ and a socio-demographic questionnaire were sent to 1313 individuals (651 men, 657 women, 5 âother genderâ). A response rate of 35.34% was achieved, with 464 P3CEQ responders (223 men and 241 women). Significant differences in response rates were observed by age, smoking status, alcohol consumption, membership of patient organizations, and use of alternative medicine. Care planning was rated significantly lower than other measured domains. Women experienced less person-centered care than men (16.64 vs 17.91) and rated care coordination worse than their male counterparts (9.18 vs 10.23). There were also differences in scores between medical condition types, with cancer and inflammatory bowel disease patients rating highest for both person-centered care (21.20 and 19.13, respectively) and care coordination (10.70 vs 10.88, respectively). Patients with skin and rheumatic diseases rated lowest their experience of person-centered care. People with higher education and those employed or studying experienced better person-centeredness. Conclusion: Using the P3CEQ, we detected significant differences in the care experiences of people with chronic conditions, suggesting the need to address potential gender biases, social inequalities, and the poorer ratings observed for certain conditions in the study population. ",
       "url": "https://doi.org/10.1177/11786329241258856"
     },
     {
@@ -237,16 +257,16 @@
       "journal": "Frontiers in medicine",
       "authors": [
         "Mercadal-Orfila G",
-        "López Sánchez P",
+        "LÃ³pez SÃ¡nchez P",
         "Pou Alonso A",
         "Ibarra-Barrueta O",
         "Monte-Boquet E",
-        "Borrás Blasco J",
-        "Padullés Zamora N",
+        "BorrÃ¡s Blasco J",
+        "PadullÃ©s Zamora N",
         "Sanmartin-Fenollera P",
         "Capilla Montes C",
-        "Bernabéu Martínez MÁ",
-        "Herrera-Pérez S"
+        "BernabÃ©u MartÃ­nez MÃ",
+        "Herrera-PÃ©rez S"
       ],
       "abstract": null,
       "url": "https://doi.org/10.3389/fmed.2024.1465725"
@@ -263,8 +283,8 @@
         "Mercadal-Orfila, Gabriel",
         "Font, Julia",
         "Pons, Marta",
-        "Blasco Mascaró, Ignacio",
-        "Piqué, Núria"
+        "Blasco MascarÃ³, Ignacio",
+        "PiquÃ©, NÃºria"
       ],
       "abstract": null,
       "url": "https://doi.org/10.1080/09540121.2022.2067518"
@@ -278,10 +298,10 @@
       "pmid": "36520573",
       "journal": "Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria",
       "authors": [
-        "Álvarez-Díaz AM",
+        "Ãlvarez-DÃ­az AM",
         "Mercadal-Orfila G",
-        "Ramírez-Herráiz E",
-        "Borrás-Blasco J"
+        "RamÃ­rez-HerrÃ¡iz E",
+        "BorrÃ¡s-Blasco J"
       ],
       "abstract": null,
       "url": "https://pubmed.ncbi.nlm.nih.gov/36520573/"
@@ -297,9 +317,9 @@
       "authors": [
         "Mercadal-Orfila G",
         "Lizeaga G",
-        "Fernández-Llamazares CM",
+        "FernÃ¡ndez-Llamazares CM",
         "Tortajada-Goitia B",
-        "García Cabrera E",
+        "GarcÃ­a Cabrera E",
         "Morillo-Verdugo R",
         "Negro-Vega E"
       ],
@@ -325,16 +345,16 @@
       "type": "journal-article",
       "doi": "10.20960/nh.1426",
       "pmid": null,
-      "journal": "Nutrición Hospitalaria",
+      "journal": "NutriciÃ³n Hospitalaria",
       "authors": [
         "Lluch Taltavull, Josep Ignasi"
       ],
-      "abstract": "ResumenObjetivo: Aplicar un protocolo que facilite la detección de malnutrición en los pacientes oncológicos durante su tratamiento de radioterapia o quimioterapia, seleccionando los que se podrían beneficiar de una intervención nutricional específica.Metodología: Se determinó la presencia de riesgo de desnutrición con el método de cribado Malnutrition Screening Tool (MST). A los sujetos con riesgo se les realizó una Valoración Global Subjetiva-Generada por el Paciente (VGS-GP) y a un subgrupo de la muestra estudiada también se midió la calidad de vida (CV) mediante el cuestionario EORTC QLQ-C30.Resultados: De un total de 222 pacientes se observó riesgo de desnutrición en 126 (56,7%). La VGS-GP muestra una prevalencia inicial de desnutrición del 69,2% (61,7% desnutrición moderada y 7,5% desnutrición severa) y una media de pérdida de peso de -10,27 kg. En la última valoración (+12 meses), el porcentaje de desnutrición o en riesgo se redujo de forma significativa a un 23,5% y la media de pérdida de peso disminuyó a -7,1kg.  Durante el seguimiento mejoraron las puntuaciones del cuestionario EORTC QLQ-C30, en especial a los 3 meses la escala diarrea (p = 0,037), a los 6 meses la escala dolor (p = 0,009), y a los 12 meses las escalas dolor (p = 0,026), náusea y vómito (p = 0,002), disnea (p = 0,016), pérdida de apetito (p = 0,002) y estreñimiento (p = 0,0).Conclusión: El protocolo ha resultado eficaz mejorando la situación nutricional y la calidad de vida de los pacientes oncológicos con recuperación parcial del peso perdido.",
+      "abstract": "ResumenObjetivo: Aplicar un protocolo que facilite la detecciÃ³n de malnutriciÃ³n en los pacientes oncolÃ³gicos durante su tratamiento de radioterapia o quimioterapia, seleccionando los que se podrÃ­an beneficiar de una intervenciÃ³n nutricional especÃ­fica.MetodologÃ­a: Se determinÃ³ la presencia de riesgo de desnutriciÃ³n con el mÃ©todo de cribado Malnutrition Screening Tool (MST). A los sujetos con riesgo se les realizÃ³ una ValoraciÃ³n Global Subjetiva-Generada por el Paciente (VGS-GP) y a un subgrupo de la muestra estudiada tambiÃ©n se midiÃ³ la calidad de vida (CV) mediante el cuestionario EORTC QLQ-C30.Resultados: De un total de 222 pacientes se observÃ³ riesgo de desnutriciÃ³n en 126 (56,7%). La VGS-GP muestra una prevalencia inicial de desnutriciÃ³n del 69,2% (61,7% desnutriciÃ³n moderada y 7,5% desnutriciÃ³n severa) y una media de pÃ©rdida de peso de -10,27 kg. En la Ãºltima valoraciÃ³n (+12 meses), el porcentaje de desnutriciÃ³n o en riesgo se redujo de forma significativa a un 23,5% y la media de pÃ©rdida de peso disminuyÃ³ a -7,1kg. Â Durante el seguimiento mejoraron las puntuaciones del cuestionario EORTC QLQ-C30, en especial a los 3 meses la escala diarrea (p = 0,037), a los 6 meses la escala dolor (p = 0,009), y a los 12 meses las escalas dolor (p = 0,026), nÃ¡usea y vÃ³mito (p = 0,002), disnea (p = 0,016), pÃ©rdida de apetito (p = 0,002) y estreÃ±imiento (p = 0,0).ConclusiÃ³n: El protocolo ha resultado eficaz mejorando la situaciÃ³n nutricional y la calidad de vida de los pacientes oncolÃ³gicos con recuperaciÃ³n parcial del peso perdido.",
       "url": "https://doi.org/10.20960/nh.1426"
     },
     {
       "id": "pub-ceb462962d5d",
-      "title": "Improvement of the nutritional status and quality of life of cancer patients through a protocol of evaluation and nutritional intervention,Mejora de la situación nutricional y la calidad de vida de los pacientes oncológicos mediante protocolo de evaluación y de intervención nutricional",
+      "title": "Improvement of the nutritional status and quality of life of cancer patients through a protocol of evaluation and nutritional intervention,Mejora de la situaciÃ³n nutricional y la calidad de vida de los pacientes oncolÃ³gicos mediante protocolo de evaluaciÃ³n y de intervenciÃ³n nutricional",
       "year": 2018,
       "type": "journal-article",
       "doi": null,
@@ -366,7 +386,7 @@
       "journal": "Glutamine in Clinical Nutrition",
       "authors": [
         "Mercadal-Orfila, Gabriel",
-        "Talaverón, Josep Manel Llop",
+        "TalaverÃ³n, Josep Manel Llop",
         "Rajendram, Rajkumar"
       ],
       "abstract": null,
@@ -374,7 +394,7 @@
     },
     {
       "id": "doi-10-3305-nh-2014-30-3-7204",
-      "title": "[Pre-operative nutrition support in patients waiting for digestive surgery at Hospital Mateu Orfila (Maó-Menorca)].",
+      "title": "[Pre-operative nutrition support in patients waiting for digestive surgery at Hospital Mateu Orfila (MaÃ³-Menorca)].",
       "year": 2014,
       "type": "journal-article",
       "doi": "10.3305/nh.2014.30.3.7204",
@@ -411,7 +431,7 @@
       "journal": "Nutricion hospitalaria",
       "authors": [
         "Mercadal Orfila G",
-        "Llop Talaverón JM"
+        "Llop TalaverÃ³n JM"
       ],
       "abstract": null,
       "url": "https://doi.org/10.1590/s0212-16112011000600017"
@@ -426,14 +446,14 @@
       "journal": "Farmacia Hospitalaria",
       "authors": [
         "Mercadal Orfila, G.",
-        "Blasco Mascaró, I."
+        "Blasco MascarÃ³, I."
       ],
       "abstract": null,
       "url": "https://doi.org/10.1016/j.farma.2010.10.008"
     },
     {
       "id": "doi-10-3305-nh-2011-26-6-5253",
-      "title": "Effectiveness of perioperative glutamine in parenteral nutrition in patients at risk of moderate to severe malnutrition,Efectividad de la utilización perioperatoria de glutamina en nutrición parenteral en pacientes con riesgo de desnutrición moderadasevera",
+      "title": "Effectiveness of perioperative glutamine in parenteral nutrition in patients at risk of moderate to severe malnutrition,Efectividad de la utilizaciÃ³n perioperatoria de glutamina en nutriciÃ³n parenteral en pacientes con riesgo de desnutriciÃ³n moderadasevera",
       "year": 2011,
       "type": "journal-article",
       "doi": "10.3305/nh.2011.26.6.5253",
@@ -453,7 +473,7 @@
       "journal": "Farmacia Hospitalaria",
       "authors": [
         "Mercadal Orfila, G.",
-        "Blasco Mascaró, I."
+        "Blasco MascarÃ³, I."
       ],
       "abstract": null,
       "url": "https://doi.org/10.1016/j.farma.2009.10.007"
@@ -468,11 +488,11 @@
       "journal": "Pharmacy World &amp; Science",
       "authors": [
         "Mercadal Orfila, Gabriel",
-        "Gracia García, Berta",
+        "Gracia GarcÃ­a, Berta",
         "Leiva Badosa, Elisabet",
-        "Perayre Badía, María",
-        "Reynaldo Martínez, Concepción",
-        "Jodar Masanés, Ramón"
+        "Perayre BadÃ­a, MarÃ­a",
+        "Reynaldo MartÃ­nez, ConcepciÃ³n",
+        "Jodar MasanÃ©s, RamÃ³n"
       ],
       "abstract": null,
       "url": "https://doi.org/10.1007/s11096-008-9265-9"
@@ -491,7 +511,7 @@
     },
     {
       "id": "pub-1bc68658fd3b",
-      "title": "Acute poisoning in the emergency department of a level III universitary hospital: Changes produced in the last 10 years,Intoxicaciones agudas en el servicio de urgencias de un hospital universitario de nivel III: Cambios producidos en los últimos 10 años",
+      "title": "Acute poisoning in the emergency department of a level III universitary hospital: Changes produced in the last 10 years,Intoxicaciones agudas en el servicio de urgencias de un hospital universitario de nivel III: Cambios producidos en los Ãºltimos 10 aÃ±os",
       "year": 2007,
       "type": "journal-article",
       "doi": null,
@@ -503,7 +523,7 @@
     },
     {
       "id": "pub-4f903e44f027",
-      "title": "Glutamine use for parenteral nutrition in the critically ill patient: Effects on morbimortality,Utilización de glutamina en nutrición parenteral en paciente crítico: Efectos sobre la morbi-mortalidad",
+      "title": "Glutamine use for parenteral nutrition in the critically ill patient: Effects on morbimortality,UtilizaciÃ³n de glutamina en nutriciÃ³n parenteral en paciente crÃ­tico: Efectos sobre la morbi-mortalidad",
       "year": 2007,
       "type": "journal-article",
       "doi": null,
@@ -527,7 +547,7 @@
     },
     {
       "id": "pub-ee5cc309d57d",
-      "title": "Automation of parenteral nutrition elaboration: Adaptation to in force legislation,Automatización de la elaboración de nutrición parenteral: Adecuación a la legislación actual",
+      "title": "Automation of parenteral nutrition elaboration: Adaptation to in force legislation,AutomatizaciÃ³n de la elaboraciÃ³n de nutriciÃ³n parenteral: AdecuaciÃ³n a la legislaciÃ³n actual",
       "year": 2006,
       "type": "journal-article",
       "doi": null,
@@ -548,14 +568,14 @@
       "authors": [
         "Juvany, Roser",
         "Mercadal, Gabriel",
-        "Jódar, Ramón"
+        "JoÌdar, RamoÌn"
       ],
       "abstract": null,
       "url": "https://doi.org/10.1093/ajhp/62.1.36"
     },
     {
       "id": "pub-7370bc099323",
-      "title": "Admissions due to intoxication to the emergency unit of a third-level hospital: Epidemiology and use of antidotes,Ingresos en urgencias por intoxicación en un hospital de tercer nivel: Epidemiología y utilización de antídotos",
+      "title": "Admissions due to intoxication to the emergency unit of a third-level hospital: Epidemiology and use of antidotes,Ingresos en urgencias por intoxicaciÃ³n en un hospital de tercer nivel: EpidemiologÃ­a y utilizaciÃ³n de antÃ­dotos",
       "year": 2005,
       "type": "journal-article",
       "doi": null,
@@ -567,7 +587,7 @@
     },
     {
       "id": "pub-5750a60e0587",
-      "title": "Therapeutic interchange of sulfonylureas in a third care level hospital: Application and clinical evaluation of the protocol,Intercambio terapéutico de sulfonilureas en un hospital de tercer nivel: Aplicación y evaluación clínica del protocolo",
+      "title": "Therapeutic interchange of sulfonylureas in a third care level hospital: Application and clinical evaluation of the protocol,Intercambio terapÃ©utico de sulfonilureas en un hospital de tercer nivel: AplicaciÃ³n y evaluaciÃ³n clÃ­nica del protocolo",
       "year": 2005,
       "type": "journal-article",
       "doi": null,
@@ -588,14 +608,14 @@
       "authors": [
         "Juvany Roig, R.",
         "Mercadal Orfila, G.",
-        "Jódar Masanés, R."
+        "JÃ³dar MasanÃ©s, R."
       ],
       "abstract": null,
       "url": "https://doi.org/10.4321/s0212-71992004000600009"
     },
     {
       "id": "pub-e1ddf3d6c580",
-      "title": "Perioperative management of chronic medications not related with surgical procedures,Manejo perioperatorio de la medicación crónica no relacionada con la cirugía",
+      "title": "Perioperative management of chronic medications not related with surgical procedures,Manejo perioperatorio de la medicaciÃ³n crÃ³nica no relacionada con la cirugÃ­a",
       "year": 2004,
       "type": "journal-article",
       "doi": null,
@@ -619,7 +639,7 @@
     },
     {
       "id": "pub-48f4353891e1",
-      "title": "Profhylaxis and treatment of hereditary and acquired angioedema at HUB; use of the C1-esterase inhibitor,Profilaxis y tratamiento del angioedema hereditario y adquirido en el HUB; utilización del inhibidor de la C1-esterasa",
+      "title": "Profhylaxis and treatment of hereditary and acquired angioedema at HUB; use of the C1-esterase inhibitor,Profilaxis y tratamiento del angioedema hereditario y adquirido en el HUB; utilizaciÃ³n del inhibidor de la C1-esterasa",
       "year": 2003,
       "type": "journal-article",
       "doi": null,
