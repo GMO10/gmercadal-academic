@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-26T19:19:37.379Z",
+  "lastUpdated": "2026-03-27T07:20:18.300Z",
   "scoreThreshold": 4,
-  "count": 45,
+  "count": 44,
   "sources": {
     "gdelt": 0,
-    "googleNews": 76
+    "googleNews": 73
   },
   "mentions": [
     {
@@ -258,21 +258,6 @@
         "+2 telefarmacia",
         "+2 PROMs/PREMs"
       ]
-    },
-    {
-      "id": "auto-b997283dd71e",
-      "title": "Farupeib y Mendel Brain colaboran para la innovación y la humanización en FH - Diariofarma",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2dJcHUzOVVBeU5kaEpaWUR6ZWtDQVc2WV9PTVh5R21yYWhMRGpIcGdGRzJyNkl5eHowNnNBVXlna3JxU2FkYW9FRG90UG1CaUVOZmt4cHBKLWZhZmdrRXBzZWJrMEE3Ymp1MkctV1Z3VFJkUDNJUzlsUkoyR0tsTl9Yclc2SUFCenRPaEJvTlZiUW0wTTJKemtNRnhpSnZnNnNleVJYdEZMR3VTclZ5WWtETHhJU09fWjAwSHVOOA?oc=5",
-      "source": "Diariofarma",
-      "domain": "news.google.com",
-      "date": "2025-07-31",
-      "language": "es",
-      "type": "news",
-      "score": 4,
-      "signals": [
-        "+4 FARUPEIB"
-      ],
-      "autoFetched": true
     },
     {
       "id": "radar-healthtech-2025-06",
