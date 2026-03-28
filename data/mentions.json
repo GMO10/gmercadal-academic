@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-03-28T07:06:27.898Z",
+  "lastUpdated": "2026-03-28T18:51:37.965Z",
   "scoreThreshold": 4,
-  "count": 44,
+  "count": 45,
   "sources": {
     "gdelt": 0,
     "googleNews": 75
@@ -258,6 +258,21 @@
         "+2 telefarmacia",
         "+2 PROMs/PREMs"
       ]
+    },
+    {
+      "id": "auto-b997283dd71e",
+      "title": "Farupeib y Mendel Brain colaboran para la innovación y la humanización en FH - Diariofarma",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2dJcHUzOVVBeU5kaEpaWUR6ZWtDQVc2WV9PTVh5R21yYWhMRGpIcGdGRzJyNkl5eHowNnNBVXlna3JxU2FkYW9FRG90UG1CaUVOZmt4cHBKLWZhZmdrRXBzZWJrMEE3Ymp1MkctV1Z3VFJkUDNJUzlsUkoyR0tsTl9Yclc2SUFCenRPaEJvTlZiUW0wTTJKemtNRnhpSnZnNnNleVJYdEZMR3VTclZ5WWtETHhJU09fWjAwSHVOOA?oc=5",
+      "source": "Diariofarma",
+      "domain": "news.google.com",
+      "date": "2025-07-31",
+      "language": "es",
+      "type": "news",
+      "score": 4,
+      "signals": [
+        "+4 FARUPEIB"
+      ],
+      "autoFetched": true
     },
     {
       "id": "radar-healthtech-2025-06",
@@ -555,9 +570,9 @@
     },
     {
       "id": "auto-0c763fc18186",
-      "title": "La telefarmacia centra la reunión de la SEFH en Cataluña - diariofarma.com",
+      "title": "La telefarmacia centra la reunión de la SEFH en Cataluña - Diariofarma",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQzQ0WWhPdW1YVDBVTGR1S2tEdWRDTE1zY2hXcHpwTkZyRW9tRjJPM3FxY0o0WDFHSmJ0RkVYNF9nX0ExbGpJM3RaRHQwVUE0cy1qWmFybTlzamJNejFkUnRoTGRFeG9PXzRUUmpXUWNfUUZYNS00dEVwblB1cTVqalZrZUNPRkFGa2ZsbjZpbHNZREJkRWc?oc=5",
-      "source": "diariofarma.com",
+      "source": "Diariofarma",
       "domain": "news.google.com",
       "date": "2022-05-31",
       "language": "es",
@@ -656,9 +671,9 @@
     },
     {
       "id": "auto-5619830ba914",
-      "title": "El proyecto ‘Naveta’ de telefarmacia asociada a PROMS gana la 2ª Edición del ‘Foro de innovación’ de la SEFH - diariofarma.com",
+      "title": "El proyecto ‘Naveta’ de telefarmacia asociada a PROMS gana la 2ª Edición del ‘Foro de innovación’ de la SEFH - Diariofarma",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZExETlYyM2o0N3JYRl9NUWUxZnB1WVFOV0lCbTh6U2xmbTFoZU1fTE9MUEppejdiOXhjVHRsdkVhT0M5TUpVRDJEMVF5RHpzUDJ2ZTdiVl9aYTJLNmZOejU4SzJVVzM0ZVM5bTBzb3U2SDFqVXdVclZJUWdzd190aUhlUVZfN2EwS3VvdFg5NW0wT2ltUjBoVXJFZk1kSlpRS0ttLUdVazR2cE5FSFJzdUZmb2ZJYU9HTmozTThoYkFURGh2UmFUc1VPc0gzOS02NGNCWE93?oc=5",
-      "source": "diariofarma.com",
+      "source": "Diariofarma",
       "domain": "news.google.com",
       "date": "2021-10-27",
       "language": "es",
