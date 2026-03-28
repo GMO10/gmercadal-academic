@@ -19,7 +19,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'bg.title': 'Academic Background',
     'bg.p1': 'PhD in Pharmacy (Cum Laude) from the Universitat de Barcelona, with a thesis on the effectiveness of glutamine in perioperative parenteral nutrition. Specialist in Hospital Pharmacy trained at Hospital Universitari de Bellvitge.',
     'bg.p2': 'Postgraduate diplomas in Health Sciences Statistics (UAB) and Pharmacoeconomics (UPF). Master in Medical Direction and Clinical Management (UNED, 2023-2025). Currently pursuing the Advanced Master in Artificial Intelligence in Health Sciences Education (Universitat de Barcelona).',
-    'bg.p3': 'Associate Professor of Biochemistry and Nutrition at the Universitat de les Illes Balears. Scientific Coordinator of the postgraduate diploma in Value-Based Healthcare for Dermatological and Rheumatic Diseases (Universidad de Alcal\u00e1, accredited by SEFH).',
+    'bg.p3': 'Associate Professor of Biochemistry and Nutrition at the Universitat de lhes Illes Balears. Scientific Coordinator of the postgraduate diploma in Value-Based Healthcare for Dermatological and Rheumatic Diseases (Universidad de Alcal\u00e1, accredited by SEFH).',
     'bg.p4': 'Current research focuses on value-based healthcare, specifically the implementation, analysis, and psychometric validation of PROMs and PREMs, as well as the application of artificial intelligence and machine learning to build predictive models for patient-reported outcomes.',
 
     // Home sections
@@ -67,17 +67,17 @@ export const translations: Record<Lang, Record<string, string>> = {
     // IA Aplicada
     'nav.ia': 'AI Applied',
     'ia.page.title': 'Applied AI',
-    'ia.page.subtitle': 'AI initiatives applied to clinical practice, value-based healthcare and patient-reported outcomes at IB-SALUT Menorca.',
+    'ia.page.subtitle': 'AI initiatives applied to clinical practice, value-based healthcare and patient-reported outcomes at Menorca.',
     'ia.section.projects': 'Active Projects',
     'ia.section.coming': 'More projects coming soon',
     'ia.section.comingSub': 'New AI tools in development.',
     'ia.status.active': '● Active',
     'ia.tutor.title': 'TutorASBV — Socratic AI Tutor',
-    'ia.tutor.subtitle': 'DEU in Value-Based Healthcare · IB-SALUT',
+    'ia.tutor.subtitle': 'DEU in Value-Based Healthcare',
     'ia.tutor.description': 'Conversational AI tutor based on the Socratic method that guides healthcare professionals through 7 stages to design PROMs/PREMs implementation projects. Built with Flowise + Claude 3 Sonnet.',
     'ia.tutor.cta': 'Open Tutor →',
 
-    // Footer
+    // Footerh
     'footer.dataUpdated': 'Data auto-updated via',
   },
   es: {
@@ -146,13 +146,13 @@ export const translations: Record<Lang, Record<string, string>> = {
     // IA Aplicada
     'nav.ia': 'IA Aplicada',
     'ia.page.title': 'IA Aplicada',
-    'ia.page.subtitle': 'Iniciativas de inteligencia artificial aplicadas a la pr\u00e1ctica cl\u00ednica, la atenci\u00f3n sanitaria basada en valor y los PROMs/PREMs en IB-SALUT Menorca.',
+    'ia.page.subtitle': 'Iniciativas de inteligencia artificial aplicadas a la pr\u00e1ctica cl\u00ednica, la atenci\u00f3n sanitaria basada en valor y los PROMs/PREMs en Menorca.',
     'ia.section.projects': 'Proyectos activos',
     'ia.section.coming': 'Pr\u00f3ximos proyectos',
     'ia.section.comingSub': 'Nuevas herramientas de IA en desarrollo.',
     'ia.status.active': '\u25cf Activo',
     'ia.tutor.title': 'TutorASBV \u2014 Tutor Socr\u00e1tico IA',
-    'ia.tutor.subtitle': 'DEU Atenci\u00f3n Sanitaria Basada en Valor \u00b7 IB-SALUT',
+    'ia.tutor.subtitle': 'DEU Atenci\u00f3n Sanitaria Basada en Valor \u00b7',
     'ia.tutor.description': 'Tutor conversacional basado en IA y m\u00e9todo socr\u00e1tico que gu\u00eda a profesionales sanitarios en 7 etapas para dise\u00f1ar proyectos de implementaci\u00f3n de PROMs/PREMs en su contexto cl\u00ednico. Flowise + Claude 3 Sonnet.',
     'ia.tutor.cta': 'Abrir Tutor \u2192',
 
@@ -225,13 +225,13 @@ export const translations: Record<Lang, Record<string, string>> = {
     // IA Aplicada
     'nav.ia': 'IA Aplicada',
     'ia.page.title': 'IA Aplicada',
-    'ia.page.subtitle': "Iniciatives d'intel\u00b7lig\u00e8ncia artificial aplicades a la pr\u00e0ctica cl\u00ednica, l'atenci\u00f3 sanit\u00e0ria basada en valor i els PROMs/PREMs a IB-SALUT Menorca.",
+    'ia.page.subtitle': "Iniciatives d'intel\u00b7lig\u00e8ncia artificial aplicades a la pr\u00e0ctica cl\u00ednica, l'atenci\u00f3 sanit\u00e0ria basada en valor i els PROMs/PREMs a Menorca.",
     'ia.section.projects': 'Projectes actius',
     'ia.section.coming': 'Propers projectes',
     'ia.section.comingSub': "Noves eines d'IA en desenvolupament.",
     'ia.status.active': '\u25cf Actiu',
     'ia.tutor.title': 'TutorASBV \u2014 Tutor Socr\u00e0tic IA',
-    'ia.tutor.subtitle': 'DEU Atenci\u00f3 Sanit\u00e0ria Basada en Valor \u00b7 IB-SALUT',
+    'ia.tutor.subtitle': 'DEU Atenci\u00f3 Sanit\u00e0ria Basada en Valor \u00b7',
     'ia.tutor.description': "Tutor conversacional basat en IA i m\u00e8tode socr\u00e0tic que guia professionals sanitaris en 7 etapes per dissenyar projectes d'implementaci\u00f3 de PROMs/PREMs. Flowise + Claude 3 Sonnet.",
     'ia.tutor.cta': 'Obrir Tutor \u2192',
 
