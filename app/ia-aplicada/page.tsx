@@ -15,7 +15,7 @@ export default function IAPage() {
       tags: ['LLM', 'Flowise', 'PROMs', 'VBHC', 'DEU'],
       status: t('ia.status.active'),
       statusColor: 'bg-emerald-100 text-emerald-800',
-      link: '/tutor_deu.html',
+      link: 'https://project-tngig.vercel.app',
       linkLabel: t('ia.tutor.cta'),
       external: true,
     },
