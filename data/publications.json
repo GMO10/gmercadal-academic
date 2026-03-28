@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-27T19:02:36.708Z",
-  "count": 35,
+  "lastUpdated": "2026-03-28T07:05:26.030Z",
+  "count": 36,
   "yearIndex": {
     "2003": [
       "pub-0fcf1f1b7403",
@@ -71,7 +71,8 @@
       "doi-10-1016-j-farma-2024-08-004"
     ],
     "2026": [
-      "doi-10-2196-preprints-92890"
+      "doi-10-2196-preprints-92890",
+      "doi-pii--S1130-6343-26-00009-7--10-1016-j-farma-2026-01-006"
     ]
   },
   "publications": [
@@ -103,6 +104,32 @@
       ],
       "abstract": "\n                  BACKGROUND\n                  Immune-mediated inflammatory diseases (IMIDs) require long-term treatment with biologic therapies or targeted small molecules. Although these therapies have improved outcomes, routine care still faces important challenges, including medication adherence, early recognition and management of adverse events (AEs), and systematic collection of patient-reported outcome measures (PROMs). Mobile health (mHealth) tools may facilitate multidimensional follow-up between scheduled visits.\n                \n                \n                  OBJECTIVE\n                  To assess the feasibility and real-world use of the eMidCare mobile app among IMID outpatients initiating a new biologic or targeted small-molecule therapy, focusing on medication adherence monitoring, AE reporting, health-related quality of life and mental health PROMs, patient-health care professional communication, app usability, and patient satisfaction.\n                \n                \n                  METHODS\n                  We conducted a prospective, multicenter observational study across 10 Spanish hospitals. Adult IMID outpatients who initiated a new biologic or targeted small-molecule therapy between May and October 2025 installed eMidCare during pharmacist-led onboarding. Outcomes were derived from routinely captured in-app data: medication recording and Morisky-Green questionnaire (adherence), AE self-reporting (safety), EQ-5D-5L and Hospital Anxiety and Depression (HAD) scale (PROMs), and in-app messaging (communication). Usability was assessed using Google Analytics for Firebase and backend logs. Group comparisons across specialties used appropriate nonparametric and categorical tests, with significance set at P&lt;.05.\n                \n                \n                  RESULTS\n                  A total of 192 patients were enrolled; 27 (14.1%) did not use the app after installation. The final impact analysis included 165 patients (73 rheumatology, 49 gastroenterology, and 43 dermatology). Adalimumab was the most frequently prescribed therapy (41.8%), and most treatments were subcutaneous (82.4%). Overall, 110/165 (66.7%) patients recorded 1,233 administrations; based on administration logs, 91.7% were classified as adherent. A total of 67 unique patients completed the Morisky-Green questionnaire 174 times; 84.5% were classified as adherent, with no differences across specialties (P=.793). A total of 178 AEs were recorded, and 39/165 (23.6%) patients reported ≥1 AE, with no differences across specialties (P=.340). Median time to first AE was 39.6 days. EQ-5D-5L was completed by 96/165 (58.2%) patients (190 questionnaires); the median index was 0.805 (0.620, 0.922) and EQ VAS was 75 (50, 85), with rheumatology scoring lower than gastroenterology. Communication included 303 messages across 132 conversation threads (87.9% patient-initiated); 62/165 (37.8%) patients sent ≥1 message, with higher use in dermatology (P=.043). Nearly half of patient messages (49.4%) were sent outside working hours, with no specialty differences (P=.818). Median interactions were 15.0 per patient-week, retention declined gradually with weekly retention remaining &gt;65% at later follow-up points, and backend logs showed no recorded errors with all Application Programming Interface (API) calls (N=67,237) successfully completed. Median overall satisfaction was 9 (9, 10).\n                \n                \n                  CONCLUSIONS\n                  In real-world, multicenter practice, eMidCare was feasible and well accepted for longitudinal follow-up of IMID outpatients initiating a new biologic or targeted small-molecule therapy. The app supported adherence monitoring and AE reporting, enabled PROM collection, and facilitated patient-initiated messaging (including out-of-hours contact) with high user satisfaction.\n                ",
       "url": "https://doi.org/10.2196/preprints.92890"
+    },
+    {
+      "id": "doi-pii--S1130-6343-26-00009-7--10-1016-j-farma-2026-01-006",
+      "title": "Telepharmacy follow-up using electronic patient-reported outcome measures in moderate-to-severe psoriasis.",
+      "year": 2026,
+      "type": "journal-article",
+      "doi": "pii: S1130-6343(26)00009-7. 10.1016/j.farma.2026.01.006",
+      "pmid": "41896043",
+      "journal": "Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria",
+      "authors": [
+        "Mercadal-Orfila G",
+        "López Sánchez P",
+        "Padullés-Zamora N",
+        "Pou Alonso A",
+        "Ibarra-Barrueta O",
+        "Monte-Boquet E",
+        "Borrás Blasco J",
+        "Sanmartin-Fenollera P",
+        "Capilla Montes C",
+        "Bernabéu Martínez MA",
+        "Notario Rosa J",
+        "Escrivá Sancho ME",
+        "Herrera-Pérez S"
+      ],
+      "abstract": null,
+      "url": "https://doi.org/pii: S1130-6343(26)00009-7. 10.1016/j.farma.2026.01.006"
     },
     {
       "id": "doi-10-2147-IPRP-S492422",
