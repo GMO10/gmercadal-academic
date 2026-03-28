@@ -1,8 +1,29 @@
 {
-  "lastUpdated": "2026-03-15T16:35:51.891Z",
-  "scoreThreshold": 6,
-  "count": 17,
+  "lastUpdated": "2026-03-19T00:00:00Z",
+  "scoreThreshold": 4,
+  "count": 38,
+  "sources": {
+    "gdelt": 0,
+    "googleNews": 86
+  },
   "mentions": [
+    {
+      "id": "menorca-info-2026-03-naveta-hospitales",
+      "title": "Nuevos hospitales se suman al proyecto de telefarmacia 'Naveta' del doctor menorquín Gabriel Mercadal",
+      "url": "https://www.menorca.info/menorca/local/2026/03/19/2592041/nuevos-hospitales-suman-proyecto-telefarmacia-naveta-del-doctor-menorquin-gabriel-mercadal.html",
+      "source": "Menorca.info",
+      "domain": "menorca.info",
+      "date": "2026-03-19",
+      "language": "es",
+      "type": "news",
+      "score": 15,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+4 Gabriel Mercadal + Naveta",
+        "+4 telefarmacia + PROMs",
+        "+3 Congreso EAHP Barcelona 2026"
+      ]
+    },
     {
       "id": "menorca-info-2026-01-vih",
       "title": "El Mateu Orfila forma parte de un proyecto para mejorar la vida con la IA a enfermos de VIH",
@@ -17,7 +38,7 @@
         "+4 Hospital Mateu Orfila",
         "+4 Mercadal-Orfila + G",
         "+3 Mahon + health",
-        "+1 keywords: IA, VIH"
+        "+1 IA, VIH"
       ]
     },
     {
@@ -55,6 +76,21 @@
       ]
     },
     {
+      "id": "auto-c90e0efc7d9b",
+      "title": "El doctor en Farmacia Biel Mercadal recoge en Málaga el galardón al «Zafiro» - Menorca - Es diari",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWDBUSmdCUWFwLXVYVWx6U0l5ajBmTGJzX045WGQzSHU5cHFrWmdRNnYxbm45Q1o2QVFpSlRWcWVjZnY3ZVBiQWtmMzh0ZklnT2cwZFNlV0lJaFVtQ1VkSHFQR0lJS1Y4QlJ2TzJKQ1IzN3NGbTlFOVREMEZjNUZCdGJGMEYzMzJXQUttX0lzMGE0MnR1RFh6ZXB3eFg0ZXZNeW05dDhfU1NFNXZrWVFBRm5FcndYclFlUUtqZy0xa9IBvwFBVV95cUxPY1BQb1dGYnN6WFo4bTRJNHUxM1BRdW5ITkVTdVhjeWQySzI2NWsxcmFNYTR5Yi1ua2YwWFdlNXZ1QTQ1VG5YdThlTGczS2Z6eWpKNTJkT1V3RTBGRW4yNHRGeFI2dUxIXzNjNjVEVDFPOTgxS0FIY1RxS3BwZU1WMXd4LWU4MnBpcDI1N1oxZ09oVi0wZkJaeDVhZ2NOTldfeFpYd1BSVG1CZ0Vkd094U3cyOXFteFdKZEc0SUU1dw?oc=5",
+      "source": "Menorca - Es diari",
+      "domain": "news.google.com",
+      "date": "2025-10-22",
+      "language": "es",
+      "type": "news",
+      "score": 4,
+      "signals": [
+        "+4 Biel Mercadal"
+      ],
+      "autoFetched": true
+    },
+    {
       "id": "menorcaaldia-2025-10-zafiro",
       "title": "El Proyecto Zafiro de Gabriel Mercadal, premiado en Malaga",
       "url": "https://menorcaaldia.com/2025/10/18/el-proyecto-zafiro-de-gabriel-mercadal-premiado-en-malaga/",
@@ -72,9 +108,26 @@
       ]
     },
     {
-      "id": "menorca-info-2025-10-zafiro",
-      "title": "Un proyecto impulsado en el hospital Mateu Orfila, premiado a nivel nacional",
-      "url": "https://www.menorca.info/menorca/local/2025/10/12/2489083/proyecto-impulsado-hospital-mateu-orfila-premiado-nivel-nacional.html",
+      "id": "elglobal-sefh-premios-2025",
+      "title": "La SEFH entrega los premios de su 70 congreso nacional - Proyecto Zafiro premiado",
+      "url": "https://elglobalfarma.com/farmacia/sefh-premios-congreso-nacional/",
+      "source": "El Global",
+      "domain": "elglobalfarma.com",
+      "date": "2025-10-17",
+      "language": "es",
+      "type": "news",
+      "score": 15,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+3 Proyecto Zafiro",
+        "+2 SEFH",
+        "+1 farmacia hospitalaria"
+      ]
+    },
+    {
+      "id": "menorcainfo-2025-10-premio",
+      "title": "Un proyecto impulsado en el hospital Mateu Orfila, premiado a nivel nacional (Proyecto Zafiro)",
+      "url": "https://www.menorca.info/menorca/local/2025/10/12/2500000/proyecto-impulsado-hospital-mateu-orfila-premiado-nivel-nacional.html",
       "source": "Menorca.info",
       "domain": "menorca.info",
       "date": "2025-10-12",
@@ -83,9 +136,91 @@
       "score": 15,
       "signals": [
         "+4 Hospital Mateu Orfila",
-        "+4 Mercadal-Orfila + G",
-        "+4 SEFH",
-        "+3 Mahon + health"
+        "+3 Proyecto Zafiro",
+        "+2 SEFH"
+      ]
+    },
+    {
+      "id": "castillalamancha-2025-08",
+      "title": "La Gerencia de Tomelloso se suma al estudio nacional Teleprom-Naveta para integrar la experiencia de los pacientes",
+      "url": "https://www.castillalamancha.es/actualidad/notasdeprensa/la-gerencia-de-tomelloso-se-suma-al-estudio-nacional-teleprom-naveta-para-integrar-la-experiencia-de",
+      "source": "Gobierno de Castilla-La Mancha",
+      "domain": "castillalamancha.es",
+      "date": "2025-08-24",
+      "language": "es",
+      "type": "news",
+      "score": 14,
+      "signals": [
+        "+4 FARUPEIB",
+        "+3 NAVETA",
+        "+2 telefarmacia",
+        "+2 PROMs/PREMs",
+        "+3 Menorca + health"
+      ]
+    },
+    {
+      "id": "lacerca-2025-08",
+      "title": "La Gerencia de Tomelloso se suma al estudio nacional Teleprom-Naveta",
+      "url": "https://www.lacerca.com/noticias/castilla_la_mancha/gerencia-tomelloso-estudio-nacional-naveta-experiencia-pacientes-atencion-778874-1.html",
+      "source": "La Cerca",
+      "domain": "lacerca.com",
+      "date": "2025-08-24",
+      "language": "es",
+      "type": "news",
+      "score": 12,
+      "signals": [
+        "+4 FARUPEIB",
+        "+3 NAVETA",
+        "+2 telefarmacia",
+        "+2 PROMs/PREMs"
+      ]
+    },
+    {
+      "id": "lacomarcapuertollano-2025-08",
+      "title": "La Gerencia de Tomelloso se suma al estudio nacional Teleprom-Naveta",
+      "url": "https://www.lacomarcadepuertollano.com/articulo/tomelloso/gerencia-tomelloso-suma-estudio-nacional-teleprom-naveta-integrar-experiencia-pacientes-atencion/20250824103249604495.html",
+      "source": "La Comarca de Puertollano",
+      "domain": "lacomarcadepuertollano.com",
+      "date": "2025-08-24",
+      "language": "es",
+      "type": "news",
+      "score": 12,
+      "signals": [
+        "+4 FARUPEIB",
+        "+3 NAVETA",
+        "+2 telefarmacia",
+        "+2 PROMs/PREMs"
+      ]
+    },
+    {
+      "id": "auto-b997283dd71e",
+      "title": "Farupeib y Mendel Brain colaboran para la innovación y la humanización en FH - Diariofarma",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2dJcHUzOVVBeU5kaEpaWUR6ZWtDQVc2WV9PTVh5R21yYWhMRGpIcGdGRzJyNkl5eHowNnNBVXlna3JxU2FkYW9FRG90UG1CaUVOZmt4cHBKLWZhZmdrRXBzZWJrMEE3Ymp1MkctV1Z3VFJkUDNJUzlsUkoyR0tsTl9Yclc2SUFCenRPaEJvTlZiUW0wTTJKemtNRnhpSnZnNnNleVJYdEZMR3VTclZ5WWtETHhJU09fWjAwSHVOOA?oc=5",
+      "source": "Diariofarma",
+      "domain": "news.google.com",
+      "date": "2025-07-31",
+      "language": "es",
+      "type": "news",
+      "score": 4,
+      "signals": [
+        "+4 FARUPEIB"
+      ],
+      "autoFetched": true
+    },
+    {
+      "id": "radar-healthtech-2025-06",
+      "title": "NAVETA: una plataforma digital que escucha la voz del paciente",
+      "url": "https://radarhealthcare.sdli.es/2025/06/26/naveta-una-plataforma-digital-que-escucha-la-voz-del-paciente/",
+      "source": "Radar HealthTech / Sdli",
+      "domain": "radarhealthcare.sdli.es",
+      "date": "2025-06-26",
+      "language": "es",
+      "type": "news",
+      "score": 12,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+4 FARUPEIB",
+        "+3 NAVETA"
       ]
     },
     {
@@ -106,6 +241,39 @@
       ]
     },
     {
+      "id": "diariofarma-foro-2025",
+      "title": "VI Foro de Innovacion SEFH - Gabriel Mercadal miembro del comite",
+      "url": "https://diariofarma.com/2025/06/05/vi-foro-de-innovacion-soluciones-factibles-e-innovadoras-para-los-nuevos-retos-de-la-fh",
+      "source": "Diario Farma",
+      "domain": "diariofarma.com",
+      "date": "2025-06-05",
+      "language": "es",
+      "type": "news",
+      "score": 10,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+2 SEFH",
+        "+1 farmacia hospitalaria"
+      ]
+    },
+    {
+      "id": "menorcainfo-one-health-2025",
+      "title": "Los farmaceuticos, por la interdependencia de la salud - Jornada FARUPEIB One Health",
+      "url": "https://www.menorca.info/menorca/local/2025/05/20/2390615/farmaceuticos-por-interdependencia-salud.html",
+      "source": "Menorca.info",
+      "domain": "menorca.info",
+      "date": "2025-05-20",
+      "language": "es",
+      "type": "news",
+      "score": 14,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+4 FARUPEIB",
+        "+3 Menorca + health",
+        "+1 farmacia hospitalaria"
+      ]
+    },
+    {
       "id": "elglobal-2025-mapex-proms",
       "title": "La SEFH consolida el uso estrategico de los PROMs y PREMs en consulta externa con una nueva Guia MAPEX",
       "url": "https://elglobalfarma.com/farmacia/sefh-proms-prems-farmacia-hospitalaria/",
@@ -123,8 +291,56 @@
       ]
     },
     {
-      "id": "yt-pros-vih",
-      "title": "Que son los PROs y por que son clave en la atencion al VIH",
+      "id": "auto-e207aecf05bf",
+      "title": "La SEFH consolida el uso estratégico de los PROMs y PREMs en consulta externa con una nueva Guía MAPEX - El Globalfarma",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hQ0JIRDFyaktLSFk3a1dSMVcxV3BENXM3SWlLM2J0UjJydHFWcHk2VXJhdzFET3RxS1h0cTZUZmRvMHhKdzBVS21xTndGTkI5MkZOT3l2NHFpa2w3UWZoa2hUQ3pIRmkzS1ZFTGJMQmlUenFfV3F5R2ZpN0pRc2c?oc=5",
+      "source": "El Globalfarma",
+      "domain": "news.google.com",
+      "date": "2025-04-22",
+      "language": "es",
+      "type": "news",
+      "score": 4,
+      "signals": [
+        "+2 SEFH",
+        "+2 PROMs/PREMs"
+      ],
+      "autoFetched": true
+    },
+    {
+      "id": "campusfarmacosalud-epid-2025",
+      "title": "Lo esencial en EPID: El papel de la farmacia hospitalaria - Curso coordinado por Gabriel Mercadal",
+      "url": "https://www.campusfarmacosalud.com/courses/lo-esencial-en-epid-el-papel-de-la-farmacia-hospitalaria/",
+      "source": "Campus FarmacoSalud",
+      "domain": "campusfarmacosalud.com",
+      "date": "2025-02-15",
+      "language": "es",
+      "type": "news",
+      "score": 10,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+1 farmacia hospitalaria"
+      ]
+    },
+    {
+      "id": "tandfonline-ml-hiv-2025",
+      "title": "Developing a Prototype Machine Learning Model to Predict Quality of Life Measures in People Living With HIV",
+      "url": "https://www.tandfonline.com/doi/full/10.2147/IPRP.S492422",
+      "source": "Taylor & Francis (IPRP)",
+      "domain": "tandfonline.com",
+      "date": "2025-01-15",
+      "language": "en",
+      "type": "news",
+      "score": 16,
+      "signals": [
+        "+5 Mercadal-Orfila",
+        "+2 PROMs/PREMs",
+        "+1 AI/ML",
+        "+1 VIH/HIV"
+      ]
+    },
+    {
+      "id": "youtube-pros-vih-2025",
+      "title": "Los Resultados Reportados por los Pacientes (PROs) para mejorar la calidad de atención farmacéutica",
       "url": "https://www.youtube.com/watch?v=WoxEk3Nb0bo",
       "source": "YouTube",
       "domain": "youtube.com",
@@ -133,10 +349,9 @@
       "type": "video",
       "score": 15,
       "signals": [
-        "+4 Mercadal-Orfila + G",
-        "+4 PROs + VIH",
-        "+4 healthcare context",
-        "+3 PROMs"
+        "+5 Gabriel Mercadal",
+        "+2 PROMs/PREMs",
+        "+1 VIH/HIV"
       ]
     },
     {
@@ -157,8 +372,8 @@
       ]
     },
     {
-      "id": "yt-podcast-humanizacion",
-      "title": "PODCAST - Humanizacion de la farmacia hospitalaria",
+      "id": "youtube-podcast-humanizacion-2024",
+      "title": "PODCAST / Humanización de la farmacia hospitalaria",
       "url": "https://www.youtube.com/watch?v=O3Ch0-xZnpk",
       "source": "YouTube",
       "domain": "youtube.com",
@@ -167,10 +382,39 @@
       "type": "video",
       "score": 12,
       "signals": [
-        "+4 Mercadal-Orfila + G",
-        "+4 farmacia hospitalaria",
-        "+3 humanizacion",
-        "+1 podcast"
+        "+5 Gabriel Mercadal",
+        "+1 farmacia hospitalaria"
+      ]
+    },
+    {
+      "id": "yt-experiencia-paciente-2024",
+      "title": "La experiencia del paciente y debate",
+      "url": "https://www.youtube.com/watch?v=zDN0U8nW928",
+      "source": "YouTube",
+      "domain": "youtube.com",
+      "date": "2024-01-01",
+      "language": "es",
+      "type": "video",
+      "score": 12,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+2 PROMs/PREMs"
+      ]
+    },
+    {
+      "id": "yt-psoriasis-fh-2024",
+      "title": "Preguntas prácticas sobre psoriasis para Farmacia Hospitalaria / Capítulo 4",
+      "url": "https://www.youtube.com/watch?v=V4UEmAG1UUs",
+      "source": "YouTube",
+      "domain": "youtube.com",
+      "date": "2024-01-01",
+      "language": "es",
+      "type": "video",
+      "score": 12,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+1 dermatology",
+        "+1 farmacia hospitalaria"
       ]
     },
     {
@@ -225,8 +469,8 @@
       ]
     },
     {
-      "id": "diariofarma-2022-vih",
-      "title": "En busca del traje a medida en el abordaje del VIH",
+      "id": "diariofarma-vih-2022",
+      "title": "En busca del traje a medida en el abordaje del VIH - Gabriel Mercadal",
       "url": "https://diariofarma.com/2022/07/05/en-busca-del-traje-a-medida-en-el-abordaje-del-vih",
       "source": "Diario Farma",
       "domain": "diariofarma.com",
@@ -235,11 +479,26 @@
       "type": "news",
       "score": 15,
       "signals": [
-        "+4 Hospital Mateu Orfila",
-        "+4 Mercadal-Orfila + G",
-        "+4 PROMs + PREMs + VIH",
-        "+3 Mahon + NAVETA"
+        "+5 Gabriel Mercadal",
+        "+1 VIH/HIV",
+        "+1 farmacia hospitalaria"
       ]
+    },
+    {
+      "id": "auto-0c763fc18186",
+      "title": "La telefarmacia centra la reunión de la SEFH en Cataluña - Diariofarma",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQzQ0WWhPdW1YVDBVTGR1S2tEdWRDTE1zY2hXcHpwTkZyRW9tRjJPM3FxY0o0WDFHSmJ0RkVYNF9nX0ExbGpJM3RaRHQwVUE0cy1qWmFybTlzamJNejFkUnRoTGRFeG9PXzRUUmpXUWNfUUZYNS00dEVwblB1cTVqalZrZUNPRkFGa2ZsbjZpbHNZREJkRWc?oc=5",
+      "source": "Diariofarma",
+      "domain": "news.google.com",
+      "date": "2022-05-31",
+      "language": "es",
+      "type": "news",
+      "score": 4,
+      "signals": [
+        "+2 SEFH",
+        "+2 telefarmacia"
+      ],
+      "autoFetched": true
     },
     {
       "id": "menorcaaldia-admirable-2022",
@@ -259,6 +518,24 @@
       ]
     },
     {
+      "id": "auto-d64d7ac18fa0",
+      "title": "El proyecto de telefarmacia del hospital Mateu Orfila, premiado - Menorca - Es diari",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT1ZUMWhRZG9IcmJqOHBMc2ZTX3NOSnVuaDYtVFlhT09uVVdraWwzeVBEbmIyOEpfem41akd2T3d2aTVVTVJaUE8xdE82UnI5NlFieEdPbE5rSmNaeXBRdzJ1ckVuQzFZa2pzaGY5bGhZZnBDYW5RNkZyVlo5V1ZvSHQwakJhR2V3OEhiYnpFTlJqRlBLT3NZNmlWWFJSenhFUDVkbUp2ZGlqY0xudHNJTzd6Y1FqWWpOak5v0gG7AUFVX3lxTE00Z2JGbnVRZTRHM3F0RzFQZTNwOW9jbWY5OWlqU0VOVjhJZGllMkJCMXB4SDRFZGpMTTB4WHA1Q3FkaGVXbnl1WWwzekVTb18wNHF1d0VFdnZyQ3NoLU5YdU5zV25GU1VxZlNfWWpzMWJSYW5JZWFjSTBBQnRsYjVNQ0h3dHN5c1RpcnZDQUJjZWcyblRJMFdtUkpjU0tCc2hUS3d1a2FJM2JUUHpPSW85RUlyanRoZmkyMTg?oc=5",
+      "source": "Menorca - Es diari",
+      "domain": "news.google.com",
+      "date": "2021-10-31",
+      "language": "es",
+      "type": "news",
+      "score": 11,
+      "signals": [
+        "+4 Hospital Mateu Orfila",
+        "+2 telefarmacia",
+        "+3 health + Menorca",
+        "+2 PROMs/PREMs"
+      ],
+      "autoFetched": true
+    },
+    {
       "id": "menorcaaldia-naveta-2021",
       "title": "El proyecto Naveta gana el primer premio del Foro de Innovacion farmaceutica",
       "url": "https://menorcaaldia.com/2021/10/29/el-proyecto-naveta-gana-el-primer-premio-del-foro-de-innovacion-farmaceutica/",
@@ -273,6 +550,57 @@
         "+4 Mercadal-Orfila + G",
         "+4 SEFH + FARUPEIB",
         "+3 NAVETA + PROMs"
+      ]
+    },
+    {
+      "id": "auto-73ffe24bb426",
+      "title": "«Naveta», ganador del concurso convocado por la Sociedad Española de Farmacia Hospitalaria en el segundo foro de innovación - Salud Ediciones",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQTTJBYlNObXlHOWZESUw3U0hGR1ZnZzVFWjlJX2pfN3Y3cjVKWkZMQ25IQVM1Z1NNVnFQcFpPRVdNQVctbTJhaHBWbE40M1p0ZGlKZ201ZDhaSUpaTVJyUEctbUtaX3hjbFVIN0oyOUN0YVRIenREN1FrcUlVdVl4N3BTbVM1b2ZQRTVkM09QQ1gwNXJpVUtCOWZsaUpZNW1Jb0Z3OUhEd1lxZjNJbzdHc1YwblFHcmZhTW92cVYzc25ybmk4bXEwZjZGV19VNUxmZ3NuWXFqUDBqbFV1dFFqemowNGFYLS1ORGFWQnZJMEROSzA1djdNTElJTGhYb0pORGMyWEtR?oc=5",
+      "source": "Salud Ediciones",
+      "domain": "news.google.com",
+      "date": "2021-10-29",
+      "language": "es",
+      "type": "news",
+      "score": 4,
+      "signals": [
+        "+3 NAVETA",
+        "+1 farmacia hospitalaria"
+      ],
+      "autoFetched": true
+    },
+    {
+      "id": "auto-5619830ba914",
+      "title": "El proyecto ‘Naveta’ de telefarmacia asociada a PROMS gana la 2ª Edición del ‘Foro de innovación’ de la SEFH - Diariofarma",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZExETlYyM2o0N3JYRl9NUWUxZnB1WVFOV0lCbTh6U2xmbTFoZU1fTE9MUEppejdiOXhjVHRsdkVhT0M5TUpVRDJEMVF5RHpzUDJ2ZTdiVl9aYTJLNmZOejU4SzJVVzM0ZVM5bTBzb3U2SDFqVXdVclZJUWdzd190aUhlUVZfN2EwS3VvdFg5NW0wT2ltUjBoVXJFZk1kSlpRS0ttLUdVazR2cE5FSFJzdUZmb2ZJYU9HTmozTThoYkFURGh2UmFUc1VPc0gzOS02NGNCWE93?oc=5",
+      "source": "Diariofarma",
+      "domain": "news.google.com",
+      "date": "2021-10-27",
+      "language": "es",
+      "type": "news",
+      "score": 9,
+      "signals": [
+        "+2 SEFH",
+        "+3 NAVETA",
+        "+2 telefarmacia",
+        "+2 PROMs/PREMs"
+      ],
+      "autoFetched": true
+    },
+    {
+      "id": "redaccionmedica-naveta-2021",
+      "title": "Nace Naveta, el nuevo paradigma de la telefarmacia que suma al paciente",
+      "url": "https://www.redaccionmedica.com/secciones/farmacia-hospitalaria/nace-naveta-el-nuevo-paradigma-de-la-telefarmacia-que-suma-al-paciente-9450",
+      "source": "Redaccion Medica",
+      "domain": "redaccionmedica.com",
+      "date": "2021-10-27",
+      "language": "es",
+      "type": "news",
+      "score": 13,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+3 NAVETA",
+        "+2 telefarmacia",
+        "+2 PROMs/PREMs"
       ]
     },
     {
@@ -291,6 +619,23 @@
         "+4 SEFH official",
         "+3 NAVETA + PROMs"
       ]
+    },
+    {
+      "id": "auto-c8b526b5944e",
+      "title": "El Dr. Gabriel Mercadal, del Área de Salud de Menorca, participa en el 63º Congreso de la Sociedad Española de Farmacia Hospitalaria - Salud Ediciones",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxORS1vODdGVGdodGtHWDFWSGRyOWN2dFp2TWNCVUFPTnljSUxzcnlBRmE5aWVxTjlUTFNWMHo0SG5ITWJDLTI5MXRBQnpMdFFwWDI1R3ZRTU9yYWRSdEV0Q0hlTFJrYjRLOHFfTlNFOWNNS1BxYmxWbFpZRzNCTVpLSThBR29NOHo0amFNSkJGNUI3bFFfS2pRNTNnbnBaN1ZYNXJPQzhidktRMHRtY1JnWmZSWFFlUGlxTXZ1TXlWdkhWSE9MN29uTU5sVVdHT21TNlRmdG9ldzQ1VG91WDdfUkxXZG1GTTA1d1JtMFB5YnRXYkdrSFpMYTlNNXZkWEU5b1E?oc=5",
+      "source": "Salud Ediciones",
+      "domain": "news.google.com",
+      "date": "2018-11-06",
+      "language": "es",
+      "type": "news",
+      "score": 9,
+      "signals": [
+        "+5 Gabriel Mercadal",
+        "+3 health + Menorca",
+        "+1 farmacia hospitalaria"
+      ],
+      "autoFetched": true
     }
   ]
 }

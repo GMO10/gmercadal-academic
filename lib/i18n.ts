@@ -6,6 +6,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.home': 'Home',
     'nav.publications': 'Publications',
     'nav.mentions': 'Media',
+    'nav.conferences': 'Conferences',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contact',
 
@@ -70,7 +71,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Nav
     'nav.home': 'Inicio',
     'nav.publications': 'Publicaciones',
-    'nav.mentions': 'Media',
+    'nav.mentions': 'Medios comunicación',
+    'nav.conferences': 'Congresos',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacto',
 
@@ -135,7 +137,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Nav
     'nav.home': 'Inici',
     'nav.publications': 'Publicacions',
-    'nav.mentions': 'Media',
+    'nav.mentions': 'Mitjans comunicació',
+    'nav.conferences': 'Congressos',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacte',
 

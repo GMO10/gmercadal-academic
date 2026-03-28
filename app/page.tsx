@@ -76,7 +76,7 @@ export default function HomePage() {
                     LinkedIn
                   </a>
                 )}
-                <a href="/cv.docx" download className="profile-link-accent">
+                <a href="/cv.pdf" download className="profile-link-accent">
                   <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
                   {t('hero.downloadCV')}
                 </a>

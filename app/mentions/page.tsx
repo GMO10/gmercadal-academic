@@ -22,7 +22,7 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
 export default function MentionsPage() {
   const { t, lang } = useLang();
   const [activeType, setActiveType] = useState<string>('all');
-  const [minScore, setMinScore] = useState(6);
+  const [minScore, setMinScore] = useState(4);
 
   const mentions = data.mentions || [];
 
