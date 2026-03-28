@@ -22,8 +22,6 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
 export default function MentionsPage() {
   const { t, lang } = useLang();
   const [activeType, setActiveType] = useState<string>('all');
-  const [minScore, setMinScore] = useState(4);
-
   const mentions = data.mentions || [];
 
   // Get unique types
@@ -31,14 +29,13 @@ export default function MentionsPage() {
 
   // Filter
   const filtered = mentions.filter((m: any) => {
-    if (m.score < minScore) return false;
     if (activeType !== 'all' && (m.type || 'news') !== activeType) return false;
     return true;
   });
 
   // Count per type
   const countByType = (type: string) =>
-    mentions.filter((m: any) => (m.type || 'news') === type && m.score >= minScore).length;
+    mentions.filter((m: any) => (m.type || 'news') === type).length;
 
   return (
     <>
@@ -61,7 +58,7 @@ export default function MentionsPage() {
               : 'bg-navy/5 text-slate hover:bg-navy/10'
           }`}
         >
-          {{ en: 'All', es: 'Todo', ca: 'Tot' }[lang]} ({mentions.filter((m: any) => m.score >= minScore).length})
+          {{ en: 'All', es: 'Todo', ca: 'Tot' }[lang]} ({mentions.length})
         </button>
         {types.map((type) => (
           <button
@@ -76,24 +73,6 @@ export default function MentionsPage() {
             {TYPE_ICONS[type] || '📄'} {TYPE_LABELS[type]?.[lang] || type} ({countByType(type)})
           </button>
         ))}
-      </div>
-
-      {/* Score filter */}
-      <div className="mb-8 p-4 bg-navy/5 rounded-lg">
-        <div className="flex items-center gap-4">
-          <label className="text-sm font-medium text-navy whitespace-nowrap">
-            Min {t('mentions.score')}: {minScore}
-          </label>
-          <input
-            type="range"
-            min={0}
-            max={15}
-            value={minScore}
-            onChange={(e) => setMinScore(Number(e.target.value))}
-            className="flex-1 accent-gold"
-          />
-        </div>
-        <p className="text-xs text-slate mt-2">{t('mentions.scoreInfo')}</p>
       </div>
 
       {/* Results */}

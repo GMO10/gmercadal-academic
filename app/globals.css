@@ -62,24 +62,26 @@ body {
 
 .nav-main {
   @apply backdrop-blur-lg border-b sticky top-0 z-50;
-  background: var(--navy);
-  border-color: rgba(255,255,255,0.08);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 60%, var(--navy-light) 100%);
+  border-color: rgba(201,168,76,0.25);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.35), 0 1px 0 rgba(201,168,76,0.15);
 }
 
 .nav-link {
-  @apply text-sm font-medium no-underline relative pb-1 transition-colors;
-  color: rgba(255,255,255,0.7);
+  @apply text-[15px] font-bold no-underline relative pb-2 transition-all uppercase;
+  color: rgba(255,255,255,0.9);
+  letter-spacing: 0.07em;
 }
 
 .nav-link:hover {
   color: var(--gold);
+  text-shadow: 0 0 16px rgba(201,168,76,0.4);
 }
 
 .nav-link::after {
   content: '';
-  @apply absolute bottom-0 left-0 w-0 h-[2px] transition-all;
-  background: var(--gold);
+  @apply absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-[3px] rounded-full transition-all;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold-light));
 }
 
 .nav-link:hover::after {

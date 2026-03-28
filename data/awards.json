@@ -1,0 +1,77 @@
+{
+  "lastUpdated": "2026-03-15",
+  "count": 7,
+  "awards": [
+    {
+      "id": "a2025-02",
+      "year": 2025,
+      "title": "Premio Visionarium Innovation by Gilead 2025",
+      "edition": "II edición, Convocatoria 2025",
+      "project": "IA-PROM-VIH",
+      "description": "Sistema basado en IA que analiza PROMs/PREMs para identificar necesidades y riesgos ocultos en pacientes VIH.",
+      "organization": "Gilead Sciences",
+      "category": null
+    },
+    {
+      "id": "a2025-01",
+      "year": 2025,
+      "title": "1er Premio SEFH/CSL Vifor 2025",
+      "edition": "Calidad de los Servicios de Farmacia y Seguridad en el Uso de los Medicamentos",
+      "project": "ZAFIRO",
+      "description": "Modelo integral de seguimiento farmacoterapéutico en enfermedad inflamatoria intestinal, derivado de la iniciativa NAVETA.",
+      "organization": "Sociedad Española de Farmacia Hospitalaria (SEFH)",
+      "location": "Málaga, 15–17 octubre 2025",
+      "category": null
+    },
+    {
+      "id": "a2024-03",
+      "year": 2024,
+      "title": "Beca del programa \"II Edition Startup Creasphere Spain by Roche\"",
+      "edition": "2024",
+      "project": null,
+      "description": "Programa global de innovación en salud digital.",
+      "organization": "Roche",
+      "category": null
+    },
+    {
+      "id": "a2024-02",
+      "year": 2024,
+      "title": "Premio FarmaImpulso IMIDs – 6ª Edición",
+      "edition": "2024",
+      "project": null,
+      "description": "Aplicación de algoritmos de machine learning para la predicción de la calidad de vida en pacientes con artritis reumatoide a partir de cuestionarios PROM.",
+      "organization": "FarmaImpulso",
+      "category": null
+    },
+    {
+      "id": "a2024-01",
+      "year": 2024,
+      "title": "Premio FarmaImpulso OH Oncología – 2ª Edición",
+      "edition": "2024",
+      "project": "ALGOPROMIA",
+      "description": "Integración de técnicas de machine learning para optimizar la implementación de PROMs en Oncología.",
+      "organization": "FarmaImpulso",
+      "category": "Ideas y proyectos innovadores"
+    },
+    {
+      "id": "a2022-01",
+      "year": 2022,
+      "title": "Premio AMPHOS Farmacia 2022",
+      "edition": "2022",
+      "project": "NAVETA",
+      "description": "Reconocimiento a las mejores experiencias de gestión en Farmacia Hospitalaria. Proyecto NAVETA.",
+      "organization": "AMPHOS",
+      "category": null
+    },
+    {
+      "id": "a2021-01",
+      "year": 2021,
+      "title": "Premio II Foro de Innovación SEFH 2021",
+      "edition": "2021",
+      "project": "NAVETA",
+      "description": "Mejora del seguimiento farmacoterapéutico en pacientes ambulatorios mediante plataforma de telefarmacia integrada con PROMs telemáticos.",
+      "organization": "Sociedad Española de Farmacia Hospitalaria (SEFH)",
+      "category": null
+    }
+  ]
+}
