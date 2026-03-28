@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutorASBV - DEU | Tutor Socrático</title>
+    <script src="https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #1a237e 0%, #0d47a1 50%, #01579b 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* ─── REGISTRO ─── */
+        #registro-container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 480px;
+            width: 90%;
+            padding: 40px;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .logo-header { text-align: center; margin-bottom: 30px; }
+        .logo-header h1 { font-size: 1.8em; color: #1a237e; margin-bottom: 4px; }
+        .logo-header .subtitle { color: #546e7a; font-size: 0.9em; line-height: 1.4; }
+
+        .badge {
+            display: inline-block;
+            background: #e8eaf6;
+            color: #283593;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .form-group { margin-bottom: 18px; }
+        .form-group label { display: block; font-weight: 600; color: #37474f; margin-bottom: 6px; font-size: 0.9em; }
+        .form-group input, .form-group select {
+            width: 100%; padding: 12px 14px; border: 2px solid #e0e0e0;
+            border-radius: 10px; font-size: 1em; transition: border-color 0.2s; outline: none;
+        }
+        .form-group input:focus, .form-group select:focus { border-color: #1565c0; }
+        .form-row { display: flex; gap: 12px; }
+        .form-row .form-group { flex: 1; }
+
+        #btn-entrar {
+            width: 100%; padding: 14px;
+            background: linear-gradient(135deg, #1565c0, #0d47a1);
+            color: white; border: none; border-radius: 10px;
+            font-size: 1.1em; font-weight: 600; cursor: pointer;
+            transition: transform 0.1s, box-shadow 0.2s; margin-top: 8px;
+        }
+        #btn-entrar:hover { transform: translateY(-1px); box-shadow: 0 4px 15px rgba(21,101,192,0.4); }
+        #btn-entrar:active { transform: translateY(0); }
+        #btn-entrar:disabled { opacity: 0.7; cursor: not-allowed; transform: none; }
+
+        .error-msg { color: #c62828; font-size: 0.85em; margin-top: 4px; display: none; }
+        .privacy-note { text-align: center; color: #90a4ae; font-size: 0.75em; margin-top: 16px; line-height: 1.4; }
+
+        /* ─── COLD START OVERLAY (M6) ─── */
+        #cold-start-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(135deg, #1565c0, #0d47a1);
+            z-index: 1000;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .cs-gear {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            display: inline-block;
+            animation: spin-slow 3s linear infinite;
+        }
+        @keyframes spin-slow { to { transform: rotate(360deg); } }
+
+        .cs-title { font-size: 1.4em; font-weight: 700; margin-bottom: 10px; }
+        .cs-sub { font-size: 0.95em; opacity: 0.85; margin-bottom: 30px; max-width: 380px; line-height: 1.6; }
+
+        .cs-progress {
+            width: 280px; height: 6px;
+            background: rgba(255,255,255,0.2); border-radius: 6px; overflow: hidden; margin-bottom: 16px;
+        }
+        .cs-bar {
+            height: 100%; background: white; border-radius: 6px;
+            width: 0%; transition: width 0.5s ease;
+        }
+
+        .cs-tip { font-size: 0.78em; opacity: 0.65; max-width: 340px; line-height: 1.5; margin-top: 8px; }
+        #cs-status { font-size: 0.85em; opacity: 0.75; margin-bottom: 12px; }
+
+        /* ─── CHAT ─── */
+        #chat-container {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: #f5f5f5;
+            flex-direction: column;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #1565c0, #0d47a1);
+            color: white;
+            padding: 10px 16px 8px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+
+        .chat-header-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .user-info { display: flex; align-items: center; gap: 10px; }
+        .avatar {
+            width: 34px; height: 34px;
+            background: rgba(255,255,255,0.2); border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 700; font-size: 0.88em; flex-shrink: 0;
+        }
+        .user-name { font-weight: 600; font-size: 0.93em; }
+        .session-timer { font-size: 0.75em; opacity: 0.72; font-variant-numeric: tabular-nums; }
+
+        .btn-logout {
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white; padding: 5px 12px; border-radius: 8px;
+            cursor: pointer; font-size: 0.8em; transition: background 0.2s; white-space: nowrap;
+        }
+        .btn-logout:hover { background: rgba(255,255,255,0.25); }
+
+        /* ─── BARRA PROGRESO ETAPAS (M4) ─── */
+        .etapas-header {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .etapas-label {
+            font-size: 0.71em;
+            opacity: 0.75;
+            text-align: center;
+            letter-spacing: 0.02em;
+        }
+        .etapas-label strong { opacity: 1; font-weight: 700; }
+
+        .etapas-bar {
+            display: flex;
+            align-items: center;
+            gap: 0;
+        }
+
+        .etapa-dot {
+            width: 26px; height: 26px; border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 0.7em; font-weight: 700; color: rgba(255,255,255,0.5);
+            transition: all 0.4s ease;
+            flex-shrink: 0;
+            position: relative;
+            cursor: default;
+        }
+
+        .etapa-dot.completada {
+            background: rgba(255,255,255,0.85);
+            border-color: white;
+            color: #1565c0;
+        }
+        .etapa-dot.completada::after {
+            content: '✓';
+            font-size: 0.85em;
+        }
+        .etapa-dot.completada span { display: none; }
+
+        .etapa-dot.activa {
+            background: white;
+            border-color: white;
+            color: #1565c0;
+            box-shadow: 0 0 0 3px rgba(255,255,255,0.25);
+            animation: pulso 2.5s infinite;
+        }
+
+        @keyframes pulso {
+            0%, 100% { box-shadow: 0 0 0 3px rgba(255,255,255,0.25); }
+            50% { box-shadow: 0 0 0 6px rgba(255,255,255,0.1); }
+        }
+
+        /* Tooltip */
+        .etapa-dot[data-nombre]:hover::before {
+            content: attr(data-nombre);
+            position: absolute;
+            bottom: calc(100% + 6px);
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-size: 0.65em;
+            white-space: nowrap;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        .etapa-linea {
+            flex: 1;
+            height: 2px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 2px;
+            transition: background 0.5s ease;
+            margin: 0 2px;
+        }
+        .etapa-linea.completada { background: rgba(255,255,255,0.65); }
+
+        /* ─── ÁREA CHAT ─── */
+        #flowise-chat-area {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* ─── PANEL ADMIN ─── */
+        #admin-panel {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: white; overflow-y: auto; padding: 30px;
+        }
+        .admin-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+        .admin-header h2 { color: #1a237e; }
+        .students-table { width: 100%; border-collapse: collapse; font-size: 0.88em; }
+        .students-table th { background: #e8eaf6; color: #283593; padding: 10px 12px; text-align: left; font-weight: 600; }
+        .students-table td { padding: 9px 12px; border-bottom: 1px solid #e0e0e0; }
+        .students-table tr:hover td { background: #f5f5f5; }
+        .btn-admin { padding: 8px 16px; background: #1565c0; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 0.88em; }
+        .btn-admin.secondary { background: #78909c; margin-left: 8px; }
+        .stats-cards { display: flex; gap: 14px; margin-bottom: 24px; flex-wrap: wrap; }
+        .stat-card { background: #e8eaf6; border-radius: 12px; padding: 14px 20px; flex: 1; min-width: 130px; }
+        .stat-card .number { font-size: 1.8em; font-weight: 700; color: #1a237e; }
+        .stat-card .label { color: #546e7a; font-size: 0.82em; margin-top: 2px; }
+
+        .etapa-badge {
+            display: inline-block;
+            background: #e8eaf6;
+            color: #283593;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+        .etapa-badge.etapa-7 { background: #c8e6c9; color: #1b5e20; }
+        .etapa-badge.etapa-6 { background: #dcedc8; color: #33691e; }
+        .etapa-badge.etapa-5 { background: #e8f5e9; color: #2e7d32; }
+    </style>
+</head>
+<body>
+
+<!-- ═══ COLD START OVERLAY (M6) ═══ -->
+<div id="cold-start-overlay">
+    <span class="cs-gear">⚙️</span>
+    <div class="cs-title">Iniciando servidor de tutoría...</div>
+    <div class="cs-sub">
+        El servidor puede tardar hasta 60 segundos en arrancar si lleva un rato sin actividad.<br>
+        Esto solo ocurre la primera vez del día.
+    </div>
+    <div id="cs-status">Conectando...</div>
+    <div class="cs-progress">
+        <div class="cs-bar" id="cs-bar"></div>
+    </div>
+    <div class="cs-tip">
+        ☕ Mientras esperas, piensa en qué patología o proceso asistencial quieres trabajar en tu proyecto DEU.
+    </div>
+</div>
+
+<!-- ═══ REGISTRO ═══ -->
+<div id="registro-container">
+    <div class="logo-header">
+        <div class="badge">DEU - IB-SALUT</div>
+        <h1>TutorASBV</h1>
+        <p class="subtitle">Tutor Socrático para la implementación de PROMs/PREMs<br>en Asistencia Sanitaria Basada en Valor</p>
+    </div>
+
+    <form id="form-registro" onsubmit="return iniciarSesion(event)">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="nombre">Nombre *</label>
+                <input type="text" id="nombre" required placeholder="Ej: María">
+            </div>
+            <div class="form-group">
+                <label for="apellidos">Apellidos *</label>
+                <input type="text" id="apellidos" required placeholder="Ej: García López">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email">Correo electrónico *</label>
+            <input type="email" id="email" required placeholder="tu.email@ejemplo.com">
+        </div>
+        <div class="form-group">
+            <label for="institucion">Institución / Centro sanitario</label>
+            <input type="text" id="institucion" placeholder="Ej: Hospital Son Espases">
+        </div>
+        <div class="form-group">
+            <label for="perfil">Perfil profesional</label>
+            <select id="perfil">
+                <option value="">-- Selecciona --</option>
+                <option value="medico">Médico/a</option>
+                <option value="enfermero">Enfermero/a</option>
+                <option value="farmaceutico">Farmacéutico/a</option>
+                <option value="psicologo">Psicólogo/a</option>
+                <option value="gestor">Gestor/a sanitario</option>
+                <option value="investigador">Investigador/a</option>
+                <option value="otro">Otro</option>
+            </select>
+        </div>
+        <button type="submit" id="btn-entrar">Comenzar sesión de tutoría</button>
+    </form>
+
+    <p class="privacy-note">
+        Tus datos se utilizan únicamente para el seguimiento académico del DEU.<br>
+        Al continuar, aceptas que se registren tus interacciones con fines pedagógicos.
+    </p>
+    <div style="text-align:center; margin-top:16px;">
+        <a href="#" onclick="mostrarAdmin()" style="color:#90a4ae; font-size:0.75em; text-decoration:none;">Panel docente</a>
+    </div>
+</div>
+
+<!-- ═══ CHAT ═══ -->
+<div id="chat-container">
+    <div class="chat-header">
+        <!-- Fila superior -->
+        <div class="chat-header-top">
+            <div class="user-info">
+                <div class="avatar" id="avatar-iniciales">--</div>
+                <div>
+                    <div class="user-name" id="display-name">Estudiante</div>
+                    <div class="session-timer" id="session-timer">Sesión: 00:00:00</div>
+                </div>
+            </div>
+            <button class="btn-logout" onclick="cerrarSesion()">Cerrar sesión</button>
+        </div>
+
+        <!-- Barra de etapas (M4) -->
+        <div class="etapas-header">
+            <div class="etapas-label">
+                Progreso: Etapa <strong id="etapa-num">1</strong>/7 &mdash; <strong id="etapa-nombre">Contextualización del caso</strong>
+            </div>
+            <div class="etapas-bar">
+                <div class="etapa-dot activa" id="dot-1" data-nombre="Contextualización del caso"><span>1</span></div>
+                <div class="etapa-linea" id="linea-1"></div>
+                <div class="etapa-dot" id="dot-2" data-nombre="Selección de PROMs"><span>2</span></div>
+                <div class="etapa-linea" id="linea-2"></div>
+                <div class="etapa-dot" id="dot-3" data-nombre="Integración de PREMs"><span>3</span></div>
+                <div class="etapa-linea" id="linea-3"></div>
+                <div class="etapa-dot" id="dot-4" data-nombre="Implementación práctica"><span>4</span></div>
+                <div class="etapa-linea" id="linea-4"></div>
+                <div class="etapa-dot" id="dot-5" data-nombre="Decisiones compartidas (SDM)"><span>5</span></div>
+                <div class="etapa-linea" id="linea-5"></div>
+                <div class="etapa-dot" id="dot-6" data-nombre="Análisis de resultados"><span>6</span></div>
+                <div class="etapa-linea" id="linea-6"></div>
+                <div class="etapa-dot" id="dot-7" data-nombre="Presentación del proyecto"><span>7</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="flowise-chat-area"></div>
+</div>
+
+<!-- ═══ PANEL ADMIN ═══ -->
+<div id="admin-panel">
+    <div class="admin-header">
+        <h2>Panel Docente — TutorASBV DEU</h2>
+        <div>
+            <button class="btn-admin" onclick="exportarCSV()">Exportar CSV</button>
+            <button class="btn-admin secondary" onclick="cerrarAdmin()">Volver</button>
+        </div>
+    </div>
+    <div class="stats-cards" id="stats-cards"></div>
+    <table class="students-table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Institución</th>
+                <th>Perfil</th>
+                <th>Sesiones</th>
+                <th>Etapa</th>
+                <th>Tiempo total</th>
+                <th>Última conexión</th>
+            </tr>
+        </thead>
+        <tbody id="students-tbody"></tbody>
+    </table>
+</div>
+
+<script>
+// ════════════════════════════════════════════
+// CONFIGURACIÓN
+// ════════════════════════════════════════════
+const FLOWISE_URL  = 'https://tutor-asbv-deu.onrender.com';
+const CHATFLOW_ID  = 'ac882e69-3d05-48aa-a28e-2d982a4818f5';
+
+// M1: Backend Google Apps Script (persistencia multi-dispositivo)
+// Pega aquí la URL de tu implementación de Apps Script una vez desplegado.
+// Si está vacío, se usa localStorage como fallback.
+const BACKEND_URL  = '';  // Ej: 'https://script.google.com/macros/s/TUKEY/exec'
+
+// PIN ofuscado (M2): no en texto plano — se reconstruye en runtime
+const _P = [50,48,50,54,68,69,85].map(c => String.fromCharCode(c)).join('');
+function _vPin(v) { return v === _P; }
+
+// ════════════════════════════════════════════
+// DATOS ESTÁTICOS
+// ════════════════════════════════════════════
+const ETAPAS = {
+    1: 'Contextualización del caso',
+    2: 'Selección de PROMs',
+    3: 'Integración de PREMs',
+    4: 'Implementación práctica',
+    5: 'Decisiones compartidas (SDM)',
+    6: 'Análisis de resultados',
+    7: 'Presentación del proyecto'
+};
+
+// ════════════════════════════════════════════
+// STORAGE — localStorage + Google Sheets backend (M1)
+// El backend es opcional: si BACKEND_URL está vacío, funciona solo con localStorage.
+// Con backend, los datos se sincronizan entre dispositivos.
+// ════════════════════════════════════════════
+const LS_KEY = 'tutorasbv_v2';
+
+// ── localStorage (siempre disponible, funciona offline) ──────
+function getStudents() {
+    try { return JSON.parse(localStorage.getItem(LS_KEY) || '{}'); }
+    catch { return {}; }
+}
+
+function _lsSaveStudent(email, data) {
+    const db = getStudents();
+    if (db[email]) {
+        db[email].sessions    = (db[email].sessions || 0) + 1;
+        db[email].lastLogin   = new Date().toISOString();
+        db[email].nombre      = data.nombre;
+        db[email].apellidos   = data.apellidos;
+        db[email].institucion = data.institucion || db[email].institucion;
+        db[email].perfil      = data.perfil      || db[email].perfil;
+    } else {
+        db[email] = {
+            nombre: data.nombre, apellidos: data.apellidos, email,
+            institucion: data.institucion, perfil: data.perfil,
+            sessions: 1, totalTimeSeconds: 0, etapaActual: 1,
+            firstLogin: new Date().toISOString(), lastLogin: new Date().toISOString()
+        };
+    }
+    localStorage.setItem(LS_KEY, JSON.stringify(db));
+    return db[email];
+}
+
+function _lsGetEtapa(email) {
+    const db = getStudents();
+    return (db[email] && db[email].etapaActual) || 1;
+}
+
+function _lsUpdateTime(email, secs) {
+    const db = getStudents();
+    if (db[email]) {
+        db[email].totalTimeSeconds = (db[email].totalTimeSeconds || 0) + secs;
+        localStorage.setItem(LS_KEY, JSON.stringify(db));
+    }
+}
+
+function _lsUpdateEtapa(email, n) {
+    const db = getStudents();
+    if (db[email] && n > (db[email].etapaActual || 1)) {
+        db[email].etapaActual = n;
+        localStorage.setItem(LS_KEY, JSON.stringify(db));
+    }
+}
+
+// ── Backend Google Apps Script (M1, opcional) ─────────────────
+async function _backendPost(accion, payload) {
+    if (!BACKEND_URL) return;
+    try {
+        await fetch(BACKEND_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ accion, alumno: payload }),
+            mode: 'no-cors'  // Apps Script no necesita preflight con no-cors
+        });
+    } catch { /* fallo silencioso — localStorage sigue funcionando */ }
+}
+
+async function _backendGet(email) {
+    if (!BACKEND_URL) return null;
+    try {
+        const res = await fetch(`${BACKEND_URL}?email=${encodeURIComponent(email)}`);
+        const json = await res.json();
+        return (json.ok && json.alumno) ? json.alumno : null;
+    } catch { return null; }
+}
+
+// ── API pública de storage (usa backend si disponible, localStorage siempre) ──
+async function saveStudent(email, data) {
+    const local = _lsSaveStudent(email, data);
+    await _backendPost('login', { email, ...data });
+    return local;
+}
+
+async function getEtapaInicial(email) {
+    // Intentar recuperar etapa del backend (multi-dispositivo)
+    const remoto = await _backendGet(email);
+    if (remoto && remoto.etapaActual) {
+        // Actualizar localStorage con el dato más reciente del backend
+        const db = getStudents();
+        if (db[email]) {
+            db[email].etapaActual = remoto.etapaActual;
+            localStorage.setItem(LS_KEY, JSON.stringify(db));
+        }
+        return remoto.etapaActual;
+    }
+    return _lsGetEtapa(email);
+}
+
+function updateTime(email, secs) {
+    _lsUpdateTime(email, secs);
+    _backendPost('tiempo', { email, segundos: secs });
+}
+
+function updateEtapa(email, n) {
+    _lsUpdateEtapa(email, n);
+    _backendPost('etapa', { email, etapaActual: n });
+}
+
+// ════════════════════════════════════════════
+// SESIÓN
+// ════════════════════════════════════════════
+let _startTime   = null;
+let _timer       = null;
+let _email       = null;
+let _etapaActual = 1;
+
+async function iniciarSesion(e) {
+    e.preventDefault();
+    const nombre     = document.getElementById('nombre').value.trim();
+    const apellidos  = document.getElementById('apellidos').value.trim();
+    const email      = document.getElementById('email').value.trim().toLowerCase();
+    const institucion= document.getElementById('institucion').value.trim();
+    const perfil     = document.getElementById('perfil').value;
+    if (!nombre || !apellidos || !email) return false;
+
+    // Deshabilitar botón mientras carga
+    const btn = document.getElementById('btn-entrar');
+    btn.disabled = true;
+    btn.textContent = 'Iniciando...';
+
+    _email = email;
+
+    // Guardar en localStorage + backend (no bloqueante)
+    await saveStudent(email, { nombre, apellidos, institucion, perfil });
+
+    // Recuperar etapa (local primero, backend en paralelo para actualizar)
+    _etapaActual = _lsGetEtapa(email);  // Valor inmediato del local
+    getEtapaInicial(email).then(n => { if (n > _etapaActual) setEtapa(n, false); }); // Actualiza si backend tiene más
+
+    // UI header
+    document.getElementById('avatar-iniciales').textContent = (nombre[0] + apellidos[0]).toUpperCase();
+    document.getElementById('display-name').textContent = `${nombre} ${apellidos}`;
+
+    // Mostrar pantalla de chat
+    document.getElementById('registro-container').style.display = 'none';
+    document.getElementById('chat-container').style.display = 'flex';
+
+    // Restaurar barra de progreso
+    setEtapa(_etapaActual, false);
+
+    // Iniciar timer de sesión
+    _startTime = Date.now();
+    _timer = setInterval(tickTimer, 1000);
+
+    // M6: Ping + cold start overlay + luego init chat
+    arrancarConPing(email, nombre, apellidos);
+    return false;
+}
+
+function tickTimer() {
+    const s = Math.floor((Date.now() - _startTime) / 1000);
+    const h = String(Math.floor(s/3600)).padStart(2,'0');
+    const m = String(Math.floor((s%3600)/60)).padStart(2,'0');
+    const sc= String(s%60).padStart(2,'0');
+    document.getElementById('session-timer').textContent = `Sesión: ${h}:${m}:${sc}`;
+}
+
+function cerrarSesion() {
+    if (_startTime && _email) updateTime(_email, Math.floor((Date.now()-_startTime)/1000));
+    clearInterval(_timer);
+    _startTime = _email = null;
+    _etapaActual = 1;
+    document.getElementById('flowise-chat-area').innerHTML = '';
+    document.getElementById('chat-container').style.display = 'none';
+    document.getElementById('registro-container').style.display = 'block';
+    // Reset botón por si se deshabilitó
+    document.getElementById('btn-entrar').disabled = false;
+    document.getElementById('btn-entrar').textContent = 'Comenzar sesión de tutoría';
+}
+
+// ════════════════════════════════════════════
+// BARRA DE PROGRESO DE ETAPAS (M4)
+// ════════════════════════════════════════════
+function setEtapa(n, guardar = true) {
+    _etapaActual = n;
+    for (let i = 1; i <= 7; i++) {
+        const dot = document.getElementById(`dot-${i}`);
+        if (!dot) continue;
+        dot.classList.remove('activa','completada');
+        if (i < n)      dot.classList.add('completada');
+        else if (i === n) dot.classList.add('activa');
+    }
+    for (let i = 1; i <= 6; i++) {
+        const l = document.getElementById(`linea-${i}`);
+        if (l) l.classList.toggle('completada', i < n);
+    }
+    document.getElementById('etapa-num').textContent = n;
+    document.getElementById('etapa-nombre').textContent = ETAPAS[n] || '';
+    if (guardar && _email) updateEtapa(_email, n);
+}
+
+/**
+ * Parsea los mensajes del tutor buscando el marcador [ETAPA:N].
+ * El system prompt debe incluir al final de cada respuesta: [ETAPA:N]
+ */
+function parsearEtapa(messages) {
+    if (!messages || !messages.length) return;
+    const botMsgs = messages
+        .filter(m => ['apiMessage','assistant','bot'].includes(m.role || m.type))
+        .reverse();
+    for (const msg of botMsgs) {
+        const txt = msg.message || msg.content || msg.text || '';
+        const m = txt.match(/\[ETAPA:([1-7])\]/i)
+               || txt.match(/📍\s*\*?\*?Etapa\s+([1-7])\/7/i);
+        if (m) {
+            const n = parseInt(m[1]);
+            if (n >= _etapaActual) setEtapa(n);
+            break;
+        }
+    }
+}
+
+// ════════════════════════════════════════════
+// COLD START + ARRANQUE (M6)
+// ════════════════════════════════════════════
+async function arrancarConPing(email, nombre, apellidos) {
+    const overlay   = document.getElementById('cold-start-overlay');
+    const bar       = document.getElementById('cs-bar');
+    const status    = document.getElementById('cs-status');
+    const btnEntrar = document.getElementById('btn-entrar');
+
+    btnEntrar.disabled = true;
+
+    let pct = 0;
+    let animInterval = null;
+
+    // Si en 4s no responde → mostrar overlay
+    const showTimer = setTimeout(() => {
+        overlay.style.display = 'flex';
+        // Barra animada de progreso falso
+        animInterval = setInterval(() => {
+            // Avanza rápido al principio, lento al final
+            const step = pct < 50 ? 1.5 : pct < 80 ? 0.8 : 0.3;
+            pct = Math.min(pct + step, 95);
+            bar.style.width = pct + '%';
+        }, 500);
+    }, 4000);
+
+    const actualizarStatus = (msg) => { if (status) status.textContent = msg; };
+
+    try {
+        actualizarStatus('Verificando conexión...');
+        const ctrl = new AbortController();
+        const t = setTimeout(() => ctrl.abort(), 70000);
+        const res = await fetch(`${FLOWISE_URL}/api/v1/chatflows/${CHATFLOW_ID}`, {
+            signal: ctrl.signal
+        });
+        clearTimeout(t);
+        if (res.ok) actualizarStatus('¡Servidor listo!');
+    } catch {
+        actualizarStatus('Conectando... (puede tardar un poco más)');
+        await new Promise(r => setTimeout(r, 1500));
+    }
+
+    // Completar barra y ocultar overlay
+    clearTimeout(showTimer);
+    if (animInterval) clearInterval(animInterval);
+    bar.style.width = '100%';
+    await new Promise(r => setTimeout(r, 400));
+    overlay.style.display = 'none';
+
+    inicializarChat(email, nombre, apellidos);
+}
+
+// ════════════════════════════════════════════
+// FLOWISE EMBED
+// ════════════════════════════════════════════
+function inicializarChat(email, nombre, apellidos) {
+    Chatbot.initFull({
+        chatflowid: CHATFLOW_ID,
+        apiHost: FLOWISE_URL,
+        chatflowConfig: {
+            sessionId: email,
+            vars: {
+                estudiante_nombre:    nombre,
+                estudiante_apellidos: apellidos,
+                estudiante_email:     email
+            }
+        },
+        observersConfig: {
+            observeMessages: (messages) => {
+                parsearEtapa(messages);
+            }
+        },
+        theme: {
+            chatWindow: {
+                showTitle: true,
+                title: 'TutorASBV — DEU ASBV',
+                welcomeMessage: `¡Hola ${nombre}! Soy tu tutor socrático experto en Asistencia Sanitaria Basada en Valor. Te guiaré por 7 etapas para diseñar tu propio proyecto de implementación de PROMs y PREMs en tu contexto real.\n\nPara empezar, cuéntame:\n1️⃣ ¿Qué patología o proceso asistencial quieres trabajar?\n2️⃣ ¿En qué tipo de centro y qué CCAA?\n3️⃣ ¿Nivel estratégico, operativo o docente?`,
+                backgroundColor: '#ffffff',
+                fontSize: 16,
+                poweredByTextColor: '#aaa',
+                headerBackgroundColor: '#1565c0',
+                headerTextColor: '#ffffff',
+                botMessage: {
+                    backgroundColor: '#f0f4f8',
+                    textColor: '#1a237e',
+                    showAvatar: true
+                },
+                userMessage: {
+                    backgroundColor: '#1565c0',
+                    textColor: '#ffffff',
+                    showAvatar: false
+                },
+                textInput: {
+                    placeholder: 'Escribe tu respuesta aquí...',
+                    backgroundColor: '#ffffff',
+                    textColor: '#333',
+                    sendButtonColor: '#1565c0'
+                }
+            }
+        },
+        target: document.getElementById('flowise-chat-area')
+    });
+}
+
+// ════════════════════════════════════════════
+// PANEL ADMIN (DOCENTE)
+// ════════════════════════════════════════════
+function mostrarAdmin() {
+    const pin = prompt('PIN docente:');
+    if (!_vPin(pin)) { if (pin !== null) alert('PIN incorrecto'); return; }
+
+    const entries = Object.values(getStudents());
+
+    const totalSessions = entries.reduce((s,e) => s + (e.sessions||0), 0);
+    const totalTime     = entries.reduce((s,e) => s + (e.totalTimeSeconds||0), 0);
+    const avgTime       = entries.length ? Math.round(totalTime/entries.length/60) : 0;
+    const avgEtapa      = entries.length
+        ? (entries.reduce((s,e) => s + (e.etapaActual||1), 0) / entries.length).toFixed(1)
+        : '-';
+
+    document.getElementById('stats-cards').innerHTML = `
+        <div class="stat-card"><div class="number">${entries.length}</div><div class="label">Estudiantes</div></div>
+        <div class="stat-card"><div class="number">${totalSessions}</div><div class="label">Sesiones totales</div></div>
+        <div class="stat-card"><div class="number">${formatTime(totalTime)}</div><div class="label">Tiempo acumulado</div></div>
+        <div class="stat-card"><div class="number">${avgTime} min</div><div class="label">Media/estudiante</div></div>
+        <div class="stat-card"><div class="number">${avgEtapa}/7</div><div class="label">Etapa media grupo</div></div>
+    `;
+
+    document.getElementById('students-tbody').innerHTML = entries
+        .sort((a,b) => (b.lastLogin||'').localeCompare(a.lastLogin||''))
+        .map(s => {
+            const et = s.etapaActual || 1;
+            const cls = et >= 7 ? 'etapa-7' : et >= 6 ? 'etapa-6' : et >= 5 ? 'etapa-5' : '';
+            return `<tr>
+                <td><strong>${s.nombre} ${s.apellidos}</strong></td>
+                <td>${s.email}</td>
+                <td>${s.institucion||'-'}</td>
+                <td>${s.perfil||'-'}</td>
+                <td>${s.sessions||0}</td>
+                <td><span class="etapa-badge ${cls}">${et}/7 — ${ETAPAS[et]}</span></td>
+                <td>${formatTime(s.totalTimeSeconds||0)}</td>
+                <td>${s.lastLogin ? new Date(s.lastLogin).toLocaleString('es-ES') : '-'}</td>
+            </tr>`;
+        }).join('');
+
+    document.getElementById('registro-container').style.display = 'none';
+    document.getElementById('admin-panel').style.display = 'block';
+}
+
+function cerrarAdmin() {
+    document.getElementById('admin-panel').style.display = 'none';
+    document.getElementById('registro-container').style.display = 'block';
+}
+
+function formatTime(s) {
+    if (s < 60) return `${s}s`;
+    if (s < 3600) return `${Math.round(s/60)} min`;
+    return `${Math.floor(s/3600)}h ${Math.round((s%3600)/60)}min`;
+}
+
+function exportarCSV() {
+    const data = Object.values(getStudents());
+    if (!data.length) { alert('No hay datos aún'); return; }
+    const hdrs = ['Nombre','Apellidos','Email','Institucion','Perfil','Sesiones','Etapa','Tiempo_min','Primera_conexion','Ultima_conexion'];
+    const rows = data.map(s => [
+        s.nombre, s.apellidos, s.email, s.institucion||'', s.perfil||'',
+        s.sessions||0, s.etapaActual||1, Math.round((s.totalTimeSeconds||0)/60),
+        s.firstLogin||'', s.lastLogin||''
+    ]);
+    const csv = [hdrs.join(';'), ...rows.map(r => r.join(';'))].join('\n');
+    const a = Object.assign(document.createElement('a'), {
+        href: URL.createObjectURL(new Blob(['\ufeff'+csv], {type:'text/csv;charset=utf-8;'})),
+        download: `tutorasbv_${new Date().toISOString().slice(0,10)}.csv`
+    });
+    a.click();
+}
+
+// Guardar tiempo al cerrar pestaña
+window.addEventListener('beforeunload', () => {
+    if (_startTime && _email) updateTime(_email, Math.floor((Date.now()-_startTime)/1000));
+});
+</script>
+
+</body>
+</html>
