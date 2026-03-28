@@ -1,4 +1,4 @@
-'use client';
+h'use client';
 
 import { useLang } from '@/lib/LangProvider';
 
@@ -19,7 +19,6 @@ export default function IAPage() {
       linkLabel: t('ia.tutor.cta'),
       external: true,
     },
-  ];
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -34,7 +33,7 @@ export default function IAPage() {
             {t('ia.page.subtitle')}
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
-            {['IA Clínica', 'LLM', 'PROMs/PREMs', 'VBHC', 'eHealth', 'IB-SALUT'].map(tag => (
+            {['IA Clínica', 'LLM', 'PROMs/PREMs', 'VBHC', 'eHealth'].map(tag => (
               <span key={tag} className="bg-white/15 text-white/90 text-xs font-semibold px-3 py-1 rounded-full border border-white/20">
                 {tag}
               </span>
