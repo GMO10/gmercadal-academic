@@ -9,6 +9,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.conferences': 'Conferences',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contact',
+    'nav.awards': 'Awards & Grants',
 
     // Hero
     'hero.subtitle': 'Clinical Pharmacist \u00b7 Researcher \u00b7 Educator',
@@ -88,6 +89,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.conferences': 'Congresos',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacto',
+    'nav.awards': 'Premios y Becas',
 
     // Hero
     'hero.subtitle': 'Farmac\u00e9utico Cl\u00ednico \u00b7 Investigador \u00b7 Docente',
@@ -167,6 +169,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.conferences': 'Congressos',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacte',
+    'nav.awards': 'Premis i Beques',
 
     // Hero
     'hero.subtitle': 'Farmac\u00e8utic Cl\u00ednic \u00b7 Investigador \u00b7 Docent',
