@@ -16,7 +16,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'hero.downloadCV': 'Download CV',
     'hero.bio': 'Hospital pharmacist, researcher and educator. My clinical work focuses on outpatient care at Hospital Mateu Orfila (Menorca), with research lines in value-based healthcare, telepharmacy linked to ePROMs/PREMs, and the application of artificial intelligence in the eHealth context. President of FARUPEIB. Chair of the Pharmacy/Pharmacology Section of the Acad\u00e8mia M\u00e8dica Balear. Co-creator of the NAVETA initiative.',
 
-    // Academic Background
+    // Academic Backgroundh
     'bg.title': 'Academic Background',
     'bg.p1': 'PhD in Pharmacy (Cum Laude) from the Universitat de Barcelona, with a thesis on the effectiveness of glutamine in perioperative parenteral nutrition. Specialist in Hospital Pharmacy trained at Hospital Universitari de Bellvitge.',
     'bg.p2': 'Postgraduate diplomas in Health Sciences Statistics (UAB) and Pharmacoeconomics (UPF). Master in Medical Direction and Clinical Management (UNED, 2023-2025). Currently pursuing the Advanced Master in Artificial Intelligence in Health Sciences Education (Universitat de Barcelona).',
@@ -68,7 +68,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // IA Aplicada
     'nav.ia': 'AI Applied',
     'ia.page.title': 'Applied AI',
-    'ia.page.subtitle': 'AI initiatives applied to clinical practice, value-based healthcare and patient-reported outcomes at Menorca.',
+    'ia.page.subtitle': 'AI initiatives applied to clinical practice, value-based healthcare and patient-reported outcomes.',
     'ia.section.projects': 'Active Projects',
     'ia.section.coming': 'More projects coming soon',
     'ia.section.comingSub': 'New AI tools in development.',
@@ -148,7 +148,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // IA Aplicada
     'nav.ia': 'IA Aplicada',
     'ia.page.title': 'IA Aplicada',
-    'ia.page.subtitle': 'Iniciativas de inteligencia artificial aplicadas a la pr\u00e1ctica cl\u00ednica, la atenci\u00f3n sanitaria basada en valor y los PROMs/PREMs en Menorca.',
+    'ia.page.subtitle': 'Iniciativas de inteligencia artificial aplicadas a la pr\u00e1ctica cl\u00ednica, la atenci\u00f3n sanitaria basada en valor y los PROMs/PREMs.',
     'ia.section.projects': 'Proyectos activos',
     'ia.section.coming': 'Pr\u00f3ximos proyectos',
     'ia.section.comingSub': 'Nuevas herramientas de IA en desarrollo.',
@@ -228,7 +228,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // IA Aplicada
     'nav.ia': 'IA Aplicada',
     'ia.page.title': 'IA Aplicada',
-    'ia.page.subtitle': "Iniciatives d'intel\u00b7lig\u00e8ncia artificial aplicades a la pr\u00e0ctica cl\u00ednica, l'atenci\u00f3 sanit\u00e0ria basada en valor i els PROMs/PREMs a Menorca.",
+    'ia.page.subtitle': "Iniciatives d'intel\u00b7lig\u00e8ncia artificial aplicades a la pr\u00e0ctica cl\u00ednica, l'atenci\u00f3 sanit\u00e0ria basada en valor i els PROMs/PREMs.",
     'ia.section.projects': 'Projectes actius',
     'ia.section.coming': 'Propers projectes',
     'ia.section.comingSub': "Noves eines d'IA en desenvolupament.",
