@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-29T07:11:45.996Z",
-  "count": 37,
+  "lastUpdated": "2026-03-29T18:52:08.692Z",
+  "count": 38,
   "yearIndex": {
     "2003": [
       "pub-0fcf1f1b7403",
@@ -66,17 +66,44 @@
       "doi-10-3389-fmed-2024-1465725"
     ],
     "2025": [
+      "doi-10-2196-87592",
       "doi-10-2147-IPRP-S492422",
       "doi-10-3389-fendo-2025-1731194",
       "doi-10-1016-j-farma-2024-08-004"
     ],
     "2026": [
+      "doi-10-1016-j-farma-2026-01-006",
       "doi-10-2196-preprints-92890",
-      "doi-pii--S1130-6343-26-00009-7--10-1016-j-farma-2026-01-006",
-      "doi-10-2196-87592"
+      "doi-pii--S1130-6343-26-00009-7--10-1016-j-farma-2026-01-006"
     ]
   },
   "publications": [
+    {
+      "id": "doi-10-1016-j-farma-2026-01-006",
+      "title": "Telepharmacy follow-up using electronic patient-reported outcome measures in moderate-to-severe psoriasis. ",
+      "year": 2026,
+      "type": "journal-article",
+      "doi": "10.1016/j.farma.2026.01.006",
+      "pmid": null,
+      "journal": "Farmacia Hospitalaria",
+      "authors": [
+        "Mercadal-Orfila, Gabriel",
+        "López Sánchez, Piedad",
+        "Padullés-Zamora, Nuria",
+        "Pou Alonso, Aránzazu",
+        "Ibarra-Barrueta, Olatz",
+        "Monte-Boquet, Emilio",
+        "Borrás Blasco, Joaquín",
+        "Sanmartin-Fenollera, Patricia",
+        "Capilla Montes, Cristina",
+        "Bernabéu Martínez, María Angeles",
+        "Notario Rosa, Jaime",
+        "Escrivá Sancho, María Eugenia",
+        "Herrera-Pérez, Salvador"
+      ],
+      "abstract": null,
+      "url": "https://doi.org/10.1016/j.farma.2026.01.006"
+    },
     {
       "id": "doi-10-2196-preprints-92890",
       "title": "Mobile App for Multidimensional Monitoring of Immune-Mediated Inflammatory Diseases: A Multicenter Prospective Study (Preprint)",
@@ -134,22 +161,22 @@
     },
     {
       "id": "doi-10-2196-87592",
-      "title": "Digital Monitoring of PrEP Users Through ePROMs and ePREMs: A Multicenter Prospective Study on Feasibility, Safety, and Predictive Modeling of Digital Engagement",
-      "year": 2026,
+      "title": "Digital Monitoring of PrEP Users Through ePROMs and ePREMs: A Multicenter Prospective Study on Feasibility, Safety, and Predictive Modeling of Digital Engagement (Preprint)",
+      "year": 2025,
       "type": "journal-article",
       "doi": "10.2196/87592",
       "pmid": null,
       "journal": "Journal of Medical Internet Research",
       "authors": [
-        "Mercadal-Orfila, Gabriel M.O.",
-        "Serrano, J.I.",
-        "Mijares, T.",
-        "Vidal, L.",
-        "Curran, A.",
-        "Herrera-Pérez, S."
+        "Mercadal-Orfila, Gabriel Mercadal-Orfila",
+        "Serrano, Joaquín Ignacio",
+        "Mijares, Tilman",
+        "Vidal, Lluís",
+        "Curran, Adrian",
+        "Herrera-Pérez, Salvador"
       ],
       "abstract": null,
-      "url": "https://preprints.jmir.org/preprint/87592"
+      "url": "https://doi.org/10.2196/87592"
     },
     {
       "id": "doi-10-2147-IPRP-S492422",

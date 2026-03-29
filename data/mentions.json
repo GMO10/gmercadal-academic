@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-29T07:12:46.291Z",
+  "lastUpdated": "2026-03-29T18:55:51.196Z",
   "scoreThreshold": 4,
-  "count": 44,
+  "count": 45,
   "sources": {
     "gdelt": 0,
-    "googleNews": 75
+    "googleNews": 74
   },
   "mentions": [
     {
@@ -60,9 +60,9 @@
     },
     {
       "id": "auto-748d5641b8cf",
-      "title": "Nuevos hospitales se suman al proyecto de telefarmacia ‘Naveta’ del doctor menorquín Gabriel Mercadal - menorca.info",
+      "title": "Nuevos hospitales se suman al proyecto de telefarmacia ‘Naveta’ del doctor menorquín Gabriel Mercadal - Menorca - Es diari",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPR2ZOeS1KZkVCeXB1Q2pHQmd3WWFENHd0cGstS0w1eTJxQ3VZZGJOYTdkdUs5dlVzaXB3ZmxoeWxDM0xjMkZIN3lYUXJua2pDcWJWVTRHWHJVWU9MWi1KTzNUZmVUeExtWDdvOXVHeEJvMVFGcExDTEVST2ZfREFMdUNKMWM0d1oyTXBzV3FaMEdTLUppYXRReWlHZGk3bWJHX29UQWhJNXZHeTJHcXkwZVhRSlB2STFTNkpQQkVoQ1VwOG9hQ0hsMmdjeHo4YkpmMWtxSmRlVXEyVm1VY2xHaWhMV29McDY10gHoAUFVX3lxTE9CamY1SFd1VFJlX3RTSFRJbEtXc1JTM04xZ2FZVUVZNmtzX21rMm11bmNzb3kyXzJZekJ4VmpIRFBnRTBqUThvSERTSzl5VnBYZlZ0LU5rUFN2UVNRSnNkLUUyei1TMVk5S0N1UmNaRGZjUkxyZVl1cWdJb1NwTWUxN19uMW1wVFd5VEpFdUxURHNvUUZjNWIwUlN5LVIwOEVOX1RmblhSUmU1cS1JbFdvRmdiLUZ0U2xQaEZwVDc3NmpWUXp6d2g0RHNFRjd4Qms3QWpNaVV6SXBOQjJxZEhtVUtMa3VUT2w?oc=5",
-      "source": "menorca.info",
+      "source": "Menorca - Es diari",
       "domain": "news.google.com",
       "date": "2026-03-19",
       "language": "es",
@@ -128,9 +128,9 @@
     },
     {
       "id": "auto-c90e0efc7d9b",
-      "title": "El doctor en Farmacia Biel Mercadal recoge en Málaga el galardón al «Zafiro» - menorca.info",
+      "title": "El doctor en Farmacia Biel Mercadal recoge en Málaga el galardón al «Zafiro» - Menorca - Es diari",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWDBUSmdCUWFwLXVYVWx6U0l5ajBmTGJzX045WGQzSHU5cHFrWmdRNnYxbm45Q1o2QVFpSlRWcWVjZnY3ZVBiQWtmMzh0ZklnT2cwZFNlV0lJaFVtQ1VkSHFQR0lJS1Y4QlJ2TzJKQ1IzN3NGbTlFOVREMEZjNUZCdGJGMEYzMzJXQUttX0lzMGE0MnR1RFh6ZXB3eFg0ZXZNeW05dDhfU1NFNXZrWVFBRm5FcndYclFlUUtqZy0xa9IBvwFBVV95cUxPY1BQb1dGYnN6WFo4bTRJNHUxM1BRdW5ITkVTdVhjeWQySzI2NWsxcmFNYTR5Yi1ua2YwWFdlNXZ1QTQ1VG5YdThlTGczS2Z6eWpKNTJkT1V3RTBGRW4yNHRGeFI2dUxIXzNjNjVEVDFPOTgxS0FIY1RxS3BwZU1WMXd4LWU4MnBpcDI1N1oxZ09oVi0wZkJaeDVhZ2NOTldfeFpYd1BSVG1CZ0Vkd094U3cyOXFteFdKZEc0SUU1dw?oc=5",
-      "source": "menorca.info",
+      "source": "Menorca - Es diari",
       "domain": "news.google.com",
       "date": "2025-10-22",
       "language": "es",
@@ -193,9 +193,9 @@
     },
     {
       "id": "auto-91a38971965e",
-      "title": "Un proyecto impulsado en el hospital Mateu Orfila, premiado a nivel nacional - menorca.info",
+      "title": "Un proyecto impulsado en el hospital Mateu Orfila, premiado a nivel nacional - Menorca - Es diari",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNUJYdml5Vmg1dGVnOWN4dmJOYVBUSTAtMHkzbnpwcVlLOW5jM2x5eDdUdzdpcVVHdURIV2NfdjhSdXl5TVVFbmFiaEJ5TVIxTl83RXAtdml3QnZIVDlzRjh5TVV1djZQaVAyM3NIdklNTWVHS3NObFBCaUJwWVZ5T19vb2hMNWs5MUZYTmQwZ0w1STh1allCNHJsTEFFZ3l6a0JrRTk3aWpLWlpQRXZHNkdCV2lHMU5pZEdhSWJqcXcxaW9aaXfSAcYBQVVfeXFMTjZiN1JaUU9jc2FVdWhXemx5U0JCTTI0ZmNPNjA3eEIxYUFzZ2VNU2tGdzlQQ21DLVZXLWZjWEx5bWQ5TmI0eFAtM2dZYlhCSWxVWExkMzR2d0VFWnBRSGpBakpKVUFjano3WVU3UE9HUTE5bVBxTDhVWDBxczA0TXZrc2xpeXU0aFJnNGpWNnRnR2dZQko5SXZaSGJReDFvOHI2eEpWV0FvS2EweURiZWEyUTliajBWaFRuSkxLZHhWVVRabnlB?oc=5",
-      "source": "menorca.info",
+      "source": "Menorca - Es diari",
       "domain": "news.google.com",
       "date": "2025-10-12",
       "language": "es",
@@ -258,6 +258,21 @@
         "+2 telefarmacia",
         "+2 PROMs/PREMs"
       ]
+    },
+    {
+      "id": "auto-b997283dd71e",
+      "title": "Farupeib y Mendel Brain colaboran para la innovación y la humanización en FH - Diariofarma",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2dJcHUzOVVBeU5kaEpaWUR6ZWtDQVc2WV9PTVh5R21yYWhMRGpIcGdGRzJyNkl5eHowNnNBVXlna3JxU2FkYW9FRG90UG1CaUVOZmt4cHBKLWZhZmdrRXBzZWJrMEE3Ymp1MkctV1Z3VFJkUDNJUzlsUkoyR0tsTl9Yclc2SUFCenRPaEJvTlZiUW0wTTJKemtNRnhpSnZnNnNleVJYdEZMR3VTclZ5WWtETHhJU09fWjAwSHVOOA?oc=5",
+      "source": "Diariofarma",
+      "domain": "news.google.com",
+      "date": "2025-07-31",
+      "language": "es",
+      "type": "news",
+      "score": 4,
+      "signals": [
+        "+4 FARUPEIB"
+      ],
+      "autoFetched": true
     },
     {
       "id": "radar-healthtech-2025-06",
@@ -344,9 +359,9 @@
     },
     {
       "id": "auto-dc5f9cee61ee",
-      "title": "Una 'sala blanca' para la preparación de medicamentos, lo nuevo del Hospital Mateu Orfila - menorca.info",
+      "title": "Una 'sala blanca' para la preparación de medicamentos, lo nuevo del Hospital Mateu Orfila - Menorca - Es diari",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYWpfTDZ4VmJMRzZ0aEwtcS1vdG1jYlY1MlE2OFUtOWJ3OUc0T0FDOTctbktPN1dES01ucjV1T1NENFh3YVJwSnU0Wjd5RXh0N0tpZ3ZySFZIY2pWNTZQWjU4NmtrS05zeDB5ZmVaMzVzazlCNk9GVkYyN0NpV1ZmVHhOOEFDMEhKNm91d29ZTjA4YlRNTmN5cE5aaU9HU2pxVl9OeVhtdFR1V2lyalFIOXdFSGdKdmEzVTlOMDRudjAtRzBxNXFtSVpDb0NWT1BSb3fSAdIBQVVfeXFMTlUtYkwyUUVYYThjeG9sX3dHXzhnc0hDLXpoRVQwZE1JZksxRlhEekt6X2VVVkYzUTJWSTExNVpVZ251OG9pMHI4NjY0eWlJVjZnczNnQ2lYWEU5VUhwNGdkbEc2VmN0STNlM1hHQUZ4VzBuOUZfbjVHSVo2WWlBVnJYQXNUXzJsOTdsR2xkV3FkYWk4QVNXSzNpd1FrOTlHUlY4MXl5Nlp5M3pxbTU4LTRrMmMtNHhMXzZEVDNPT1BtVzZ5ZGc3SjdzOWJMTzBDZEhn?oc=5",
-      "source": "menorca.info",
+      "source": "Menorca - Es diari",
       "domain": "news.google.com",
       "date": "2025-04-28",
       "language": "es",
@@ -588,9 +603,9 @@
     },
     {
       "id": "auto-d64d7ac18fa0",
-      "title": "El proyecto de telefarmacia del hospital Mateu Orfila, premiado - menorca.info",
+      "title": "El proyecto de telefarmacia del hospital Mateu Orfila, premiado - Menorca - Es diari",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT1ZUMWhRZG9IcmJqOHBMc2ZTX3NOSnVuaDYtVFlhT09uVVdraWwzeVBEbmIyOEpfem41akd2T3d2aTVVTVJaUE8xdE82UnI5NlFieEdPbE5rSmNaeXBRdzJ1ckVuQzFZa2pzaGY5bGhZZnBDYW5RNkZyVlo5V1ZvSHQwakJhR2V3OEhiYnpFTlJqRlBLT3NZNmlWWFJSenhFUDVkbUp2ZGlqY0xudHNJTzd6Y1FqWWpOak5v0gG7AUFVX3lxTE00Z2JGbnVRZTRHM3F0RzFQZTNwOW9jbWY5OWlqU0VOVjhJZGllMkJCMXB4SDRFZGpMTTB4WHA1Q3FkaGVXbnl1WWwzekVTb18wNHF1d0VFdnZyQ3NoLU5YdU5zV25GU1VxZlNfWWpzMWJSYW5JZWFjSTBBQnRsYjVNQ0h3dHN5c1RpcnZDQUJjZWcyblRJMFdtUkpjU0tCc2hUS3d1a2FJM2JUUHpPSW85RUlyanRoZmkyMTg?oc=5",
-      "source": "menorca.info",
+      "source": "Menorca - Es diari",
       "domain": "news.google.com",
       "date": "2021-10-31",
       "language": "es",
