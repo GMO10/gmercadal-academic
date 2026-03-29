@@ -6,7 +6,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.home': 'Home',
     'nav.publications': 'Publications',
     'nav.mentions': 'Media',
-    'nav.conferences': 'Conferences',
+    'nav.conferences': 'Conference Papers',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contact',
     'nav.awards': 'Awards & Grants',
@@ -14,7 +14,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Hero
     'hero.subtitle': 'Clinical Pharmacist \u00b7 Researcher \u00b7 Educator',
     'hero.downloadCV': 'Download CV',
-    'hero.bio': 'Hospital pharmacist, researcher and educator. My clinical work focuses on outpatient care at Hospital Mateu Orfila (Menorca), with research lines in value-based healthcare, telepharmacy linked to ePROMs/PREMs, and the application of artificial intelligence in the eHealth context. President of FARUPEIB. Chair of the Pharmacy/Pharmacology Section of the Acadèmia Mèdica Balear. Co-creator of the NAVETA initiative.',
+    'hero.bio': 'Hospital pharmacist, researcher and educator. My clinical work focuses on outpatient care at Hospital Mateu Orfila (Menorca), with research lines in value-based healthcare, telepharmacy linked to ePROMs/PREMs, and the application of artificial intelligence in the eHealth context. President of FARUPEIB. Chair of the Pharmacy/Pharmacology Section of the AcadÃ¨mia MÃ¨dica Balear. Co-creator of the NAVETA initiative.',
 
     // Academic Background
     'bg.title': 'Academic Background',
@@ -72,11 +72,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     'ia.section.projects': 'Active Projects',
     'ia.section.coming': 'More projects coming soon',
     'ia.section.comingSub': 'New AI tools in development.',
-    'ia.status.active': '● Active',
-    'ia.tutor.title': 'TutorASBV — Socratic AI Tutor',
+    'ia.status.active': 'â Active',
+    'ia.tutor.title': 'TutorASBV â Socratic AI Tutor',
     'ia.tutor.subtitle': 'DEU in Value-Based Healthcare',
     'ia.tutor.description': 'Conversational AI tutor based on the Socratic method that guides healthcare professionals through 7 stages to design PROMs/PREMs implementation projects. Built with Flowise + Claude 3 Sonnet.',
-    'ia.tutor.cta': 'Open Tutor →',
+    'ia.tutor.cta': 'Open Tutor â',
 
     // Footerh
     'footer.dataUpdated': 'Data auto-updated via',
@@ -85,8 +85,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Nav
     'nav.home': 'Inicio',
     'nav.publications': 'Publicaciones',
-    'nav.mentions': 'Medios comunicación',
-    'nav.conferences': 'Congresos',
+    'nav.mentions': 'Medios comunicaciÃ³n',
+    'nav.conferences': 'Comunicaciones a Congresos',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacto',
     'nav.awards': 'Premios y Becas',
@@ -94,7 +94,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Hero
     'hero.subtitle': 'Farmac\u00e9utico Cl\u00ednico \u00b7 Investigador \u00b7 Docente',
     'hero.downloadCV': 'Descargar CV',
-    'hero.bio': 'Farmacéutico de hospital, investigador y docente. Mi trabajo asistencial se centra en el área de pacientes externos del Hospital Mateu Orfila (Menorca), con líneas de investigación en asistencia sanitaria basada en valor, implementación de telemedicina asociada a ePROMs/PREMs y aplicación de inteligencia artificial en el contexto eHealth. Presidente de FARUPEIB. Presidente de la Sección de Farmacia/Farmacología de la Acadèmia Mèdica Balear. Cocreador de la iniciativa NAVETA.',
+    'hero.bio': 'FarmacÃ©utico de hospital, investigador y docente. Mi trabajo asistencial se centra en el Ã¡rea de pacientes externos del Hospital Mateu Orfila (Menorca), con lÃ­neas de investigaciÃ³n en asistencia sanitaria basada en valor, implementaciÃ³n de telemedicina asociada a ePROMs/PREMs y aplicaciÃ³n de inteligencia artificial en el contexto eHealth. Presidente de FARUPEIB. Presidente de la SecciÃ³n de Farmacia/FarmacologÃ­a de la AcadÃ¨mia MÃ¨dica Balear. Cocreador de la iniciativa NAVETA.',
 
     // Academic Background
     'bg.title': 'Formaci\u00f3n Acad\u00e9mica',
@@ -165,8 +165,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Nav
     'nav.home': 'Inici',
     'nav.publications': 'Publicacions',
-    'nav.mentions': 'Mitjans comunicació',
-    'nav.conferences': 'Congressos',
+    'nav.mentions': 'Mitjans comunicaciÃ³',
+    'nav.conferences': 'Comunicacions a Congressos',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacte',
     'nav.awards': 'Premis i Beques',
