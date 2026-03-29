@@ -17,6 +17,7 @@ function NavBar() {
     { href: '/naveta', label: t('nav.naveta') },
     { href: '/ia-aplicada', label: t('nav.ia') },
     { href: '/mentions', label: t('nav.mentions') },
+    { href: '/awards', label: t('nav.awards') },
     { href: '/contact', label: t('nav.contact') },
   ];
 
