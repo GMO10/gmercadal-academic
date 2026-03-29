@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-03-29T07:11:45.996Z",
-  "count": 36,
+  "count": 37,
   "yearIndex": {
     "2003": [
       "pub-0fcf1f1b7403",
@@ -72,7 +72,8 @@
     ],
     "2026": [
       "doi-10-2196-preprints-92890",
-      "doi-pii--S1130-6343-26-00009-7--10-1016-j-farma-2026-01-006"
+      "doi-pii--S1130-6343-26-00009-7--10-1016-j-farma-2026-01-006",
+      "doi-10-2196-87592"
     ]
   },
   "publications": [
@@ -130,6 +131,25 @@
       ],
       "abstract": null,
       "url": "https://doi.org/pii: S1130-6343(26)00009-7. 10.1016/j.farma.2026.01.006"
+    },
+    {
+      "id": "doi-10-2196-87592",
+      "title": "Digital Monitoring of PrEP Users Through ePROMs and ePREMs: A Multicenter Prospective Study on Feasibility, Safety, and Predictive Modeling of Digital Engagement",
+      "year": 2026,
+      "type": "journal-article",
+      "doi": "10.2196/87592",
+      "pmid": null,
+      "journal": "Journal of Medical Internet Research",
+      "authors": [
+        "Mercadal-Orfila, Gabriel M.O.",
+        "Serrano, J.I.",
+        "Mijares, T.",
+        "Vidal, L.",
+        "Curran, A.",
+        "Herrera-Pérez, S."
+      ],
+      "abstract": null,
+      "url": "https://preprints.jmir.org/preprint/87592"
     },
     {
       "id": "doi-10-2147-IPRP-S492422",
