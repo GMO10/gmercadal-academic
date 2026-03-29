@@ -14,13 +14,13 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Hero
     'hero.subtitle': 'Clinical Pharmacist \u00b7 Researcher \u00b7 Educator',
     'hero.downloadCV': 'Download CV',
-    'hero.bio': 'Hospital pharmacist, researcher and educator. My clinical work focuses on outpatient care at Hospital Mateu Orfila (Menorca), with research lines in value-based healthcare, telepharmacy linked to ePROMs/PREMs, and the application of artificial intelligence in the eHealth context. President of FARUPEIB. Chair of the Pharmacy/Pharmacology Section of the AcadÃ¨mia MÃ¨dica Balear. Co-creator of the NAVETA initiative.',
+    'hero.bio': 'Hospital pharmacist, researcher and educator. My clinical work focuses on outpatient care at Hospital Mateu Orfila (Menorca), with research lines in value-based healthcare, telepharmacy linked to ePROMs/PREMs, and the application of artificial intelligence in the eHealth context. President of FARUPEIB. Chair of the Pharmacy/Pharmacology Section of the Acad\u00e8mia M\u00e8dica Balear. Co-creator of the NAVETA initiative.',
 
     // Academic Background
     'bg.title': 'Academic Background',
     'bg.p1': 'PhD in Pharmacy (Cum Laude) from the Universitat de Barcelona, with a thesis on the effectiveness of glutamine in perioperative parenteral nutrition. Specialist in Hospital Pharmacy trained at Hospital Universitari de Bellvitge.',
     'bg.p2': 'Postgraduate diplomas in Health Sciences Statistics (UAB) and Pharmacoeconomics (UPF). Master in Medical Direction and Clinical Management (UNED, 2023-2025). Currently pursuing the Advanced Master in Artificial Intelligence in Health Sciences Education (Universitat de Barcelona).',
-    'bg.p3': 'Associate Professor of Biochemistry and Nutrition at the Universitat de lhes Illes Balears. Scientific Coordinator of the postgraduate diploma in Value-Based Healthcare for Dermatological and Rheumatic Diseases (Universidad de Alcal\u00e1, accredited by SEFH).',
+    'bg.p3': 'Associate Professor of Biochemistry and Nutrition at the Universitat de les Illes Balears. Scientific Coordinator of the postgraduate diploma in Value-Based Healthcare for Dermatological and Rheumatic Diseases (Universidad de Alcal\u00e1, accredited by SEFH).',
     'bg.p4': 'Current research focuses on value-based healthcare, specifically the implementation, analysis, and psychometric validation of PROMs and PREMs, as well as the application of artificial intelligence and machine learning to build predictive models for patient-reported outcomes.',
 
     // Home sections
@@ -72,20 +72,20 @@ export const translations: Record<Lang, Record<string, string>> = {
     'ia.section.projects': 'Active Projects',
     'ia.section.coming': 'More projects coming soon',
     'ia.section.comingSub': 'New AI tools in development.',
-    'ia.status.active': 'â Active',
-    'ia.tutor.title': 'TutorASBV â Socratic AI Tutor',
+    'ia.status.active': '\u25cf Active',
+    'ia.tutor.title': 'TutorASBV \u2014 Socratic AI Tutor',
     'ia.tutor.subtitle': 'DEU in Value-Based Healthcare',
     'ia.tutor.description': 'Conversational AI tutor based on the Socratic method that guides healthcare professionals through 7 stages to design PROMs/PREMs implementation projects. Built with Flowise + Claude 3 Sonnet.',
-    'ia.tutor.cta': 'Open Tutor â',
+    'ia.tutor.cta': 'Open Tutor \u2192',
 
-    // Footerh
+    // Footer
     'footer.dataUpdated': 'Data auto-updated via',
   },
   es: {
     // Nav
     'nav.home': 'Inicio',
     'nav.publications': 'Publicaciones',
-    'nav.mentions': 'Medios comunicaciÃ³n',
+    'nav.mentions': 'Medios de comunicaci\u00f3n',
     'nav.conferences': 'Comunicaciones a Congresos',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacto',
@@ -94,7 +94,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Hero
     'hero.subtitle': 'Farmac\u00e9utico Cl\u00ednico \u00b7 Investigador \u00b7 Docente',
     'hero.downloadCV': 'Descargar CV',
-    'hero.bio': 'FarmacÃ©utico de hospital, investigador y docente. Mi trabajo asistencial se centra en el Ã¡rea de pacientes externos del Hospital Mateu Orfila (Menorca), con lÃ­neas de investigaciÃ³n en asistencia sanitaria basada en valor, implementaciÃ³n de telemedicina asociada a ePROMs/PREMs y aplicaciÃ³n de inteligencia artificial en el contexto eHealth. Presidente de FARUPEIB. Presidente de la SecciÃ³n de Farmacia/FarmacologÃ­a de la AcadÃ¨mia MÃ¨dica Balear. Cocreador de la iniciativa NAVETA.',
+    'hero.bio': 'Farmac\u00e9utico de hospital, investigador y docente. Mi trabajo asistencial se centra en el \u00e1rea de pacientes externos del Hospital Mateu Orfila (Menorca), con l\u00edneas de investigaci\u00f3n en asistencia sanitaria basada en valor, implementaci\u00f3n de telemedicina asociada a ePROMs/PREMs y aplicaci\u00f3n de inteligencia artificial en el contexto eHealth. Presidente de FARUPEIB. Presidente de la Secci\u00f3n de Farmacia/Farmacolog\u00eda de la Acad\u00e8mia M\u00e8dica Balear. Cocreador de la iniciativa NAVETA.',
 
     // Academic Background
     'bg.title': 'Formaci\u00f3n Acad\u00e9mica',
@@ -165,7 +165,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Nav
     'nav.home': 'Inici',
     'nav.publications': 'Publicacions',
-    'nav.mentions': 'Mitjans comunicaciÃ³',
+    'nav.mentions': 'Mitjans de comunicaci\u00f3',
     'nav.conferences': 'Comunicacions a Congressos',
     'nav.naveta': 'NAVETA',
     'nav.contact': 'Contacte',
