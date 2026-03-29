@@ -17,6 +17,8 @@ const areas = [
 const awards = [
   { name: 'SEFH Innovation Award 2021', desc: 'Best telepharmacy innovation project' },
   { name: 'AMPHOS Pharmacy Award 2022', desc: 'Best hospital pharmacy management experience' },
+  { name: 'FarmaImpulso OH Oncología 2024', desc: 'Innovative project award (ALGOPROMIA)' },
+  { name: 'FarmaImpulso IMIDs 2024', desc: 'ML for quality of life prediction in rheumatoid arthritis' },
   { name: 'SEFH/CSL Vifor 1st Prize 2025', desc: 'Quality of Pharmacy Services (ZAFIRO, derived from NAVETA)' },
   { name: 'Creasphere Spain by Roche 2024', desc: 'Digital health startup programme grant' },
   { name: 'Visionarium Innovation by Gilead 2025', desc: 'IA-PROM-VIH, AI-based PROMs analysis for HIV' },
