@@ -8,7 +8,7 @@ export default function IAPage() {
   const projects = [
     {
       id: 'tutor-asbv',
-      icon: '🎓',
+      icon: 'ð',
       title: t('ia.tutor.title'),
       subtitle: t('ia.tutor.subtitle'),
       description: t('ia.tutor.description'),
@@ -19,6 +19,7 @@ export default function IAPage() {
       linkLabel: t('ia.tutor.cta'),
       external: true,
     },
+  ];
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -26,14 +27,14 @@ export default function IAPage() {
       <section className="bg-gradient-to-br from-[#0d2348] via-[#1a3a6e] to-[#0d47a1] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-4xl">🤖</span>
+            <span className="text-4xl">ð¤</span>
             <h1 className="text-4xl font-bold font-serif">{t('ia.page.title')}</h1>
           </div>
           <p className="text-white/80 text-lg max-w-2xl leading-relaxed">
             {t('ia.page.subtitle')}
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
-            {['IA Clínica', 'LLM', 'PROMs/PREMs', 'VBHC', 'eHealth'].map(tag => (
+            {['IA ClÃ­nica', 'LLM', 'PROMs/PREMs', 'VBHC', 'eHealth'].map(tag => (
               <span key={tag} className="bg-white/15 text-white/90 text-xs font-semibold px-3 py-1 rounded-full border border-white/20">
                 {tag}
               </span>
